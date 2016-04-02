@@ -4,7 +4,7 @@
 var PARTICLE_NUM, PARTICLE_MAX_NUM;
 if (window.innerWidth > 600) {
   PARTICLE_NUM = 50;　// numero inicial de particulas
-  PARTICLE_MAX_NUM = 250;　// numero maximo de particulas
+  PARTICLE_MAX_NUM = 75;　// numero maximo de particulas
 } else {
   PARTICLE_NUM = 15;　// numero inicial de particulas
   PARTICLE_MAX_NUM = 25;　// numero maximo de particulas
@@ -65,7 +65,9 @@ function init() {
 
     document.addEventListener('click', click, false);
     requestAnimationFrame(loop);
-    $(canvas).fadeIn(2500);
+    // $(canvas).fadeIn(2500);
+    // $(canvas).css("display", "initial");
+    $(canvas).css("opacity", 1);
 }
 
 /**

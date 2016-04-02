@@ -121,6 +121,7 @@ h1, h2 {
   z-index:0;
   top:0;
   left:0;
+  transition: opacity 2500ms linear;
 }
 #banner .section {
   z-index:100;
@@ -132,6 +133,7 @@ h1, h2 {
   flex-direction: row;
   align-items: center;
   text-align:center;
+  transition: opacity 1500ms linear;
 }
 #banner .section .grid {
   width:100%;
@@ -157,6 +159,14 @@ h1, h2 {
 }
 #date-line {
   font-size:2.2rem;
+}
+#date-line a {
+  color: white;
+  text-decoration:none;
+}
+#date-line a:hover {
+  color: #ccc;
+  text-decoration:none;
 }
 #invitation {
   margin-top:4rem;
@@ -263,8 +273,8 @@ h2 {
   }
   #banner-top-left {
     position:absolute;
-    top:-10;
-    left:-10;
+    top:-40px;
+    left:-40px;
     z-index:1;
     /*display:none;*/
   }
