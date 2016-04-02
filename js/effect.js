@@ -4,7 +4,7 @@
 var PARTICLE_NUM, PARTICLE_MAX_NUM;
 if (window.innerWidth > 600) {
   PARTICLE_NUM = 50;　// numero inicial de particulas
-  PARTICLE_MAX_NUM = 75;　// numero maximo de particulas
+  PARTICLE_MAX_NUM = 65;　// numero maximo de particulas
 } else {
   PARTICLE_NUM = 15;　// numero inicial de particulas
   PARTICLE_MAX_NUM = 25;　// numero maximo de particulas
