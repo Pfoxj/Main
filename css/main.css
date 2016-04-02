@@ -97,7 +97,7 @@ textarea {
    ========================================================================== */
 html { font-size: 62.5%; }
 body {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   /*font-size: 2rem;*/
   /*font-size:22px;*/
 }
@@ -106,12 +106,15 @@ h1, h2 {
   margin-bottom:0;
 }
 
+/* banner */
 #banner {
   width: 100%;
   background-color: #22313f;
-  height:300px;
+  height:344px;
   position: relative;
-  margin-bottom:1rem;
+  /*margin-bottom:100px;*/
+  display:block;
+  overflow-x:hidden;
 }
 #c, #e {
   position: absolute;
@@ -124,9 +127,55 @@ h1, h2 {
   color: white;
   position:inherit;
   height:100%;
+  width:100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align:center;
+}
+#banner .section .grid {
+  width:100%;
+}
+#banner-top-left {
+  position:absolute;
+  top:-80px;
+  left:-100px;
+  z-index:1;
+  /*display:none;*/
+}
+#banner-bottom-right {
+  position:absolute;
+  bottom:0;
+  right:0;
+  z-index:1;
+  display:none;
+}
+
+.subheader {
+  font-weight:bold;
+
+}
+#date-line {
+  font-size:2.2rem;
+}
+#invitation {
+  margin-top:4rem;
+}
+#location-row {
+  background-image:url(../img/300funston.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-top:0;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+#location-row span {
+  color:#fff;
+  font-weight:bold;
+}
+#location-row section {
+  /*background-color:rgba(255,255,255,1.0);*/
+  padding:2rem;
 }
 
 section, .section {
@@ -140,10 +189,11 @@ section {
 
 footer {
   text-align: center;
-  margin-top:5rem;
+  /*margin-top:5rem;*/
   padding:2rem 1rem 2rem 1rem;
   background-color:#eee;
   color:#999;
+  margin-top:-3rem; /* mobile offset fix */
 }
 
 code, pre {
@@ -152,6 +202,10 @@ code, pre {
   display:inline-block;
   font-size: 1.3rem;
 }
+a {
+  color: rgb(0, 153, 255);
+  text-decoration: none;
+}
 
 .placeholder {
   background-color: #ccc;
@@ -159,20 +213,37 @@ code, pre {
   height: 300px;
 }
 
-
+.orange {color:#f39c12;}
+.red {color:#c0392b;}
+.green {color:#3fc380;}
+.blue {color:#4a90e2}
+.grey {color:#ccc;}
+.grey-row {
+  background-color: #efefef;
+  padding-top: 4rem;
+}
+.grey-row.bottom-pad {
+  padding-bottom:2rem;
+  margin-bottom:6rem;
+}
+.icon-col {
+  text-align:center;
+  font-size:400%;
+  padding:4rem 0 4rem 0;
+  /*border:1px solid #ccc;*/
+}
 h1 {
   font-size: 4.0rem;
   line-height: 4.0rem;
   letter-spacing:2px;
   margin-bottom: 1.5rem;
-
 }
 h2 {
   font-size: 2.5rem;
   line-height: 1.5em;
   font-weight: 300;
   color: #3fc380;
-  margin-bottom:1.5rem;
+  margin-bottom:3.0rem;
 }
 @media only screen and (min-width: 35em) {
   /* desktop styles */
@@ -181,14 +252,32 @@ h2 {
     line-height: 6.0rem;
   }
   h2 {
-    font-size: 3.0rem;
-    line-height: 3.0rem;
+    font-size: 4.0rem;
+    line-height: 4.0rem;
   }
   body {
-    font-size: 2.0rem;
+    font-size: 1.9rem;
   }
   #banner {
     margin-bottom:2rem;
+  }
+  #banner-top-left {
+    position:absolute;
+    top:-10;
+    left:-10;
+    z-index:1;
+    /*display:none;*/
+  }
+  #date-line {
+    font-size:2.5rem;
+  }
+  #location-row {
+    padding-top:8rem;
+    padding-bottom:8rem;
+    margin-bottom:0;
+  }
+  footer {
+    margin-top:0;
   }
 }
 
@@ -199,6 +288,15 @@ h2 {
     /* Style adjustments for high resolution devices */
 }
 
+
+.bio-image {
+  margin-bottom:2rem;
+}
+.bio-name {
+  text-align:center;
+  /*font-style:italic;*/
+  font-weight:bold;
+}
 
 
 /* ==========================================================================

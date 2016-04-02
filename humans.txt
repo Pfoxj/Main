@@ -3,11 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Richard@archive.org
 
 # TECHNOLOGY COLOPHON
 
