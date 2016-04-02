@@ -212,6 +212,9 @@ code, pre {
   display:inline-block;
   font-size: 1.3rem;
 }
+code a, pre a {
+  color:#999;
+}
 a {
   color: rgb(0, 153, 255);
   text-decoration: none;
