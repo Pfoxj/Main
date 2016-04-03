@@ -211,6 +211,7 @@ code, pre {
   padding: 2px 3px;
   display:inline-block;
   font-size: 1.3rem;
+  word-break: break-all;
 }
 code a, pre a {
   color:#999;
