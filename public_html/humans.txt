@@ -4,6 +4,9 @@
 # TEAM
 
     Richard@archive.org
+    Wendy@archive.org
+    Carolyn@archive.org
+    john@lightco.in
 
 # TECHNOLOGY COLOPHON
 

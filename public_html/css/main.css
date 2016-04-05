@@ -153,9 +153,19 @@ h1, h2 {
   display:none;
 }
 
+section, .section {
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+section {
+  padding-top:3rem;
+  padding-bottom:3rem;
+  /*margin-bottom:3rem;*/
+}
+
 .subheader {
   font-weight:bold;
-
 }
 #date-line {
   font-size:2.2rem;
@@ -169,7 +179,7 @@ h1, h2 {
   text-decoration:none;
 }
 #invitation {
-  margin-top:4rem;
+  /*margin-top:4rem;*/
 }
 #location-row {
   background-image:url(../img/300funston.jpg);
@@ -188,13 +198,20 @@ h1, h2 {
   padding:2rem;
 }
 
-section, .section {
-  max-width: 110rem;
-  margin: 0 auto;
-  padding: 0 10px;
+#extra-info-section ul {
+  margin:0;
+  padding:0 0 0 2rem;
 }
-section {
-  margin-bottom:3rem;
+#extra-info-section li {
+  margin-bottom:2rem;
+}
+#extra-info-section .unit {
+  margin-bottom:0;
+  padding-bottom:0;
+}
+.subheader.advanced-reading {
+  margin-top:2rem;
+  margin-bottom:2rem;
 }
 
 footer {
@@ -203,7 +220,6 @@ footer {
   padding:2rem 1rem 2rem 1rem;
   background-color:#eee;
   color:#999;
-  margin-top:-3rem; /* mobile offset fix */
 }
 
 code, pre {
@@ -234,7 +250,6 @@ a {
 .grey {color:#ccc;}
 .grey-row {
   background-color: #efefef;
-  padding-top: 4rem;
 }
 .grey-row.bottom-pad {
   padding-bottom:2rem;
@@ -273,7 +288,7 @@ h2 {
     font-size: 1.9rem;
   }
   #banner {
-    margin-bottom:2rem;
+    margin-bottom:1rem;
   }
   #banner-top-left {
     position:absolute;
