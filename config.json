@@ -1,0 +1,18 @@
+{
+  "locals": {
+    "title": "Bare minimum wintersmith site"
+  },
+  "nunjucks": {
+    "autoescape": false
+  },
+  "plugins": [
+    "wintersmith-nunjucks",
+    "wintersmith-livereload",
+    "wintersmith-sass",
+    "wintersmith-autoprefixer-sass"
+  ],
+  "ignore": [
+    "**/.DS_Store",
+    "**/.gitignore"
+  ]
+}

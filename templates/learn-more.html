@@ -1,0 +1,47 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<section class="page-section learn-more">
+
+  <h2>Why Decentralized?</h2>
+
+  <div class="grid">
+    <div class="unit whole">
+      <center>
+        <img src="/static/img/networktypes.png" />
+        <div class="caption">Source: On Distributed Communications Networks, Paul Baran, 1962</div>
+      </center>
+
+    </div>
+  </div>
+
+
+  <div>
+    {{ page.html }}
+  </div>
+
+  <h3>Advanced Reading</h3>
+  <ul>
+  {% for link in page.metadata.links %}
+    <li>{{link.name}}, <a href="{{link.url}}">{{link.title}}</a></li>
+  {% endfor %}
+  </ul>
+
+  <h3>Suggestions?</h3>
+  <div class=""><a href="
+https://docs.google.com/forms/d/1kT0Kx7egfAQ4pxLA3MR_pciNPOrLu8UJclKgXV6DRko/viewform">Have suggestions for the Decentralized Web Summit? Send them our way!</a></div>
+
+
+
+  <h3>
+    <i class="material-icons">rss_feed</i>
+    Find us on the Decentralized Web!
+  </h3>
+
+  <div>
+    {% include "_decentralized_links.html" %}
+  </div>
+
+
+</section>
+{% endblock %}

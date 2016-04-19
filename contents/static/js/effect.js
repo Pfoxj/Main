@@ -4,10 +4,10 @@
 var PARTICLE_NUM, PARTICLE_MAX_NUM;
 if (window.innerWidth > 600) {
   PARTICLE_NUM = 50;　// numero inicial de particulas
-  PARTICLE_MAX_NUM = 65;　// numero maximo de particulas
+  PARTICLE_MAX_NUM = 58;　// numero maximo de particulas
 } else {
-  PARTICLE_NUM = 15;　// numero inicial de particulas
-  PARTICLE_MAX_NUM = 25;　// numero maximo de particulas
+  PARTICLE_NUM = 10;　// numero inicial de particulas
+  PARTICLE_MAX_NUM = 15;　// numero maximo de particulas
 }
 var PARTICLE_DEF_SPEED_MAX = 0.5; // veloc. maxima inicial da particula
 var PARTICLE_DEF_SPEED_MIN = 0.001; // Velocidade mínima inicial da partícula

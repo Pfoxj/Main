@@ -10,5 +10,5 @@ function upload_file {
   curl -F "$shortName"="@$fullName" https://$USERNAME:$PASS@neocities.org/api/upload
 }
 
-cd public_html
+cd build
 find . | while read file; do upload_file "$file"; done
