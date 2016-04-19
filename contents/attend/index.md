@@ -36,5 +36,9 @@ attendees:
   - Karissa McKelvey — Hat Wearer at US Open Data
   - Carolyn Madeo — Designer, Librarian at Internet Archive
   - Dimitrios Latsis — Film Archivist and Curator at Internet Archive
-
+  - Regina Mullen — Peopled at Dialexica
+  - Carla LaFever — Internet Evangelism Manager at Google
+  - Anish Mohammed — Advisor at Ripple Labs
+  - Gordon Feller — Board of Directors Member at Meeting of the Minds
+  - Max Senges
 ---
