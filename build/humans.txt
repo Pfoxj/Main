@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Richard@archive.org
+    Wendy@archive.org
+    Carolyn@archive.org
+    john@lightco.in
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Normalize.css, ProcessingJS, gridism
