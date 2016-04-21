@@ -45,23 +45,58 @@
           
 <section class="page-section">
 
+
   <h2>Keynote Speakers</h2>
-  <div class="grid">
-    <div class="unit one-third">
-      <img class="bio-image" src="/static/img/vint-cerf.jpg" />
-      <div class="bio-name">Vint Cerf</div>
-      <p>Vinton Gray "Vint" Cerf is an Internet pioneer, who is recognized as one of "the fathers of the Internet” for his co-invention of TCP/IP. His contributions have been acknowledged and lauded, repeatedly, with honorary degrees and awards that include the National Medal of Technology, the Turing Award, the Presidential Medal of Freedom, the Marconi Prize, and membership in the National Academy of Engineering. Cerf has worked for Google as a Vice President and Chief Internet Evangelist since October 2005.</p>
+  <div class="grid people">
+  
+    <div class="unit one-third js-bio-unit">
+      <img src="/static/img/vint-cerf.jpg" />
+      <div class="name">Vint Cerf</div>
+      <div class="short_bio">Vint Cerf, widely known as one of the "Fathers of the Internet", is vice president and Chief Internet Evangelist for Google, as well as the co-creator of the TCP/IP protocols.
+</div>
+      <div class="hidden-bio">
+        <div>
+          <div class="modal-image" ><img src="/static/img/vint-cerf.jpg" /></div>
+          <div class="modal-name">Vint Cerf</div>
+          <div class="modal-subtitle">TCP/IP</div>
+          <div>Vinton Gray "Vint" Cerf is an Internet pioneer, who is recognized as one of "the fathers of the Internet” for his co-invention of TCP/IP. His contributions have been acknowledged and lauded, repeatedly, with honorary degrees and awards that include the National Medal of Technology, the Turing Award, the Presidential Medal of Freedom, the Marconi Prize, and membership in the National Academy of Engineering. Cerf has worked for Google as a Vice President and Chief Internet Evangelist since October 2005.
+</div>
+        </div>
+      </div>
     </div>
-    <div class="unit one-third">
-      <img class="bio-image" src="/static/img/cory-doctorow.jpg" />
-      <div class="bio-name">Cory Doctorow</div>
-      <p>Cory Doctorow (<a href="http://craphound.com">craphound.com</a>) is a science fiction author, activist, journalist and blogger — the co-editor of Boing Boing (<a href="https://boinboin.net">boingboing.net</a>) and the author of the YA graphic novel IN REAL LIFE, the nonfiction business book INFORMATION DOESN’T WANT TO BE FREE, and young adult novels like HOMELAND, PIRATE CINEMA and LITTLE BROTHER and novels for adults like RAPTURE OF THE NERDS and MAKERS. He works for the Electronic Frontier Foundation and co-founded the UK Open Rights Group. Born in Toronto, Canada, he now lives in Los Angeles.</p>
+  
+    <div class="unit one-third js-bio-unit">
+      <img src="/static/img/cory-doctorow.jpg" />
+      <div class="name">Cory Doctorow</div>
+      <div class="short_bio">Cory Docotorow is an author, journalist, and Special Advisor at the Electronic Frontier Foundation.
+</div>
+      <div class="hidden-bio">
+        <div>
+          <div class="modal-image" ><img src="/static/img/cory-doctorow.jpg" /></div>
+          <div class="modal-name">Cory Doctorow</div>
+          <div class="modal-subtitle">Writer</div>
+          <div>Cory Doctorow (<a href="http://craphound.com">craphound.com</a>) is a science fiction author, activist, journalist and blogger — the co-editor of Boing Boing (<a href="https://boinboin.net">boingboing.net</a>) and the author of the YA graphic novel IN REAL LIFE, the nonfiction business book INFORMATION DOESN’T WANT TO BE FREE, and young adult novels like HOMELAND, PIRATE CINEMA and LITTLE BROTHER and novels for adults like RAPTURE OF THE NERDS and MAKERS. He works for the Electronic Frontier Foundation and co-founded the UK Open Rights Group. Born in Toronto, Canada, he now lives in Los Angeles.
+</div>
+        </div>
+      </div>
     </div>
-    <div class="unit one-third">
-      <img class="bio-image" src="/static/img/brewster-kahle.jpg" />
-      <div class="bio-name">Brewster Kahle</div>
-      <p>A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.</p>
+  
+    <div class="unit one-third js-bio-unit">
+      <img src="/static/img/brewster-kahle.jpg" />
+      <div class="name">Brewster Kahle</div>
+      <div class="short_bio">Brewster Kahle is the founder and Digital Librarian of the Internet Archive, as well as a member of the Internet Hall of Fame.
+</div>
+      <div class="hidden-bio">
+        <div>
+          <div class="modal-image" ><img src="/static/img/brewster-kahle.jpg" /></div>
+          <div class="modal-name">Brewster Kahle</div>
+          <div class="modal-subtitle">Internet Archive</div>
+          <div>A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
+</div>
+        </div>
+      </div>
     </div>
+  
   </div>
 
   <!-- <h2>Speakers</h2>
@@ -362,49 +397,8 @@
   
   </div>
 </section>
-<script src="/static/js/vendor/cash.min.js"></script>
-<script>
-$(document).ready(function() {
-  $(".js-bio-unit").on('click', function() {
-    var bio = $(this).find('.hidden-bio').html();
-
-    var modalEl = document.getElementById('modal');
-    if ( ! modalEl) {
-      modalEl = document.createElement('div');
-    }
-    modalEl.id = 'modal';
-    modalEl.className = 'modal';
-    modalEl.innerHTML = '';
-
-    var modalInnerEl = document.createElement('div');
-    modalInnerEl.className = 'modalInnerEl';
-
-    var bioEl = document.createElement('div');
-    bioEl.innerHTML = bio;
-    bioEl.className = 'modal-contents';
-    modalInnerEl.appendChild(bioEl);
-
-
-    var closeEl = document.createElement('button');
-    closeEl.innerHTML = 'Close';
-    closeEl.className = 'close-button';
-    closeEl.onclick = function() {
-      $(modalEl).remove();
-      document.body.style.overflow = null;
-    }
-
-    var closeDiv = document.createElement('div');
-    closeDiv.className = 'close-wrapper';
-    closeDiv.appendChild(closeEl);
-    modalInnerEl.appendChild(closeDiv);
-
-    modalEl.appendChild(modalInnerEl);
-    document.body.appendChild(modalEl);
-    document.body.style.overflow = 'hidden';
-
-  });
-});
-</script>
+<script src="/static/js/vendor/cash.min.js" type="text/javascript"></script>
+<script src="/static/js/scripts.js" type="text/javascript"></script>
 
         </div>
 
