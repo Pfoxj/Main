@@ -292,8 +292,13 @@ section.page-section.learn-more li {
 /* people */
 
 .grid.people img {
+  box-sizing: border-box;
   border-radius: 50%;
   width:100%;
+  transition: border 0.125s ease-out;
+}
+.grid.people img:hover {
+  border:0.5rem solid #3fc380;
 }
 .grid.people .unit {
    margin-bottom: 3rem;
@@ -302,6 +307,7 @@ section.page-section.learn-more li {
 .grid.people .name {
   text-align: center;
   font-size: 1em;
+  line-height: 1.25em;
   // line-height:1em;
   margin-top:0.75rem;
 }
@@ -310,8 +316,19 @@ section.page-section.learn-more li {
   font-style: italic;
   color: #aaa;
   font-size:0.8em;
-  line-height:1em;
+  line-height:1.4em;
+  margin-top: 0.2em;
 }
+
+.grid.people .short_bio {
+  text-align: center;
+  font-style: italic;
+  color: #aaa;
+  font-size:1em;
+  line-height:1.4em;
+  margin-top: 1em;
+}
+
 .page-People .grid {
   margin-bottom: 8rem;
 }
@@ -384,17 +401,18 @@ section.page-section.learn-more li {
 @media only screen and (min-width: $responsive_width) {
   #modal {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .modalInnerEl {
     margin: 2rem;
     padding:4rem;
-    overflow:scroll;
+    overflow-y: scroll;
     max-width: 700px;
-    max-height: 750px;
-    min-height: 700px;
+    // max-height: 90%;
+    min-height:400px;
+    // min-height: 400px;
   }
   .modal .modal-image img {
     max-width: 300px;

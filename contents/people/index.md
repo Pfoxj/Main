@@ -2,6 +2,31 @@
 title: People
 template: people.html
 
+keynote_speakers:
+  - name: Vint Cerf
+    subtitle: TCP/IP
+    image: /static/img/vint-cerf.jpg
+    short_bio: |
+               Vint Cerf, widely known as one of the "Fathers of the Internet", is vice president and Chief Internet Evangelist for Google, as well as the co-creator of the TCP/IP protocols.
+    bio: |
+         Vinton Gray "Vint" Cerf is an Internet pioneer, who is recognized as one of "the fathers of the Internet” for his co-invention of TCP/IP. His contributions have been acknowledged and lauded, repeatedly, with honorary degrees and awards that include the National Medal of Technology, the Turing Award, the Presidential Medal of Freedom, the Marconi Prize, and membership in the National Academy of Engineering. Cerf has worked for Google as a Vice President and Chief Internet Evangelist since October 2005.
+
+  - name: Cory Doctorow
+    subtitle: Writer
+    image: /static/img/cory-doctorow.jpg
+    short_bio: |
+               Cory Docotorow is an author, journalist, and Special Advisor at the Electronic Frontier Foundation.
+    bio: |
+         Cory Doctorow (<a href="http://craphound.com">craphound.com</a>) is a science fiction author, activist, journalist and blogger — the co-editor of Boing Boing (<a href="https://boinboin.net">boingboing.net</a>) and the author of the YA graphic novel IN REAL LIFE, the nonfiction business book INFORMATION DOESN’T WANT TO BE FREE, and young adult novels like HOMELAND, PIRATE CINEMA and LITTLE BROTHER and novels for adults like RAPTURE OF THE NERDS and MAKERS. He works for the Electronic Frontier Foundation and co-founded the UK Open Rights Group. Born in Toronto, Canada, he now lives in Los Angeles.
+
+  - name: Brewster Kahle
+    subtitle: Internet Archive
+    image: /static/img/brewster-kahle.jpg
+    short_bio: |
+               Brewster Kahle is the founder and Digital Librarian of the Internet Archive, as well as a member of the Internet Hall of Fame.
+    bio: |
+         A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
+
 
 committee:
   - name: Juan Benet
