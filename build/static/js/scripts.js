@@ -10,7 +10,6 @@ $(document).ready(function() {
     var modalEl = document.getElementById('modal');
     if ( ! modalEl) {
       modalEl = document.createElement('div');
-      document.body.appendChild(modalEl);
     }
     modalEl.id = 'modal';
     modalEl.className = 'modal';
@@ -28,11 +27,9 @@ $(document).ready(function() {
     var closeEl = document.createElement('button');
     closeEl.innerHTML = 'Close';
     closeEl.className = 'close-button';
-    closeEl.onclick = function(e) {
+    closeEl.onclick = function() {
       $(modalEl).remove();
       document.body.style.overflow = 'initial';
-      document.body.style.height = 'intiial';
-      e.preventDefault();
     };
 
     var closeDiv = document.createElement('div');
@@ -41,8 +38,8 @@ $(document).ready(function() {
     modalInnerEl.appendChild(closeDiv);
 
     modalEl.appendChild(modalInnerEl);
+    document.body.appendChild(modalEl);
     document.body.style.overflow = 'hidden';
-    document.body.style.height = '100%';
   });
 
   /**

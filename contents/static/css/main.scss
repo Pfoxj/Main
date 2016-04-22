@@ -357,6 +357,8 @@ section.page-section.learn-more li {
   background-color: rgba(100,100,100,0.5);
   z-index: 10000;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  backface-visibility: hidden;
 
 }
 
@@ -370,6 +372,8 @@ section.page-section.learn-more li {
   width:100%;
   min-height:100%;
   box-sizing:border-box;
+  -webkit-overflow-scrolling: touch;
+  backface-visibility: hidden;
 }
 
 .modal .modal-contents {

@@ -4,7 +4,7 @@ template: people.html
 
 keynote_speakers:
   - name: Vint Cerf
-    subtitle: TCP/IP
+    subtitle: Google
     image: /static/img/vint-cerf.jpg
     short_bio: |
                Vint Cerf, widely known as one of the "Fathers of the Internet", is vice president and Chief Internet Evangelist for Google, as well as the co-creator of the TCP/IP protocols.
@@ -12,10 +12,10 @@ keynote_speakers:
          Vinton Gray "Vint" Cerf is an Internet pioneer, who is recognized as one of "the fathers of the Internet” for his co-invention of TCP/IP. His contributions have been acknowledged and lauded, repeatedly, with honorary degrees and awards that include the National Medal of Technology, the Turing Award, the Presidential Medal of Freedom, the Marconi Prize, and membership in the National Academy of Engineering. Cerf has worked for Google as a Vice President and Chief Internet Evangelist since October 2005.
 
   - name: Cory Doctorow
-    subtitle: Writer
+    subtitle: EFF
     image: /static/img/cory-doctorow.jpg
     short_bio: |
-               Cory Docotorow is an author, journalist, and Special Advisor at the Electronic Frontier Foundation.
+               Cory Doctorow is an author, journalist, and Special Advisor at the Electronic Frontier Foundation.
     bio: |
          Cory Doctorow (<a href="http://craphound.com">craphound.com</a>) is a science fiction author, activist, journalist and blogger — the co-editor of Boing Boing (<a href="https://boinboin.net">boingboing.net</a>) and the author of the YA graphic novel IN REAL LIFE, the nonfiction business book INFORMATION DOESN’T WANT TO BE FREE, and young adult novels like HOMELAND, PIRATE CINEMA and LITTLE BROTHER and novels for adults like RAPTURE OF THE NERDS and MAKERS. He works for the Electronic Frontier Foundation and co-founded the UK Open Rights Group. Born in Toronto, Canada, he now lives in Los Angeles.
 
