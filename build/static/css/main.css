@@ -1189,7 +1189,10 @@ section.page-section.learn-more li {
   height: 100%;
   background-color: rgba(100, 100, 100, 0.5);
   z-index: 10000;
-  overflow: scroll; }
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
 
 .modalInnerEl {
   -webkit-box-shadow: 10px 10px 5px #ccc;
@@ -1210,7 +1213,10 @@ section.page-section.learn-more li {
   min-height: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
 
 .modal .modal-contents {
   -webkit-box-flex: 1;
@@ -1225,11 +1231,15 @@ section.page-section.learn-more li {
 
 .modal .modal-image {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
 
 .modal .modal-image img {
   max-width: 100%;
-  border-radius: 50%; }
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
 
 .modal .modal-name {
   text-align: center; }

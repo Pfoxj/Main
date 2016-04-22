@@ -29,9 +29,9 @@ $(document).ready(function() {
     closeEl.innerHTML = 'Close';
     closeEl.className = 'close-button';
     closeEl.onclick = function(e) {
-      $(modalEl).remove();
       document.body.style.overflow = 'initial';
-      document.body.style.height = 'intiial';
+      document.body.style.height = 'initial';
+      $(modalEl).remove();
       e.preventDefault();
     };
 

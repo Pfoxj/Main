@@ -388,11 +388,12 @@ section.page-section.learn-more li {
 .modal .modal-image {
   text-align:center;
   margin-bottom: 2rem;
-
+  backface-visibility: hidden;
 }
 .modal .modal-image img {
   max-width: 100%;
   border-radius:50%;
+  backface-visibility: hidden;
 }
 .modal .modal-name {
   text-align:center;
