@@ -30,8 +30,8 @@ $(document).ready(function() {
     closeEl.innerHTML = 'Close';
     closeEl.className = 'close-button';
     closeEl.onclick = function(e) {
-      document.body.style.overflow = 'initial';
-      document.body.style.height = 'initial';
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
       document.body.className = document.body.className.replace(' open-modal', '');
       document.body.scrollTop = prevScrollTop;
       $(modalEl).remove();

@@ -41,4 +41,15 @@ attendees:
   - Anish Mohammed — Advisor at Ripple Labs
   - Gordon Feller — Board of Directors Member at Meeting of the Minds
   - Max Senges
+  - Cory Doctorow
+  - Alberto Granzotto — CEO at Urlist
+  - Trent McConaghy — CTO of BigchainDB
+  - Samer Hassan — Berkman Fellow & Assistant Prof at Berkman Center at Harvard & Univ. Complutense Madrid
+  - Ferris Aboukhadijeh — Founder of WebTorrent
+  - Jason Griffey — Fellow at Berkman Center for Intermet & Society
+  - Michael Grube — Developer at University of Michigan
+  - Harlan T Wood — Cofounder of Core Network
+  - Ilya Kreymer — Engineer at Rhizome
+  - Benjamin Mandel — Geek at Internet Archive
+  - Laura Seaman — Program Manager at Stanford PACS DCSL
 ---
