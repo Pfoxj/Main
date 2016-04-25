@@ -24,6 +24,7 @@ $(document).ready(function() {
     bioEl.className = 'modal-contents';
     modalInnerEl.appendChild(bioEl);
 
+    var prevScrollTop = document.body.scrollTop;
 
     var closeEl = document.createElement('button');
     closeEl.innerHTML = 'Close';
@@ -31,6 +32,8 @@ $(document).ready(function() {
     closeEl.onclick = function(e) {
       document.body.style.overflow = 'initial';
       document.body.style.height = 'initial';
+      document.body.className = document.body.className.replace(' open-modal', '');
+      document.body.scrollTop = prevScrollTop;
       $(modalEl).remove();
       e.preventDefault();
     };
@@ -43,6 +46,8 @@ $(document).ready(function() {
     modalEl.appendChild(modalInnerEl);
     document.body.style.overflow = 'hidden';
     document.body.style.height = '100%';
+    document.body.className += ' open-modal';
+
   });
 
   /**

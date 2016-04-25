@@ -19,6 +19,7 @@ body {
   // display: flex;
   // flex-direction: column;
   // justify-content: space-between;
+  -webkit-overflow-scrolling: touch;
 }
 
 h1, h2 {
@@ -403,6 +404,9 @@ section.page-section.learn-more li {
   font-size:1em;
   margin-bottom: 3rem;
 }
+body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
+  display:none;
+}
 @media only screen and (min-width: $responsive_width) {
   #modal {
     display: flex;
@@ -422,6 +426,9 @@ section.page-section.learn-more li {
   .modal .modal-image img {
     max-width: 300px;
     border-radius:50%;
+  }
+  body.open-modal .main-body, body.open-modal footer, body.open-modal header {
+    display:initial;
   }
 }
 
