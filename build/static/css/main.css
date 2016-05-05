@@ -1368,3 +1368,21 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   -webkit-font-feature-settings: 'liga';
   -moz-font-feature-settings: 'liga';
   font-feature-settings: 'liga'; }
+
+.google-form-raw {
+  margin-top: 20px;
+  border: 2px solid #4a90e2;
+  padding: 10px 20px 0 10px;
+  font-size: 1.4rem;
+  line-height: 2.8rem; }
+
+.google-form-raw .form-title {
+  font-weight: bold; }
+
+.google-form-raw textarea {
+  width: 100%;
+  max-width: 400px;
+  height: 200px; }
+
+.google-form-raw .required-message {
+  color: #999; }
