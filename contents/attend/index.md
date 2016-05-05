@@ -52,4 +52,6 @@ attendees:
   - Ilya Kreymer — Engineer at Rhizome
   - Benjamin Mandel — Geek at Internet Archive
   - Laura Seaman — Program Manager at Stanford PACS DCSL
+  - Sandro Hawke — Technical Staff at W3C / MIT
+  - Michael Vassar — Advisor at Nanotronics Imaging
 ---
