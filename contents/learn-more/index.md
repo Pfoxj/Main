@@ -50,6 +50,12 @@ links:
   - name: "Kit Walsh (2016)"
     title: "Nest Reminds Customers that Ownerships Isn’t What it Used To Be"
     url: "https://www.eff.org/deeplinks/2016/04/nest-reminds-customers-ownership-isnt-what-it-used-be"
+  - name: "WebTorrent"
+    title: "WebTorrent, Frequently Asked Questions"
+    url: "https://webtorrent.io/faq"
+  - name: "Feross Aboukhadijeh (2014)"
+    title: "How WebTorrent Works (video)"
+    url: "https://www.youtube.com/watch?v=kxHRATfvnlw"
 
 # Note the below text is included on the learn-more page AND the homepage
 ---
