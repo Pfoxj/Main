@@ -54,4 +54,15 @@ attendees:
   - Laura Seaman — Program Manager at Stanford PACS DCSL
   - Sandro Hawke — Technical Staff at W3C / MIT
   - Michael Vassar — Advisor at Nanotronics Imaging
+  - Ben Gross — Manager, Endpoint Engineering and Infrastructure at UC Berkeley
+  - Maira Sutton — Campaign Organizer at Shareable
+  - Bram Cohen— Founder of BitTorrent Inc.
+  - Mike Doty — Engineer at Bitseed
+  - David Dias — P2P Software Engineer at Protocol Labs
+  - Jay Graber— Software Engineer at Skuchain
+  - Tekla Perry — Senior editor at IEEE Spectrum
+  - Mek Karpeles — Engineer at Internet Archive / Archive Labs
+  - Jeremy Gillula — Staff Technologist at Electronic Frontier Foundation
+  - Noah Swarz — Staff Technologist at Electronic Frontier Foundation
+  - Dan Gillmor — Professor at Arizona State University
 ---
