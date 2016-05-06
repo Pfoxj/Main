@@ -27,6 +27,7 @@ h1, h2 {
   margin-bottom:0;
 }
 
+
 /* banner */
 #banner {
   width: 100%;
@@ -210,20 +211,21 @@ a {
   color: rgb(0, 153, 255);
   text-decoration: none;
 }
-
 .placeholder {
   background-color: #ccc;
   width: 100%;
   height: 300px;
 }
+/* utility classes */
+.no-bottom-margin { margin-bottom: 0; }
+.no-top-margin { margin-top: 0; }
+.one-line-top-margin { margin-top: 2rem; }
 .orange {color:#f39c12;}
 .red {color:#c0392b;}
 .green {color:#3fc380;}
 .blue {color:#4a90e2}
 .grey {color:#ccc;}
-.grey-row {
-  background-color: #efefef;
-}
+.grey-row { background-color: #efefef; }
 .grey-row.bottom-pad {
   padding-bottom:2rem;
   margin-bottom:6rem;
@@ -257,7 +259,7 @@ section.page-section {
 }
 
 /* learn more page */
-section.page-section h3 {
+section.page-section > h3 {
   margin-top: 6rem;
 }
 section.page-section.learn-more li {
@@ -334,6 +336,9 @@ section.page-section.learn-more li {
   margin-bottom: 8rem;
 }
 
+.page-Code-of-Conduct #footer-wrapper {
+  display: none;
+}
 
 .caption {
   margin-top: 0.5rem;
@@ -442,6 +447,7 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   h2 {
     font-size: 4.0rem;
     line-height: 4.0rem;
+    // margin-bottom:0;
   }
   body {
     font-size: 1.9rem;
@@ -493,7 +499,9 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   .hide-mobile {
     display:initial !important;
   }
-
+  .top-text {
+    margin-top: 4rem;
+  }
 }
 
 
