@@ -1053,6 +1053,16 @@ a {
   width: 100%;
   height: 300px; }
 
+/* utility classes */
+.no-bottom-margin {
+  margin-bottom: 0; }
+
+.no-top-margin {
+  margin-top: 0; }
+
+.one-line-top-margin {
+  margin-top: 2rem; }
+
 .orange {
   color: #f39c12; }
 
@@ -1099,7 +1109,7 @@ section.page-section {
   padding-bottom: 5rem; }
 
 /* learn more page */
-section.page-section h3 {
+section.page-section > h3 {
   margin-top: 6rem; }
 
 section.page-section.learn-more li {
@@ -1167,6 +1177,9 @@ section.page-section.learn-more li {
 
 .page-People .grid {
   margin-bottom: 8rem; }
+
+.page-Code-of-Conduct #footer-wrapper {
+  display: none; }
 
 .caption {
   margin-top: 0.5rem;
@@ -1339,7 +1352,10 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     display: none !important; }
 
   .hide-mobile {
-    display: initial !important; } }
+    display: initial !important; }
+
+  .top-text {
+    margin-top: 4rem; } }
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
