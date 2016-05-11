@@ -1,5 +1,5 @@
 $header_size: 50px;
-$responsive_width: 750px;
+$responsive_width: 568px;
 
 
 @import "normalize";
@@ -503,7 +503,7 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   }
 
   .sponsor-image-wrapper {
-    height: 100px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
