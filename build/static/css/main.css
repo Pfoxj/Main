@@ -781,7 +781,7 @@ video {
   .page-Home .header .menu-icon .navicon, .page-Home .header .menu-icon .navicon:before, .page-Home .header .menu-icon .navicon:after {
     background: #fff; }
 
-@media (min-width: 750px) {
+@media (min-width: 568px) {
   .header li {
     float: left; }
 
@@ -1263,7 +1263,7 @@ section.page-section.learn-more li {
 body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   display: none; }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 568px) {
   /* desktop styles */
   #modal {
     display: -webkit-box;
@@ -1358,7 +1358,7 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     margin-top: 4rem; }
 
   .sponsor-image-wrapper {
-    height: 100px;
+    height: 150px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
