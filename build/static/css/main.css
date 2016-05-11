@@ -1264,6 +1264,7 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   display: none; }
 
 @media only screen and (min-width: 750px) {
+  /* desktop styles */
   #modal {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1295,9 +1296,8 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     border-radius: 50%; }
 
   body.open-modal .main-body, body.open-modal footer, body.open-modal header {
-    display: initial; } }
-@media only screen and (min-width: 750px) {
-  /* desktop styles */
+    display: initial; }
+
   h1 {
     font-size: 6.0rem;
     line-height: 6.0rem; }
@@ -1355,7 +1355,23 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     display: initial !important; }
 
   .top-text {
-    margin-top: 4rem; } }
+    margin-top: 4rem; }
+
+  .sponsor-image-wrapper {
+    height: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
