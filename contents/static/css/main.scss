@@ -596,3 +596,9 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 .google-form-raw .required-message {
   color: #999;
 }
+.google-form-raw li {
+  margin-bottom: 0;
+}
+.google-form-raw .ss-password-warning {
+  display: none;
+}
