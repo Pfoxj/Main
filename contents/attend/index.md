@@ -65,4 +65,18 @@ attendees:
   - Jeremy Gillula — Staff Technologist at Electronic Frontier Foundation
   - Noah Swarz — Staff Technologist at Electronic Frontier Foundation
   - Dan Gillmor — Professor at Arizona State University
+  - Greg McMullen — Chief Policy Officer at BigchainDB / IPDB
+  - Brian Warner — Engineer
+  - Primavera De Filippi — Researcher at Harvard / Berkman Center
+  - Kristen Ratan — Cofounder of Collaborative Knowledge Foundation
+  - Dominic Tarr
+  - Alberto Granzotto — Engineer at BigchainDB
+  - Denis Nazarov — Project Lead at Mediachain
+  - Arkadiy Kukarkin — CTO at Mediachain Labs
+  - Wendy Hanamura — Director of Partnerships at Internet Archive
+  - Muneeb Ali — Co-founder at Blockstack Labs
+  - Snehan Kekre — Student/Activist at Minerva Project
+  - William Lubanovic — Senior Software Engineer at Internet Archive
+  - Wendy Seltzer — Technology & Society Domain Lead at W3C MIT
+  - Noah Thorp — Cofounder of CoMakery
 ---
