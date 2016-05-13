@@ -1110,7 +1110,7 @@ section.page-section {
 
 /* learn more page */
 section.page-section > h3 {
-  margin-top: 6rem; }
+  margin-top: 4rem; }
 
 section.page-section.learn-more li {
   margin-bottom: 1rem;
@@ -1189,6 +1189,21 @@ section.page-section.learn-more li {
 
 .hidden-bio {
   display: none; }
+
+.schedule {
+  font-size: .9em;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin-bottom: 60px; }
+
+.schedule .grid {
+  margin-bottom: 10px; }
+
+.schedule .time {
+  font-weight: bold; }
+
+.schedule-intro {
+  margin-bottom: 40px; }
 
 /* modal */
 #modal {
@@ -1371,7 +1386,11 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center; } }
+    justify-content: center; }
+
+  .page-section {
+    padding-left: 20px;
+    padding-right: 20px; } }
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -1402,19 +1421,31 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   font-feature-settings: 'liga'; }
 
 .google-form-raw {
-  margin-top: 20px;
+  margin-top: 40px;
   border: 2px solid #4a90e2;
   padding: 10px 20px 0 10px;
   font-size: 1.4rem;
-  line-height: 2.8rem; }
+  line-height: 2.8rem;
+  margin-right: 20px; }
 
 .google-form-raw .form-title {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1.8rem; }
 
 .google-form-raw textarea {
   width: 100%;
   max-width: 400px;
-  height: 200px; }
+  height: 200px;
+  border: 1px solid #ccc; }
+
+.google-form-raw input {
+  border: 1px solid #ccc; }
 
 .google-form-raw .required-message {
   color: #999; }
+
+.google-form-raw li {
+  margin-bottom: 0; }
+
+.google-form-raw .ss-password-warning {
+  display: none; }
