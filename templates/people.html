@@ -27,9 +27,9 @@
   <div>More to be announced.</div> -->
 
   <h2>Organizers</h2>
-  <div class="grid people">
-  {% for attendee in page.metadata.committee %}
-    <div class="unit one-fifth js-bio-unit">
+  <div class="grid people full-list">
+  {% for attendee in contents['people']['index.md'].metadata.committee %}
+    <div class="small-col js-bio-unit">
       <img src="{{attendee.image}}" />
       <div class="name">{{attendee.name}}</div>
       <div class="subtitle">{{attendee.subtitle}}</div>
@@ -44,6 +44,7 @@
     </div>
   {% endfor %}
   </div>
+
 
 
 </section>
