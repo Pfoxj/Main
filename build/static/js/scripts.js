@@ -54,8 +54,9 @@ $(document).ready(function() {
    * Simple carousel effect
    */
   $(".js-carousel").each(function(elem, index) {
+    return;
     var currIndex = 0;
-    var perPage = 5;
+    var perPage = 3;
     var msPerPage = 5000;
     var $elem = $(elem);
 
