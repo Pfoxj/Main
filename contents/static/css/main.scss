@@ -468,8 +468,11 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   //   flex: auto;
   // }
   .small-col {
-    flex-basis: 15%;
+    flex-basis:15%;
     margin: 0 10px 25px 10px;
+  }
+  .page-Home .small-col {
+    flex-basis:9%;;
   }
   .small-col .name, .small-col .subtitle {
     font-size: 13px !important;
