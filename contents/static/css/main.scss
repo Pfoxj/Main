@@ -153,8 +153,11 @@ section li {
 .subheader.pad-bottom {
   margin-bottom:2rem;
 }
+#sponsors-section {
+  margin-bottom:3rem;
+}
 #sponsors-section h2 {
-  margin-bottom:0;
+  margin-bottom:2rem;
 }
 #sponsors-section .unit {
   /*padding:2rem 0;*/
@@ -180,9 +183,8 @@ section li {
   height:auto;
 }
 .sponsor-image-wrapper {
-
   /*padding:0 3rem;*/
-  /*text-align:center;*/
+  text-align:center;
 }
 
 footer {
@@ -551,6 +553,11 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   #sponsors-section .grid {
     padding-left:5px;
   }
+  .sponsor-image-wrapper {
+    /*padding:0 3rem;*/
+    text-align:left;
+  }
+
   footer {
     margin-top:0;
   }
