@@ -459,6 +459,19 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   font-size: 12px !important;
 }
 
+.matrix-join {
+  margin-top: 10px;
+}
+.matrix-logo {
+  height: 30px;
+  margin-top: 8px;
+}
+.matrix-text {
+  top: 4px;
+  position: relative;
+  padding-left: 5px;
+}
+
 @media only screen and (min-width: $responsive_width) {
   /* desktop styles */
   .grid.people.full-list {
