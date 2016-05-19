@@ -79,4 +79,33 @@ attendees:
   - William Lubanovic — Senior Software Engineer at Internet Archive
   - Wendy Seltzer — Technology & Society Domain Lead at W3C MIT
   - Noah Thorp — Cofounder of CoMakery
+  - Shish Ramam — Senior Architect at Guidewire Software
+  - Brendan Boyd — Software Development Manager at Gensler
+  - Ross Schulman — Senior Counsel at New America's Open Technology Institute
+  - Xavier Beynon — Engineer at Duetto Research Inc
+  - Jacob Payne — Self Employed Software Developer
+  - Chelsea Palmer — Organizer at Human Data Commons Foundation
+  - Mike Pfister — Software Engineer
+  - Michael Pierce
+  - Bill Levay — Freelance Archivist
+  - John Muller — Vice President at PayPal, Inc.
+  - Matthew Hodgson — Technical Co-founder of Matrix.org
+  - Abraham Goldoor — Software Engineer at BitTorrent, Inc.
+  - Peter Mui — Founder of MIT $100K Entrepreneurial Competition
+  - Richard Whitt – Corp Dir. for Strategic Initiatives of Google Inc.
+  - Jake Orlowitz — Head of the Wikipedia Library at Wikimedia Foundation
+  - Joseph Perla — Engineering Manager at Lyft
+  - Ryan Barrett — Engineer at IndieWebCamp and Bridgy
+  - Mark Watson — Author and Consultant at Cognition.tech
+  - Nicola Greco — PhD Student at MIT/Berkman Center
+  - Lorien Smyer — Galvanize Full Stack Web Dev Program Graduate
+  - Charles Lehner — Free Software Developer at Secure Scuttlebutt Consortium
+  - Michael Grube — Developer at University of Michigan
+  - Shuli Hallak — VP of ISOC-NY
+  - Daniel Posch — Engineer at Scramble.io / WebTorrent
+  - Van Jacobson — Researcher at Google
+  - Gail Truman — Consultant at Truman Technologies
+  - Jake Wilkins — Comrade at Tolerable Technology
+  - Robin Chandler — Project Manager at Califa
+  - Barbara Miller — Support Engineer at Internet Archive
 ---

@@ -56,6 +56,16 @@ links:
   - name: "Feross Aboukhadijeh (2014)"
     title: "How WebTorrent Works (video)"
     url: "https://www.youtube.com/watch?v=kxHRATfvnlw"
+  - name: "Jesse Walden (2016)"
+    title: "How Mediachain Works"
+    url: "https://blog.mediachain.io/how-mediachain-works-5a5ccc1c3210#.keskdkoi3"
+  - name: "Denis Nazarov (2016)"
+    title: "The Gif That Fell To Earth"
+    url: "https://blog.mediachain.io/the-gif-that-fell-to-earth-eae706c72f1f#.4vj9903ly"
+  - name: "Jesse Walden (2016)"
+    title: "What A Blockchain for Music Really Means"
+    url: "https://blog.mediachain.io/what-a-blockchain-for-music-really-means-e2f8dc66d57d#.1gdegrwck"
+
 
 # Note the below text is included on the learn-more page AND the homepage
 ---
