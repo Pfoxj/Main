@@ -32,7 +32,7 @@ summit:
   - time: "4:45-5:30 p.m."
     title: "Closing Remarks: <a href='/people'>Brewster Kahle</a>"
   - time: "5:30 -8:00 p.m."
-    title: "Cocktails & dinner in the foyer"
+    title: "Beer, Wine and Food Trucks"
 
 meetup:
   - time: "8:00-9:00 a.m."
