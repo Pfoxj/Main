@@ -61,4 +61,37 @@ meetup:
     title: "Workshops Session D  (5 workshops going in tandem)"
   - time: "5:00-8:00 p.m."
     title: "Reception"
+
+
+lightning_talks:
+  - name: Denis Nazarov
+    bio: |
+      Denis is a Project Lead at Mediachain — an open data network for creative works--a blockchain-based metadata platform that uses machine learning to turn media into an information transmitter.
+    photo: denis_nazarov.jpg
+    link: http://mediachain.io
+  - name: Kyle Drake
+    bio: |
+      Kyle is working on bringing back free web hosting and the creative, independent web. His company Neocities was one of the first sites to implement distributed web tech and we want to expand it to support even more.
+    photo: kyle_drake.jpg
+    link: https://neocities.org
+  - name: Karissa McKelvey
+    bio: |
+      Karissa is an open source software developer, activist, and writer supporting the equitable web. She works on Dat, an open source, decentralized data tool for distributing datasets small and large.
+    photo: karissa_mckelvey.png
+    link: http://dat-data.com
+  - name: Trent McConaghy
+    bio: |
+      Trent McConaghy co-invented the planetary-scale public blockchain IPDB, its underlying tech BigchainDB, and the creators-first IP service ascribe
+    photo: trent_mcconaghy.jpg
+    link: http://www.bigchaindb.com
+  - name: Juan Benet
+    bio: |
+      Juan Benet created IPFS, Filecoin, and other open source protocols. He is the founder of Protocol Labs, a company improving how the internet works.
+    photo: juan_batizbenet.jpg
+    link: https://ipfs.io
+  - name: Paige Peterson
+    bio: |
+      Paige is an advocate for open standards, user privacy and decentralized technologies and works at Scotland-based company, MaidSafe which is building a peer-to-peer Internet stemming from similar principles within natural systems
+    photo: paige_peterson.jpg
+    link: https://maidsafe.net
 ---

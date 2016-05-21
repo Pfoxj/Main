@@ -471,6 +471,18 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   position: relative;
   padding-left: 5px;
 }
+.lightning-talks .unit {
+  min-height: 180px;
+  line-height: 1.75em;
+}
+.lightning-talks img {
+  height: 80px;
+  width: auto;
+  float:left;
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+}
 
 @media only screen and (min-width: $responsive_width) {
   /* desktop styles */
