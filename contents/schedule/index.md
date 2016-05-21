@@ -93,5 +93,5 @@ lightning_talks:
     bio: |
       Paige is an advocate for open standards, user privacy and decentralized technologies and works at Scotland-based company, MaidSafe which is building a peer-to-peer Internet stemming from similar principles within natural systems
     photo: paige_peterson.jpg
-    link: https://maidsafe.net
+    link: http://maidsafe.net
 ---
