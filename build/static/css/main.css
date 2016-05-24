@@ -1440,7 +1440,7 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     -webkit-flex-basis: 15%;
     -ms-flex-preferred-size: 15%;
     flex-basis: 15%;
-    margin: 0 10px 25px 10px; }
+    margin: 0 8px 25px 8px; }
 
   .page-Home .small-col {
     -webkit-flex-basis: 9%;
