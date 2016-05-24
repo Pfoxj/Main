@@ -504,14 +504,12 @@ video {
 /* Set up some rules to govern the grid */
 .grid {
   display: block;
-  clear: both;
-  margin-left: -10px;
-  margin-right: -10px; }
+  clear: both; }
 
 .grid .unit {
   float: left;
   width: 100%;
-  padding: 0 10px 10px 10px; }
+  padding-right: 10px; }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters. */
 /*.grid .unit:first-child { padding-left: 20px; }
@@ -622,7 +620,7 @@ video {
   display: none !important; }
 
 /* Responsive Stuff */
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
   /* Stack anything that isn’t full-width on smaller screens
      and doesn't provide the no-stacking-on-mobiles class */
   .grid:not(.no-stacking-on-mobiles) > .unit {
@@ -649,6 +647,35 @@ video {
   .grid.wider {
     max-width: 1180px;
     margin: 0 auto; } }
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(iconfont/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(iconfont/MaterialIcons-Regular.woff2) format("woff2"), url(iconfont/MaterialIcons-Regular.woff) format("woff"), url(iconfont/MaterialIcons-Regular.ttf) format("truetype"); }
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga';
+  font-feature-settings: 'liga'; }
+
 /* header */
 .header {
   background-color: #fff;
@@ -666,7 +693,7 @@ video {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 15px 20px;
   text-decoration: none; }
 
 .header .logo {
@@ -690,7 +717,7 @@ video {
 
 .header-title-desktop {
   position: relative;
-  top: -4px;
+  top: -6px;
   margin-left: 10px; }
 
 /* menu */
@@ -781,7 +808,7 @@ video {
   .page-Home .header .menu-icon .navicon, .page-Home .header .menu-icon .navicon:before, .page-Home .header .menu-icon .navicon:after {
     background: #fff; }
 
-@media (min-width: 568px) {
+@media (min-width: 768px) {
   .header li {
     float: left; }
 
@@ -833,6 +860,25 @@ header a {
   header a:active {
     color: #66cf9a; }
 
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 60px;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+  .header li {
+    padding: 0; } }
 html {
   font-family: Roboto, sans-serif; }
 
@@ -1023,7 +1069,7 @@ footer {
   /*margin-top:5rem;*/
   background-color: #eee;
   color: #999;
-  height: 50px;
+  height: 60px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1194,7 +1240,6 @@ section.page-section.learn-more li {
   display: none; }
 
 .schedule {
-  font-size: .9em;
   line-height: 1.25em;
   font-weight: 400;
   margin-bottom: 60px; }
@@ -1331,9 +1376,18 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   position: relative;
   padding-left: 5px; }
 
+.lightning-talks {
+  padding: 10px;
+  border: solid #ccc 2px;
+  border-radius: 10px;
+  margin-top: 10px; }
+
+.lightning-talks .grid {
+  margin-bottom: 0; }
+
 .lightning-talks .unit {
-  min-height: 180px;
-  line-height: 1.75em; }
+  font-size: 1.5rem;
+  line-height: 1.5em; }
 
 .lightning-talks img {
   height: 80px;
@@ -1343,8 +1397,39 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   position: relative;
   top: 5px; }
 
-@media only screen and (min-width: 568px) {
-  /* desktop styles */
+.google-form-raw {
+  margin-top: 40px;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  padding: 10px 20px 0 10px;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  margin-right: 20px; }
+
+.google-form-raw .form-title {
+  font-weight: bold;
+  font-size: 1.8rem; }
+
+.google-form-raw textarea {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  border: 1px solid #ccc; }
+
+.google-form-raw input {
+  border: 1px solid #ccc; }
+
+.google-form-raw .required-message {
+  color: #999; }
+
+.google-form-raw li {
+  margin-bottom: 0; }
+
+.google-form-raw .ss-password-warning {
+  display: none; }
+
+/* desktop styles */
+@media only screen and (min-width: 768px) {
   .grid.people.full-list {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -1409,14 +1494,14 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   body {
     font-size: 1.9rem; }
 
-  section, .section {
-    padding: initial; }
-
   section {
     padding-top: 1px;
     padding-bottom: 6rem; }
 
-  h2, h3 {
+  h2 {
+    margin-top: 4rem; }
+
+  h3 {
     margin-top: 6rem; }
 
   #banner {
@@ -1479,62 +1564,11 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 
   .page-section {
     padding-left: 20px;
-    padding-right: 20px; } }
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(iconfont/MaterialIcons-Regular.eot);
-  /* For IE6-8 */
-  src: local("Material Icons"), local("MaterialIcons-Regular"), url(iconfont/MaterialIcons-Regular.woff2) format("woff2"), url(iconfont/MaterialIcons-Regular.woff) format("woff"), url(iconfont/MaterialIcons-Regular.ttf) format("truetype"); }
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-  /* Support for IE. */
-  -webkit-font-feature-settings: 'liga';
-  -moz-font-feature-settings: 'liga';
-  font-feature-settings: 'liga'; }
+    padding-right: 20px; }
 
-.google-form-raw {
-  margin-top: 40px;
-  border: 2px solid #4a90e2;
-  padding: 10px 20px 0 10px;
-  font-size: 1.4rem;
-  line-height: 2.8rem;
-  margin-right: 20px; }
+  .schedule .grid {
+    margin-bottom: 15px; }
 
-.google-form-raw .form-title {
-  font-weight: bold;
-  font-size: 1.8rem; }
-
-.google-form-raw textarea {
-  width: 100%;
-  max-width: 400px;
-  height: 200px;
-  border: 1px solid #ccc; }
-
-.google-form-raw input {
-  border: 1px solid #ccc; }
-
-.google-form-raw .required-message {
-  color: #999; }
-
-.google-form-raw li {
-  margin-bottom: 0; }
-
-.google-form-raw .ss-password-warning {
-  display: none; }
+  .schedule-toc div {
+    display: inline-block;
+    margin-right: 10px; } }
