@@ -4,7 +4,6 @@ $bg_blue: #22313f;
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  // position: fixed;
   width: 100%;
   z-index: 3;
   background-color: $bg_blue; //#eee;
@@ -15,19 +14,12 @@ $bg_blue: #22313f;
   padding: 0;
   list-style: none;
   overflow: hidden;
-  // background-color: #fff;
 }
 
 .header li a {
   display: block;
-  padding: 20px 20px;
-  // border-right: 1px solid #f4f4f4;
+  padding: 15px 20px;
   text-decoration: none;
-}
-
-.header li a:hover,
-.header .menu-btn:hover {
-  // background-color: #f4f4f4;
 }
 
 .header .logo {
@@ -54,7 +46,7 @@ $bg_blue: #22313f;
 }
 .header-title-desktop {
   position:relative;
-  top: -4px;
+  top: -6px;
   margin-left:10px;
 }
 
@@ -234,7 +226,15 @@ header .home-link {
   // font-weight: 800;
 }
 
-
-.page-Home .home-link {
-  // display:none;
+@media only screen and (min-width: $responsive_width) {
+  .header {
+    height: $header_size;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header li {
+    padding: 0;
+  }
 }

@@ -5,10 +5,11 @@
 
   <h2>Schedule</h2>
 
-  <div class="hide-desktop">
-    Jump to: <br/>
-    <a href="#summit">June 8: Summit</a><br/>
-    <a href="#meetup">June 9: Meetup</a>
+  <div class="schedule-toc">
+    <div class="hide-desktop2">Jump to:<br/></div>
+    <div><a href="#summit">June 8: Summit</a></div>
+    <div><a href="#meetup">June 9: Meetup</a></div>
+    <div><a href="#signup">Lightning Talk Signup</a></div>
   </div>
 
   <h3 id="summit">Wednesday, June 8th: Summit</h3>
@@ -32,27 +33,40 @@
     {% for row in page.metadata.meetup %}
     <div class="grid">
       <div class="unit one-fifth time">{{row.time}}</div>
-      <div class="unit four-fifths title">{{row.title}}</div>
+      <div class="unit four-fifths title">
+        <div>{{row.title}}</div>
+        {% if row.lightning_talks.length %}
+          <div class="lightning-talks">
+
+          {# Note strange loop syntax used to great .grid for every 2 units #}
+
+          {% set cls = cycler(false, true) %}
+          {% for row in row.lightning_talks %}
+             {% if (cls.next() == false) %}
+               <div class="grid">
+             {% endif %}
+               <div class="unit half">
+                 <img src="/static/img/people/{{row.photo}}" />
+                 <a href="{{row.link}}">{{row.name}}</a> &mdash; {{row.bio}}
+               </div>
+            {% if (cls.current == true) %}
+              </div>
+            {% endif %}
+          {% endfor %}
+
+
+          </div>
+        {% endif %}
+
+      </div>
+
     </div>
     {% endfor %}
   </div>
 
-  <div class="google-form-raw">
+  <div id="signup" class="google-form-raw">
     <div class="form-title">Sign up to give a lightning talk and/or host a workshop at the Decentralized Web meetup.</div>
     {% include "_meetup_form.html" %}
-  </div>
-
-  <div class="lightning-talks">
-     <h4>Some scheduled lightning talks so far.</h4>
-
-     <div class="grid">
-     {% for row in page.metadata.lightning_talks %}
-       <div class="unit half">
-         <img src="/static/img/people/{{row.photo}}" />
-         <a href="{{row.link}}">{{row.name}}</a> &mdash; {{row.bio}}
-       </div>
-     {% endfor %}
-     </div>
   </div>
 
 </section>
