@@ -1,5 +1,5 @@
 /**
- * @license AGPL
+ * @license AGPL-3
  * @copyright Internet Archive, 2016
  */
 

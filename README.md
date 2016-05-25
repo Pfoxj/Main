@@ -8,13 +8,7 @@ At the moment this site is hosted on NeoCities and also available through IPFS.
 
 # License
 
-AGPL
-
-# Authors
-
-Richard@archive.org
-Carolyn@archive.org
-Wendy@archive.org
+AGPL-3
 
 
 ## Info
