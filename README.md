@@ -29,21 +29,13 @@ still compatible with the distributed web.
 
 ### First time only
 ```
-npm install -g wintersmith
+npm install -g wintersmith@2.3.1
 npm install
 ```
 
 ### Build the site
 ```
 make build
-```
-
-## Developing locally
-
-### First time only
-```
-npm install -g wintersmith
-npm install
 ```
 
 ### Open preview in browser

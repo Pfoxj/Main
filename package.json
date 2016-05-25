@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "browsernizr": "*",
-    "wintersmith-autoprefixer-sass": "^0.1.0",
-    "wintersmith-image-generator": "*",
-    "wintersmith-livereload": "*",
-    "wintersmith-nunjucks": "*",
-    "wintersmith-sass": "*"
+    "browsernizr": "2.1.0",
+    "wintersmith-autoprefixer-sass": "0.1.0",
+    "wintersmith-livereload": "0.2.2",
+    "wintersmith-makerelative": "1.0.0",
+    "wintersmith-nunjucks": "1.1.0",
+    "wintersmith-sass": "0.3.0"
   },
   "private": true
 }

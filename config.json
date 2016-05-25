@@ -1,6 +1,6 @@
 {
   "locals": {
-    "title": "Bare minimum wintersmith site"
+    "title": "DWebSummit Site"
   },
   "nunjucks": {
     "autoescape": false
