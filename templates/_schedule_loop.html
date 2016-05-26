@@ -1,0 +1,57 @@
+
+  <div class="schedule">
+    {% for row in schedule_param %}
+    <div class="grid schedule-row">
+      <div class="unit one-fifth">
+        <table class="schedule-side-table">
+          <tbody>
+            <tr>
+              <td>
+                <i class="material-icons">access_time</i>
+              </td>
+              <td>
+                <span class="time">{{row.time}}</span>
+              </td>
+            </tr>
+            {% if row.people.length > 0 %}
+            <tr>
+              <td>
+                <i class="material-icons">people</i>
+              </td>
+              <td>
+                <div class="schedule-side-people">
+                {% for p1 in row.people %}
+                  {{p1.name}}<br/>
+                {% endfor %}
+              </div>
+              </td>
+            </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+      <div class="unit four-fifths">
+        <div class="title">{{row.title}}</div>
+        <div class="description">{{row.description}}</div>
+        <div class="grid people full-list">
+          {% for p1 in row.people %}
+            {#
+              Search bios in people.md and show this person. Not ideal, but quick fix
+              Note: may want to remove committee from search
+            #}
+            {% for match in contents['people']['index.md'].metadata.keynote_speakers %}
+              {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
+            {% endfor %}
+            {% for match in contents['people']['index.md'].metadata.presentors %}
+              {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
+            {% endfor %}
+            {% for match in contents['people']['index.md'].metadata.committee %}
+              {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>

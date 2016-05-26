@@ -362,15 +362,25 @@ section.page-section.learn-more li {
   font-weight:400;
   margin-bottom: 60px;
 }
-.schedule .grid {
-  margin-bottom: 10px;
+.schedule .grid.schedule-row {
+  margin-bottom: 40px;
+  padding-bottom: 0;
+  border-bottom:1px solid #ccc;
 }
 .schedule .time {
   // font-style: italic;
   font-weight: bold;
+  margin-bottom: 10px;
+  display:block;
 }
 .schedule-intro {
   margin-bottom: 40px;
+}
+.schedule .title {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top:-6px;
+  margin-bottom: 14px;
 }
 .schedule a {
   // color: blue;
@@ -378,6 +388,21 @@ section.page-section.learn-more li {
 }
 .schedule-toc a {
 
+}
+
+.schedule-side-table td {
+  vertical-align: top;
+  padding: 3px;
+}
+.schedule-side-people {
+  line-height: 1.6em;
+}
+.schedule .grid.people {
+  margin-top: 20px;
+
+}
+.muted {
+  color: #999;
 }
 
 
@@ -535,6 +560,13 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 }
 .google-form-raw .ss-password-warning {
   display: none;
+}
+#entry_1847788663 {
+  height: 100px;
+}
+
+.js-bio-unit {
+  cursor: pointer;
 }
 
 

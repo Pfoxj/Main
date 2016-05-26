@@ -14,14 +14,8 @@
 
   <h3 id="summit">Wednesday, June 8th: Summit</h3>
 
-  <div class="schedule">
-    {% for row in page.metadata.summit %}
-    <div class="grid">
-      <div class="unit one-fifth time">{{row.time}}</div>
-      <div class="unit four-fifths title">{{row.title}}</div>
-    </div>
-    {% endfor %}
-  </div>
+  {% set schedule_param = page.metadata.summit %}
+  {% include "_schedule_loop.html" %}
 
   <h3 id="meetup">Thursday, June 9th: Meetup</h3>
 
@@ -29,40 +23,8 @@
     On June 9th, the day after the Decentralized Web Summit, we will be hosting a Decentralized Web meetup at the Internet Archive. This meetup is free and open to the public. We will have tables set up for people to meet and hack on decentralized web projects, and have lightning talks scheduled in the Great Room upstairs throughout the day. If you are interested in learning more about the decentralized web or working on related projects with your peers, this is the place to be! Snacks and drinks will be provided.
   </div>
 
-  <div class="schedule">
-    {% for row in page.metadata.meetup %}
-    <div class="grid">
-      <div class="unit one-fifth time">{{row.time}}</div>
-      <div class="unit four-fifths title">
-        <div>{{row.title}}</div>
-        {% if row.lightning_talks.length %}
-          <div class="lightning-talks">
-
-          {# Note strange loop syntax used to great .grid for every 2 units #}
-
-          {% set cls = cycler(false, true) %}
-          {% for row in row.lightning_talks %}
-             {% if (cls.next() == false) %}
-               <div class="grid">
-             {% endif %}
-               <div class="unit half">
-                 <img src="/static/img/people/{{row.photo}}" />
-                 <a href="{{row.link}}">{{row.name}}</a> &mdash; {{row.bio}}
-               </div>
-            {% if (cls.current == true) %}
-              </div>
-            {% endif %}
-          {% endfor %}
-
-
-          </div>
-        {% endif %}
-
-      </div>
-
-    </div>
-    {% endfor %}
-  </div>
+  {% set schedule_param = page.metadata.meetup %}
+  {% include "_schedule_loop.html" %}
 
   <div id="signup" class="google-form-raw">
     <div class="form-title">Sign up to give a lightning talk and/or host a workshop at the Decentralized Web meetup.</div>
