@@ -15,6 +15,18 @@
     font-size: 13px !important;
   }
 
+  .schedule .small-col {
+    margin: 0 5px 10px 5px;
+    flex-basis: 10%;
+    overflow-x: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  .schedule .small-col .name, .schedule .small-col .subtitle {
+    font-size: 12px !important;
+  }
+
+
   #modal {
     display: flex;
     flex-direction: column;
@@ -123,5 +135,15 @@
   }
   #meetup {
     margin-top:150px;
+  }
+  .unit.workshop {
+    // border:2px solid #ccc;
+    padding: 10px;
+    margin-top:10px;
+    // padding-right:10px;
+    // border-right: 1px solid #ccc;
+  }
+  .grid.workshops {
+
   }
 }

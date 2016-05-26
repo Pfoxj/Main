@@ -28,6 +28,18 @@ keynote_speakers:
          A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
 
 
+presenters:
+  - name: Kyle Drake
+    subtitle:  Neocities
+    image: /static/img/people/kyle_drake.jpg
+    link: https://neocities.org
+    bio: |
+       Kyle Drake is a tech entrepreneur and the founder of Neocities. Kyle has contributed to numerous Bitcoin projects (including BitcoinJS), and is currently focusing on defining and building the distributed web.
+  - name: Denis Nazarov
+    subtitle: TODO
+    image: /static/img/people/denis_nazarov.jpg
+    bio: TODO
+
 committee:
   - name: Juan Benet
     subtitle: IPFS

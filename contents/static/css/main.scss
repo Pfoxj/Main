@@ -28,6 +28,8 @@ h1, h2 {
   margin-bottom:0;
 }
 
+td { vertical-align: top; padding-right: 5px; box-sizing: border-box;}
+td img { box-sizing: border-box; }
 
 /* banner */
 #banner {
@@ -363,15 +365,16 @@ section.page-section.learn-more li {
   margin-bottom: 60px;
 }
 .schedule .grid.schedule-row {
-  margin-bottom: 40px;
-  padding-bottom: 0;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
   border-bottom:1px solid #ccc;
 }
 .schedule .time {
   // font-style: italic;
-  font-weight: bold;
+  // font-weight: bold;
   margin-bottom: 10px;
   display:block;
+  color: #3fc380;
 }
 .schedule-intro {
   margin-bottom: 40px;
@@ -386,9 +389,7 @@ section.page-section.learn-more li {
   // color: blue;
   // text-decoration: underline;
 }
-.schedule-toc a {
-
-}
+.schedule-toc a {}
 
 .schedule-side-table td {
   vertical-align: top;
@@ -396,11 +397,21 @@ section.page-section.learn-more li {
 }
 .schedule-side-people {
   line-height: 1.6em;
+  font-size: .8em;
+  margin-bottom: 15px;
 }
 .schedule .grid.people {
   margin-top: 20px;
-
 }
+
+.schedule-h3 {
+  background-color: #4a90e2;
+  padding: 5px 9px;
+  color: white;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
 .muted {
   color: #999;
 }
@@ -488,6 +499,10 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 .small-col .name, .small-col .subtitle {
   font-size: 12px !important;
 }
+.schedule .grid.workshops .small-col {
+  width: 100px;
+}
+
 
 .matrix-join {
   margin-top: 10px;
@@ -569,5 +584,14 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   cursor: pointer;
 }
 
-
+.unit.workshop {
+  padding: 10px;
+  margin-top:10px;
+}
+.workshop-title {
+  font-weight:bold;
+}
+.workshop-description {
+  margin-bottom:15px;
+}
 @import "desktop";

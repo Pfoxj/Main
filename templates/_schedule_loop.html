@@ -1,57 +1,117 @@
+{% macro match_p1(p1) %}
+  {% for match in contents['people']['index.md'].metadata.keynote_speakers %}
+    {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
+  {% endfor %}
+  {% for match in contents['people']['index.md'].metadata.presenters %}
+    {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
+  {% endfor %}
+  {% for match in contents['people']['index.md'].metadata.committee %}
+    {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
+  {% endfor %}
+{% endmacro %}
 
-  <div class="schedule">
-    {% for row in schedule_param %}
-    <div class="grid schedule-row">
-      <div class="unit one-fifth">
-        <table class="schedule-side-table">
-          <tbody>
-            <tr>
-              <td>
-                <i class="material-icons">access_time</i>
-              </td>
-              <td>
-                <span class="time">{{row.time}}</span>
-              </td>
-            </tr>
-            {% if row.people.length > 0 %}
-            <tr>
-              <td>
-                <i class="material-icons">people</i>
-              </td>
-              <td>
-                <div class="schedule-side-people">
-                {% for p1 in row.people %}
-                  {{p1.name}}<br/>
-                {% endfor %}
-              </div>
-              </td>
-            </tr>
-            {% endif %}
-          </tbody>
-        </table>
-      </div>
-      <div class="unit four-fifths">
-        <div class="title">{{row.title}}</div>
-        <div class="description">{{row.description}}</div>
+<div class="schedule">
+  {% for row in schedule_param %}
+  <div class="grid schedule-row">
+    <div class="unit one-fifth">
+      <table class="schedule-side-table">
+        <tbody>
+          <tr>
+            <td>
+              <i class="material-icons">access_time</i>
+            </td>
+            <td>
+              <span class="time">{{row.time}}</span>
+            </td>
+          </tr>
+          {% if (row.people.length > 0 or row.workshops.length > 0 or row.lightning_talks.length > 0) %}
+          <tr>
+            <td>
+              <i class="material-icons">people</i>
+            </td>
+            <td>
+              <div class="schedule-side-people">
+              {% for p1 in row.people %}
+                {{p1.name}}<br/>
+              {% endfor %}
+              {% for p1 in row.lightning_talks %}
+                {{p1.name}}<br/>
+              {% endfor %}
+              {% for p1 in row.workshops %}
+                {{p1.name}}<br/>
+              {% endfor %}
+            </div>
+            </td>
+          </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+    <div class="unit four-fifths">
+      <div class="title">{{row.title}}</div>
+      <div class="description">{{row.description}}</div>
+
+      {% if row.people.length > 0 %}
         <div class="grid people full-list">
           {% for p1 in row.people %}
             {#
               Search bios in people.md and show this person. Not ideal, but quick fix
               Note: may want to remove committee from search
             #}
-            {% for match in contents['people']['index.md'].metadata.keynote_speakers %}
-              {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
-            {% endfor %}
-            {% for match in contents['people']['index.md'].metadata.presentors %}
-              {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
-            {% endfor %}
-            {% for match in contents['people']['index.md'].metadata.committee %}
-              {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
-            {% endfor %}
+            {{match_p1(p1)}}
           {% endfor %}
         </div>
-      </div>
+      {% endif %}
+
+      {% if row.lightning_talks.length > 0 or row.workshops.length > 0 %}
+        <div class="grid workshops">
+          <div class="unit half workshop">
+            <div class="workshop-title">Lightning Talks</div>
+            <div class="grid people full-list">
+              <table>
+                <tbody>
+              {% for p1 in row.lightning_talks %}
+
+                    <tr>
+                      <td>
+                        {{match_p1(p1)}}
+                      </td>
+                      <td>
+                        <div class="workshop-description">{{p1.description}}</div>
+                      </td>
+                    </tr>
+
+              {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="unit half workshop">
+            <div class="workshop-title">Workshops</div>
+            <div class="grid people full-list">
+              <table>
+                <tbody>
+                  {% for p1 in row.workshops %}
+                    <tr>
+                      <td>
+                        {{match_p1(p1)}}
+                      </td>
+                      <td>
+                        <div class="workshop-description">{{p1.description}}</div>
+                      </td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+
 
     </div>
-    {% endfor %}
+
   </div>
+  {% endfor %}
+</div>
