@@ -24,7 +24,7 @@
               <span class="time">{{row.time}}</span>
             </td>
           </tr>
-          {% if (row.people.length > 0 or row.workshops.length > 0 or row.lightning_talks.length > 0) %}
+          {% if (row.people.length > 0) %}
           <tr>
             <td>
               <i class="material-icons">people</i>
@@ -34,9 +34,35 @@
               {% for p1 in row.people %}
                 {{p1.name}}<br/>
               {% endfor %}
+            </div>
+            </td>
+          </tr>
+          {% endif %}
+
+          {% if (row.lightning_talks.length > 0) %}
+          <tr>
+            <td>
+              <i class="material-icons">people</i>
+            </td>
+            <td>
+              <div class="schedule-side-people">
+                <b>Lightning Talks</b><br>
               {% for p1 in row.lightning_talks %}
                 {{p1.name}}<br/>
               {% endfor %}
+            </div>
+            </td>
+          </tr>
+          {% endif %}
+
+          {% if (row.workshops.length > 0) %}
+          <tr>
+            <td>
+              <i class="material-icons">people</i>
+            </td>
+            <td>
+              <div class="schedule-side-people">
+                <b>Workshops</b><br>
               {% for p1 in row.workshops %}
                 {{p1.name}}<br/>
               {% endfor %}
@@ -44,6 +70,7 @@
             </td>
           </tr>
           {% endif %}
+
         </tbody>
       </table>
     </div>
