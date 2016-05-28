@@ -35,6 +35,8 @@ summit:
     title: "Lightning Talks & Panel – Peer to Peer Networks"
     people:
     - name: David Dias
+    - name: Zooko Wilcox
+    - name: Dr. Gavin Wood
 
 
   - time: "11:40-12:30"
@@ -48,7 +50,7 @@ summit:
     description: A short montage of artist Scott Drave's electric sheep--what your computers create while you sleep.  A look at what happens when decentralized tech meets artistic genius.
 
   - time: 1:35-2:15
-    title: "Keynote: Cory Doctorow \"How Stupid Laws and Benevolent Dictators can Ruin the Decentralized Web, too\""
+    title: "Keynote: Cory Doctorow – \"How Stupid Laws and Benevolent Dictators can Ruin the Decentralized Web, too\""
     description: |
       In the last twenty years, we've managed to nearly ruin one of the most functional distributed systems ever created: today's Web. There are many stakeholders being damaged in the process, from individuals to entire nations.  To lock open the Web we will need more than code. We will need binding agreements and covenants that enshrine our deepest values. Cory Doctorow shares his vision of what went wrong and how we can get it right – through governance and policies – in the decentralized Web to come.
     people:
@@ -63,10 +65,11 @@ summit:
       There are many "Black Hats" on the world stage today.  They have enormous resources, little government oversight, and taps into all the major fiber links.  Their goal: to break the security of your code.  How can the decentralized technologies represented here fend off their attacks?  How would you work around the "Great Firewall of China?"  How are you employing this "Black Hat" understanding into your design?  We'll pose some provocative security scenarios and discuss how decentralized technologies can combat the most powerful purveyors of censorship, surveillance, and piracy on the world stage.  How can builders of a new Web share scenario planning and knowledge to succeed?
 
     people:
+    - name: Ross Schulman, moderator
     - name: Van Jacobsen
     - name: Paige Peterson
     - name: Brian Warner
-    - name: Ross Schulman
+
 
 
   - time: 3:45-4:15
@@ -80,15 +83,17 @@ summit:
     title: "Lightning talks & Panel – Moonshot Challenge – What could you do to Decentralize Scientific Journal Articles?"
     description: "In this hands-on panel, we issue a new \"moonshot\" challenge:  How could we take scientific journal literature--which includes code, text, and data--and make it so these articles can be stored, accessed, searched, attributed, and paid for through decentralized systems?  How could current technologies work together? What design principles might further this collaboration?"
     people:
-    - name: Juan Benet
     - name: Wendy Hanamura, moderator
+    - name: Juan Benet
     - name: Trent McConaghy
     - name: Karissa McKelvey
     - name: Denis Nazarov
     - name: Evan Schwartz
 
   - time: 5:10-5:30
-    title: "Closing Remarks: Brewster Kahle"
+    title: "Closing Remarks: What happens next?"
+    people:
+    - name: Brewster Kahle
 
   - time: 5:30-8:00
     title: Food trucks and drinks in front of the Archive
