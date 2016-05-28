@@ -23,8 +23,24 @@
   {% endfor %}
   </div>
 
-  <!-- <h2>Speakers</h2>
-  <div>More to be announced.</div> -->
+  <h2>Presenters</h2>
+  <div class="grid people full-list">
+  {% for attendee in contents['people']['index.md'].metadata.presenters %}
+    <div class="small-col js-bio-unit">
+      <img src="{{attendee.image}}" />
+      <div class="name">{{attendee.name}}</div>
+      <div class="subtitle">{{attendee.subtitle}}</div>
+      <div class="hidden-bio">
+        <div>
+          <div class="modal-image" ><img src="{{attendee.image}}" /></div>
+          <div class="modal-name">{{attendee.name}}</div>
+          <div class="modal-subtitle">{{attendee.subtitle}}</div>
+          <div>{{attendee.bio}}</div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
 
   <h2>Organizers</h2>
   <div class="grid people full-list">
