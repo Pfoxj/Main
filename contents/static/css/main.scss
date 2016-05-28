@@ -473,8 +473,14 @@ section.page-section.learn-more li {
 
 .modal .modal-subtitle {
   font-size:1em;
-  margin-bottom: 3rem;
 }
+.modal .modal-link {
+  text-align:center;
+}
+.modal-bio {
+  margin-top: 3rem;
+}
+
 body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   display:none;
 }

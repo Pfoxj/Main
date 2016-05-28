@@ -172,16 +172,44 @@ presenters:
     bio: |
       The Interledger Protocol is a protocol suite for connecting blockchains and other ledgers. It’s a neutral protocol for payments across different currencies and payment systems.
 
+  - name: Matthew Hodgson
+    subtile: Matrix
+    link: https://matrix.org
+    image: /static/img/people/matthew_hodgson.jpg
 
 
+  - name: Feross Aboukhadijeh
+    subtitle: WebTorrent
+    link: https://webtorrent.io
+    image: /static/img/people/feross_aboukhadijeh.jpg
+
+  - name: Natalie Myers
+    image: /static/img/people/natalie_meyers.jpg
+
+  - name: Arkadiy Kukarkin
+    image: /static/img/people/arkadiy_kukarkin.jpg
 
 
+  - name: Ben Trask
+    image: /static/img/people/blank.gif
 
+  - name: Victor Morrow
+    image: /static/img/people/blank.gif
 
+  - name: Joel Dietz
+    image: /static/img/people/blank.gif
 
+  - name: Galen Wolfe-Pauly, Philip Monk
+    image: /static/img/people/blank.gif
 
+  - name: Dan Whaley
+    image: /static/img/people/dan_whaley.jpg
 
+  - name: Van Jacobsen
+    image: /static/img/people/blank.gif
 
+  - name: Ross Schulman
+    image: /static/img/people/ross_schulman.jpg
 
 
 committee:
