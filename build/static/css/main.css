@@ -897,6 +897,18 @@ h1, h2 {
   margin-top: 0;
   margin-bottom: 0; }
 
+td {
+  vertical-align: top;
+  padding-right: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+td img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /* banner */
 #banner {
   width: 100%;
@@ -1245,14 +1257,14 @@ section.page-section.learn-more li {
   margin-bottom: 60px; }
 
 .schedule .grid.schedule-row {
-  margin-bottom: 40px;
-  padding-bottom: 0;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #ccc; }
 
 .schedule .time {
-  font-weight: bold;
   margin-bottom: 10px;
-  display: block; }
+  display: block;
+  color: #3fc380; }
 
 .schedule-intro {
   margin-bottom: 40px; }
@@ -1268,10 +1280,19 @@ section.page-section.learn-more li {
   padding: 3px; }
 
 .schedule-side-people {
-  line-height: 1.6em; }
+  line-height: 1.6em;
+  font-size: .8em;
+  margin-bottom: 15px; }
 
 .schedule .grid.people {
   margin-top: 20px; }
+
+.schedule-h3 {
+  background-color: #4a90e2;
+  padding: 5px 9px;
+  color: white;
+  margin-bottom: 50px;
+  font-weight: normal; }
 
 .muted {
   color: #999; }
@@ -1343,8 +1364,13 @@ section.page-section.learn-more li {
   text-align: center; }
 
 .modal .modal-subtitle {
-  font-size: 1em;
-  margin-bottom: 3rem; }
+  font-size: 1em; }
+
+.modal .modal-link {
+  text-align: center; }
+
+.modal-bio {
+  margin-top: 3rem; }
 
 body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   display: none; }
@@ -1386,6 +1412,9 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 
 .small-col .name, .small-col .subtitle {
   font-size: 12px !important; }
+
+.schedule .grid.workshops .small-col {
+  width: 100px; }
 
 .matrix-join {
   margin-top: 10px; }
@@ -1457,6 +1486,16 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 .js-bio-unit {
   cursor: pointer; }
 
+.unit.workshop {
+  padding: 10px;
+  margin-top: 10px; }
+
+.workshop-title {
+  font-weight: bold; }
+
+.workshop-description {
+  margin-bottom: 15px; }
+
 /* desktop styles */
 @media only screen and (min-width: 768px) {
   .grid.people.full-list {
@@ -1478,6 +1517,23 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 
   .small-col .name, .small-col .subtitle {
     font-size: 13px !important; }
+
+  .schedule .small-col {
+    margin: 0 5px 10px 5px;
+    -webkit-flex-basis: 10%;
+    -ms-flex-preferred-size: 10%;
+    flex-basis: 10%;
+    overflow-x: hidden;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; }
+
+  .schedule .small-col .name, .schedule .small-col .subtitle {
+    font-size: 12px !important; }
 
   #modal {
     display: -webkit-box;
@@ -1603,4 +1659,8 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     margin-right: 10px; }
 
   #meetup {
-    margin-top: 150px; } }
+    margin-top: 150px; }
+
+  .unit.workshop {
+    padding: 10px;
+    margin-top: 10px; } }
