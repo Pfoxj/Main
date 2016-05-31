@@ -108,4 +108,63 @@ attendees:
   - Jake Wilkins — Comrade at Tolerable Technology
   - Robin Chandler — Project Manager at Califa
   - Barbara Miller — Support Engineer at Internet Archive
+  - Andrew Sherman — Digital Communications Intern at Wikimedia Foundation
+  - Abel Patten — Owner of Solvocracy
+  - Johnny Script — CEO of Modulhaus
+  - Jefferson Bailey — Director, Web Archiving Programs at Internet Archive
+  - Kevin Marks — Organiser at Indieweb
+  - Steven Siloti — Engineer at BitTorrent Inc
+  - Amy Guy — PhD Student at MIT / University of Edinburgh
+  - Simon St.Laurent — Strategic Content Director at O'Reilly Media, Inc.
+  - Francis Brunelle — Web Developer
+  - Christina Michelle Bailey — Creator & Curator at DistributedBytes
+  - Victor Morrow — Founder at Prometheus
+  - John Lekashman — Archivist at Internet Archive
+  - Jeremy Rand — Lead Application Engineer at Namecoin
+  - Gillian Andrews — Senior Usability Research Fellow at Simply Secure
+  - Ryan Rix — Site Reliability Engineer at Uber Technologies
+  - Kyzyl Fenno-Smith — Librarian at CSUEB
+  - Jeffrey Martin — Creative Director at Take it LLC
+  - David Reed — Principal at Reed.com
+  - Michael Becker — Software Engineer at Groupon
+  - Melanie Benjamin — Donor and Funder Relations Lead at Center for Open Science
+  - Natalie Meyers — Partnerships & Collaborations Manager at Center for Open Science
+  - Jeffrey Kaplan — Collections Manager at Internet Archive
+  - Andrew Bezella — Sr Sysadmin at Internet Archive
+  - Evan Schwartz — Engineer at Ripple / Interledger
+  - Stefan Thomas — CTO at Ripple / Interledger
+  - John Gonzalez — Director of Engineering at Internet Archive
+  - Mark Graham — Director, Wayback Machine at Internet Archive
+  - Daniel Finlay — Software Developer at Consensys Systems
+  - Jehan Tremback — Founder at Althea
+  - Jae Kwon — Cofounder at Tendermint
+  - Vinay Goel — Senior Data Engineer at Internet Archive
+  - David Rinehart — Artist in Residence at Internet Archive
+  - DV Henkel-Wallace — Partner at A.B. Scott & Co.
+  - Mark Seiden — Aecurity Advisor at Internet Archive
+  - Eric Liu — Director at Bayes Impact
+  - Sri Chilukuri — VP Product Marketing at Diablo Technologies
+  - Brian Behlendorf — Executive Director at The Hyperledger Project
+  - Lukas Schwab — Fellow at Bayes Impact
+  - Raza Zaidi — CPO at Neobase
+  - Mehdi Jamei — Data Scientist at Bayes Impact
+  - Jay Carpenter — Founder of Desert Blockchain LLC
+  - David Vorick — CEO of Nebulous Inc.
+  - Gabriel Guevara — Web Developer at Chapter Three
+  - Steve Dekorte — Lead at voluntary.net
+  - James Henry Ault — Business Development at Urbit
+  - Galen Wolfe-Pauly — Founder at Urbit
+  - Daniel Roberts — Fresh Graduate from SFSU
+  - Mitchell Baker — Executive Chairwoman at Mozilla
+  - Christian Ferrier — Owner of Xioustic Computer Services
+  - Christoph Witzany — CEO of CloudFleet
+  - Vicky Reich — Executive Director of LOCKSS Program at Stanford University Libraries
+  - David Rosenthal — Chief Scientist at LOCKSS Program at Stanford University Libraries
+  - Jaye Lapachet — Senior Consultant at J8 Consulting
+  - Eric Newton — Innovation Chief, Professor of Practice at Walter Cronkite School of Journalism and Mass Communication, Univ AZ
+  - Elio Grieco — Subcommitee Chair at Security Canyon
+  - Jessy Exum — Software Architect
+  - Bill Mar — Founder at Special Computing
+  - "Christopher Allen — Principal Architect: Blockchain Standards & Decent at Blockstream"
+  - Johannes Ernst — unCEO at Indie Computing Corp.
 ---
