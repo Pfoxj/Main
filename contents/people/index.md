@@ -146,7 +146,7 @@ presenters:
 
   - name: Brian Warner
     subtitle: Tahoe-LAFS
-    image: /static/img/people/Brian_Warner.jpg
+    image: /static/img/people/brian_warner.jpg
     link: https://www.tahoe-lafs.org/trac/tahoe-lafs
     bio: |
       Brian builds Tahoe-LAFS, a distributed storage system that safely uses untrusted servers, and Magic Wormhole, the easiest secure file transfer tool ever.
