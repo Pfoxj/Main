@@ -1,9 +1,107 @@
 ---
 title: Day One
 template: builders_day.html
-noindex: true
+
+
+schedule:
+- time: 8:00-8:45
+  title: Breakfast Buffet
+- time: 9:00-9:15
+  title: 'Welcome: "The Moonshot-- Locking the Web Open; what do we hope to accomplish?"'
+  people:
+  - name: Brewster Kahle
+  - name: Mitchell Baker
+- time: 9:15-9:45
+  title: 'Self Introductions: your name, where you are from, and in one sentence--what do you want?'
+  people:
+  - name: Wendy Hanamura
+- time: 9:45-10:00
+  title: 'Meeting New Allies: Find two other people who you don''t know and introduce yourself to them'
+  people:
+  - name: Allen "Gunner" Gunn
+- time: 10:00-10:15
+  title: 'Join two small groups: (form group of six)--meet each other!'
+  people:
+  - name: Allen "Gunner" Gunn
+- time: 10:15-10:45
+  title: 'Framing the Problem:   What are the problems that need to be solved? What needs to be Decentralized? What can we agree on, what do we not agree on and what can we do today?'
+  people:
+  - name: Allen "Gunner" Gunn
+- time: 10:45-11:15
+  title: 'Report Back: defining the elements that need to be created to build a Decentralized Web and get it adopted'
+  people:
+  - name: Allen "Gunner" Gunn
+- time: 11:15-11:30
+  title: Break
+- time: 11:30-12:30
+  title: 'Three Stories:  Lessons from the Field'
+  people:
+  - name: Zooko Wilcox
+  - name: Tamas Kocsis
+- time: 12:30-1:30
+  title: Lunch break
+- time: 1:30-2:45
+  title: 'Science Fair:  25 technologies, 25 tables.  Time to ask questions and explore'
+- time: 2:45-3:15
+  title: Break
+- time: 3:15-3:30
+  title: 'Break Out Sessions:  Meet the facilitators!'
+  people:
+  - name: Wendy Hanamura
+  - name: Greg McMullen
+  - name: Joachim Lohkamp
+  - name: Allen Gunn
+  - name: John Light
+  - name: Paige Peterson
+  - name: Mek Karpeles
+  - name: Constance Choi
+  - name: Courtney Mumma
+- time: 3:30-4:15
+  title: 'Break Out Sessions: round one'
+  people:
+  - name: Greg McMullen
+  - name: Joachim Lohkamp
+  - name: Allen Gunn
+  - name: John Light
+  - name: Paige Peterson
+  - name: Mek Karpeles
+  - name: Constance Choi
+  - name: Courtney Mumma
+- time: 4:15-5:00
+  title: 'Break Out Sessions: round two'
+  people:
+  - name: Greg McMullen
+  - name: Joachim Lohkamp
+  - name: Allen Gunn
+  - name: John Light
+  - name: Paige Peterson
+  - name: Mek Karpeles
+  - name: Constance Choi
+  - name: Courtney Mumma
+- time: 5:00-5:30
+  title: 'Report back : where do we go from here?'
+  people:
+  - name: Kevin Marks
+  - name: Chelsea Barabas
+  - name: Jason Griffey
+  - name: Richard Whitt
+  - name: Ross Schulman
+  - name: Wendy Hanamura
+  - name: Amber Case
+  - name: Cory Doctorow
+- time: 5:30-6:00
+  title: 'Closing: what are the next steps?'
+  people:
+  - name: Brewster Kahle
+- time: 6:00-8:00
+  title: Dinner Reception in Foyer
+- time: 8:00-11:00
+  title: Late night meeting space available
+
+
+
 people:
-- name: Allen Gunn
+- name: Allen "Gunner" Gunn
   subtitle: Aspiration Tech
   image: /static/img/people/allen_gunn.jpg
   bio: Allen Gunn is Executive Director of Aspiration (www.aspirationtech.org) in San Francisco, USA, and works to help NGOs, activists, foundations and software developers make more effective use of technology for social change. Gunner is an active facilitator, contributor, advisor, and/or partner in a number of open projects, including Mozilla, The Tor Project, Humanitarian OpenStreetMap Team, Peer 2 Peer University, Joomla!, CiviCRM, and Creative Commons.
@@ -46,7 +144,7 @@ people:
   isScienceFair: false
   home: ''
 - name: Brian Warner
-  subtitle: Tahoe-LAFS
+  subtitle: '#ERROR!'
   image: /static/img/people/brian_warner.jpg
   bio: Brian builds Tahoe-LAFS, a distributed storage system that safely uses untrusted servers, and Magic Wormhole, the easiest secure file transfer tool ever.
   isScienceFair: false
@@ -100,7 +198,7 @@ people:
   isScienceFair: false
   home: SF
 - name: David Dias
-  subtitle: IPFS
+  subtitle: IPFS/libp2p
   image: /static/img/people/david_dias.jpg
   bio: David is a Peer-to-Peer Software Engineer at Protocol Labs. He is building the InterPlanetary File System, which enables the creation of completely distributed applications. He has also contributed to nodesecurity.io and built several modules that enable developers to check for vulnerabilities. He has a Master of Science in Engineering with major in Peer-to-Peer Networks from Technical University of Lisbon
   isScienceFair: false
@@ -132,13 +230,13 @@ people:
 - name: Evan Schwartz
   subtitle: Interledger
   image: /static/img/people/evan_schwartz.jpg
-  bio: "The Interledger Protocol is a protocol suite for connecting blockchains and other ledgers. It\u2019s a neutral protocol for payments across different currencies and payment systems."
+  bio: "Evan Schwartz is co-inventor of Interledger, the protocol suite for connecting blockchains, payment networks and other digital asset ledgers. Interledger enables payments between parties on different ledgers, meaning developers can build payments into other protocols and apps without being tied to a single payment provider or currency. Interledger is inspired by the designs of IP, TCP, etc and aims to connect the world\u2019s ledgers like the internet protocols connected its information networks."
   isScienceFair: false
   home: SF
 - name: Feross Aboukhadijeh
   subtitle: Webtorrent
   image: /static/img/people/feross_aboukhadijeh.jpg
-  bio: Feross is building WebTorrent <https://webtorrent.io>, the first torrent client that works on the web (in the browser. He is bringing P2P to the masses with accessible, WebRTC-based P2P protocols.
+  bio: 'Feross currently building WebTorrent, a streaming BitTorrent client for the browser, powered by WebRTC. Before that, he built PeerCDN, a peer-to-peer content delivery network to makes sites faster and cheaper. He is a graduate of Stanford University and has worked at Quora, Facebook, and Intel. In the past, Feross did research in the Stanford human-computer interaction and computer security labs. '
   isScienceFair: false
   home: Mountain View, CA
 - name: Fred Grosskopf
@@ -168,7 +266,7 @@ people:
 - name: Harlan T Wood
   subtitle: Co-Makery
   image: /static/img/people/harlant_wood.jpg
-  bio: ''
+  bio: Harlan is CTO of comakery.com <http://comakery.com>, cofounder of core.network <http://core.network>, and architect of the nodesphere.org http://nodesphere.org> project. Nodesphere is a global-scale distributed content addressable semantic graph protocol and open source codebase.  Its design goals are to create interoperability of heterogeneous data sources, maximize individual ownership and control of data, and enable a new generation of graph visualization browsers. Harlan brings a career of practical software development together with a diverse background including years of deep work with modern mystery schools.
   isScienceFair: false
   home: ''
 - name: Jason Griffey
@@ -269,12 +367,6 @@ people:
   bio: "Michael is responsible for identifying and pursuing opportunities for philanthropic investment in science and technology. He joined the Arnold Foundation after serving as the assistant director for biotechnology at the White House Office of Science and Technology Policy for six years. At the White House, Michael was responsible for developing and driving initiatives in life sciences research, including the Administration\u2019s efforts focused on improving veterans\u2019 mental health, combating antibiotic resistance, increasing access to federally funded scientific research results, restoring pollinator health, and reforming the regulatory system for biotechnology products."
   isScienceFair: false
   home: Washington DC
-- name: Mike Perry
-  subtitle: Tor
-  image: /static/img/people/mike_perry.jpg
-  bio: Lead developer on Tor Browser, developer of Torbutton, author of TorFlow. Runs one of the directory authorities. The Tor network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy.
-  isScienceFair: false
-  home: SF
 - name: Mitchell Baker
   subtitle: Mozilla Foundation & Corp, Executive Chairperson
   image: /static/img/people/mitchell_baker.jpg
