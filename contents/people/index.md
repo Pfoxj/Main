@@ -49,14 +49,14 @@ presenters:
 
   #- name: Karissa McKelvey
   #  subtitle: The Dat Project
-  #  image: /static/img/people/karissa_mckelvey.png
+  #  image: /static/img/people/karissa_mckelvey.jpg
   #  link: http://dat-data.com/
   #  bio: |
   #    Karissa is an open source software developer, activist, and writer supporting the equitable web. She works on Dat, an open source, decentralized data tool for distributing datasets small and large.
 
   - name: Karissa McKelvey
     subtitle: The Dat Project
-    image: /static/img/people/karissa_mckelvey.png
+    image: /static/img/people/karissa_mckelvey.jpg
     bio: |
       Karissa McKelvey is a software developer, writer, inventor, and activist supporting an equitable web. Formerly a research scientist at Indiana University, her work studying online political communication resulted in multiple peer-reviewed papers and press in outlets such as NPR and the Wall Street Journal. In addition to an experienced software and web developer, she has successfully led teams to success with diverse projects throughout her career in academia, non-profits, and industry. In her spare time, she teaches beginning programmers, volunteers her time in social movements, and plays the trumpet.
 
@@ -69,7 +69,7 @@ presenters:
 
   #- name: Juan Benet
   #  subtitle: IPFS
-  #  image: /static/img/people/juan_batizbenet.jpg
+  #  image: /static/img/people/juan_benet.jpg
   #  link: https://ipfs.io/
   #  bio: |
   #    Juan Benet created IPFS, Filecoin, and other open source protocols. He is the founder of Protocol Labs, a company improving how the internet works. He studied Computer Science (Distributed Systems) at Stanford University. Juan is obsessed with Knowledge, Science, and Technology.
@@ -97,7 +97,7 @@ presenters:
 
   - name: Peter Van Garderen
     subtitle:  Artefactual Systems
-    image: /static/img/people/peter_van_garderen.png
+    image: /static/img/people/peter_vangarderen.jpg
     link: https://www.artefactual.com/
     bio: |
          Peter Van Garderen is the founder of Artefactual Systems and the original developer of the open-source Archivematica and AccessToMemory software. These applications are used to manage the preservation and access for hundreds of archival collections worldwide. Peter is a distinguished alumnus of the University of British Columbia's Master of Archival Studies program. He now works as an information management consultant designing electronic records and digital archives architectures <a href="http://vangarderen.net">http://vangarderen.net</a>. Peter's current research and prototyping interests are in the application of blockchain technologies to recordkeeping workflows and decentralized autonomous collections.
@@ -139,7 +139,7 @@ presenters:
 
   - name: Tamas Kocsis
     subtitle: ZeroNet
-    image: /static/img/people/Tamas_Kocsis.jpg
+    image: /static/img/people/tamas_kocsis.jpg
     link: https://zeronet.io
     bio: |
       Tamas is a self-taught web builder from Hungary who has been in love with the Internet since the dial-up era. He is the founder and programmer of ZeroNet (https://zeronet.io), which allows you to create decentralized, P2P and real-time updated websites using Bitcoin cryptography and the BitTorrent network.
@@ -216,7 +216,7 @@ committee:
   - name: Juan Benet
     subtitle: IPFS
     link: https://ipfs.io/
-    image: /static/img/people/juan_batizbenet.jpg
+    image: /static/img/people/juan_benet.jpg
     bio: |
          Juan Benet created IPFS, Filecoin, and other open source protocols. He is the founder of Protocol Labs, a company improving how the internet works. He studied Computer Science (Distributed Systems) at Stanford University. Juan is obsessed with Knowledge, Science, and Technology.
   - name: Richard Caceres
@@ -271,7 +271,7 @@ committee:
   #       Trent McConaghy is co-inventor of the world's first planetary-scale blockchain database, BigchainDB, and the creators-first IP service, ascribe. Previously, he worked on AI for designing computer chips to help drive Moore's Law.
   #- name: Karissa McKelvey
   #  subtitle: The Dat Project
-  #  image: /static/img/people/karissa_mckelvey.png
+  #  image: /static/img/people/karissa_mckelvey.jpg
   #  bio: |
   #    Karissa McKelvey is a software developer, writer, inventor, and activist supporting an equitable web. Formerly a research scientist at Indiana University, her work studying online political communication resulted in multiple peer-reviewed papers and press in outlets such as NPR and the Wall Street Journal. In addition to an experienced software and web developer, she has successfully led teams to success with diverse projects throughout her career in academia, non-profits, and industry. In her spare time, she teaches beginning programmers, volunteers her time in social movements, and plays the trumpet. -->
   - name: Greg McMullen
@@ -286,7 +286,7 @@ committee:
          Courtney joined the Internet Archive in September of 2015 as Program Manager, with a focus on collaborative partnerships, grants management, community development, research initiatives, new services and sustainable innovation in web archives. Her career has been dedicated to building and fortifying the digital cultural heritage preservation sector, helping to build the Archivematica open source digital preservation system and community, as well as several other open source projects.
   - name: Max Ogden
     subtitle: The Dat Project
-    image: /static/img/people/max_ogden.png
+    image: /static/img/people/max_ogden.jpg
     bio: |
          Max Ogden is a software developer and founder of The Dat Project (<a href="http://www.wired.com/2014/08/dat/">http://www.wired.com/2014/08/dat/</a>), a grant funded software development non-profit. Max has lead the Dat team to work with data scientists, journalists and civic technologists to develop better tools for sharing datasets online. Prior to starting the Dat Project, Max was a Code for America fellow.
   - name: Paige Peterson

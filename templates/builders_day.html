@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<section class="page-section">
+
+  <h2>June 7: Builders Day</h2>
+
+  <div class="schedule-toc">
+    <div>Jump to:<br/></div>
+    <div><a href="#schedule">Schedule</a></div>
+    <div><a href="#people">People</a></div>
+  </div>
+
+  <h3 class="schedule-h3" id="schedule">Tuesday, June 7th: Builders Day</h3>
+  <div>Schedule coming soon.<br/><br/><br/></div>
+
+  <h2>People</h2>
+  <div class="grid people full-list">
+  {% for attendee in page.metadata.people %}
+    <div class="small-col js-bio-unit">
+      <img src="{{attendee.image}}" />
+      <div class="name">{{attendee.name}}, {{attendee.home}}</div>
+      <div class="subtitle">{{attendee.subtitle}}</div>
+      <div class="hidden-bio">
+        <div>
+          <div class="modal-image" ><img src="{{attendee.image}}" /></div>
+          <div class="modal-name">{{attendee.name}}</div>
+          <div class="modal-subtitle">{{attendee.subtitle}}</div>
+          <div>{{attendee.bio}}</div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+
+</section>
+
+<script src="/static/js/vendor/cash.min.js" type="text/javascript"></script>
+<script src="/static/js/scripts.js" type="text/javascript"></script>
+{% endblock %}
