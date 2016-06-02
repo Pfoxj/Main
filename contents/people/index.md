@@ -182,30 +182,76 @@ presenters:
     subtitle: WebTorrent
     link: https://webtorrent.io
     image: /static/img/people/feross_aboukhadijeh.jpg
+    bio: |
+      Feross is building WebTorrent <https://webtorrent.io>, the first torrent client that works on the web (in the browser. He is bringing P2P to the masses with accessible, WebRTC-based P2P protocols.
 
-  - name: Natalie Myers
-    image: /static/img/people/natalie_meyers.jpg
 
   - name: Arkadiy Kukarkin
+    subtitle: Mediachain.io
+    link: Mediachain.io
     image: /static/img/people/arkadiy_kukarkin.jpg
+    bio: Arkadiy is the CTO of Mediachain Labs, the organization that leads and supports development of the open-source Mediachain project, a universal media library. He previously worked on the music aggregator Hype Machine and on GIS at Foursquare.
+
+
+  - name: Ben Trask
+    subtitle: StrongLink
+    image: /static/img/people/ben_trask.jpg
+    bio: Ben Trask works on content addressing and eventually consistent distributed databases, including StrongLink and Hash-Archive.org
+    isScienceFair: false
+    home: North Carolina
 
   - name: Victor Morrow
+    subtitle: Prometheus
     image: /static/img/people/blank.gif
 
-  - name: Galen Wolfe-Pauly, Philip Monk
-    image: /static/img/people/blank.gif
+  - name: Joel Dietz
+    subtitle: Decentralized Autonomous Society
+    image: /static/img/people/joel_dietz.jpg
+    bio: Co-founder of the Decentralized Autonomous Society, EtherCasts, and Swarm, Joel Dietz has been one of the earliest members of the Bay Area Ethereum community and greatest pioneers in the realm of decentralized govenrance. The Decentralized Autonomous Society is a distributed thinktank that also has regular meetups in Palo Alto. It has the broad goal of facilitating new types of governance that are made possible via decentralized technologies. It was founded in the early days of Ethereum.
+    isScienceFair: false
+    home: Palo Alto
 
   - name: Dan Whaley
+    subtitle: Hypothes.is
     image: /static/img/people/dan_whaley.jpg
+    bio: Dan is the founder of Hypothesis. His mission is to bring an open, distributed annotation layer to all knowledge. Dan created the first online travel reservation company on the web (ITN/GetThere) in 1995. He wrote much of the software, launched the business and guided the long term technical and product vision. GetThere went public in 1999 and was sold to Sabre in 2000 with nearly 600 employees while processing approximately 50% of travel transacted online. Dan currently serves as a director of Sauce Labs, the leading open source functional testing company and Getaround, a peer-to-peer car sharing company.
+    isScienceFair: false
+    home: SF
+
+  - name: Van Jacobson
+    subtitle: Google, Named Data Networking Project (NDN)
+    image: /static/img/people/van_jacobson.jpg
+    bio: |
+      Van Jacobson’s algorithms for the Transmission Control Protocol (TCP) helped solve the problem of congestion and are used in over 90% of Internet hosts today. He is renowned for his pioneering achievements in network performance and scaling. Widely credited with enabling the Internet to expand in size and support increasing speed demands, he helped the Internet survive a major traffic surge (1988-89) without collapsing. - See more at: http://www.internethalloffame.org/inductees/van-jacobson#sthash.iIwDLMAe.dpuf
 
   - name: Ross Schulman
+    subtitle: Open Technology Institute
     image: /static/img/people/ross_schulman.jpg
+    bio: "Ross Schulman is a co-director of the Cybersecurity Initiative and senior policy counsel at New America\u2019s Open Technology Institute, where he focuses on cybersecurity, encryption, surveillance, and Internet governance. Prior to joining OTI, Ross worked for Google in Mountain View, California. Ross has also worked at the Computer and Communications Industry Association, the Center for Democracy and Technology, and on Capitol Hill for Senators Wyden and Feingold. Ross earned his juris doctor magna cum laude from Washington College of Law at American University and his bachelor\u2019s degree in computer science from Brandeis University."
+    isScienceFair: false
+    home: DC
 
   - name: Alberto Granzotto
-    image: /static/img/people/blank.gif
+    image: /static/img/people/alberto_granzotto.jpg
+
+  - name: Mitchell Baker
+    subtitle: Mozilla Foundation & Corp, Executive Chairperson
+    image: /static/img/people/mitchell_baker.jpg
+    bio: As the leader of the Mozilla Project, Mitchell Baker is responsible for organizing and motivating a massive, worldwide, collective of employees and volunteers who are breathing new life into the Internet with the Firefox Web browser, Firefox OS and other Mozilla products. Mitchell continues her commitment to an open, innovative Web and the infinite possibilities it presents.
+    isScienceFair: false
+    home: SF
 
   - name: Dr. Gavin Wood
-    image: /static/img/people/blank.gif
+    subtitle: Ethereum
+    image: /static/img/people/drgavin_wood.jpg
+    bio: Before co-founding Ethcore, Gavin was the CTO and co-founder of the Ethereum Project. He is the co-designer of the Ethereum Protocol, the lead programmer on the C++ Ethereum software client, and was the project chief of the IDE, Solidity programming language, and the Swarm and Whisper protocols. He has pushed the state-of-the-art in video analysis tools and programming languages, as well as co-founding several technology start-ups. Gavin has given seminars and presented to numerous audiences around the world from keynotes at regional technology conferences to musings on the future of legal systems. He coined the terms 'web three' and 'alegality'.
+
+  - name: Zooko Wilcox
+    subtitle: Zcash/ Tahoe-LAFS
+    image: /static/img/people/zooko_wilcox.jpg
+    bio: "Zooko has more than 20 years of experience in open, decentralized systems, cryptography and information security, and startups. He is recognized for his work on DigiCash, Mojo Nation, ZRTP, \u201CZooko's Triangle\u201D, Tahoe-LAFS, BLAKE2, and SPHINCS. He is also the Founder and CEO of Least Authority. He sometimes blogs about health science. He tweets a lot. Zcash is a decentralized and open source cryptocurrency that aims to set a new standard for privacy through the use of groundbreaking cryptography. "
+    isScienceFair: false
+    home: Colorado
 
 
 

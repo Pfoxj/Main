@@ -12,8 +12,10 @@ summit:
     - name: Wendy Hanamura
 
   - time: "9:05-10:05"
-    title: "Keynote Address: Vint Cerf – \"Lessons of the Internet\""
-    description: Lots of things make it possible for the Internet to be created and to flourish. I've learned a few things in the ensuing 40+ years and I am happy to share them in the hope that some of these ideas may be relevant to re-thinking the WWW and its preservation over time."
+    title: "Keynote Address: Vint Cerf – \"A Web that Archives Itself\""
+    description: The Internet Archive has started the process of preserving the WWW but there is an opportunity to refine the design of WWW to create a self-archiving, distributed system. I hope to explore some of the desirable properties of such a self-archiving system from the technical perspective but feel compelled to consider business models that make the process sustainable and affordable. This is clearly more than just a technical problem.
+
+
     people:
     - name: Vint Cerf
 
@@ -32,7 +34,7 @@ summit:
 
 
   - time: "10:45-11:35"
-    title: "Lightning Talks & Panel – Peer to Peer Networks"
+    title: "Panel – Peer to Peer Networks"
     people:
     - name: Kevin Marks, moderator
     - name: Feross Aboukhadijeh
@@ -42,12 +44,13 @@ summit:
 
 
   - time: "11:40-12:30"
-    title: "Lightning Talks & Panel – Naming & User Identities in Decentralized Networks"
+    title: "Panel – Naming & User Identities in Decentralized Networks"
     people:
     - name: Chelsea Barabas, moderator
     - name: Muneeb Ali
     - name: Joachim Lohkamp
     - name: Jeremy Rand
+    - name: Chris Allen
 
 
   - time: "12:30-1:30"
@@ -69,17 +72,19 @@ summit:
     people:
     - name: Amber Case, moderator
     - name: Primavera De Filippi
+    - name: Max Ogden
     - name: Peter Van Garderen
-    - name: Jeremy Rand
+
 
   - time: 3:00-3:45
-    title: "Lightning Talks & Panel – Security in a World of Black Hats"
+    title: "Panel – Security in a World of Black Hats"
     description: |
       There are many "Black Hats" on the world stage today.  They have enormous resources, little government oversight, and taps into all the major fiber links.  Their goal: to break the security of your code.  How can the decentralized technologies represented here fend off their attacks?  How would you work around the "Great Firewall of China?"  How are you employing this "Black Hat" understanding into your design?  We'll pose some provocative security scenarios and discuss how decentralized technologies can combat the most powerful purveyors of censorship, surveillance, and piracy on the world stage.  How can builders of a new Web share scenario planning and knowledge to succeed?
 
     people:
     - name: Ross Schulman, moderator
     - name: Van Jacobson
+    - name: Mike Perry
     - name: Paige Peterson
     - name: Brian Warner
 
@@ -93,7 +98,7 @@ summit:
     description: "A look at the entrepreneurs who are using decentralized technologies to devise the next generation of apps and products"
 
   - time: 4:20-5:10
-    title: "Lightning talks & Panel – Moonshot Challenge – What could you do to Decentralize Scientific Journal Articles?"
+    title: "Panel – Moonshot Challenge – What could you do to Decentralize Scientific Journal Articles?"
     description: "In this hands-on panel, we issue a new \"moonshot\" challenge:  How could we take scientific journal literature--which includes code, text, and data--and make it so these articles can be stored, accessed, searched, attributed, and paid for through decentralized systems?  How could current technologies work together? What design principles might further this collaboration?"
     people:
     - name: Wendy Hanamura, moderator
@@ -280,7 +285,7 @@ meetup:
           Investigate what is possible in the realm of Decentralized Autonomous Organizations. How can they be used to protect public goods? To protect individual freedoms? To allow distributed interests to protect themselves? To allow new types of economic incentives? Joel Dietz answers all of these questions and more.
 
     workshops:
-      - name: Galen Wolfe-Pauly, Philip Monk
+      - name: Galen Wolfe-Pauly
         description: |
           Your Urbit is a personal server: a general-purpose computer built to run your apps, store your data and manage your connected devices.  Each Urbit is a part of a global, decentralized network where address space is cryptographic property.  You own your Urbit like bitcoin and control it like your PC.
 

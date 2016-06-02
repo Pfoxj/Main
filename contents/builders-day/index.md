@@ -7,7 +7,7 @@ schedule:
 - time: 8:00-8:45
   title: Breakfast Buffet
 - time: 9:00-9:15
-  title: 'Welcome: "The Moonshot-- Locking the Web Open; what do we hope to accomplish?"'
+  title: "Welcome: \"The Moonshot \u2013 Locking the Web Open; what do we hope to accomplish?\""
   people:
   - name: Brewster Kahle
   - name: Mitchell Baker
@@ -21,16 +21,12 @@ schedule:
   - name: Allen "Gunner" Gunn
 - time: 10:00-10:15
   title: 'Join two small groups: (form group of six)--meet each other!'
-  people:
-  - name: Allen "Gunner" Gunn
 - time: 10:15-10:45
   title: 'Framing the Problem:   What are the problems that need to be solved? What needs to be Decentralized? What can we agree on, what do we not agree on and what can we do today?'
   people:
   - name: Allen "Gunner" Gunn
 - time: 10:45-11:15
   title: 'Report Back: defining the elements that need to be created to build a Decentralized Web and get it adopted'
-  people:
-  - name: Allen "Gunner" Gunn
 - time: 11:15-11:30
   title: Break
 - time: 11:30-12:30
@@ -38,6 +34,8 @@ schedule:
   people:
   - name: Zooko Wilcox
   - name: Tamas Kocsis
+  - name: Cory Doctorow
+  - name: Van Jacobson
 - time: 12:30-1:30
   title: Lunch break
 - time: 1:30-2:45
@@ -50,45 +48,49 @@ schedule:
   - name: Wendy Hanamura
   - name: Greg McMullen
   - name: Joachim Lohkamp
-  - name: Allen Gunn
+  - name: Allen "Gunner" Gunn
   - name: John Light
   - name: Paige Peterson
   - name: Mek Karpeles
   - name: Constance Choi
   - name: Courtney Mumma
+  - name: Kyle Drake
 - time: 3:30-4:15
   title: 'Break Out Sessions: round one'
   people:
   - name: Greg McMullen
   - name: Joachim Lohkamp
-  - name: Allen Gunn
+  - name: Allen "Gunner" Gunn
   - name: John Light
   - name: Paige Peterson
   - name: Mek Karpeles
   - name: Constance Choi
   - name: Courtney Mumma
+  - name: Kyle Drake
 - time: 4:15-5:00
   title: 'Break Out Sessions: round two'
   people:
   - name: Greg McMullen
   - name: Joachim Lohkamp
-  - name: Allen Gunn
+  - name: Allen "Gunner" Gunn
   - name: John Light
   - name: Paige Peterson
   - name: Mek Karpeles
   - name: Constance Choi
   - name: Courtney Mumma
+  - name: Kyle Drake
 - time: 5:00-5:30
   title: 'Report back : where do we go from here?'
   people:
   - name: Kevin Marks
   - name: Chelsea Barabas
   - name: Jason Griffey
-  - name: Richard Whitt
+  - name: Rick Whitt
   - name: Ross Schulman
   - name: Wendy Hanamura
   - name: Amber Case
   - name: Cory Doctorow
+  - name: Dan Gillmor
 - time: 5:30-6:00
   title: 'Closing: what are the next steps?'
   people:
@@ -100,10 +102,11 @@ schedule:
 
 
 
+
 people:
 - name: Allen "Gunner" Gunn
   subtitle: Aspiration Tech
-  image: /static/img/people/allen_gunn.jpg
+  image: /static/img/people/allengunner_gunn.jpg
   bio: Allen Gunn is Executive Director of Aspiration (www.aspirationtech.org) in San Francisco, USA, and works to help NGOs, activists, foundations and software developers make more effective use of technology for social change. Gunner is an active facilitator, contributor, advisor, and/or partner in a number of open projects, including Mozilla, The Tor Project, Humanitarian OpenStreetMap Team, Peer 2 Peer University, Joomla!, CiviCRM, and Creative Commons.
   isScienceFair: false
   home: SF
@@ -144,7 +147,7 @@ people:
   isScienceFair: false
   home: ''
 - name: Brian Warner
-  subtitle: '#ERROR!'
+  subtitle: Tahoe-LAFS/ Magic Wormhole
   image: /static/img/people/brian_warner.jpg
   bio: Brian builds Tahoe-LAFS, a distributed storage system that safely uses untrusted servers, and Magic Wormhole, the easiest secure file transfer tool ever.
   isScienceFair: false
@@ -172,14 +175,18 @@ people:
   image: /static/img/people/courtney_mumma.jpg
   bio: Courtney joined the Internet Archive in September of 2015 as Program Manager, with a focus on collaborative partnerships, grants management, community development, research initiatives, new services and sustainable innovation in web archives. Her career has been dedicated to building and fortifying the digital cultural heritage preservation sector, helping to build the Archivematica open source digital preservation system and community, as well as several other open source projects.
   isScienceFair: false
+- name: Chris Allen
+  subtitle: Blockstream
+  image: /static/img/people/chris_allen.jpg
   home: SF
+  bio:
 - name: Dan Gillmor
   subtitle: Author, Tech Journalist
   image: /static/img/people/dan_gillmor.jpg
   bio: "Dan Gillmor teaches, writes, and speaks on the development of media and technology. At Arizona State University's Walter Cronkite School of Journalism and Mass Communication, he teaches digital media literacy and promotes entrepreneurship in journalism. He is author of /We the Media: Grassroots Journalism by the People, for the People/ and /Mediactive/. His upcoming project, entitled /Permission Taken/, looks at the increasing control that companies and governments are exerting over the way we use technology and communicate, and how we can take \_back some of that control. Dan writes a regular column for Slate's Future Tense channel, and is a frequent contributor to Medium's Backchannel technology site. He has co-founded, advised, and served on boards at a number of media-related companies and nonprofits, and speaks widely around the world on media and technology topics. You can learn more about Dan at his homepage: dangillmor.com/about --"
   isScienceFair: false
   home: SF
-- name: Dan  Whaley
+- name: Dan Whaley
   subtitle: Hypothes.is
   image: /static/img/people/dan_whaley.jpg
   bio: Dan is the founder of Hypothesis. His mission is to bring an open, distributed annotation layer to all knowledge. Dan created the first online travel reservation company on the web (ITN/GetThere) in 1995. He wrote much of the software, launched the business and guided the long term technical and product vision. GetThere went public in 1999 and was sold to Sabre in 2000 with nearly 600 employees while processing approximately 50% of travel transacted online. Dan currently serves as a director of Sauce Labs, the leading open source functional testing company and Getaround, a peer-to-peer car sharing company.
@@ -242,12 +249,12 @@ people:
 - name: Fred Grosskopf
   subtitle: Jolocom
   image: /static/img/people/fred_grosskopf.jpg
-  bio: ''
+  bio: Fred is an independent software developer who is currently supporting the Jolocom project. He believes truly free and self-determined communication is a fundamental good that human society needs to overcome the challenges it is facing.
   isScienceFair: false
   home: Berlin
-- name: Gavin  Wood
+- name: Dr. Gavin Wood
   subtitle: Ethereum
-  image: /static/img/people/gavin_wood.jpg
+  image: /static/img/people/drgavin_wood.jpg
   bio: Before co-founding Ethcore, Gavin was the CTO and co-founder of the Ethereum Project. He is the co-designer of the Ethereum Protocol, the lead programmer on the C++ Ethereum software client, and was the project chief of the IDE, Solidity programming language, and the Swarm and Whisper protocols. He has pushed the state-of-the-art in video analysis tools and programming languages, as well as co-founding several technology start-ups. Gavin has given seminars and presented to numerous audiences around the world from keynotes at regional technology conferences to musings on the future of legal systems. He coined the terms 'web three' and 'alegality'.
   isScienceFair: false
   home: London
@@ -337,6 +344,12 @@ people:
   bio: Kyle Drake is a tech entrepreneur and the founder of Neocities. Kyle has contributed to numerous Bitcoin projects (including BitcoinJS), and is currently focusing on defining and building the distributed web. Kyle is working on bringing back free web hosting and the creative, independent web. His company Neocities was one of the first sites to implement distributed web tech and we want to expand it to support even more.
   isScienceFair: false
   home: Portland, OR
+- name: Marek Kotewicz
+  subtitle: Ethcore
+  image: /static/img/people/marek_kotewicz.jpg
+  bio: Before joining Ethcore, Marek was a core developer working on the C++ Ethereum software collection. During this time, he designed and implemented the comprehensive end-user API used ubiquitously for Ethereum decentralised applications. Marek is excited about developing groundbreaking technologies. He started following and contributing to Ethereum project at early 2014.
+  isScienceFair: false
+  home: London
 - name: Markus Sabadello
   subtitle: Danube Tech
   image: /static/img/people/markus_sabadello.jpg
@@ -367,6 +380,12 @@ people:
   bio: "Michael is responsible for identifying and pursuing opportunities for philanthropic investment in science and technology. He joined the Arnold Foundation after serving as the assistant director for biotechnology at the White House Office of Science and Technology Policy for six years. At the White House, Michael was responsible for developing and driving initiatives in life sciences research, including the Administration\u2019s efforts focused on improving veterans\u2019 mental health, combating antibiotic resistance, increasing access to federally funded scientific research results, restoring pollinator health, and reforming the regulatory system for biotechnology products."
   isScienceFair: false
   home: Washington DC
+- name: Mike Perry
+  subtitle: TOR
+  image: /static/img/people/mike_perry.jpg
+  bio: The Tor network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy.
+  isScienceFair: false
+  home: SF
 - name: Mitchell Baker
   subtitle: Mozilla Foundation & Corp, Executive Chairperson
   image: /static/img/people/mitchell_baker.jpg
@@ -511,5 +530,8 @@ people:
   bio: "Zooko has more than 20 years of experience in open, decentralized systems, cryptography and information security, and startups. He is recognized for his work on DigiCash, Mojo Nation, ZRTP, \u201CZooko's Triangle\u201D, Tahoe-LAFS, BLAKE2, and SPHINCS. He is also the Founder and CEO of Least Authority. He sometimes blogs about health science. He tweets a lot. Zcash is a decentralized and open source cryptocurrency that aims to set a new standard for privacy through the use of groundbreaking cryptography. "
   isScienceFair: false
   home: Colorado
+
+
+
 
 ---
