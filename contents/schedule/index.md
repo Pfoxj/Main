@@ -79,7 +79,7 @@ summit:
 
     people:
     - name: Ross Schulman, moderator
-    - name: Van Jacobsen
+    - name: Van Jacobson
     - name: Paige Peterson
     - name: Brian Warner
 

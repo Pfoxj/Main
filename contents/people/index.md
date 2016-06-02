@@ -189,14 +189,7 @@ presenters:
   - name: Arkadiy Kukarkin
     image: /static/img/people/arkadiy_kukarkin.jpg
 
-
-  - name: Ben Trask
-    image: /static/img/people/blank.gif
-
   - name: Victor Morrow
-    image: /static/img/people/blank.gif
-
-  - name: Joel Dietz
     image: /static/img/people/blank.gif
 
   - name: Galen Wolfe-Pauly, Philip Monk
@@ -205,14 +198,15 @@ presenters:
   - name: Dan Whaley
     image: /static/img/people/dan_whaley.jpg
 
-  - name: Van Jacobsen
-    image: /static/img/people/blank.gif
-
   - name: Ross Schulman
     image: /static/img/people/ross_schulman.jpg
 
   - name: Alberto Granzotto
     image: /static/img/people/blank.gif
+
+  - name: Dr. Gavin Wood
+    image: /static/img/people/blank.gif
+
 
 
 

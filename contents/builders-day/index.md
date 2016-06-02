@@ -295,7 +295,7 @@ people:
   bio: Joachim is an entrepreneur and tech enthusiast. He is obsessed with knowledge, change and innovation. Currently, he is Founder and CEO of Jolocom, a Berlin-based startup building decentralized tools that lets you generate your own digital identity to assist linkage and attribution of data. Besides that Joachim is a connector for Ouishare, currently curating the content for the Decentralization & Blockchain track of the next Ouishare Fest in Paris. Also he organizes GETDcent and is an active member of the Agora Collective in Berlin.
   isScienceFair: false
   home: Berlin
-- name: Joel  Dietz
+- name: Joel Dietz
   subtitle: Decentralized Autonomous Society
   image: /static/img/people/joel_dietz.jpg
   bio: Co-founder of the Decentralized Autonomous Society, EtherCasts, and Swarm, Joel Dietz has been one of the earliest members of the Bay Area Ethereum community and greatest pioneers in the realm of decentralized govenrance. The Decentralized Autonomous Society is a distributed thinktank that also has regular meetups in Palo Alto. It has the broad goal of facilitating new types of governance that are made possible via decentralized technologies. It was founded in the early days of Ethereum.
@@ -481,7 +481,7 @@ people:
   bio: Trent McConaghy is co-inventor of the world's first planetary-scale blockchain database, BigchainDB, and the creators-first IP service, ascribe. Previously, he worked on AI for designing computer chips to help drive Moore's Law.
   isScienceFair: false
   home: Berlin
-- name: Van  Jacobson
+- name: Van Jacobson
   subtitle: Google, Named Data Networking Project (NDN)
   image: /static/img/people/van_jacobson.jpg
   bio: "Van Jacobson\u2019s algorithms for the Transmission Control Protocol (TCP) helped solve the problem of congestion and are used in over 90% of Internet hosts today. He is renowned for his pioneering achievements in network performance and scaling. Widely credited with enabling the Internet to expand in size and support increasing speed demands, he helped the Internet survive a major traffic surge (1988-89) without collapsing. - See more at: http://www.internethalloffame.org/inductees/van-jacobson#sthash.iIwDLMAe.dpuf"
