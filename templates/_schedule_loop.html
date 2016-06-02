@@ -1,13 +1,17 @@
 {% macro match_p1(p1, additional_bio) %}
-  {% for match in contents['people']['index.md'].metadata.keynote_speakers %}
-    {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
-  {% endfor %}
-  {% for match in contents['people']['index.md'].metadata.presenters %}
-    {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
-  {% endfor %}
-  {% for match in contents['people']['index.md'].metadata.committee %}
-    {% if match.name == p1.name %}{% include "_schedule_bio.html" %}{% endif %}
-  {% endfor %}
+  {# This is the only way I could hack this to work #}
+  {% set name = p1.name.replace(", moderator", "") %}
+  {% capture as="matchHtml" -%}{% for match in contents['people']['index.md'].metadata.keynote_speakers %}{% if match.name == name %}{% include "_schedule_bio.html" %}{% endif %}{% endfor %}{%- endcapture %}
+  {% if matchHtml == "" %}
+    {% capture as="matchHtml" -%}{% for match in contents['people']['index.md'].metadata.presenters %}{% if match.name == name %}{% include "_schedule_bio.html" %}{% endif %}{% endfor %}{%- endcapture %}
+  {% endif %}
+  {% if matchHtml == "" %}
+    {% capture as="matchHtml" -%}{% for match in contents['people']['index.md'].metadata.organizers %}{% if match.name == name %}{% include "_schedule_bio.html" %}{% endif %}{% endfor %}{%- endcapture %}
+  {% endif %}
+  {% if matchHtml == "" %}
+    {% capture as="matchHtml" -%}{% for match in contents['builders-day']['index.md'].metadata.people %}{% if match.name == name %}{% include "_schedule_bio.html" %}{% endif %}{% endfor %}{%- endcapture %}
+  {% endif %}
+  {{matchHtml}}
 {% endmacro %}
 
 <div class="schedule">
@@ -104,7 +108,7 @@
                         {{match_p1(p1, p1.description)}}
                       </td>
                       <td>
-                        <div class="workshop-description">{{p1.description|truncate(90)}}</div>
+                        <div class="workshop-description">{{p1.description|truncate(120)}}</div>
                       </td>
                     </tr>
 
@@ -124,7 +128,7 @@
                         {{match_p1(p1, p1.description)}}
                       </td>
                       <td>
-                        <div class="workshop-description">{{p1.description|truncate(90)}}</div>
+                        <div class="workshop-description">{{p1.description|truncate(120)}}</div>
                       </td>
                     </tr>
                   {% endfor %}

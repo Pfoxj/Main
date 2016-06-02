@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "browsernizr": "2.1.0",
+    "nunjucks-capture": "github:rchrd2/nunjucks-capture",
+    "nunjucks-eval": "1.0.0",
     "wintersmith-autoprefixer-sass": "0.1.0",
     "wintersmith-livereload": "0.2.2",
     "wintersmith-makerelative": "1.0.0",

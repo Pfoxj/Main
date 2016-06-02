@@ -3,7 +3,8 @@
     "title": "DWebSummit Site"
   },
   "nunjucks": {
-    "autoescape": false
+    "autoescape": false,
+    "filtermodules": ["nunjucks-eval", "nunjucks-capture"]
   },
   "plugins": [
     "wintersmith-nunjucks",

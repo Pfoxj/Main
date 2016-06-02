@@ -34,6 +34,8 @@ summit:
   - time: "10:45-11:35"
     title: "Lightning Talks & Panel – Peer to Peer Networks"
     people:
+    - name: Kevin Marks, moderator
+    - name: Feross Aboukhadijeh
     - name: David Dias
     - name: Zooko Wilcox
     - name: Dr. Gavin Wood
@@ -41,6 +43,12 @@ summit:
 
   - time: "11:40-12:30"
     title: "Lightning Talks & Panel – Naming & User Identities in Decentralized Networks"
+    people:
+    - name: Chelsea Barabas, moderator
+    - name: Muneeb Ali
+    - name: Joachim Lohkamp
+    - name: Jeremy Rand
+
 
   - time: "12:30-1:30"
     title: "Lunch in foyer"
@@ -58,6 +66,11 @@ summit:
 
   - time: 2:15-3:00
     title: "Panel: Defining our Values, Evaluating the Risks of the Decentralized Web"
+    people:
+    - name: Amber Case, moderator
+    - name: Primavera De Filippi
+    - name: Peter Van Garderen
+    - name: Jeremy Rand
 
   - time: 3:00-3:45
     title: "Lightning Talks & Panel – Security in a World of Black Hats"
@@ -204,6 +217,10 @@ meetup:
 
           www.zeronet.io
 
+      - name: Primavera De Filippi
+        description: |
+          Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
+
     workshops:
       - name: Jae Kwon
         description: |
@@ -220,7 +237,7 @@ meetup:
           tendermint.com
 
   - time: "12:30-1:30 p.m."
-    title: "Pizzas arrive"
+    title: "Pizzas and salads arrive"
 
   - time: "1:30-3:00 p.m."
     title: "SESSION C: Lightning Talks and Workshops"
@@ -279,6 +296,9 @@ meetup:
 
           https://matrix.org
 
+      - name: Primavera De Filippi
+        description: |
+          Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
 
   - time: "3:00-3:30 p.m."
     title: "<span class=\"muted\">Break</span>"
@@ -302,6 +322,14 @@ meetup:
           Open annotations are quickly becoming a powerful new collaborative layer over the Web.  I'll cover the basic technology, give a quick demo and highlight how its being used and where it's going.  In particular, I'll focus on the potential for federation and perhaps eventually decentralization of annotation storage.
 
           hypothes.is
+
+      - name: Alberto Granzotto
+        description: |
+          A brief demo of a basic application that showcases the features of BigchainDB.
+
+          BigchainDB is an open source scalable blockchain database built for the decentralized web.
+
+          https://www.bigchaindb.com/
 
     workshops:
       - name: Jehan Tremback

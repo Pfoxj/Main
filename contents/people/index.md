@@ -211,6 +211,10 @@ presenters:
   - name: Ross Schulman
     image: /static/img/people/ross_schulman.jpg
 
+  - name: Alberto Granzotto
+    image: /static/img/people/blank.gif
+
+
 
 committee:
   - name: Juan Benet
