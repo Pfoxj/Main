@@ -25,6 +25,8 @@ keynote_speakers:
          A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
 
 
+
+
 presenters:
   - name: Kyle Drake
     subtitle:  Neocities
@@ -173,7 +175,7 @@ presenters:
       The Interledger Protocol is a protocol suite for connecting blockchains and other ledgers. It’s a neutral protocol for payments across different currencies and payment systems.
 
   - name: Matthew Hodgson
-    subtile: Matrix
+    subtitle: Matrix
     link: https://matrix.org
     image: /static/img/people/matthew_hodgson.jpg
 

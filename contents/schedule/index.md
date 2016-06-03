@@ -134,7 +134,7 @@ meetup:
 
           http://mediachain.io
 
-      - name: Natalie Myers
+      - name: Natalie Meyers
         description: |
           Center for Open Science (COS) is a non-profit technology company providing free and open services to increase inclusivity and transparency of research. There currently exists a gap between scientific values and scientific practices. COS programs and services bridge the gap and facilitate increased disclosure, transparency, and openness.
 

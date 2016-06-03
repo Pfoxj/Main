@@ -102,7 +102,6 @@ schedule:
 
 
 
-
 people:
 - name: Allen "Gunner" Gunn
   subtitle: Aspiration Tech
@@ -140,7 +139,7 @@ people:
   bio: "A passionate advocate for public Internet access and a successful entrepreneur, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the Internet Archive, one of the largest libraries in the world. Soon after graduating from the Massachusetts Institute of Technology where he studied artificial intelligence, Kahle helped found the company Thinking Machines, a supercomputer maker. In 1989, Kahle created the Internet\u2019s first publishing system called Wide Area Information Server (WAIS), later selling the company to AOL. In 1996, Kahle co-founded Alexa Internet, which helps catalog the Web, selling it to Amazon.com in 1999. The Internet Archive, which he founded in 1996, now preserves 25 petabytes of data\u2014the books, Web pages, music, television, and software of our cultural heritage, working with more than 450 library and university partners to create a digital library, accessible to all."
   isScienceFair: false
   home: SF
-- name: Brian  Behlendorf
+- name: Brian Behlendorf
   subtitle: Hyperledger Project
   image: /static/img/people/brian_behlendorf.jpg
   bio: Brian is the Executive Director of the Hyperledger Project at the Linux Foundation. The Hyperledger Project at the Linux Foundation is a collaborative effort to produce Open Source-licensed and publicly-developed blockchain software. Brian was a primary developer of the Apache Web Server and a founding member of the Apache Software Foundation. He has served on the board of the Mozilla Foundation since 2003 and the Electronic Frontier Foundation since 2013. He was founding CTO of CollabNet and CTO of the World Economic Forum. He most recently served as managing director of Mithril Capital Management LLC, a global technology investment firm.
@@ -158,6 +157,12 @@ people:
   bio: "Chelsea Barabas is currently the Head of Social Innovation at the Digital Currency Initiative. She recently graduated from MIT, where she researched emerging civil rights issues related to the application of machine learning methods to human resource management practices in the U.S. This work naturally led to Chelsea\u2019s work and interest in digital currencies and distributed ledger technology as a new form of trust infrastructure for the Internet. At the Digital Currency Initiative she is leading the effort to collaborate with hackers, development organizations and civil society groups to build applications on the blockchain that address a broad range of social issues, such as secure identity and consumer-driven data practices, transparency in fiscal governance, and financial inclusion for the unbanked.\n"
   isScienceFair: false
   home: Cambridge, MA
+- name: Christopher Allen
+  subtitle: Blockstream
+  image: /static/img/people/christopher_allen.jpg
+  bio: "Christopher Allen is an entrepreneur, technologist, and educator who specializes in collaboration, security, and trust. As a pioneer in internet cryptography, he\u2019s initiated cross-industry collaborations and created industry standards that influence the entire internet. He worked with Netscape to develop SSL and co-authored the IETF TLS internet draft that is now at the heart of all secure commerce on the World Wide Web. Though he\u2019s worked within numerous privacy and security sectors, Christopher\u2019s recent emphasis has been on engines of trust such as blockchain, smart contracts, and smart signatures, in particular decentralized self-sovereign identity. Christopher has been a digital civil liberties and human-rights privacy advisor, mobile developer, startup consultant, MBA faculty, and social web strategy consultant. He currently is Principle Architect at Blockstream."
+  isScienceFair: false
+  home: SF
 - name: Constance Choi
   subtitle: COALA, Blockchain Workshops
   image: /static/img/people/constance_choi.jpg
@@ -175,11 +180,7 @@ people:
   image: /static/img/people/courtney_mumma.jpg
   bio: Courtney joined the Internet Archive in September of 2015 as Program Manager, with a focus on collaborative partnerships, grants management, community development, research initiatives, new services and sustainable innovation in web archives. Her career has been dedicated to building and fortifying the digital cultural heritage preservation sector, helping to build the Archivematica open source digital preservation system and community, as well as several other open source projects.
   isScienceFair: false
-- name: Chris Allen
-  subtitle: Blockstream
-  image: /static/img/people/chris_allen.jpg
   home: SF
-  bio:
 - name: Dan Gillmor
   subtitle: Author, Tech Journalist
   image: /static/img/people/dan_gillmor.jpg
@@ -231,7 +232,7 @@ people:
 - name: Denis Nazarov
   subtitle: Mediachain.io
   image: /static/img/people/denis_nazarov.jpg
-  bio: "Denis is a Project Lead at Mediachain \u2014 an open data network for creative works--a blockchain-based metadata platform that uses machine learning to turn media into an information transmitter."
+  bio: Denis is a Project Lead at Mediachain, a universal media library. Mediachain offers a protocol stack for collaborating on information about creative works. It includes a decentralized datastore based on IPFS, a collaborative data structure inspired by git, and a content identification technology for canonical ID resolution and perceptual metadata retrieval.
   isScienceFair: false
   home: NYC
 - name: Evan Schwartz
@@ -253,7 +254,7 @@ people:
   isScienceFair: false
   home: Berlin
 - name: Dr. Gavin Wood
-  subtitle: Ethereum
+  subtitle: Ethereum/Ethcore
   image: /static/img/people/drgavin_wood.jpg
   bio: Before co-founding Ethcore, Gavin was the CTO and co-founder of the Ethereum Project. He is the co-designer of the Ethereum Protocol, the lead programmer on the C++ Ethereum software client, and was the project chief of the IDE, Solidity programming language, and the Swarm and Whisper protocols. He has pushed the state-of-the-art in video analysis tools and programming languages, as well as co-founding several technology start-ups. Gavin has given seminars and presented to numerous audiences around the world from keynotes at regional technology conferences to musings on the future of legal systems. He coined the terms 'web three' and 'alegality'.
   isScienceFair: false
@@ -350,12 +351,6 @@ people:
   bio: Before joining Ethcore, Marek was a core developer working on the C++ Ethereum software collection. During this time, he designed and implemented the comprehensive end-user API used ubiquitously for Ethereum decentralised applications. Marek is excited about developing groundbreaking technologies. He started following and contributing to Ethereum project at early 2014.
   isScienceFair: false
   home: London
-- name: Markus Sabadello
-  subtitle: Danube Tech
-  image: /static/img/people/markus_sabadello.jpg
-  bio: Markus Sabadello has been a pioneer in user-centric identity and decentralization for many years. He works on the XDI protocol for distributed identity, as well as the FreedomBox personal server.
-  isScienceFair: false
-  home: ''
 - name: Max Ogden
   subtitle: Dat
   image: /static/img/people/max_ogden.jpg
@@ -398,7 +393,7 @@ people:
   bio: "Muneeb Ali is the Co-founder and CTO of Blockstack Labs. Blockstack is an application stack for decentralized, server-less apps secured by the blockchain. Muneeb received his Masters in Computer Science from Princeton University and did PhD-level research in distributed systems at Princeton working in the systems group and at PlanetLab\u2014the world\u2019s first and largest cloud computing testbed. Muneeb was awarded a J. William Fulbright Fellowship and a Princeton Graduate Fellowship. He has built a wide range of production systems and published research papers with over 800 citations."
   isScienceFair: false
   home: NYC, Princeton
-- name: Nicola  Greco
+- name: Nicola Greco
   subtitle: MIT's Computer Science and Artificial Intelligence Lab, Solid
   image: /static/img/people/nicola_greco.jpg
   bio: "Nicola is a PhD candidate in Tim Berniers-Lee's lab at MIT.  He is a researcher on the Solid project (https://github.com/solid/)--a system for building decentralized social applications using a linked-data platform. Solid is customizable and easy to scale, relying as much as possible on existing web standards. Like multiuser applications, applications on Solid talk to each other through a shared filesystem \u2013 and, in this case, that filesystem is the entire World Wide Web."
@@ -416,7 +411,7 @@ people:
   bio: Paige is an advocate for open standards, user privacy and decentralized technologies and works at Scotland-based company, MaidSafe which is building a peer-to-peer Internet stemming from similar principles within natural systems
   isScienceFair: false
   home: Boston
-- name: Patrick  Ryan
+- name: Patrick Ryan
   subtitle: Google
   image: /static/img/people/patrick_ryan.jpg
   bio: "Patrick Ryan is Public Policy & Government Relations Counsel for Free Expression and International Relations at Google. Before joining the International Relations team, Patrick led the global policy strategy for Google\u2019s cloud computing platform and coordinates Google\u2019s engagement in international policy matters at the Internet Governance Forum and other fora. Prior to joining Google, Patrick was a consultant and lawyer with more than 15 years of experience in the telecommunications sector."
@@ -435,7 +430,7 @@ people:
   isScienceFair: false
   home: Vancouver
 - name: Primavera De Filippi
-  subtitle: COALA
+  subtitle: COALA/Backfeed
   image: /static/img/people/primavera_defilippi.jpg
   bio: "Primavera is a permanent researcher at the CERSA / CNRS / Universit\xE9 Paris II as well as a faculty associate at the Berkman Center for Internet & Society at Harvard Law School, where she is investigating the concept of governance-by-design as it relates to distributed online architectures, such as Bitcoin, Ethereum, et cetera."
   isScienceFair: false
@@ -452,7 +447,7 @@ people:
   bio: "Rick's day job is serving the Alphabet Access team's core mission of bringing abundant Internet access to the world; as more relevant to the Archive's Decentralized Web event, he is also Google's Senior Policy Director. Rick is responsible for Google's wireline, wireless, and media advocacy before the Federal Communications Commission, other federal agencies, and the U.S. Congress. Most recently he has represented the company's interest in a variety of broadband policy issues, spectrum policy matters, and \"unregulation\"\x9D of VoIP and other Web-based applications."
   isScienceFair: false
   home: Mountain View
-- name: Roger  Macdonald
+- name: Roger Macdonald
   subtitle: Internet Archive
   image: /static/img/people/roger_macdonald.jpg
   bio: Samer Hassan (PhD) is an activist and researcher, Fellow at the Berkman Center for Internet & Society (Harvard University) and Assistant Professor at the Universidad Complutense de Madrid (Spain). He has carried out interdisciplinary research in decentralized systems, social simulation and artificial intelligence resulting in 45 publications. He's UCM Principal Investigator in the EU-funded P2Pvalue project on building decentralized software for Commons-based peer production communities.
@@ -476,14 +471,14 @@ people:
   bio: Samer Hassan (PhD) is an activist and researcher, Fellow at the Berkman Center for Internet & Society (Harvard University) and Assistant Professor at the Universidad Complutense de Madrid (Spain). He has carried out interdisciplinary research in decentralized systems, social simulation and artificial intelligence resulting in 45 publications. He's UCM Principal Investigator in the EU-funded P2Pvalue project on building decentralized software for Commons-based peer production communities.
   isScienceFair: false
   home: Cambridge, MA
-- name: Sean  White
+- name: Sean White
   subtitle: Mozilla Foundation
   image: /static/img/people/sean_white.jpg
   bio: 'Sean White is a high-tech executive, entrepreneur, inventor, and musician who has spent his career leading innovative development of the experiences, systems, and technologies that enable creative expression, connect us to each other, and enhance our understanding of the world around us. He was most recently the founder and CEO of BrightSky Labs, a company he incubated while an EIR at Greylock Partners, and is currently teaching CS377m: HCI Issues in Mixed & Augmented Reality at Stanford University.'
   isScienceFair: false
   home: SF
 - name: Stefan Thomas
-  subtitle: Ripple.com/Interledger
+  subtitle: Interledger
   image: /static/img/people/stefan_thomas.jpg
   bio: "Stefan Thomas wants to live in a world where currency moves as frictionlessly as information. As CTO of Ripple, he is helping to build an Internet protocol that does just that. Stefan is one of the co-creators of the Interledger Protocol. The Interledger Protocol is a protocol suite for connecting blockchains and other ledgers. It\u2019s a neutral protocol for payments across different currencies and payment systems."
   isScienceFair: false
