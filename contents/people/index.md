@@ -268,6 +268,13 @@ presenters:
     image: /static/img/people/jeromy_johnson.jpg
     bio: "Jeromy is a Peer to Peer Software Engineer at Protocol Labs who goes by whyrusleeping on the internet. He is currently working on IPFS (The Interplanetary FileSystem) to improve the unrestricted flow of data through the decentralized web. Prior to Protocol Labs he worked on distributed filesystems at EMC Isilon and earned a Bachelors Degree with a major in Computer Science at Washington State University."
 
+  - name: Christoph Witzany
+    subtitle: CloudFleet
+    image: /static/img/people/blank.jpg
+
+  - name: Maira Sutton
+    subtitle: Sharable
+    image: /static/img/people/blank.jpg
 
 committee:
   - name: Juan Benet

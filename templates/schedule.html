@@ -9,7 +9,6 @@
     <div class="hide-desktop2">Jump to:<br/></div>
     <div><a href="#summit">June 8: Summit</a></div>
     <div><a href="#meetup">June 9: Meetup</a></div>
-    <div><a href="#signup">Lightning Talk Signup</a></div>
   </div>
 
   <h3 class="schedule-h3" id="summit">Wednesday, June 8th: Summit</h3>
@@ -25,12 +24,6 @@
 
   {% set schedule_param = page.metadata.meetup %}
   {% include "_schedule_loop.html" %}
-
-  <div id="signup" class="google-form-raw">
-    <div class="form-title">Sign up to give a lightning talk and/or host a workshop at the Decentralized Web meetup.</div>
-    <div>Deadline June 1st.</div>
-    {% include "_meetup_form.html" %}
-  </div>
 
 </section>
 

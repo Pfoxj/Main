@@ -100,6 +100,7 @@ schedule:
 - time: 8:00-11:00
   title: Late night meeting space available
 
+
 people:
 - name: Allen "Gunner" Gunn
   subtitle: Aspiration Tech
@@ -448,7 +449,7 @@ people:
 - name: Roger Macdonald
   subtitle: Internet Archive
   image: /static/img/people/roger_macdonald.jpg
-  bio: Samer Hassan (PhD) is an activist and researcher, Fellow at the Berkman Center for Internet & Society (Harvard University) and Assistant Professor at the Universidad Complutense de Madrid (Spain). He has carried out interdisciplinary research in decentralized systems, social simulation and artificial intelligence resulting in 45 publications. He's UCM Principal Investigator in the EU-funded P2Pvalue project on building decentralized software for Commons-based peer production communities.
+  bio: Roger joined the Internet Archive to help create an open digital public library of TV news, providing a means to thoughtfully reflect upon the most pervasive and persuasive medium of our time. He spent the previous eleven years helping to manage the nation's largest independent noncommercial TV network, Link TV. Prior to co-founding the network devoted to global news and culture in1999, Roger helped create and manage several other organizations engaged in addressing international challenges, often through media, including the Gorbachev Foundation.
   isScienceFair: false
   home: SF
 - name: Ross Schulman
@@ -529,7 +530,6 @@ people:
   bio: "Zooko has more than 20 years of experience in open, decentralized systems, cryptography and information security, and startups. He is recognized for his work on DigiCash, Mojo Nation, ZRTP, \u201CZooko's Triangle\u201D, Tahoe-LAFS, BLAKE2, and SPHINCS. He is also the Founder and CEO of Least Authority. He sometimes blogs about health science. He tweets a lot. Zcash is a decentralized and open source cryptocurrency that aims to set a new standard for privacy through the use of groundbreaking cryptography. "
   isScienceFair: false
   home: Colorado
-
 
 
 

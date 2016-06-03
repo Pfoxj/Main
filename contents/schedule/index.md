@@ -47,10 +47,10 @@ summit:
     title: "Panel – Naming & User Identities in Decentralized Networks"
     people:
     - name: Chelsea Barabas, moderator
+    - name: Chris Allen
     - name: Muneeb Ali
     - name: Joachim Lohkamp
     - name: Jeremy Rand
-    - name: Chris Allen
 
 
   - time: "12:30-1:30"
@@ -124,15 +124,30 @@ meetup:
     description: "Lightning talks in the Greatroom. Facilitated by Primavera De Filippi. Each presenter will give a 5 minute overview, followed by 5 minutes of Q & A. <br/><br/>Workshops: Here's your chance to get some hands-on instruction in the new decentralized protocols and platforms being built today. Each workshop will be 90 minutes."
 
     lightning_talks:
+
+      - name: Juan Benet
+        description: |
+          IPFS is a new transport protocol to make the Web faster, safer, decentralized, and permanent. It is based on git, bittorrent, and other p2p systems. Content-addressed and signed hyperlinks allow the web to be distributed p2p, to work without origin servers, to be encrypted end-to-end, to be censorship resistant, to work offline, and more.
+
+          https://ipfs.io
+
       - name: Arkadiy Kukarkin
         description: |
-          Mediachain is a blockchain-based metadata platform that uses machine learning to turn media into an information transmitter.
+          Mediachain is a universal media library.
 
-          It connects users directly to creators through content, gives creators a permanent voice wherever their images, songs, videos, films, and writings are shared, and allows us to discover everything about what we’re watching, reading, looking at, or listening to, no matter where we find it.
+          It connects users directly to creators through content, gives creators a permanent voice wherever their images, songs, videos, films, and writings are shared, and allows us to discover everything about what we're watching, reading, looking at, or listening to, no matter where we find it. Imagine being able to connect with the artist of a viral GIF in your feed or being able to automatically reward songwriters whenever you press play.
 
-          Imagine being able to connect with the artist of a viral GIF in your feed or being able to automatically reward songwriters whenever you press play. These are just a few examples of what developers can build given the tools to discover and reveal data describing our universal culture.
+          Mediachain offers developers protocol stack for collaborating on information about creative works. It includes a decentralized datastore based on IPFS, a collaborative data structure inspired by git, and a content identification technology for canonical ID resolution and perceptual metadata retrieval.
 
           http://mediachain.io
+
+      - name: Stefan Thomas
+        description: |
+          Interledger is a protocol suite for connecting blockchains, payment networks and other digital asset ledgers. It enables transfers between parties on different ledgers, meaning it can be used to build payments or micropayments into other protocols and apps without being tied to a single payment provider or currency. We will be showing off demos of Interledger in action, walking through how to build it into your projects and how to Interledger-enable your ledger, and discussing how it works under the hood.
+
+          Interledger is heavily inspired by the designs of IP, TCP, etc so also come talk to us if you are interested in aspects of the Internet's design to emulate or avoid.
+
+          https://interledger.org
 
       - name: Natalie Meyers
         description: |
@@ -164,6 +179,27 @@ meetup:
 
           https://tahoe-lafs.org/
 
+      - name: Daniel Roberts
+        description: |
+          Freenet 101
+          Learn how Freenet works from a high level. The basics of the p2p network and data storage.
+          See how the network supports decentralized websites called freesites.
+          Discover how it protects your privacy and freedom of expression.
+
+          https://freenetproject.org/
+
+      - name: Max Ogden
+        description: |
+          This talk will show some demos of Dat, a decentralized open source dataset sharing tool designed with scientific and open data use cases in mind. Dat distributes data through a peer to peer network, and runs in a web browser. An application being built on Dat called Science Fair will be shown, which is a distributed scientific article reader that downloads and displays interactive articles in a custom web browser for offline use and search.
+
+          http://dat-data.com
+
+      - name: Jeremy Rand
+        description: |
+          Namecoin is the first naming system that is simultaneously global, decentralized, and human-meaningful. This talk will introduce Namecoin, including design decisions, existing and proposed use cases, and current developments.
+
+          www.namecoin.org
+
     workshops:
 
       - name: Paige Peterson
@@ -171,6 +207,31 @@ meetup:
           The SAFE Network is a p2p storage and communications network which prioritizes data and user security and privacy. The technology is currently in testing phases before launching an Alpha product and this workshop will go over features from a user experience perspective of logging into the network and uploading personal data, creating an entry in the native DNS system, uploading and publishing a website viewable in any browser. Additionally, this session will cover hosting a vault and touch on some of the key aspects of the infrastructure design which supports data security and user anonymity. If there's time/interest, we can also discuss third-party developer opportunities through the API and review some examples.
 
           http://maidsafe.net
+
+      - name: Christoph Witzany
+        description: |
+          CloudFleet is a project that wants to make it possible for everyone to have their own personal data center.
+
+          Algorithms and data should be under the control of the individuum. To achieve this CloudFleet will create a device that will work as an intelligent assistant, that helps people to communicate securely, collect and analyze their data their data without relying on cloud services.
+
+          https://cloudfleet.io
+
+      - name: David Dias
+        description: |
+          js-ipfs is IPFS ON THE BROWSER. It's finally here! It is a full implementation of IPFS in javascript, and it works directly on the browser without having to install anything! It can load websites directly from IPFS in javascript, load them end-to-end encrypted and decrypt them directly on the browser, and create real-time dynamic webapps, like peer-to-peer chat!
+
+          We will also discuss Orbit, a p2p chat webapp on top of ipfs, and Orbit-db, the CRDT based database it uses.
+
+          This workshop will go over:
+
+          - js-ipfs motivation and introduction
+          - js-ipfs demos
+          - Orbit: full P2P dynamic real-time chat on js-ipfs
+          - Orbit-db: CRDT based replicated log
+          - using js-ipfs to build completely distributed webapps
+          - full mesh conncetivity: js-ipfs meets go-ipfs
+
+          https://github.com/ipfs/js-ipfs and https://github.com/haadcode/orbit
 
   - time: "10:30-11:00 a.m."
     title: "<span class=\"muted\">Break</span>"
@@ -200,11 +261,13 @@ meetup:
 
           http://indiewebcamp.com/
 
-      - name: Dan Gillmor
+      - name: Primavera De Filippi
         description: |
-          The people in this room understand what is happening. Now we have to explain to the wider public a) what is at stake; and b) what they can do about it, individually and in their communities (of interest and/or geography). What are the best approaches?
+          Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
 
-          permissiontaken.com
+      - name: Joel Dietz
+        description: |
+          Investigate what is possible in the realm of Decentralized Autonomous Organizations. How can they be used to protect public goods? To protect individual freedoms? To allow distributed interests to protect themselves? To allow new types of economic incentives? Joel Dietz answers all of these questions and more.
 
       - name: Galen Wolfe-Pauly
         description: |
@@ -222,9 +285,19 @@ meetup:
 
           www.zeronet.io
 
-      - name: Primavera De Filippi
+      - name: David Dias
         description: |
-          Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
+          libp2p is a modular network stack designed to overcome the networking challenges faced by peer-to-peer applications. libp2p is the networking library of IPFS. Many other projects have come together to collaborate on libp2p, as it solves difficult networking challenges for everyone, and creates interoperable protocols.
+
+          Our goal at the Decentralized Web Summit is to increase the collaboration between all these peer-to-peer, distributed protocols. libp2p is a fantastic vector for collaboration.
+
+          https://github.com/ipfs/specs/blob/master/libp2p/
+
+      - name: Dr. Gavin Wood
+        description: |
+          Ethcore announced its flagship blockchain technology suite, Parity: a fully compliant Ethereum client built for the IoT/enterprise environment, written in Rust language. Ethcore combines open standards, cutting-edge technologies, the best practices of software development and in-house expertise to create a low-footprint, high-performance, secure and modular technology set: the first in a series of releases which will usher in various optimisations to make the Ethereum protocol more relevant.
+
+          https://ethcore.io/parity.html
 
     workshops:
       - name: Jae Kwon
@@ -241,6 +314,61 @@ meetup:
 
           tendermint.com
 
+      - name: Denis Nazarov
+        description: |
+          Mediachain is a universal media library.
+
+          It connects users directly to creators through content, gives creators a permanent voice wherever their images, songs, videos, films, and writings are shared, and allows us to discover everything about what we're watching, reading, looking at, or listening to, no matter where we find it. Imagine being able to connect with the artist of a viral GIF in your feed or being able to automatically reward songwriters whenever you press play.
+
+          Mediachain offers developers protocol stack for collaborating on information about creative works. It includes a decentralized datastore based on IPFS, a collaborative data structure inspired by git, and a content identification technology for canonical ID resolution and perceptual metadata retrieval.
+
+          http://mediachain.io
+
+      - name: Jeromy Johnson
+        description: |
+          IPFS Archives and Package Management -- how to use IPFS to version and archive important data.
+
+          IPFS was originally created to distribute and verison large scientific datasets. It is designed to make it easy to archive vast amounts of data. This is suitable for efforts like the Internet Archive, as well as many other systems out there. This talk will go over how to create IPFS Archives, existing efforts, Wayback IPFS (an implementation of Wayback Machine with IPFS), and more. It will also discuss Package Managers and the role IPFS can play to make them safer and better.
+
+          This workshop will cover:
+
+          - Archiving with IPFS
+            - Wayback IPFS -- an implementation of a Wayback Machine on top of IPFS!
+            - how to archive things with IPFS
+            - how to replicate archives peer-to-peer
+            - how to engage communities in shared archival efforts
+          - The IPFS Archives effort
+            - Open Access Scientific Papers and Data
+            - OpenStreetMap
+          - Package Managers and IPFS
+            - discuss package management and IPFS generally
+            - npm on ipfs
+            - gx
+            - others
+
+          https://ipfs.io and https://github.com/ipfs/archives
+
+          - Jeromy Johnson, Juan Benet
+
+      - name: Jeremy Rand
+        description: |
+          This workshop will cover how to use Namecoin, including use cases such as registering domain names and attaching an IP address to them, viewing Namecoin websites, registering Namecoin identities, attaching your public keys to your Namecoin identity, and using your Namecoin identity to send messages and log into websites.  If we have time, we might also cover buying and selling domain names and identities without counterparty fraud risk.
+
+          www.namecoin.org
+
+      - name: Daniel Roberts
+        description: |
+          Building Decentralized Applications on Freenet
+
+          Begins with a brief technical overview of Freenet's different key types.
+          Learn the uses and limitations of the key types.
+          Using these static primitives, see how to build interactive applications using the key types provided, using the example of the Freenet Messaging System decentralized forum.
+          Finally, learn how to utilize the standard WebOfTrust plugin to facilitate spam-resistant, interactive content publishing on Freenet.
+
+          https://freenetproject.org/
+
+          - Daniel Roberts, Michael Grube
+
   - time: "12:30-1:30 p.m."
     title: "Pizzas and salads arrive"
 
@@ -256,21 +384,17 @@ meetup:
 
           altheamesh.com
 
+      - name: John Light
+        description: |
+          Bitseed is developing a decentralized web server that can host websites that have been uploaded to the decentralized web. Bitseed owners will be able to earn bitcoin by hosting encrypted copies of other people's data. We are helping to build out the hosting infrastructure of the decentralized web, one Bitseed server at a time. In this talk, we will share the challenges and lessons learned building a personal server for home use.
+
+          https://bitseed.org
+
       - name: Victor Morrow
         description: |
           Prometheus is a peer-to-peer social network for commerce. We ultimately want to build a community where it is possible to help for a living. We aim to provide a fair currency system that embodies this spirit. We call this currency sparks (-1 seconds). This currency is backed by the time of its users voluntarily and exchanged among each other for goods and services. We provide the means for managing the flow of this currency between users automatically through smart contracts. In addition we provide a commodities market that tracks the price of goods in services traded on the network as financial decision making data for negotiating the price of goods and services. This lays the foundation for a sustainable universal basic income that not only encourages contribution to society but the funding of innovation either indirectly through currency or by direct human effort or contribution. The current non-linear, inflationary economies of the world cannot support this concept. This system monetizes charity as opposed to scarcity of resources.  It also meets  the criteria of being an Open Value Network. I'd love to share more information in person. The paper detailing the full system or our github wiki can be reached through our website.
 
           http://prometheus.network/
-
-      - name: Ben Trask
-        description: |
-          The Principles of Content Addressing, which will cover:
-
-          - The need for interoperability between content addressing systems
-          - Hashes versus UUIDs, and the idea of choosing what you hash to get useful collisions
-          - Hash-Archive.org, a database mapping between locations and hashes
-
-          https://bentrask.com/?q=hash://sha256/98493caa8b37eaa26343bbf7
 
       - name: Feross Aboukhadijeh
         description: |
@@ -280,18 +404,60 @@ meetup:
 
           https://webtorrent.io
 
-      - name: Joel Dietz
+      - name: Samer Hassan
         description: |
-          Investigate what is possible in the realm of Decentralized Autonomous Organizations. How can they be used to protect public goods? To protect individual freedoms? To allow distributed interests to protect themselves? To allow new types of economic incentives? Joel Dietz answers all of these questions and more.
+          Building decentralized software is hard. Development frameworks are built thinking in centralized apps, moreover when thinking of collaborative apps. SwellRT is a development framework for building decentralized real-time collaborative apps, very easily and avoiding extra code to the developer. SwellRT provides a server side (storage, sharing, identity, federation) and an API to build apps in JavaScript, Java or Android. Think of Google Drive RT API or Firebase but decentralized & open source.
+
+          http://swellrt.org
+
+      - name: Dan Gillmor
+        description: |
+          The people in this room understand what is happening. Now we have to explain to the wider public a) what is at stake; and b) what they can do about it, individually and in their communities (of interest and/or geography). What are the best approaches?
+
+          permissiontaken.com
+
+      - name: Paul Frazee
+        description: |
+          Signed merkle logs: What are they, and Why they're so useful in decentralized systems.
+
+      - name: Christopher Allen
+        description: |
+          At each Rebooting the Web of Trust event we collaboratively create white papers and specifications on topics that will have the greatest impact on the future of self-sovereign identity. We have 5 white papers from the November event, and we are in progress of releasing more based on May’s event. Our next event is at the end of September.
+
+          This lightning talk will briefly summarize our whitepaper topics.
+
+          http://www.WebOfTrust.info
+
+      - name: Muneeb Ali
+        description: |
+          Blockstack is an application stack for decentralized, server-less apps secured by the blockchain. Blockstack provides services for identity, authentication, and storage without relying on any trusted third parties. In this talk and workshop, I'll give a quick overview of how Blockstack works, share lessons from 2+ years of experience of running a production decentralized system, and give a demo of Blockstack's naming and storage.
+
+          http://blockstack.org
 
     workshops:
-      - name: Galen Wolfe-Pauly
+      - name: Juan Benet
         description: |
-          Your Urbit is a personal server: a general-purpose computer built to run your apps, store your data and manage your connected devices.  Each Urbit is a part of a global, decentralized network where address space is cryptographic property.  You own your Urbit like bitcoin and control it like your PC.
+          IPLD is the internal data format for IPFS, Mediachain, uPort, IPDB, and other systems. A large variety of protocols use merkle-linked datastructures (git, bittorrent, ipfs, tahoe-lafs, sfs, etc). IPLD is an interchangeable data format to unify these types of systems. It can represent any merkle-tree or hash-chain data, perfect for peer-to-peer protocols and decentralizing the web.
 
-          We'll take a very quick tour of the Urbit stack and what it's designed to accomplish in a brief talk.  Then, in a workshop, we'll step through some demos: self-hosted publishing and wrangling your existing services with APIs.
+          Our goal at the Summit is to increase the collaboration between all our p2p protocols. IPLD is a fantastic vector for collaboration!
 
-          http://urbit.org
+          This workshop will cover:
+
+          - IPLD Motivation and Intoduction
+          - IPLD Design
+            - merkle-links: the core unit of a merkle-graph
+            - merkle-paths: unix-style paths for traversing merkle-graphs with named merkle-links
+            - IPLD Data Model: a flexible, JSON-based data model for representing merkle-dags.
+            - IPLD Serializion: a set of formats in which IPLD objects can be represented, for example JSON, CBOR, CSON, YAML, Protobuf, XML, RDF, etc.
+          - Concrete IPLD Examples:
+            - Filesystems
+            - Version Control Systems
+            - Blockchains
+            - Indexing
+            - Mapping
+          - How is IPLD used in IPFS and other systems
+
+          https://github.com/ipfs/specs/tree/master/ipld
 
       - name: Matthew Hodgson
         description: |
@@ -304,6 +470,16 @@ meetup:
       - name: Primavera De Filippi
         description: |
           Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
+
+      - name: Evan Schwartz
+        description: |
+          Interledger is a protocol suite for connecting blockchains, payment networks and other digital asset ledgers. It enables transfers between parties on different ledgers, meaning it can be used to build payments or micropayments into other protocols and apps without being tied to a single payment provider or currency. We will be showing off demos of Interledger in action, walking through how to build it into your projects and how to Interledger-enable your ledger, and discussing how it works under the hood.
+
+          Interledger is heavily inspired by the designs of IP, TCP, etc so also come talk to us if you are interested in aspects of the Internet's design to emulate or avoid.
+
+          https://interledger.org
+
+          - Evan Schwartz, Stefan Thomas
 
   - time: "3:00-3:30 p.m."
     title: "<span class=\"muted\">Break</span>"
@@ -336,6 +512,46 @@ meetup:
 
           https://www.bigchaindb.com/
 
+      - name: Ben Trask
+        description: |
+          The Principles of Content Addressing, which will cover:
+
+          - The need for interoperability between content addressing systems
+          - Hashes versus UUIDs, and the idea of choosing what you hash to get useful collisions
+          - Hash-Archive.org, a database mapping between locations and hashes
+
+          https://bentrask.com/?q=hash://sha256/98493caa8b37eaa26343bbf7
+
+      - name: Harlan T Wood
+        description: |
+          A brief intro to Nodesphere, an interchange and interoperability toolkit for creating and sharing semantic graphs from a variety of data sources.  Both a protocol and open source codebase in active development, it has three primary objectives:
+
+          1. Create interoperability among graph visualization interfaces.
+
+          2. Provide adaptors to connect these interfaces to personal data ecosystems, including browsing history, social network data, cloud storage, and ultimately, any public or private data.
+
+          3. Abstract data sources into semantically linked unified dashboards, facilitating the transition from traditional server & database systems toward secure, distributed public and private storage, as these systems become practical and performant.
+
+          http://nodesphere.org
+
+      - name: Joachim Lohkamp
+        description: |
+          I like to take a moment with you and imagine an utopian scenario in which you are the center of the world.
+
+          In this utopia you have one profile to which all your data is connected...
+
+          www.jolocom.com
+
+      - name: Maira Sutton
+        description: |
+          Platform Cooperatives and the Decentralized Web
+
+          As we resist corporate and state-driven efforts to partition the Internet into speech-restricting, surveillance-riddled enclaves, we must explore institutional alternatives to protect and cultivate the decentralized Web. A key component will be to bolster projects that empower people to share ownership and control their local Internet infrastructure, such as community broadband and mesh networks. Another, equally important aspect of this work is in creating more platforms—web services and apps—that are to some degree owned and controlled by their community of users, such as platform cooperatives.
+
+          This lightning talk will address how the challenges that the Web faces are questions of economic and institutional concentrations of power. That, in order to counteract the threat of centralization, it's critical that the institutions that comprise the decentralized web are themselves transparent, democratized, and are legally bound to protect the human rights of their users.
+
+          shareable.net
+
     workshops:
       - name: Jehan Tremback
         description: |
@@ -354,6 +570,38 @@ meetup:
       - name: Joel Dietz
         description: |
           Investigate what is possible in the realm of Decentralized Autonomous Organizations. How can they be used to protect public goods? To protect individual freedoms? To allow distributed interests to protect themselves? To allow new types of economic incentives? Joel Dietz answers all of these questions and more.
+
+      - name: David Dias
+        description: |
+          libp2p is a modular network stack designed to overcome the networking challenges faced by peer-to-peer applications. libp2p is the networking library of IPFS. Many other projects have come together to collaborate on libp2p, as it solves difficult networking challenges for everyone, and creates interoperable protocols.
+
+          Our goal at the Decentralized Web Summit is to increase the collaboration between all these peer-to-peer, distributed protocols. libp2p is a fantastic vector for collaboration.
+
+          Come build a new p2p app with us!
+
+          This workshop will cover:
+
+          - libp2p motivation and introduction
+          - libp2p design and interfaces
+            - transports
+            - connectivity (NAT traversal, routing)
+            - peer discovery
+            - peer routing
+            - content routing
+            - content storage
+            - pub / sub
+            - consensus
+          - examples of libp2p modules
+          - examples of using libp2p to build p2p protocols
+          - discuss how libp2p is used by ipfs
+
+          https://github.com/ipfs/specs/blob/master/libp2p/
+
+      - name: Muneeb Ali
+        description: |
+          Blockstack is an application stack for decentralized, server-less apps secured by the blockchain. Blockstack provides services for identity, authentication, and storage without relying on any trusted third parties. In this talk and workshop, I'll give a quick overview of how Blockstack works, share lessons from 2+ years of experience of running a production decentralized system, and give a demo of Blockstack's naming and storage.
+
+          http://blockstack.org
 
   - time: "5:00-8:00 p.m."
     title: "Reception in the Foyer"
