@@ -29,14 +29,6 @@ $(document).ready(function() {
     var closeEl = document.createElement('button');
     closeEl.innerHTML = 'Close';
     closeEl.className = 'close-button';
-    closeEl.onclick = function(e) {
-      document.body.style.overflow = 'auto';
-      document.body.style.height = 'auto';
-      document.body.className = document.body.className.replace(' open-modal', '');
-      document.body.scrollTop = prevScrollTop;
-      $(modalEl).remove();
-      e.preventDefault();
-    };
 
     var closeDiv = document.createElement('div');
     closeDiv.className = 'close-wrapper';
@@ -47,6 +39,32 @@ $(document).ready(function() {
     document.body.style.overflow = 'hidden';
     document.body.style.height = '100%';
     document.body.className += ' open-modal';
+
+    var closeModal = function() {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+      document.body.className = document.body.className.replace(' open-modal', '');
+      document.body.scrollTop = prevScrollTop;
+      $(modalEl).remove();
+      window.onkeydown = undefined;
+    };
+
+    closeEl.onclick = function(e) {
+      closeModal();
+      e.preventDefault();
+    };
+
+    modalEl.onclick = function(e) {
+      if (e.target == modalEl) {
+        closeModal();
+      }
+      e.preventDefault();
+    };
+    window.onkeydown = function(event) {
+      if (event.keyCode === 27 /* esc */) {
+        closeModal();
+      }
+    };
 
   });
 
