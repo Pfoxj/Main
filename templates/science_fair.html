@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+
+{% macro match_p1(p1, additional_bio) %}
+  {# This is the only way I could hack this to work #}
+  {% set name = p1.name.replace(", moderator", "") %}
+  {% capture as="matchHtml" -%}{% for match in contents['people']['index.md'].metadata.keynote_speakers %}{% if match.name == name %}{% include "_schedule_bio.html" %}{% endif %}{% endfor %}{%- endcapture %}
+  {% if matchHtml == "" %}
+    {% capture as="matchHtml" -%}{% for match in contents['people']['index.md'].metadata.presenters %}{% if match.name == name %}{% include "_schedule_bio.html" %}{% endif %}{% endfor %}{%- endcapture %}
+  {% endif %}
+  {% if matchHtml == "" %}
+    {% capture as="matchHtml" -%}{% for match in contents['people']['index.md'].metadata.organizers %}{% if match.name == name %}{% include "_schedule_bio.html" %}{% endif %}{% endfor %}{%- endcapture %}
+  {% endif %}
+  {% if matchHtml == "" %}
+    {% capture as="matchHtml" -%}{% for match in contents['builders-day']['index.md'].metadata.people %}{% if match.name == name %}{% include "_schedule_bio.html" %}{% endif %}{% endfor %}{%- endcapture %}
+  {% endif %}
+  {% if matchHtml == "" %}
+    {% capture as="matchHtml" -%}{% set match = p1 %}{% include "_placeholder_bio.html" %}{%- endcapture %}
+  {% endif %}
+  {{matchHtml}}
+{% endmacro %}
+
+
+{% block body %}
+<section class="page-section">
+
+  <h2>Science Fair</h2>
+
+  <div class="science-fair">
+    {% for row in page.metadata.submissions %}
+      <div class=" science-fair-row">
+        <div class="js-bio-unit">
+          <div class="science-fair-title">{{row.name}}</div>
+          <div class="science-fair-short-description">{{row.short_description}}</div>
+          <div class="science-fair-full-description">{{row.full_description|truncate(300, "")}} {% if row.full_description.length > 300 %}<span class="science-fair-read-more">Read more.</span>{% endif %}</div>
+
+
+
+          <div class="hidden-bio">
+            <div>
+              <div class="modal-name science-fair-title">{{row.name}}</div>
+              <div class="modal-bio">
+                <div class="science-fair-short-description">{{row.short_description}}</div>
+                <div>{{row.full_description}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {% if row.people.length > 0 %}
+        <div class="grid people full-list">
+          {% for p1 in row.people %}
+            {{match_p1(p1)}}
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+
+</section>
+
+<script src="/static/js/vendor/cash.min.js" type="text/javascript"></script>
+<script src="/static/js/scripts.js" type="text/javascript"></script>
+{% endblock %}
