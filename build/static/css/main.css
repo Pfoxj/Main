@@ -1496,6 +1496,27 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 .workshop-description {
   margin-bottom: 15px; }
 
+.science-fair-row {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px; }
+
+.science-fair-title {
+  font-weight: lighter;
+  font-size: 1.45em;
+  margin-bottom: 20px; }
+
+.science-fair-short-description {
+  font-style: italic;
+  margin-bottom: 20px; }
+
+.science-fair-full-description {
+  margin-bottom: 40px; }
+
+.science-fair-read-more {
+  text-decoration: underline;
+  color: #4a90e2; }
+
 /* desktop styles */
 @media only screen and (min-width: 768px) {
   .grid.people.full-list {
@@ -1663,4 +1684,12 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 
   .unit.workshop {
     padding: 10px;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .science-fair .small-col {
+    -webkit-flex-basis: 8% !important;
+    -ms-flex-preferred-size: 8% !important;
+    flex-basis: 8% !important; }
+
+  .page-Science-Fair h2 {
+    margin-bottom: 60px; } }
