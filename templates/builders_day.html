@@ -29,7 +29,7 @@
           <div class="modal-image" ><img src="{{attendee.image}}" /></div>
           <div class="modal-name">{{attendee.name}}</div>
           <div class="modal-subtitle">{{attendee.subtitle}}</div>
-          <div>{{attendee.bio}}</div>
+          {% if attendee.bio %}<div>{{attendee.bio|urlize}}</div>{% endif %}
         </div>
       </div>
     </div>

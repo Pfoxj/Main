@@ -11,13 +11,13 @@
       <div class="modal-subtitle">{{match.subtitle}}</div>
       {% if match.link %}<div class="modal-link"><a href="{{match.link}}">{{match.link}}</a></div>{% endif %}
       {% if additional_bio %}
-        <div class="modal-bio">{{additional_bio}}</div>
+        <div class="modal-bio">{{additional_bio|urlize}}</div>
         {% if match.bio %}
           <hr>
-          <div>{{match.bio}}</div>
+          <div>{{match.bio|urlize}}</div>
         {% endif %}
       {% else %}
-        <div class="modal-bio">{{match.bio}}</div>
+        {% if match.bio %}<div class="modal-bio">{{match.bio|urlize}}</div>{% endif %}
       {% endif %}
     </div>
   </div>
