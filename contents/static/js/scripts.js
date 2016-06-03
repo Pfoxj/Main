@@ -57,8 +57,8 @@ $(document).ready(function() {
     modalEl.onclick = function(e) {
       if (e.target == modalEl) {
         closeModal();
+        e.preventDefault();
       }
-      e.preventDefault();
     };
     window.onkeydown = function(event) {
       if (event.keyCode === 27 /* esc */) {

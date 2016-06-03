@@ -9,7 +9,7 @@
       <div class="modal-image" ><img src="{{match.image}}" /></div>
       <div class="modal-name">{{match.name}}</div>
       <div class="modal-subtitle">{{match.subtitle}}</div>
-      {% if match.link %}<div class="modal-link"><a href="{{match.link}}">{{match.link}}</a></div>{% endif %}
+      {% if match.link %}<div class="modal-link">{{match.link|urlize}}</div>{% endif %}
       {% if additional_bio %}
         <div class="modal-bio">{{additional_bio|urlize}}</div>
         {% if match.bio %}
