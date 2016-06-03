@@ -8,21 +8,28 @@ keynote_speakers:
     image: /static/img/vint-cerf.jpg
     short_bio: Vint Cerf, widely known as one of the "Fathers of the Internet", is vice president and Chief Internet Evangelist for Google, as well as the co-creator of the TCP/IP protocols.
     bio: |
-         Vinton Gray "Vint" Cerf is an Internet pioneer, who is recognized as one of "the fathers of the Internet” for his co-invention of TCP/IP. His contributions have been acknowledged and lauded, repeatedly, with honorary degrees and awards that include the National Medal of Technology, the Turing Award, the Presidential Medal of Freedom, the Marconi Prize, and membership in the National Academy of Engineering. Cerf has worked for Google as a Vice President and Chief Internet Evangelist since October 2005.
+      Vinton Gray "Vint" Cerf is an Internet pioneer, who is recognized as one of "the fathers of the Internet” for his co-invention of TCP/IP. His contributions have been acknowledged and lauded, repeatedly, with honorary degrees and awards that include the National Medal of Technology, the Turing Award, the Presidential Medal of Freedom, the Marconi Prize, and membership in the National Academy of Engineering. Cerf has worked for Google as a Vice President and Chief Internet Evangelist since October 2005.
 
   - name: Cory Doctorow
     subtitle: EFF
     image: /static/img/cory-doctorow.jpg
     short_bio: Cory Doctorow is an author, journalist, and Special Advisor at the Electronic Frontier Foundation.
     bio: |
-         Cory Doctorow (<a href="http://craphound.com">craphound.com</a>) is a science fiction author, activist, journalist and blogger — the co-editor of Boing Boing (<a href="https://boinboin.net">boingboing.net</a>) and the author of the YA graphic novel IN REAL LIFE, the nonfiction business book INFORMATION DOESN’T WANT TO BE FREE, and young adult novels like HOMELAND, PIRATE CINEMA and LITTLE BROTHER and novels for adults like RAPTURE OF THE NERDS and MAKERS. He works for the Electronic Frontier Foundation and co-founded the UK Open Rights Group. Born in Toronto, Canada, he now lives in Los Angeles.
+      Cory Doctorow (<a href="http://craphound.com">craphound.com</a>) is a science fiction author, activist, journalist and blogger — the co-editor of Boing Boing (<a href="https://boinboin.net">boingboing.net</a>) and the author of the YA graphic novel IN REAL LIFE, the nonfiction business book INFORMATION DOESN’T WANT TO BE FREE, and young adult novels like HOMELAND, PIRATE CINEMA and LITTLE BROTHER and novels for adults like RAPTURE OF THE NERDS and MAKERS. He works for the Electronic Frontier Foundation and co-founded the UK Open Rights Group. Born in Toronto, Canada, he now lives in Los Angeles.
 
   - name: Brewster Kahle
     subtitle: Internet Archive
     image: /static/img/brewster-kahle.jpg
     short_bio: Brewster Kahle is the founder and Digital Librarian of the Internet Archive, as well as a member of the Internet Hall of Fame.
     bio: |
-         A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
+      A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
+
+  - name: Tim Berners Lee
+    subtitle: W3C
+    image: /static/img/people/tim_berners-lee.jpg
+    short_bio: Tim Berners-Lee invented the World Wide Web in 1989. He founded and Directs the World Wide Consortium (W3C) the forum for technical development of the Web.
+    bio: |
+      Tim Berners-Lee invented the World Wide Web in 1989. He founded and Directs the World Wide Consortium (W3C) the forum for technical development of the Web. He founded the Web Foundation whose mission is that the WWW serves Humanity, and co-founded the Open Data Institute in London
 
 
 
@@ -234,6 +241,7 @@ presenters:
     home: DC
 
   - name: Alberto Granzotto
+    subtitle: IPDB/BigchainDB
     image: /static/img/people/alberto_granzotto.jpg
 
   - name: Mitchell Baker
@@ -255,7 +263,10 @@ presenters:
     isScienceFair: false
     home: Colorado
 
-
+  - name: Jeromy Johnson
+    subtitle: IPFS
+    image: /static/img/people/jeromy_johnson.jpg
+    bio: "Jeromy is a Peer to Peer Software Engineer at Protocol Labs who goes by whyrusleeping on the internet. He is currently working on IPFS (The Interplanetary FileSystem) to improve the unrestricted flow of data through the decentralized web. Prior to Protocol Labs he worked on distributed filesystems at EMC Isilon and earned a Bachelors Degree with a major in Computer Science at Washington State University."
 
 
 committee:
