@@ -1178,6 +1178,9 @@ section.page-section.learn-more li {
   font-size: .85em;
   line-height: 1.75em; }
 
+.page-Learn-More .schedule-toc {
+  margin-bottom: 30px; }
+
 .main-body {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -1337,6 +1340,10 @@ section.page-section.learn-more li {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
+.modalInnerEl a {
+  word-wrap: break-word;
+  word-break: break-all; }
+
 .modal .modal-contents {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -1364,7 +1371,8 @@ section.page-section.learn-more li {
   text-align: center; }
 
 .modal .modal-subtitle {
-  font-size: 1em; }
+  font-size: 1em;
+  margin-bottom: 2rem; }
 
 .modal .modal-link {
   text-align: center; }
@@ -1398,9 +1406,9 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 
 .small-col {
   margin: 0 5px 10px 5px;
-  -webkit-flex-basis: 30%;
-  -ms-flex-preferred-size: 30%;
-  flex-basis: 30%;
+  -webkit-flex-basis: 29%;
+  -ms-flex-preferred-size: 29%;
+  flex-basis: 29%;
   overflow-x: hidden;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -1499,10 +1507,10 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 .science-fair-row {
   margin-bottom: 50px;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 50px; }
+  padding-bottom: 30px; }
 
 .science-fair-title {
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1.45em;
   margin-bottom: 20px; }
 
@@ -1511,7 +1519,7 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   margin-bottom: 20px; }
 
 .science-fair-full-description {
-  margin-bottom: 40px; }
+  margin-bottom: 30px; }
 
 .science-fair-read-more {
   text-decoration: underline;
@@ -1686,10 +1694,13 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     padding: 10px;
     margin-top: 10px; }
 
+  .science-fair {
+    margin-top: 60px; }
+
   .science-fair .small-col {
     -webkit-flex-basis: 8% !important;
     -ms-flex-preferred-size: 8% !important;
     flex-basis: 8% !important; }
 
-  .page-Science-Fair h2 {
-    margin-bottom: 60px; } }
+  .page-Learn-More .schedule-toc {
+    margin-bottom: 30px; } }

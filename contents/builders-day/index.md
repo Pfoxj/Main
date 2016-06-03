@@ -100,8 +100,6 @@ schedule:
 - time: 8:00-11:00
   title: Late night meeting space available
 
-
-
 people:
 - name: Allen "Gunner" Gunn
   subtitle: Aspiration Tech
@@ -489,6 +487,12 @@ people:
   bio: Tamas is a self-taught web builder from Hungary who has been in love with the Internet since the dial-up era. He is the founder and programmer of ZeroNet (https://zeronet.io), which allows you to create decentralized, P2P and real-time updated websites using Bitcoin cryptography and the BitTorrent network.
   isScienceFair: false
   home: Budapest
+- name: Tim Berners-Lee
+  subtitle: World Wide Web Consortium
+  image: /static/img/people/tim_berners-lee.jpg
+  bio: "Tim invented the World Wide Web in1989 while working at CERN and is subsequently working to ensure it was made freely available to all. Tim is now dedicated to enhancing and protecting the Web\u2019s future. He is a Founding Director of the World Wide Web Foundation, which seeks to ensure the Web serves humanity by establishing it as a global public good and a basic right. He is also Director of the World Wide Web Consortium, a global Web standards organization he founded in 1994 to lead the Web to its full potential. In 2012 he co-founded the Open Data Institute (ODI) which advocates for Open Data in the UK and globally. Sir Tim has advised a number of governments and corporations on ongoing digital strategies. A graduate of Oxford University, Sir Tim presently holds academic posts at the Massachusetts Institute of Technology at CSAIL (Computer Science and Artificial Intelligence Lab), (USA) and the University of Southampton (UK.)"
+  isScienceFair: false
+  home: ''
 - name: Trent McConaghy
   subtitle: IPDB/BigchainDB
   image: /static/img/people/trent_mcconaghy.jpg

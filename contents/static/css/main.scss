@@ -450,6 +450,10 @@ section.page-section.learn-more li {
   -webkit-overflow-scrolling: touch;
   backface-visibility: hidden;
 }
+.modalInnerEl a {
+  word-wrap: break-word;
+  word-break: break-all;
+}
 
 .modal .modal-contents {
   flex: 1;
@@ -476,6 +480,7 @@ section.page-section.learn-more li {
 
 .modal .modal-subtitle {
   font-size:1em;
+  margin-bottom: 2rem;
 }
 .modal .modal-link {
   text-align:center;
@@ -483,6 +488,7 @@ section.page-section.learn-more li {
 .modal-bio {
   margin-top: 3rem;
 }
+
 
 body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   display:none;
