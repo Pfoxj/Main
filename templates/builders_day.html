@@ -22,8 +22,8 @@
   {% for attendee in page.metadata.people %}
     <div class="small-col js-bio-unit">
       <img src="{{attendee.image}}" />
-      <div class="name">{{attendee.name}}, {{attendee.home}}</div>
-      <div class="subtitle">{{attendee.subtitle}}</div>
+      <div class="name">{{attendee.name}}</div>
+      <div class="subtitle">{{attendee.subtitle}}<br>{{attendee.home}}</div>
       <div class="hidden-bio">
         <div>
           <div class="modal-image" ><img src="{{attendee.image}}" /></div>
@@ -36,10 +36,9 @@
   {% endfor %}
   </div>
 
-  <h2 id="science-fair">Science Fair</h2>
-  <div>Go to <a href="/science-fair/">Science Fair</a>.</div>
-
 </section>
+
+{% include '_science_fair_section.html' %}
 
 <script src="/static/js/vendor/cash.min.js" type="text/javascript"></script>
 <script src="/static/js/scripts.js" type="text/javascript"></script>
