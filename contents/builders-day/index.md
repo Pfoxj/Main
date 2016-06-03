@@ -100,7 +100,6 @@ schedule:
 - time: 8:00-11:00
   title: Late night meeting space available
 
-
 people:
 - name: Allen "Gunner" Gunn
   subtitle: Aspiration Tech
@@ -407,7 +406,7 @@ people:
 - name: Paige Peterson
   subtitle: MaidSafe
   image: /static/img/people/paige_peterson.jpg
-  bio: Paige is an advocate for open standards, user privacy and decentralized technologies and works at Scotland-based company, MaidSafe which is building a peer-to-peer Internet stemming from similar principles within natural systems
+  bio: Paige is an advocate for open standards, user privacy and decentralized technologies. She received a BFA practicing experimental art with a strong focus on complexity in nature through interactive installations. Her understanding of natural decentralized systems would map rather eloquently to her growing interest in censorship resistant technologies as she started working for mesh networking startup Open Garden and organizing many bitcoin and cryptocurrency events in San Francisco. In early 2014, Paige met Scotland-based company, MaidSafe who are building a peer-to-peer Internet stemming from similar principles within natural systems which were so attractive to her many years prior and she has been working on various communication efforts full-time with MaidSafe since.
   isScienceFair: false
   home: Boston
 - name: Patrick Ryan

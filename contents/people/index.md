@@ -24,12 +24,14 @@ keynote_speakers:
     bio: |
       A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
 
-  #- name: Tim Berners Lee
-  #  subtitle: W3C
-  #  image: /static/img/people/tim_berners-lee.jpg
-  #  short_bio: Tim Berners-Lee invented the World Wide Web in 1989. He founded and Directs the World Wide Consortium (W3C) the forum for technical development of the Web.
-  #  bio: |
-  #    Tim Berners-Lee invented the World Wide Web in 1989. He founded and Directs the World Wide Consortium (W3C) the forum for technical development of the Web. He founded the Web Foundation whose mission is that the WWW serves Humanity, and co-founded the Open Data Institute in London
+  - name: Tim Berners Lee
+    subtitle: W3C
+    image: /static/img/people/tim_berners-lee.jpg
+    short_bio: Tim Berners-Lee invented the World Wide Web in 1989. He founded and Directs the World Wide Consortium (W3C) the forum for technical development of the Web.
+    bio: |
+      Tim Berners-Lee invented the World Wide Web in 1989. He founded and Directs the World Wide Consortium (W3C) the forum for technical development of the Web. He founded the Web Foundation whose mission is that the WWW serves humanity, and co-founded the Open Data Institute in London.  
+
+      Tim is a long-time defender of rights such as privacy, freedom, Net Neutrality and the openness of the Web.
 
 
 
