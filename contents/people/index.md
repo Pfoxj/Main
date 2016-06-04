@@ -19,7 +19,7 @@ keynote_speakers:
 
   - name: Brewster Kahle
     subtitle: Internet Archive
-    image: /static/img/brewster-kahle.jpg
+    image: /static/img/people/brewster_kahle.jpg
     short_bio: Brewster Kahle is the founder and Digital Librarian of the Internet Archive, as well as a member of the Internet Hall of Fame.
     bio: |
       A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
@@ -277,6 +277,11 @@ presenters:
   - name: Maira Sutton
     subtitle: Sharable
     image: /static/img/people/blank.jpg
+
+  - name: Wendy Seltzer
+    image: /static/img/people/blank.jpg
+
+
 
 committee:
   - name: Juan Benet

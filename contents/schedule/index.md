@@ -10,30 +10,37 @@ summit:
     title: "Welcome"
     people:
     - name: Wendy Hanamura
+    - name: Mitchell Baker
 
-  - time: "9:05-10:05"
+  - time: "9:05-9:45"
     title: "Keynote Address: Vint Cerf – \"A Web that Archives Itself\""
     description: The Internet Archive has started the process of preserving the WWW but there is an opportunity to refine the design of WWW to create a self-archiving, distributed system. I hope to explore some of the desirable properties of such a self-archiving system from the technical perspective but feel compelled to consider business models that make the process sustainable and affordable. This is clearly more than just a technical problem.
-
 
     people:
     - name: Vint Cerf
 
-  - time: "10:05-10:25"
+  - time: "9:45-10:30"
+    title: "Keynote Address: Tim Berners-Lee"
+    description:
+
+    people:
+    - name: Tim Berners-Lee
+
+  - time: "10:30-10:55"
     title: "<span class=\"muted\">Break</span>"
 
-  - time: "10:25-10:30"
+  - time: "10:55-11"
     title: "VIDEO:  Neocities – Fun on the Decentralized Web"
     description: A short video about how Neocities sites are bringing fun and creativity back to the Web
 
-  - time: "10:30-10:45 a.m."
+  - time: "11-11:15"
     title: "Introduction: Brewster Kahle – \"Locking the Web Open – a Call for a New, Decentralized Web\""
     description: "20 years after the World Wide Web was created, can we now make it better?  How can we ensure that our most important values: privacy, free speech, and open access to knowledge are enshrined in the code itself?  In a provocative call to action, entrepreneur and Open Internet advocate, Brewster Kahle, challenges us to build a better, decentralized Web based on new distributed technologies. He lays out a path to creating a new Web that is reliable, private, but still fun—in order to lock the Web open for good."
     people:
     - name: Brewster Kahle
 
 
-  - time: "10:45-11:35"
+  - time: "11:15-Noon"
     title: "Panel – Peer to Peer Networks"
     people:
     - name: Kevin Marks, moderator
@@ -43,40 +50,41 @@ summit:
     - name: Dr. Gavin Wood
 
 
-  - time: "11:40-12:30"
+  - time: "12-12:45"
     title: "Panel – Naming & User Identities in Decentralized Networks"
     people:
     - name: Chelsea Barabas, moderator
-    - name: Chris Allen
+    - name: Christopher Allen
     - name: Muneeb Ali
     - name: Joachim Lohkamp
     - name: Jeremy Rand
 
 
-  - time: "12:30-1:30"
+  - time: "12:45-1:45"
     title: "Lunch in foyer"
 
-  - time: 1:30-1:35
+  - time: "1:45-1:50"
     title: "Video: Creativity on the Decentralized Web – Scott Draves' Electric Sheep"
     description: A short montage of artist Scott Drave's electric sheep--what your computers create while you sleep.  A look at what happens when decentralized tech meets artistic genius.
 
-  - time: 1:35-2:15
+  - time: "1:50-2:30"
     title: "Keynote: Cory Doctorow – \"How Stupid Laws and Benevolent Dictators can Ruin the Decentralized Web, too\""
     description: |
       In the last twenty years, we've managed to nearly ruin one of the most functional distributed systems ever created: today's Web. There are many stakeholders being damaged in the process, from individuals to entire nations.  To lock open the Web we will need more than code. We will need binding agreements and covenants that enshrine our deepest values. Cory Doctorow shares his vision of what went wrong and how we can get it right – through governance and policies – in the decentralized Web to come.
     people:
     - name: Cory Doctorow
 
-  - time: 2:15-3:00
-    title: "Panel: Defining our Values, Evaluating the Risks of the Decentralized Web"
+  - time: "2:30-3:15"
+    title: "Panel: As we build a new Decentralized Web, how "
     people:
     - name: Amber Case, moderator
     - name: Primavera De Filippi
     - name: Max Ogden
+    - name: Wendy Seltzer
     - name: Peter Van Garderen
 
 
-  - time: 3:00-3:45
+  - time: "3:15-4:00"
     title: "Panel – Security in a World of Black Hats"
     description: |
       There are many "Black Hats" on the world stage today.  They have enormous resources, little government oversight, and taps into all the major fiber links.  Their goal: to break the security of your code.  How can the decentralized technologies represented here fend off their attacks?  How would you work around the "Great Firewall of China?"  How are you employing this "Black Hat" understanding into your design?  We'll pose some provocative security scenarios and discuss how decentralized technologies can combat the most powerful purveyors of censorship, surveillance, and piracy on the world stage.  How can builders of a new Web share scenario planning and knowledge to succeed?
@@ -90,14 +98,14 @@ summit:
 
 
 
-  - time: 3:45-4:15
+  - time: "4:00-4:25"
     title: "<span class=\"muted\">Break</span>"
 
-  - time: 4:15-4:20
+  - time: "4:25-4:30"
     title: "VIDEO: Enterprise on the Decentralized Web"
     description: "A look at the entrepreneurs who are using decentralized technologies to devise the next generation of apps and products"
 
-  - time: 4:20-5:10
+  - time: "4:30-5:15"
     title: "Panel – Moonshot Challenge – What could you do to Decentralize Scientific Journal Articles?"
     description: "In this hands-on panel, we issue a new \"moonshot\" challenge:  How could we take scientific journal literature--which includes code, text, and data--and make it so these articles can be stored, accessed, searched, attributed, and paid for through decentralized systems?  How could current technologies work together? What design principles might further this collaboration?"
     people:
@@ -108,7 +116,7 @@ summit:
     - name: Denis Nazarov
     - name: Evan Schwartz
 
-  - time: 5:10-5:30
+  - time: "5:15-5:30"
     title: "Closing Remarks: What happens next?"
     people:
     - name: Brewster Kahle
@@ -304,7 +312,7 @@ meetup:
         description: |
           We will release the designs for a novel, suitable architecture for a scalable network of blockchains, powered by Tendermint.
 
-          Tendermint is a ""blockchain engine"" that provides provable security for any blockchain.  Tendermint is used by ErisIndustries, tested in the R3 consortium, and is gaining adoption by many other upstarts.
+          Tendermint is a "blockchain engine" that provides provable security for any blockchain.  Tendermint is used by ErisIndustries, tested in the R3 consortium, and is gaining adoption by many other upstarts.
 
           Blockchain scalability is an active area of research in the cryptocurrency community.  The team behind Tendermint will reveal a novel blockchain network architecture that solves the blockchain scalability problem.
 
@@ -356,7 +364,7 @@ meetup:
 
           www.namecoin.org
 
-      - name: Daniel Roberts
+      - name: Daniel Roberts, Michael Grube
         description: |
           Building Decentralized Applications on Freenet
 
@@ -471,15 +479,13 @@ meetup:
         description: |
           Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
 
-      - name: Evan Schwartz
+      - name: Evan Schwartz, Stefan Thomas
         description: |
           Interledger is a protocol suite for connecting blockchains, payment networks and other digital asset ledgers. It enables transfers between parties on different ledgers, meaning it can be used to build payments or micropayments into other protocols and apps without being tied to a single payment provider or currency. We will be showing off demos of Interledger in action, walking through how to build it into your projects and how to Interledger-enable your ledger, and discussing how it works under the hood.
 
           Interledger is heavily inspired by the designs of IP, TCP, etc so also come talk to us if you are interested in aspects of the Internet's design to emulate or avoid.
 
           https://interledger.org
-
-          - Evan Schwartz, Stefan Thomas
 
   - time: "3:00-3:30 p.m."
     title: "<span class=\"muted\">Break</span>"
