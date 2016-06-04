@@ -167,4 +167,47 @@ attendees:
   - Bill Mar — Founder at Special Computing
   - "Christopher Allen — Principal Architect: Blockchain Standards & Decent at Blockstream"
   - Johannes Ernst — unCEO at Indie Computing Corp.
+  - Carl Malamud — Rogue Archivist at Public.Resource.Org, Inc.
+  - Dwalu Khasu— Sr. Cluster/DevOps Engineer at The Internet Archive  
+  - william austin—intern at the internet archive  
+  - Aaron Ximm— Engineer at Archive.org  
+  - Dave Cohen— Integration Engineer at Ripple  
+  - Jon Godston— Mechanical Engineer at google  
+  - Micheal Folkson— Founder at RiskBazaar  
+  - David Chiles— Developer at ChatSecure  
+  - Chris Ballinger—Founder at ChatSecure  
+  - David Brodsky—Developer at ChatSecure  
+  - Kenji Nagahashi— Senior Engineer-wayback at The Internet Archive  
+  - Richard Gibson—Architect at Dyn  
+  - Yaron Greenwald—Student at Brandeis University  
+  - Nuala Creed—Artist  
+  - James Prestwich—COO/CFO Storj Labs inc.  
+  - Will Fitzpatrick—Counsel at The Omidyar Group  
+  - Murat Gabriel—Employee at Blue System  
+  - Clemens Toennies—CEO at Blue System  
+  - Aashish Sheshadri— Sofware Engineer at PayPal  
+  - Rohit Harchandani—Sofware Engineer at PayPal  
+  - Vax Cymaticka-Hckr at Invisible System  
+  - Douglas Crockford—The Bosses of you at PayPal  
+  - Akala Lemus—Cofounder at Metazen
+  - Greyson Nevins-Archer— Engineering Intern at Google inc.
+  - Danese Cooper—Distinguished Member Technical staff at PayPal  
+  - John Ryan—CEO at WireTheWorld  
+  - Cinmarron Taylor—Principal engineer at Piston Cloud Computing  
+  - Gavin McDermott—Engineer at IDEO  
+  - Dave Taht— Nagger-In-Chief at BlufferBoat.net  
+  - Jennifer Granick— Director of Civil  Liberties at Stanford Center for Internet and Society  
+  - Tantek Çelik— Web Standards Lead at Tanktek.com/Mozilla  
+  - Amandine Le Pape— Product Manager at Vector  
+  - Gerard Cerchio— Consultant at Circlesoft Llc.  
+  - Nathan Wilcox— Chief Engineer at Zcash  
+  - Reid Williams—Designer at IDEO
+  - Marek Kotewicz—Core Developer at ETH Core Limited  
+  - Daneil Cawrey—Communications at Velocity  
+  - Norman Bookstein—Mahdi at Skipatrol.org  
+  - Katie Lucas— Public Policy Specialist at TBC  
+  - Kim Zetter—Senior Staff Writer at Wired  
+  - Ronny Kerr—Writer  
+  - Stephen Whitemore—p2p Hacker at Protocol Labs  
+  - Mark Sullivan—Improvisational  Engineer at Maybe
 ---
