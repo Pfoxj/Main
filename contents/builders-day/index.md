@@ -12,7 +12,7 @@ schedule:
   - name: Brewster Kahle
   - name: Mitchell Baker
 - time: 9:15-9:45
-  title: 'Self Introductions: your name, where you are from, and in one sentence--what do you want?'
+  title: "Self Introductions: your name, where you are from, and in one sentence \u2013 what do you want?"
   people:
   - name: Wendy Hanamura
 - time: 9:45-10:00
@@ -20,9 +20,9 @@ schedule:
   people:
   - name: Allen "Gunner" Gunn
 - time: 10:00-10:15
-  title: 'Join two small groups: (form group of six)--meet each other!'
+  title: "Join two small groups: (form group of six) \u2013 meet each other!"
 - time: 10:15-10:45
-  title: 'Framing the Problem:   What are the problems that need to be solved? What needs to be Decentralized? What can we agree on, what do we not agree on and what can we do today?'
+  title: 'Framing the Problem:  What are the problems that need to be solved? What needs to be Decentralized? What can we agree on, what do we not agree on and what can we do today?'
   people:
   - name: Allen "Gunner" Gunn
 - time: 10:45-11:15
@@ -42,8 +42,12 @@ schedule:
   title: 'Science Fair:  25 technologies, 25 tables.  Time to ask questions and explore'
 - time: 2:45-3:15
   title: Break
-- time: 3:15-3:30
-  title: 'Break Out Sessions:  Meet the facilitators!'
+- time: 3:15-4:00
+  title: Some thoughts about Creating the WWW and where it should head
+  people:
+  - name: Tim Berners-Lee
+- time: 4:00-4:15
+  title: 'Break Out Sessions: Meet the facilitators!'
   people:
   - name: Wendy Hanamura
   - name: Greg McMullen
@@ -55,20 +59,8 @@ schedule:
   - name: Constance Choi
   - name: Courtney Mumma
   - name: Kyle Drake
-- time: 3:30-4:15
-  title: 'Break Out Sessions: round one'
-  people:
-  - name: Greg McMullen
-  - name: Joachim Lohkamp
-  - name: Allen "Gunner" Gunn
-  - name: John Light
-  - name: Paige Peterson
-  - name: Mek Karpeles
-  - name: Constance Choi
-  - name: Courtney Mumma
-  - name: Kyle Drake
 - time: 4:15-5:00
-  title: 'Break Out Sessions: round two'
+  title: Break Out Sessions
   people:
   - name: Greg McMullen
   - name: Joachim Lohkamp
@@ -80,7 +72,7 @@ schedule:
   - name: Courtney Mumma
   - name: Kyle Drake
 - time: 5:00-5:30
-  title: 'Report back : where do we go from here?'
+  title: 'Report back: where do we go from here?'
   people:
   - name: Kevin Marks
   - name: Chelsea Barabas
@@ -99,6 +91,9 @@ schedule:
   title: Dinner Reception in Foyer
 - time: 8:00-11:00
   title: Late night meeting space available
+
+
+
 
 people:
 - name: Allen "Gunner" Gunn
