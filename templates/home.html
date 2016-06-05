@@ -10,7 +10,11 @@
         <div class="unit whole">
           <h1>Decentralized Web Summit</h1>
           <h2>Locking the Web Open</h2>
-          <div id="date-line">June 8&dash;9, 2016 <span class="green">|</span> <a href="https://archive.org">Internet Archive</a> <span class="green">|</span> San Francisco, CA</div>
+          <div id="date-line">
+            June 8&dash;9, 2016 <span class="green">|</span> <a href="https://archive.org">Internet Archive</a> <span class="green">|</span> San Francisco, CA
+            <br/>
+            #DWebSummit
+          </div>
         </div>
       </div>
     </div>
@@ -45,10 +49,10 @@
   <div class="grey-row">
     <section id="keynote-speakers">
 
-      <h2>Keynote Speakers</h2>
+      <h2>Speakers</h2>
       <div class="grid people">
       {% for attendee in contents['people']['index.md'].metadata.keynote_speakers %}
-        <div class="unit one-fourth js-bio-unit">
+        <div class="unit one-fifth js-bio-unit">
           <img src="{{attendee.image}}" />
           <div class="name">{{attendee.name}}</div>
           <div class="short_bio">{{attendee.short_bio}}</div>
@@ -136,6 +140,9 @@
       <div>
         {% include "_matrix_join.html" %}
       </div>
+      <div class="twitter-row">
+        <img width="20" height="20" src="/static/img/twitter.svg" alt="Twitter"/><a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
+      </div>
     </section>
   </div>
   <div class="">
@@ -165,6 +172,18 @@
         <div class="unit one-fifth">
           <div class="sponsor-image-wrapper">
             <a style="font-size:50px; font-weight:bold;" href="https://www.mozilla.org"><img style="width:100%" src="/static/img/mozilla_wordmark.png" alt="Mozilla" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="unit one-fifth">
+          <div class="sponsor-image-wrapper">
+            <a href="https://www.matrix.org"><img style="width:100%" src="/static/img/matrix-logo.png" alt="Matrix" /></a>
+          </div>
+        </div>
+        <div class="unit one-fifth">
+          <div class="sponsor-image-wrapper">
+            <a href="http://www.blue-systems.com"><img style="width:100%" src="/static/img/blue-systems.jpg" alt="Blue Systems" /></a>
           </div>
         </div>
       </div>

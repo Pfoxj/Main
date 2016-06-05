@@ -364,7 +364,7 @@ meetup:
 
           www.namecoin.org
 
-      - name: Daniel Roberts, Michael Grube
+      - name: Daniel Roberts
         description: |
           Building Decentralized Applications on Freenet
 
@@ -479,13 +479,15 @@ meetup:
         description: |
           Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
 
-      - name: Evan Schwartz, Stefan Thomas
+      - name: Evan Schwartz
         description: |
           Interledger is a protocol suite for connecting blockchains, payment networks and other digital asset ledgers. It enables transfers between parties on different ledgers, meaning it can be used to build payments or micropayments into other protocols and apps without being tied to a single payment provider or currency. We will be showing off demos of Interledger in action, walking through how to build it into your projects and how to Interledger-enable your ledger, and discussing how it works under the hood.
 
           Interledger is heavily inspired by the designs of IP, TCP, etc so also come talk to us if you are interested in aspects of the Internet's design to emulate or avoid.
 
           https://interledger.org
+
+          Evan Schwartz, Stefan Thomas
 
   - time: "3:00-3:30 p.m."
     title: "<span class=\"muted\">Break</span>"

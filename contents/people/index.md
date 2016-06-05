@@ -24,7 +24,7 @@ keynote_speakers:
     bio: |
       A passionate advocate for public Internet access, Brewster Kahle has spent his career intent on a singular focus: providing Universal Access to All Knowledge. He is the founder and Digital Librarian of the <a href="https://archive.org">Internet Archive</a>, the largest digital library in the world.  Since the mid-1980s, Kahle has developed technologies for information discovery, including the Internet’s first publishing system called Wide Area Information Server (WAIS), and Alexa Internet, which helps catalog the Web. Kahle is a member of the Internet Hall of Fame and serves on the boards of the Electronic Frontier Foundation and Public Knowledge.
 
-  - name: Tim Berners Lee
+  - name: Tim Berners-Lee
     subtitle: W3C
     image: /static/img/people/tim_berners-lee.jpg
     short_bio: Tim Berners-Lee invented the World Wide Web in 1989. He founded and Directs the World Wide Consortium (W3C) the forum for technical development of the Web.
@@ -33,6 +33,11 @@ keynote_speakers:
 
       Tim is a long-time defender of rights such as privacy, freedom, Net Neutrality and the openness of the Web.
 
+  - name: Mitchell Baker
+    subtitle: Mozilla Foundation & Corp, Executive Chairperson
+    image: /static/img/people/mitchell_baker.jpg
+    short_bio: As the leader of the Mozilla Project, Mitchell Baker is responsible for organizing and motivating a massive, worldwide, collective of employees and volunteers who are breathing new life into the Internet with the Firefox Web browser, Firefox OS and other Mozilla products.
+    bio: As the leader of the Mozilla Project, Mitchell Baker is responsible for organizing and motivating a massive, worldwide, collective of employees and volunteers who are breathing new life into the Internet with the Firefox Web browser, Firefox OS and other Mozilla products. Mitchell continues her commitment to an open, innovative Web and the infinite possibilities it presents.
 
 
 
@@ -246,12 +251,7 @@ presenters:
     subtitle: IPDB/BigchainDB
     image: /static/img/people/alberto_granzotto.jpg
 
-  - name: Mitchell Baker
-    subtitle: Mozilla Foundation & Corp, Executive Chairperson
-    image: /static/img/people/mitchell_baker.jpg
-    bio: As the leader of the Mozilla Project, Mitchell Baker is responsible for organizing and motivating a massive, worldwide, collective of employees and volunteers who are breathing new life into the Internet with the Firefox Web browser, Firefox OS and other Mozilla products. Mitchell continues her commitment to an open, innovative Web and the infinite possibilities it presents.
-    isScienceFair: false
-    home: SF
+
 
   - name: Dr. Gavin Wood
     subtitle: Ethereum
