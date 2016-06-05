@@ -73,7 +73,7 @@
 
       <h3>Organizers</h3>
         <div class="grid people full-list">
-        {% for attendee in contents['people']['index.md'].metadata.committee %}
+        {% for attendee in contents['people']['index.md'].metadata.committee|sort(false,false,'last') %}
           <div class="small-col js-bio-unit">
             <img src="{{attendee.image}}" />
             <div class="name">{{attendee.name}}</div>
