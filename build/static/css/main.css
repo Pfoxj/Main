@@ -1525,6 +1525,12 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   text-decoration: underline;
   color: #4a90e2; }
 
+.twitter-row {
+  margin-top: 8px; }
+
+.twitter-row img {
+  margin-right: 8px; }
+
 /* desktop styles */
 @media only screen and (min-width: 768px) {
   .grid.people.full-list {
