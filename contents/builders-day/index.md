@@ -31,6 +31,8 @@ schedule:
   title: Break
 - time: 11:30-12:30
   title: 'Three Stories:  Lessons from the Field'
+  description: |
+    For a decade, Van Jacobson has been working to decentralize the internet itself.  He'll share the lessons along the way. Then Cory Doctorow interviews Zooko Wilcox, who calls himself "probably the world leader in the number of failed attempts to implement and deploy decentralized storage..."  Learn why this has led Zooko to found Z.cash and how he hopes it will change the paradigm. And finally Tamas Kocsis has single-handedly created one of the most effective decentralized services in use today, Zeronet.io.  Be among the first to look under the hood of his code.
   people:
   - name: Zooko Wilcox
   - name: Tamas Kocsis

@@ -22,7 +22,7 @@ keynote_speakers:
     image: /static/img/cory-doctorow.jpg
     short_bio: Cory Doctorow is an author, journalist, and Special Advisor at the Electronic Frontier Foundation.
     bio: |
-      Cory Doctorow (<a href="http://craphound.com">craphound.com</a>) is a science fiction author, activist, journalist and blogger — the co-editor of Boing Boing (<a href="https://boinboin.net">boingboing.net</a>) and the author of the YA graphic novel IN REAL LIFE, the nonfiction business book INFORMATION DOESN’T WANT TO BE FREE, and young adult novels like HOMELAND, PIRATE CINEMA and LITTLE BROTHER and novels for adults like RAPTURE OF THE NERDS and MAKERS. He works for the Electronic Frontier Foundation and co-founded the UK Open Rights Group. Born in Toronto, Canada, he now lives in Los Angeles.
+      Cory Doctorow (<a href="http://craphound.com">craphound.com</a>) is a science fiction author, activist, journalist and blogger — the co-editor of Boing Boing (<a href="https://boingboing.net">boingboing.net</a>) and the author of the YA graphic novel IN REAL LIFE, the nonfiction business book INFORMATION DOESN’T WANT TO BE FREE, and young adult novels like HOMELAND, PIRATE CINEMA and LITTLE BROTHER and novels for adults like RAPTURE OF THE NERDS and MAKERS. He works for the Electronic Frontier Foundation and co-founded the UK Open Rights Group. Born in Toronto, Canada, he now lives in Los Angeles.
 
   - name: Brewster Kahle
     subtitle: Internet Archive
@@ -63,7 +63,7 @@ presenters:
     subtitle: Internet Archive
     image: /static/img/people/wendy_hanamura.jpg
     bio: |
-         As the Director of Partnerships at the Internet Archive, Wendy uses her storytelling skills to share the remarkable stories locked in its collections. Previously, as Chief Digital Officer of KCETLink and Link TV, the national nonprofit media network, Wendy led diverse teams producing television series, apps, a semantic platform for global videos, international film contests and documentaries—all in the service of social change. Wendy began her career in journalism at Time magazine. She's reported and produced television content around the world for CBS, World Monitor Television, NHK (Japanese Broadcasting Corporation), and PBS.
+      As the Director of Partnerships at the Internet Archive, Wendy uses her storytelling skills to share the remarkable stories locked in its collections. Previously, as Chief Digital Officer of KCETLink and Link TV, the national nonprofit media network, Wendy led diverse teams producing television series, apps, a semantic platform for global videos, international film contests and documentaries—all in the service of social change. Wendy began her career in journalism at Time magazine. She's reported and produced television content around the world for CBS, World Monitor Television, NHK (Japanese Broadcasting Corporation), and PBS.
 
   - name: Denis Nazarov
     last: Nazarov
@@ -71,7 +71,7 @@ presenters:
     image: /static/img/people/denis_nazarov.jpg
     link: mediachain.io
     bio: |
-         Denis is a Project Lead at Mediachain — an open data network for creative works--a blockchain-based metadata platform that uses machine learning to turn media into an information transmitter.
+      Denis is a Project Lead at Mediachain — an open data network for creative works--a blockchain-based metadata platform that uses machine learning to turn media into an information transmitter.
 
   - name: Lauren Garcia
     last: Garcia
@@ -79,7 +79,7 @@ presenters:
     image: /static/img/people/lauren_garcia.jpg
     link: LevelNews.org
     bio: |
-         Lauren Garcia is a software developer whose interest in independent news and frustration with digital distribution systems led her to develop LevelNews.org, an independent news aggregator for the open web (LevelNews.org is currently live but under construction)
+      Lauren Garcia is a software developer whose interest in independent news and frustration with digital distribution systems led her to develop LevelNews.org, an independent news aggregator for the open web (LevelNews.org is currently live but under construction)
 
   - name: Karissa McKelvey
     last: McKelvey
@@ -118,7 +118,7 @@ presenters:
     image: /static/img/people/ryan_barrett.jpg
     link: http://indiewebcamp.com/
     bio: |
-       Ryan spent 10 years at Google building infrastructure and co-founded App Engine, and then helped create and launch two startups, first Quip and now Color Genomics. Ryan is here representing the IndieWeb community, where he created and runs brid.gy, a service that syncs your web site with social networks.
+      Ryan spent 10 years at Google building infrastructure and co-founded App Engine, and then helped create and launch two startups, first Quip and now Color Genomics. Ryan is here representing the IndieWeb community, where he created and runs <a href="https://brid.gy">brid.gy</a>, a service that syncs your web site with social networks.
 
   - name: Philip Monk
     last: Monk
@@ -134,7 +134,7 @@ presenters:
     image: /static/img/people/peter_vangarderen.jpg
     link: https://www.artefactual.com/
     bio: |
-         Peter Van Garderen is the founder of Artefactual Systems and the original developer of the open-source Archivematica and AccessToMemory software. These applications are used to manage the preservation and access for hundreds of archival collections worldwide. Peter is a distinguished alumnus of the University of British Columbia's Master of Archival Studies program. He now works as an information management consultant designing electronic records and digital archives architectures <a href="http://vangarderen.net">http://vangarderen.net</a>. Peter's current research and prototyping interests are in the application of blockchain technologies to recordkeeping workflows and decentralized autonomous collections.
+      Peter Van Garderen is the founder of Artefactual Systems and the original developer of the open-source Archivematica and AccessToMemory software. These applications are used to manage the preservation and access for hundreds of archival collections worldwide. Peter is a distinguished alumnus of the University of British Columbia's Master of Archival Studies program. He now works as an information management consultant designing electronic records and digital archives architectures <a href="http://vangarderen.net">http://vangarderen.net</a>. Peter's current research and prototyping interests are in the application of blockchain technologies to recordkeeping workflows and decentralized autonomous collections.
 
   - name: Chelsea Barabas
     last: Barabas
@@ -142,7 +142,7 @@ presenters:
     image: /static/img/people/chelsea_barabas.jpg
     link: www.media.mit.edu
     bio: |
-         Chelsea is the Head of Social Innovation at Digital Currency Initiative at MIT Media Lab, as well as a research assistant at MIT's Center for Civic Media. Chelsea leads the development of collaborations between the MIT research community and other institutions to build blockchain applications that serve the public interest. Previously, she worked on civic technology and international development projects in Africa, South America and the Middle East with a variety of organizations and research institutions including Nuru International.
+      Chelsea is the Head of Social Innovation at Digital Currency Initiative at MIT Media Lab, as well as a research assistant at MIT's Center for Civic Media. Chelsea leads the development of collaborations between the MIT research community and other institutions to build blockchain applications that serve the public interest. Previously, she worked on civic technology and international development projects in Africa, South America and the Middle East with a variety of organizations and research institutions including Nuru International.
 
   - name: Dan Gillmor
     last: Gillmor
@@ -174,7 +174,7 @@ presenters:
     image: /static/img/people/jae_kwon.jpg
     link: tendermint.com
     bio: |
-      Jae Kwon is a blockchain software architect and cofounder of Tendermint. After graduating from Cornell in 2005 with a B.S. degree in computer science, he worked as a professional developer in Silicon Valley, including at Alexa, and at Yelp where he led the mobile application development team. He also cofounded iDoneThis, a productivity service. Jae has worked on numerous open-source projects, including a CoffeeScript compiler/interpreter written in Javascript, an end-to-end encrypted email system called Scramble.io, and a cryptocurrency exchange.  These projects were inspired by the cryptopunk hacker ethos, which ultimately led to the current work with Tendermint. Jae has been working on a project he created in 2014, called Tendermint. He invented and refined the Tendermint consensus algorithm with the aim of liberating the blockchain from the costs and drawbacks of proof-of-work mining.  His mission is to make this technology more accessible, in order to accelerate the adoption of decentralized ledger technology.
+      Jae Kwon is a blockchain software architect and cofounder of Tendermint. After graduating from Cornell in 2005 with a B.S. degree in computer science, he worked as a professional developer in Silicon Valley, including at Alexa, and at Yelp where he led the mobile application development team. He also cofounded iDoneThis, a productivity service. Jae has worked on numerous open-source projects, including a CoffeeScript compiler/interpreter written in Javascript, an end-to-end encrypted email system called <a href="https://scramble.io">Scramble.io</a>, and a cryptocurrency exchange.  These projects were inspired by the cryptopunk hacker ethos, which ultimately led to the current work with Tendermint. Jae has been working on a project he created in 2014, called Tendermint. He invented and refined the Tendermint consensus algorithm with the aim of liberating the blockchain from the costs and drawbacks of proof-of-work mining.  His mission is to make this technology more accessible, in order to accelerate the adoption of decentralized ledger technology.
 
   - name: Tamas Kocsis
     last: Kocsis
@@ -182,7 +182,7 @@ presenters:
     image: /static/img/people/tamas_kocsis.jpg
     link: https://zeronet.io
     bio: |
-      Tamas is a self-taught web builder from Hungary who has been in love with the Internet since the dial-up era. He is the founder and programmer of ZeroNet (https://zeronet.io), which allows you to create decentralized, P2P and real-time updated websites using Bitcoin cryptography and the BitTorrent network.
+      Tamas is a self-taught web builder from Hungary who has been in love with the Internet since the dial-up era. He is the founder and programmer of ZeroNet (<a href="https://zeronet.io">https://zeronet.io</a>), which allows you to create decentralized, P2P and real-time updated websites using Bitcoin cryptography and the BitTorrent network.
 
   - name: Brian Warner
     last: Warner
@@ -198,7 +198,7 @@ presenters:
     image: /static/img/people/natalie_meyers.jpg
     link: cos.io
     bio: |
-      Natalie Meyers is a Partnerships and Collaborations manager at the Center for Open Science (cos.io) during a part-time leave from her faculty role as an E-Research librarian at the University of Notre Dame's Digital Initiatives and Scholarship unit in the Hesburgh Libraries.  Natalie devotes a significant part of her time as an embedded data librarian and served as the Vector-Borne Disease Network digital librarian for the past three years.  She is a member of senior personnel for the NSF funded Data and Software Preservation for Open Science (daspos.org) project .   
+      Natalie Meyers is a Partnerships and Collaborations manager at the Center for Open Science (<a href="https://cos.io">cos.io</a>) during a part-time leave from her faculty role as an E-Research librarian at the University of Notre Dame's Digital Initiatives and Scholarship unit in the Hesburgh Libraries.  Natalie devotes a significant part of her time as an embedded data librarian and served as the Vector-Borne Disease Network digital librarian for the past three years.  She is a member of senior personnel for the NSF funded Data and Software Preservation for Open Science (<a href="http://daspos.org">daspos.org</a>) project.   
 
   - name: Jehan Tremback
     last: Tremback
@@ -229,7 +229,7 @@ presenters:
     link: https://webtorrent.io
     image: /static/img/people/feross_aboukhadijeh.jpg
     bio: |
-      Feross is building WebTorrent <https://webtorrent.io>, the first torrent client that works on the web (in the browser. He is bringing P2P to the masses with accessible, WebRTC-based P2P protocols.
+      Feross is building WebTorrent (<a href="https://webtorrent.io">webtorrent.io</a>), the first torrent client that works on the web (in the browser. He is bringing P2P to the masses with accessible, WebRTC-based P2P protocols.
 
 
   - name: Arkadiy Kukarkin
@@ -244,7 +244,7 @@ presenters:
     last: Trask
     subtitle: StrongLink
     image: /static/img/people/ben_trask.jpg
-    bio: Ben Trask works on content addressing and eventually consistent distributed databases, including StrongLink and Hash-Archive.org
+    bio: Ben Trask works on content addressing and eventually consistent distributed databases, including StrongLink and <a href="https://hash-archive.org">Hash-Archive.org</a>
     isScienceFair: false
     home: North Carolina
 
@@ -274,7 +274,7 @@ presenters:
     subtitle: Google, Named Data Networking Project (NDN)
     image: /static/img/people/van_jacobson.jpg
     bio: |
-      Van Jacobson’s algorithms for the Transmission Control Protocol (TCP) helped solve the problem of congestion and are used in over 90% of Internet hosts today. He is renowned for his pioneering achievements in network performance and scaling. Widely credited with enabling the Internet to expand in size and support increasing speed demands, he helped the Internet survive a major traffic surge (1988-89) without collapsing. - See more at: http://www.internethalloffame.org/inductees/van-jacobson#sthash.iIwDLMAe.dpuf
+      Van Jacobson’s algorithms for the Transmission Control Protocol (TCP) helped solve the problem of congestion and are used in over 90% of Internet hosts today. He is renowned for his pioneering achievements in network performance and scaling. Widely credited with enabling the Internet to expand in size and support increasing speed demands, he helped the Internet survive a major traffic surge (1988-89) without collapsing. - See more at: <a href="http://www.internethalloffame.org/inductees/van-jacobson#sthash.iIwDLMAe.dpuf">http://www.internethalloffame.org/inductees/van-jacobson#sthash.iIwDLMAe.dpuf</a>
 
   - name: Ross Schulman
     last: Schulman
@@ -330,20 +330,20 @@ presenters:
     subtitle: Protocol Labs/IPFS
     image: /static/img/people/david_dias.jpg
     bio: |
-         David is a Peer-to-Peer Software Engineer at <a href="http://ipn.io">Protocol Labs</a>. He is building the InterPlanetary File System, which enables the creation of completely distributed applications. He has also contributed to nodesecurity.io and built several modules that enable developers to check for vulnerabilities. He has a Master of Science in Engineering with major in Peer-to-Peer Networks from Technical University of Lisbon.
+      David is a Peer-to-Peer Software Engineer at <a href="http://ipn.io">Protocol Labs</a>. He is building the InterPlanetary File System, which enables the creation of completely distributed applications. He has also contributed to <a href="https://nodesecurity.io">nodesecurity.io</a> and built several modules that enable developers to check for vulnerabilities. He has a Master of Science in Engineering with major in Peer-to-Peer Networks from Technical University of Lisbon.
   - name: Joachim Lohkamp
     last: Lohkamp
     subtitle: Jolocom/Ouishare
     image: /static/img/people/joachim_lohkamp.jpg
     bio: |
-        Joachim is an entrepreneur and tech enthusiast. He is obsessed with knowledge, change and innovation. Currently, he is Founder and CEO of Jolocom, a Berlin-based startup building decentralized tools that lets you generate your own digital identity to assist linkage and attribution of data. Besides that Joachim is a connector for Ouishare, currently curating the content for the Decentralization & Blockchain track of the next Ouishare Fest in Paris. Also he organizes GETDcent and is an active member of the Agora Collective in Berlin.
+      Joachim is an entrepreneur and tech enthusiast. He is obsessed with knowledge, change and innovation. Currently, he is Founder and CEO of Jolocom, a Berlin-based startup building decentralized tools that lets you generate your own digital identity to assist linkage and attribution of data. Besides that Joachim is a connector for Ouishare, currently curating the content for the Decentralization & Blockchain track of the next Ouishare Fest in Paris. Also he organizes GETDcent and is an active member of the Agora Collective in Berlin.
 
   - name: Max Ogden
     last: Ogden
     subtitle: The Dat Project
     image: /static/img/people/max_ogden.jpg
     bio: |
-         Max Ogden is a software developer and founder of The Dat Project (<a href="http://www.wired.com/2014/08/dat/">http://www.wired.com/2014/08/dat/</a>), a grant funded software development non-profit. Max has lead the Dat team to work with data scientists, journalists and civic technologists to develop better tools for sharing datasets online. Prior to starting the Dat Project, Max was a Code for America fellow.
+      Max Ogden is a software developer and founder of The Dat Project (<a href="http://www.wired.com/2014/08/dat/">http://www.wired.com/2014/08/dat/</a>), a grant funded software development non-profit. Max has lead the Dat team to work with data scientists, journalists and civic technologists to develop better tools for sharing datasets online. Prior to starting the Dat Project, Max was a Code for America fellow.
 
 
 committee:
@@ -353,102 +353,102 @@ committee:
     link: https://ipfs.io/
     image: /static/img/people/juan_benet.jpg
     bio: |
-         Juan Benet created IPFS, Filecoin, and other open source protocols. He is the founder of Protocol Labs, a company improving how the internet works. He studied Computer Science (Distributed Systems) at Stanford University. Juan is obsessed with Knowledge, Science, and Technology.
+      Juan Benet created IPFS, Filecoin, and other open source protocols. He is the founder of Protocol Labs, a company improving how the internet works. He studied Computer Science (Distributed Systems) at Stanford University. Juan is obsessed with Knowledge, Science, and Technology.
   - name: Richard Caceres
     last: Caceres
     subtitle: Internet Archive
     image: /static/img/people/richard_caceres.jpg
     bio: |
-         Richard joined the Internet Archive in January of 2016 as an engineer on the Books team after running his own startup and freelancing for a variety of clients. He has strong ideals, and is passionate about open, self-hosted and decentralized web technologies.
+      Richard joined the Internet Archive in January of 2016 as an engineer on the Books team after running his own startup and freelancing for a variety of clients. He has strong ideals, and is passionate about open, self-hosted and decentralized web technologies.
   - name: Constance Choi
     last: Choi
     subtitle: Seven Advisory/COALA
     image: /static/img/people/constance_choi.jpg
     bio: |
-         Constance is one of the principal drivers of global, collaborative, multi-stakeholder initiatives (www.blockchainworkshops.org andwww.coala.global) and her ongoing work is intended to foster sound public policy to allow blockchain technologies to fulfill the great social and economic promise of its technical ingenuity. Her company, Seven Advisory, also supports diverse public and private clients in global regulations, licensing and compliance, government advocacy, and strategic market development for blockchain technologies.
+      Constance is one of the principal drivers of global, collaborative, multi-stakeholder initiatives (<a href="http://www.blockchainworkshops.org">www.blockchainworkshops.org</a> and <a href="https://www.coala.global">www.coala.global</a>) and her ongoing work is intended to foster sound public policy to allow blockchain technologies to fulfill the great social and economic promise of its technical ingenuity. Her company, Seven Advisory, also supports diverse public and private clients in global regulations, licensing and compliance, government advocacy, and strategic market development for blockchain technologies.
   - name: Primavera De Filippi
     last: Filippi
     subtitle:  Seven Advisory/COALA
     image: /static/img/people/primavera_defilippi.jpg
     bio: |
-         Primavera De Filippi is a permanent researcher at the CERSA / CNRS / Université Paris II. She is a faculty associate at the Berkman Center for Internet & Society at Harvard Law School, where she is investigating the concept of governance-by-design as it relates to distributed online architectures, such as Bitcoin, Ethereum, etc. Primavera holds a PhD from the European University Institute in Florence. She is a member of the Global Agenda Council on the Future of Software & IT Services at the World Economic Forum, as well as the founder of the Internet Governance Forum’s dynamic coalitions on Network Neutrality, Platform Responsibility and Blockchain Technology (COALA). In addition to her academic research, Primavera acts as a legal expert for Creative Commons and the P2P Foundation.
+      Primavera De Filippi is a permanent researcher at the CERSA / CNRS / Université Paris II. She is a faculty associate at the Berkman Center for Internet & Society at Harvard Law School, where she is investigating the concept of governance-by-design as it relates to distributed online architectures, such as Bitcoin, Ethereum, etc. Primavera holds a PhD from the European University Institute in Florence. She is a member of the Global Agenda Council on the Future of Software & IT Services at the World Economic Forum, as well as the founder of the Internet Governance Forum’s dynamic coalitions on Network Neutrality, Platform Responsibility and Blockchain Technology (COALA). In addition to her academic research, Primavera acts as a legal expert for Creative Commons and the P2P Foundation.
   - name: David Dias
     last: Dias
     subtitle: Protocol Labs/IPFS
     image: /static/img/people/david_dias.jpg
     bio: |
-         David is a Peer-to-Peer Software Engineer at <a href="http://ipn.io">Protocol Labs</a>. He is building the InterPlanetary File System, which enables the creation of completely distributed applications. He has also contributed to nodesecurity.io and built several modules that enable developers to check for vulnerabilities. He has a Master of Science in Engineering with major in Peer-to-Peer Networks from Technical University of Lisbon.
+      David is a Peer-to-Peer Software Engineer at <a href="http://ipn.io">Protocol Labs</a>. He is building the InterPlanetary File System, which enables the creation of completely distributed applications. He has also contributed to <a href="https://nodesecurity.io">nodesecurity.io</a> and built several modules that enable developers to check for vulnerabilities. He has a Master of Science in Engineering with major in Peer-to-Peer Networks from Technical University of Lisbon.
   - name: Kyle Drake
     last: Drake
     subtitle:  Neocities
     image: /static/img/people/kyle_drake.jpg
     bio: |
-         Kyle Drake is a tech entrepreneur and the founder of Neocities. Kyle has contributed to numerous Bitcoin projects (including BitcoinJS), and is currently focusing on defining and building the distributed web.
+      Kyle Drake is a tech entrepreneur and the founder of Neocities. Kyle has contributed to numerous Bitcoin projects (including BitcoinJS), and is currently focusing on defining and building the distributed web.
   - name: Wendy Hanamura
     last: Hanamura
     subtitle: Internet Archive
     image: /static/img/people/wendy_hanamura.jpg
     bio: |
-         As the Director of Partnerships at the Internet Archive, Wendy uses her storytelling skills to share the remarkable stories locked in its collections. Previously, as Chief Digital Officer of KCETLink and Link TV, the national nonprofit media network, Wendy led diverse teams producing television series, apps, a semantic platform for global videos, international film contests and documentaries—all in the service of social change. Wendy began her career in journalism at Time magazine. She's reported and produced television content around the world for CBS, World Monitor Television, NHK (Japanese Broadcasting Corporation), and PBS.
+      As the Director of Partnerships at the Internet Archive, Wendy uses her storytelling skills to share the remarkable stories locked in its collections. Previously, as Chief Digital Officer of KCETLink and Link TV, the national nonprofit media network, Wendy led diverse teams producing television series, apps, a semantic platform for global videos, international film contests and documentaries—all in the service of social change. Wendy began her career in journalism at Time magazine. She's reported and produced television content around the world for CBS, World Monitor Television, NHK (Japanese Broadcasting Corporation), and PBS.
   - name: Mek Karpeles
     last: Karpeles
     subtitle:  Internet Archive
     image: /static/img/people/mek_karpeles.jpg
     bio: |
-         Mek (@mekarpeles on GitHub) is a software engineer and citizen of the world dedicated to curating a living map of the universe's knowledge. His philosophies on open access and semantic knowledge systems can be explored at <a href="https://michaelkarpeles.com">https://michaelkarpeles.com</a>
+      Mek (@mekarpeles on GitHub) is a software engineer and citizen of the world dedicated to curating a living map of the universe's knowledge. His philosophies on open access and semantic knowledge systems can be explored at <a href="https://michaelkarpeles.com">https://michaelkarpeles.com</a>
   - name: John Light
     last: Light
     subtitle: Bitseed
     image: /static/img/people/john_light.jpg
     bio: |
-         John Light is a co-founder of Bitseed, author of Bitcoin: Be Your Own Bank, writer at the okTurtles Foundation, free software advocate and contributor, and advisor to cryptocurrency startups and investors. He organized Blockstack Summit NYC in 2015, founded the Buttonwood SF P2P Cryptocurrency Trading meetup in San Francisco, hosts the P2P Connects Us podcast, and is an avid reader and writer on the topics of peer-to-peer technology, philosophy, and culture. You can find John's website and blockchain ID at <a href="www.lightco.in">www.lightco.in</a>.
+      John Light is a co-founder of Bitseed, author of Bitcoin: Be Your Own Bank, writer at the okTurtles Foundation, free software advocate and contributor, and advisor to cryptocurrency startups and investors. He organized Blockstack Summit NYC in 2015, founded the Buttonwood SF P2P Cryptocurrency Trading meetup in San Francisco, hosts the P2P Connects Us podcast, and is an avid reader and writer on the topics of peer-to-peer technology, philosophy, and culture. You can find John's website and blockchain ID at <a href="https://www.lightco.in">www.lightco.in</a>.
   - name: Joachim Lohkamp
     last: Lohkamp
     subtitle: Jolocom/Ouishare
     image: /static/img/people/joachim_lohkamp.jpg
     bio: |
-         Joachim is an entrepreneur and tech enthusiast. He is obsessed with knowledge, change and innovation. Currently, he is Founder and CEO of Jolocom, a Berlin-based startup building decentralized tools that lets you generate your own digital identity to assist linkage and attribution of data. Besides that Joachim is a connector for Ouishare, currently curating the content for the Decentralization & Blockchain track of the next Ouishare Fest in Paris. Also he organizes GETDcent and is an active member of the Agora Collective in Berlin.
+      Joachim is an entrepreneur and tech enthusiast. He is obsessed with knowledge, change and innovation. Currently, he is Founder and CEO of Jolocom, a Berlin-based startup building decentralized tools that lets you generate your own digital identity to assist linkage and attribution of data. Besides that Joachim is a connector for Ouishare, currently curating the content for the Decentralization & Blockchain track of the next Ouishare Fest in Paris. Also he organizes GETDcent and is an active member of the Agora Collective in Berlin.
   - name: Trent McConaghy
     last: McConaghy
     subtitle:  BigchainDB/ascribe
     image: /static/img/people/trent_mcconaghy.jpg
     bio: |
-         Trent McConaghy is co-inventor of the world's first planetary-scale blockchain database, BigchainDB, and the creators-first IP service, ascribe. Previously, he worked on AI for designing computer chips to help drive Moore's Law.
+      Trent McConaghy is co-inventor of the world's first planetary-scale blockchain database, BigchainDB, and the creators-first IP service, ascribe. Previously, he worked on AI for designing computer chips to help drive Moore's Law.
   #- name: Karissa McKelvey
   #  subtitle: The Dat Project
   #  image: /static/img/people/karissa_mckelvey.jpg
   #  bio: |
-  #    Karissa McKelvey is a software developer, writer, inventor, and activist supporting an equitable web. Formerly a research scientist at Indiana University, her work studying online political communication resulted in multiple peer-reviewed papers and press in outlets such as NPR and the Wall Street Journal. In addition to an experienced software and web developer, she has successfully led teams to success with diverse projects throughout her career in academia, non-profits, and industry. In her spare time, she teaches beginning programmers, volunteers her time in social movements, and plays the trumpet. -->
+  #    Karissa McKelvey is a software developer, writer, inventor, and activist supporting an equitable web. Formerly a research scientist at Indiana University, her work studying online political communication resulted in multiple peer-reviewed papers and press in outlets such as NPR and the Wall Street Journal. In addition to an experienced software and web developer, she has successfully led teams to success with diverse projects throughout her career in academia, non-profits, and industry. In her spare time, she teaches beginning programmers, volunteers her time in social movements, and plays the trumpet.
   - name: Greg McMullen
     last: McMullen
     subtitle: BigchainDB/ascribe
     image: /static/img/people/greg_mcmullen.jpg
     bio: |
-         Greg is Chief Policy Officer at ascribe.io and BigchainDB.com. Before joining ascribe, Greg spent five years as a lawyer with one of Canada’s top class action law firms, where he worked on class actions against Facebook and the Government of Canada alleging privacy violations, and against Teranet alleging copyright infringement. Greg is on the Board of Directors of the British Columbia Civil Liberties Association, and the author of the BCCLA handbook on laptop and smartphone searches at the Canadian border.
+      Greg is Chief Policy Officer at <a href="https://www.ascribe.io">ascribe.io</a> and <a href="https://BigchainDB.com">BigchainDB.com</a>. Before joining ascribe, Greg spent five years as a lawyer with one of Canada’s top class action law firms, where he worked on class actions against Facebook and the Government of Canada alleging privacy violations, and against Teranet alleging copyright infringement. Greg is on the Board of Directors of the British Columbia Civil Liberties Association, and the author of the BCCLA handbook on laptop and smartphone searches at the Canadian border.
   - name: Courtney Mumma
     last: Mumma
     subtitle:  Internet Archive
     image: /static/img/people/courtney_mumma.jpg
     bio: |
-         Courtney joined the Internet Archive in September of 2015 as Program Manager, with a focus on collaborative partnerships, grants management, community development, research initiatives, new services and sustainable innovation in web archives. Her career has been dedicated to building and fortifying the digital cultural heritage preservation sector, helping to build the Archivematica open source digital preservation system and community, as well as several other open source projects.
+      Courtney joined the Internet Archive in September of 2015 as Program Manager, with a focus on collaborative partnerships, grants management, community development, research initiatives, new services and sustainable innovation in web archives. Her career has been dedicated to building and fortifying the digital cultural heritage preservation sector, helping to build the Archivematica open source digital preservation system and community, as well as several other open source projects.
   - name: Max Ogden
     last: Ogden
     subtitle: The Dat Project
     image: /static/img/people/max_ogden.jpg
     bio: |
-         Max Ogden is a software developer and founder of The Dat Project (<a href="http://www.wired.com/2014/08/dat/">http://www.wired.com/2014/08/dat/</a>), a grant funded software development non-profit. Max has lead the Dat team to work with data scientists, journalists and civic technologists to develop better tools for sharing datasets online. Prior to starting the Dat Project, Max was a Code for America fellow.
+      Max Ogden is a software developer and founder of The Dat Project (<a href="http://www.wired.com/2014/08/dat/">http://www.wired.com/2014/08/dat/</a>), a grant funded software development non-profit. Max has lead the Dat team to work with data scientists, journalists and civic technologists to develop better tools for sharing datasets online. Prior to starting the Dat Project, Max was a Code for America fellow.
   - name: Paige Peterson
     last: Peterson
     subtitle: MaidSafe
     image: /static/img/people/paige_peterson.jpg
     bio: |
-         Paige is an advocate for open standards, user privacy and decentralized technologies. She received a BFA practicing experimental art with a strong focus on complexity in nature through interactive installations. Her understanding of natural decentralized systems would map rather eloquently to her growing interest in censorship resistant technologies as she started working for mesh networking startup Open Garden and organizing many bitcoin and cryptocurrency events in San Francisco. In early 2014, Paige met Scotland-based company, MaidSafe who are building a peer-to-peer Internet stemming from similar principles within natural systems which were so attractive to her many years prior and she has been working on various communication efforts full-time with MaidSafe since.
+      Paige is an advocate for open standards, user privacy and decentralized technologies. She received a BFA practicing experimental art with a strong focus on complexity in nature through interactive installations. Her understanding of natural decentralized systems would map rather eloquently to her growing interest in censorship resistant technologies as she started working for mesh networking startup Open Garden and organizing many bitcoin and cryptocurrency events in San Francisco. In early 2014, Paige met Scotland-based company, MaidSafe who are building a peer-to-peer Internet stemming from similar principles within natural systems which were so attractive to her many years prior and she has been working on various communication efforts full-time with MaidSafe since.
   - name: Jeff Ubois
     last: Ubois
     subtitle:  Kahle/Austin Foundation
     image: /static/img/people/jeff_ubois.jpg
     bio: |
-         For more than a decade, Jeff has worked as a consultant, foundation program officer, and foundation trustee specializing in media, memory, and digital preservation of cultural materials. Currently based in Chicago, Jeff serves on the boards of Questioncopyright, and the Kahle/Austin Foundation.
+      For more than a decade, Jeff has worked as a consultant, foundation program officer, and foundation trustee specializing in media, memory, and digital preservation of cultural materials. Currently based in Chicago, Jeff serves on the boards of Questioncopyright, and the Kahle/Austin Foundation.
 
 
 
