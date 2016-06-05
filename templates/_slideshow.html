@@ -1,0 +1,47 @@
+
+
+<div id="js-slider" class="Wallop Wallop--slide">
+    <div class="Wallop-list">
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/1.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/2.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/3.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/4.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/5.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/6.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/7.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/8.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/9.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/10.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/11.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/12.jpg);"></div>
+      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/13.jpg);"></div>
+
+    </div>
+  <span class="Wallop-buttonPrevious js_prev prev">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5"><g><path fill="#4a90e2" d="M302.67 90.877l55.77 55.508L254.575 250.75 358.44 355.116l-55.77 55.506L143.56 250.75z"/></g></svg>
+  </span>
+
+  <span class="Wallop-buttonNext js_next next">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5"><g><path fill="#4a90e2" d="M199.33 410.622l-55.77-55.508L247.425 250.75 143.56 146.384l55.77-55.507L358.44 250.75z"/></g></svg>
+  </span>
+</div>
+
+<script src="/static/js/vendor/Wallop.min.js"></script>
+<script>
+  (function(){
+    var wallopEl = document.querySelector('.Wallop');
+    var slider = new Wallop(wallopEl);
+    var autoPlayMs = 3000;
+    var nextTimeout;
+    var loadNext = function() {
+      var nextIndex = (slider.currentItemIndex + 1) % slider.allItemsArray.length;
+      slider.goTo(nextIndex);
+    }
+    nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
+    slider.on('change', function() {
+      clearTimeout(nextTimeout);
+      nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
+    });
+  })();
+
+</script>
