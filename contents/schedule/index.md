@@ -20,7 +20,7 @@ summit:
     - name: Vint Cerf
 
   - time: "9:45-10:30"
-    title: "Keynote Address: Tim Berners-Lee"
+    title: "Keynote Address: Tim Berners-Lee – \"Re-decentralizing the web - some strategic questions\""
     description:
 
     people:

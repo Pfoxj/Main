@@ -94,8 +94,9 @@ schedule:
 - time: 8:00-11:00
   title: Late night meeting space available
 
-
-
+# Note: People comes from "Day One Confirmed Attendees" tab.
+# It is exported as CSV and then a script is run that generates the following yaml
+# which is pasted into this document.
 
 people:
 - name: Allen "Gunner" Gunn
@@ -197,7 +198,7 @@ people:
 - name: Daniel Roberts
   subtitle: Freenet
   image: /static/img/people/daniel_roberts.jpg
-  bio: 'Freenet is a decentralized distributed data store for censorship-resistant communication. '
+  bio: Recent computer science graduate. Long-time advocate of decentralizing technology, particularly Bitcoin and Namecoin. Volunteers with the Freenet Project. Staunch supporter of freedom of expression and commerce, strong interest in decentralized marketplaces.
   isScienceFair: false
   home: SF
 - name: David Dias
@@ -275,9 +276,7 @@ people:
 - name: Jason Griffey
   subtitle: Berkman Center for Internet and Society
   image: /static/img/people/jason_griffey.jpg
-  bio: '
-
-    '
+  bio: Jason is interested in topics revolving around how decentralized technologies overlap with access to and freedom of information.
   isScienceFair: false
   home: Cambridge, MA
 - name: Jeremy Rand
@@ -391,7 +390,7 @@ people:
 - name: Nicola Greco
   subtitle: MIT's Computer Science and Artificial Intelligence Lab, Solid
   image: /static/img/people/nicola_greco.jpg
-  bio: "Nicola is a PhD candidate in Tim Berniers-Lee's lab at MIT.  He is a researcher on the Solid project (https://github.com/solid/)--a system for building decentralized social applications using a linked-data platform. Solid is customizable and easy to scale, relying as much as possible on existing web standards. Like multiuser applications, applications on Solid talk to each other through a shared filesystem \u2013 and, in this case, that filesystem is the entire World Wide Web."
+  bio: 'Nicola Greco is a PhD student at MIT CSAIL and Fellow at the Berkman Center. His work focuses on decentralizing the web: interoperable clouds, decentralized identifiers, authenticated/content-addressable web.'
   isScienceFair: false
   home: Cambridge, MA
 - name: Noah Swartz
@@ -425,7 +424,7 @@ people:
   isScienceFair: false
   home: Vancouver
 - name: Primavera De Filippi
-  subtitle: COALA/Backfeed
+  subtitle: Backfeed/COALA
   image: /static/img/people/primavera_defilippi.jpg
   bio: "Primavera is a permanent researcher at the CERSA / CNRS / Universit\xE9 Paris II as well as a faculty associate at the Berkman Center for Internet & Society at Harvard Law School, where she is investigating the concept of governance-by-design as it relates to distributed online architectures, such as Bitcoin, Ethereum, et cetera."
   isScienceFair: false
@@ -511,7 +510,7 @@ people:
 - name: Vlad Zamfir
   subtitle: Ethereum
   image: /static/img/people/vlad_zamfir.jpg
-  bio: 'Vlad is a researcher on the Ethereum PoW algorythm candidate, thought leader on ASIC-hard PoW, reputation systems, incentivized file-sharing, as well as the incentivization layer for the semantic web project, Cryptoswartz. Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.'
+  bio: Vlad Zamfir is a researcher and Blockchain architect at Ethereum, focused on blockchain efficiency, security, scaling, and on the ethics of decentralization.
   isScienceFair: false
   home: London
 - name: Wendy Hanamura

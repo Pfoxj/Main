@@ -45,7 +45,7 @@ keynote_speakers:
 presenters:
   - name: Kyle Drake
     last: Drake
-    subtitle:  Neocities
+    subtitle: Neocities
     image: /static/img/people/kyle_drake.jpg
     link: https://neocities.org
     bio: |
@@ -53,7 +53,7 @@ presenters:
 
   - name: Primavera De Filippi
     last: Filippi
-    subtitle:  Seven Advisory/COALA
+    subtitle: Backfeed/COALA
     image: /static/img/people/primavera_defilippi.jpg
     bio: |
       Primavera De Filippi is a permanent researcher at the CERSA / CNRS / Université Paris II. She is a faculty associate at the Berkman Center for Internet & Society at Harvard Law School, where she is investigating the concept of governance-by-design as it relates to distributed online architectures, such as Bitcoin, Ethereum, etc. Primavera holds a PhD from the European University Institute in Florence. She is a member of the Global Agenda Council on the Future of Software & IT Services at the World Economic Forum, as well as the founder of the Internet Governance Forum’s dynamic coalitions on Network Neutrality, Platform Responsibility and Blockchain Technology (COALA). In addition to her academic research, Primavera acts as a legal expert for Creative Commons and the P2P Foundation.
