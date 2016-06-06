@@ -38,6 +38,8 @@
   overflow-y: hidden;
   margin-bottom: 0;
   background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .prev, .next {
@@ -64,11 +66,11 @@
 @media only screen and (min-width: $responsive_width) {
 
   .Wallop-item {
-    height: 500px;
+    height: 400px;
     text-align: center;
     overflow-y: hidden;
     margin-bottom: 0;
-    background-size:cover;
+    background-size:contain;
   }
 
 }
@@ -82,10 +84,9 @@
       left: -50px;
   }
   .Wallop-item {
-    height: 700px;
+    height: 500px;
     text-align: center;
     overflow-y: hidden;
     margin-bottom: 0;
-    background-size:cover;
   }
 }

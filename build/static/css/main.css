@@ -909,7 +909,9 @@ header a {
   overflow-y: hidden;
   margin-bottom: 0;
   -webkit-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .prev, .next {
   position: absolute;
@@ -929,12 +931,12 @@ header a {
 
 @media only screen and (min-width: 768px) {
   .Wallop-item {
-    height: 500px;
+    height: 400px;
     text-align: center;
     overflow-y: hidden;
     margin-bottom: 0;
-    -webkit-background-size: cover;
-    background-size: cover; } }
+    -webkit-background-size: contain;
+    background-size: contain; } }
 @media only screen and (min-width: 1000px) {
   .next {
     right: -50px; }
@@ -943,12 +945,10 @@ header a {
     left: -50px; }
 
   .Wallop-item {
-    height: 700px;
+    height: 500px;
     text-align: center;
     overflow-y: hidden;
-    margin-bottom: 0;
-    -webkit-background-size: cover;
-    background-size: cover; } }
+    margin-bottom: 0; } }
 /**
  * wallop.css
  *
