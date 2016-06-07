@@ -214,7 +214,8 @@ presenters:
     image: /static/img/people/evan_schwartz.jpg
     link: https://interledger.org
     bio: |
-      The Interledger Protocol is a protocol suite for connecting blockchains and other ledgers. It’s a neutral protocol for payments across different currencies and payment systems.
+      Evan Schwartz is co-inventor of Interledger, the protocol suite for connecting blockchains, payment networks and other digital asset ledgers. Interledger enables payments between parties on different ledgers, meaning developers can build payments into other protocols and apps without being tied to a single payment provider or currency. Interledger is inspired by the designs of IP, TCP, etc and aims to connect the world’s ledgers like the internet protocols connected its information networks.
+
 
   - name: Matthew Hodgson
     last: Hodgson
@@ -318,12 +319,20 @@ presenters:
 
   - name: Maira Sutton
     last: Sutton
-    subtitle: Sharable
-    image: /static/img/people/blank.jpg
+    subtitle: Shareable
+    image: /static/img/people/maira_sutton.jpg
+    bio: Maira Sutton is the Campaign Organizer at Shareable, focused on designing online advocacy initiatives to create democratic, sustainable economies. She was formerly at the Electronic Frontier Foundation (EFF) for over four years as their Global Policy Analyst, where she monitored and advocated for digital rights around emerging tech policy and their impact on access to knowledge, privacy, and free expression.
 
   - name: Wendy Seltzer
     last: Seltzer
-    image: /static/img/people/blank.jpg
+    image: /static/img/people/wendy_seltzer.jpg
+    bio: Wendy Seltzer is Policy Counsel to the World Wide Web Consortium (W3C) at MIT, where she leads the Technology & Society Domain's focus on privacy, security, web payments, and social web standards. As a visiting Fellow with Yale Law School's Information Society Project, she researches openness in intellectual property, innovation, privacy, and free expression online.
+
+  - name: Jim Nelson
+    last: Nelson
+    subtitle: Internet Archive
+    image: /static/img/people/jim_nelson.jpg
+    bio: Jim Nelson is a Cluster Operations Engineer at the Internet Archive.  Prior to joining the Archive, he was lead engineer and Executive Director of the Yorba Foundation, an open-source nonprofit. In the past he's worked at XTree Company, Starlight Networks, and a whole lot of Silicon Valley startups you've probably never heard of.  Jim’s novel Bridge Daughter is now available from Kindle Press.
 
   - name: David Dias
     last: Dias
@@ -331,6 +340,7 @@ presenters:
     image: /static/img/people/david_dias.jpg
     bio: |
       David is a Peer-to-Peer Software Engineer at <a href="http://ipn.io">Protocol Labs</a>. He is building the InterPlanetary File System, which enables the creation of completely distributed applications. He has also contributed to <a href="https://nodesecurity.io">nodesecurity.io</a> and built several modules that enable developers to check for vulnerabilities. He has a Master of Science in Engineering with major in Peer-to-Peer Networks from Technical University of Lisbon.
+
   - name: Joachim Lohkamp
     last: Lohkamp
     subtitle: Jolocom/Ouishare

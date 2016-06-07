@@ -3,6 +3,7 @@ title: Day One
 template: builders_day.html
 
 
+# Note schedule comes from Richard's web tab via script that converts csv to yaml
 schedule:
 - time: 8:00-8:45
   title: Breakfast Buffet
@@ -16,12 +17,10 @@ schedule:
   people:
   - name: Wendy Hanamura
 - time: 9:45-10:00
-  title: 'Meeting New Allies: Find two other people who you don''t know and introduce yourself to them'
+  title: Meeting New Allies
   people:
   - name: Allen "Gunner" Gunn
-- time: 10:00-10:15
-  title: "Join two small groups: (form group of six) \u2013 meet each other!"
-- time: 10:15-10:45
+- time: 10-10:45
   title: 'Framing the Problem:  What are the problems that need to be solved? What needs to be Decentralized? What can we agree on, what do we not agree on and what can we do today?'
   people:
   - name: Allen "Gunner" Gunn
@@ -31,24 +30,19 @@ schedule:
   title: Break
 - time: 11:30-12:30
   title: 'Three Stories:  Lessons from the Field'
-  description: |
-    For a decade, Van Jacobson has been working to decentralize the internet itself.  He'll share the lessons along the way. Then Cory Doctorow interviews Zooko Wilcox, who calls himself "probably the world leader in the number of failed attempts to implement and deploy decentralized storage..."  Learn why this has led Zooko to found Z.cash and how he hopes it will change the paradigm. And finally Tamas Kocsis has single-handedly created one of the most effective decentralized services in use today, Zeronet.io.  Be among the first to look under the hood of his code.
   people:
   - name: Zooko Wilcox
   - name: Tamas Kocsis
+  - name: Fred Grosskopf
   - name: Cory Doctorow
   - name: Van Jacobson
 - time: 12:30-1:30
   title: Lunch break
-- time: 1:30-2:45
+- time: 1:30-2:30
   title: 'Science Fair:  25 technologies, 25 tables.  Time to ask questions and explore'
-- time: 2:45-3:15
+- time: 2:30-2:45
   title: Break
-- time: 3:15-4:00
-  title: Some thoughts about Creating the WWW and where it should head
-  people:
-  - name: Tim Berners-Lee
-- time: 4:00-4:15
+- time: 2:45-3:00
   title: 'Break Out Sessions: Meet the facilitators!'
   people:
   - name: Wendy Hanamura
@@ -61,7 +55,7 @@ schedule:
   - name: Constance Choi
   - name: Courtney Mumma
   - name: Kyle Drake
-- time: 4:15-5:00
+- time: 3:00-4:15
   title: Break Out Sessions
   people:
   - name: Greg McMullen
@@ -73,7 +67,7 @@ schedule:
   - name: Constance Choi
   - name: Courtney Mumma
   - name: Kyle Drake
-- time: 5:00-5:30
+- time: 4:15-4:45
   title: 'Report back: where do we go from here?'
   people:
   - name: Kevin Marks
@@ -85,18 +79,22 @@ schedule:
   - name: Amber Case
   - name: Cory Doctorow
   - name: Dan Gillmor
-- time: 5:30-6:00
-  title: 'Closing: what are the next steps?'
+- time: 4:45-5:15
+  title: 'Reflections of the day: What are the areas we agree on?  Where are the places we still need to integrate?'
   people:
   - name: Brewster Kahle
-- time: 6:00-8:00
+  - name: Tim Berners-Lee
+- time: 6-8:00
   title: Dinner Reception in Foyer
 - time: 8:00-11:00
   title: Late night meeting space available
 
+
+
 # Note: People comes from "Day One Confirmed Attendees" tab.
 # It is exported as CSV and then a script is run that generates the following yaml
 # which is pasted into this document.
+
 
 people:
 - name: Allen "Gunner" Gunn
