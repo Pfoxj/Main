@@ -216,7 +216,6 @@ presenters:
     bio: |
       Evan Schwartz is co-inventor of Interledger, the protocol suite for connecting blockchains, payment networks and other digital asset ledgers. Interledger enables payments between parties on different ledgers, meaning developers can build payments into other protocols and apps without being tied to a single payment provider or currency. Interledger is inspired by the designs of IP, TCP, etc and aims to connect the world’s ledgers like the internet protocols connected its information networks.
 
-
   - name: Matthew Hodgson
     last: Hodgson
     subtitle: Matrix
@@ -252,7 +251,8 @@ presenters:
   - name: Victor Morrow
     last: Morrow
     subtitle: Prometheus
-    image: /static/img/people/blank.gif
+    image: /static/img/people/victor_morrow.jpg
+    bio: "Victor Morrow is a software developer and creator of Prometheus: The Social Currency Network. Prometheus is a P2P Social Network for commerce. By bridging time banking, decentralized autonomous organizations, and smart-contracts, Prometheus hopes to establish universal metric for human value in the form of a sustainable universal basic income system created by currency."
 
   - name: Joel Dietz
     last: Dietz
@@ -310,7 +310,7 @@ presenters:
     last: Johnson
     subtitle: IPFS
     image: /static/img/people/jeromy_johnson.jpg
-    bio: "Jeromy is a Peer to Peer Software Engineer at Protocol Labs who goes by whyrusleeping on the internet. He is currently working on IPFS (The Interplanetary FileSystem) to improve the unrestricted flow of data through the decentralized web. Prior to Protocol Labs he worked on distributed filesystems at EMC Isilon and earned a Bachelors Degree with a major in Computer Science at Washington State University."
+    bio: Jeromy is a Peer to Peer Software Engineer at Protocol Labs who goes by whyrusleeping on the internet. He is currently working on IPFS (The Interplanetary FileSystem) to improve the unrestricted flow of data through the decentralized web. Prior to Protocol Labs he worked on distributed filesystems at EMC Isilon and earned a Bachelors Degree with a major in Computer Science at Washington State University.
 
   - name: Christoph Witzany
     last: Witzany
@@ -340,7 +340,6 @@ presenters:
     image: /static/img/people/david_dias.jpg
     bio: |
       David is a Peer-to-Peer Software Engineer at <a href="http://ipn.io">Protocol Labs</a>. He is building the InterPlanetary File System, which enables the creation of completely distributed applications. He has also contributed to <a href="https://nodesecurity.io">nodesecurity.io</a> and built several modules that enable developers to check for vulnerabilities. He has a Master of Science in Engineering with major in Peer-to-Peer Networks from Technical University of Lisbon.
-
   - name: Joachim Lohkamp
     last: Lohkamp
     subtitle: Jolocom/Ouishare
