@@ -210,4 +210,33 @@ attendees:
   - Ronny Kerr—Writer  
   - Stephen Whitemore—p2p Hacker at Protocol Labs  
   - Mark Sullivan—Improvisational  Engineer at Maybe
+  - Alexis Rossi—Director of Media & Access at Internet Archive
+  - William Bruns—Software Engineer
+  - Robert Stephenson—Founder and PI at opencourse.org
+  - Gavin Morgan—CTO at FirstClass CI
+  - Bob Way—Integration Architect at Ripple
+  - Andi Wong—Teaching Artist at ArtsEd4All @ Rooftop Alternative PreK-8 School
+  - Marat Nepomnyashy—Software Developer at MBNI LLC
+  - Mary Austin—Founder at San Francisco Center For The Book
+  - Daniel Brooks—Consulting Software Engineer at The Web
+  - Faustin Bray—Producer at Sound Photosynthesis
+  - Ken Goldberg—Professor at UC Berkeley
+  - Daniel Windham—Student at Harvard
+  - Ix Rudis—Studio Manger at 4K Studios
+  - Anton Podviaznikov—Engineer at Runnable
+  - Tracey Rosenberg—ED at Media Alliance
+  - James Baicoianu—Principal Engineer and Founder at Supercritical Industries
+  - Robert Krahn—Senior Researcher at HARC / YC Research
+  - Kevin O'Malley—President at TechTalk Studio
+  - Christie Dames—CEO at TechTalk Studio
+  - Caslon Kahle—Student at Oberlin College
+  - Caleb Chen—Marketing Associate at London Trust Media
+  - Yuvi Panada—Operation Engineer at Wikimedia Foundation
+  - Wendell Davis— Developer at ETH CORE LIMITED
+  - Thomas Greco—Special Advisor at Omise
+  - Richardo Cabello—Open Source Developer at Mr.doob
+  - Candida Haynes—Technology Consultant
+  - Tom Lagenstein—Program Manager at Stanford University
+  - Darius Dunlap—CEO at Syncopat
+  - Joesuel Musambaghani—Software Engineer at Slack
 ---

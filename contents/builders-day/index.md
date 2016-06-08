@@ -20,7 +20,7 @@ schedule:
   title: Meeting New Allies
   people:
   - name: Allen "Gunner" Gunn
-- time: 10-10:45
+- time: 10:00-10:45
   title: 'Framing the Problem:  What are the problems that need to be solved? What needs to be Decentralized? What can we agree on, what do we not agree on and what can we do today?'
   people:
   - name: Allen "Gunner" Gunn
@@ -32,10 +32,11 @@ schedule:
   title: 'Three Stories:  Lessons from the Field'
   people:
   - name: Zooko Wilcox
-  - name: Tamas Kocsis
-  - name: Fred Grosskopf
   - name: Cory Doctorow
   - name: Van Jacobson
+  - name: Jim Nelson
+  - name: Tamas Kocsis
+  - name: Fred Grosskopf
 - time: 12:30-1:30
   title: Lunch break
 - time: 1:30-2:30
@@ -84,7 +85,7 @@ schedule:
   people:
   - name: Brewster Kahle
   - name: Tim Berners-Lee
-- time: 6-8:00
+- time: 6:00-8:00
   title: Dinner Reception in Foyer
 - time: 8:00-11:00
   title: Late night meeting space available
@@ -94,8 +95,6 @@ schedule:
 # Note: People comes from "Day One Confirmed Attendees" tab.
 # It is exported as CSV and then a script is run that generates the following yaml
 # which is pasted into this document.
-
-
 people:
 - name: Allen "Gunner" Gunn
   subtitle: Aspiration Tech
@@ -370,7 +369,7 @@ people:
 - name: Mike Perry
   subtitle: TOR
   image: /static/img/people/mike_perry.jpg
-  bio: The Tor network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy.
+  bio: Mike Perry serves as the Senior Developer dedicated to coordinating technical details between the Tor Browser and Core Tor teams. Mike has done work for The Tor Project for the past 10 years, leading the Tor Browser team for 4 of those years. Mike has also worked on several other areas of Tor, including network path selection, path security, load balancing, and latency improvements. Mike is currently spending time working on padding for traffic analysis, hidden service path selections, and prototypes of new projects that use Tor.
   isScienceFair: false
   home: SF
 - name: Mitchell Baker
@@ -478,7 +477,7 @@ people:
 - name: Tamas Kocsis
   subtitle: Zeronet
   image: /static/img/people/tamas_kocsis.jpg
-  bio: Tamas is a self-taught web builder from Hungary who has been in love with the Internet since the dial-up era. He is the founder and programmer of ZeroNet (https://zeronet.io), which allows you to create decentralized, P2P and real-time updated websites using Bitcoin cryptography and the BitTorrent network.
+  bio: Tamas is a self-taught web builder from Hungary who has been in love with the Internet since the dial-up era. He is the founder and programmer of ZeroNet https://zeronet.io, which allows you to create decentralized, P2P and real-time updated websites using Bitcoin cryptography and the BitTorrent network.
   isScienceFair: false
   home: Budapest
 - name: Tim Berners-Lee
@@ -523,6 +522,13 @@ people:
   bio: "Zooko has more than 20 years of experience in open, decentralized systems, cryptography and information security, and startups. He is recognized for his work on DigiCash, Mojo Nation, ZRTP, \u201CZooko's Triangle\u201D, Tahoe-LAFS, BLAKE2, and SPHINCS. He is also the Founder and CEO of Least Authority. He sometimes blogs about health science. He tweets a lot. Zcash is a decentralized and open source cryptocurrency that aims to set a new standard for privacy through the use of groundbreaking cryptography. "
   isScienceFair: false
   home: Colorado
+- name: Jim Nelson
+  subtitle: Internet Archive
+  image: /static/img/people/jim_nelson.jpg
+  bio: "Jim Nelson is a Cluster Operations Engineer at the Internet Archive.  Prior to joining the Archive, he was lead engineer and Executive Director of the Yorba Foundation, an open-source nonprofit. In the past he's worked at XTree Company, Starlight Networks, and a whole lot of Silicon Valley startups you've probably never heard of.  Jim\u2019s novel Bridge Daughter is now available from Kindle Press."
+  isScienceFair: false
+  home: SF
+
 
 
 
