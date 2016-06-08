@@ -267,7 +267,7 @@ people:
 - name: Harlan T Wood
   subtitle: Co-Makery
   image: /static/img/people/harlant_wood.jpg
-  bio: Harlan is CTO of comakery.com <http://comakery.com>, cofounder of core.network <http://core.network>, and architect of the nodesphere.org http://nodesphere.org> project. Nodesphere is a global-scale distributed content addressable semantic graph protocol and open source codebase.  Its design goals are to create interoperability of heterogeneous data sources, maximize individual ownership and control of data, and enable a new generation of graph visualization browsers. Harlan brings a career of practical software development together with a diverse background including years of deep work with modern mystery schools.
+  bio: Harlan is CTO of comakery.com, cofounder of core.network, and architect of the nodesphere.org project. Nodesphere is a global-scale distributed content addressable semantic graph protocol and open source codebase.  Its design goals are to create interoperability of heterogeneous data sources, maximize individual ownership and control of data, and enable a new generation of graph visualization browsers. Harlan brings a career of practical software development together with a diverse background including years of deep work with modern mystery schools.
   isScienceFair: false
   home: ''
 - name: Jason Griffey
