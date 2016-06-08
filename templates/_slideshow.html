@@ -58,7 +58,7 @@
           isSliderInitted = true;
           var els = document.querySelectorAll('.Wallop-item');
           for (var i = 0; i < els.length; i++) {
-            els[i].style = els[i].getAttribute('data-style');
+            els[i].setAttribute('style', els[i].getAttribute('data-style'));
           };
           setupSlider();
         }

@@ -496,24 +496,26 @@ google.maps.event.addDomListener(window, 'load', init_map);
 
   <div class="grey-row" style="background-color:white">
     <section id="slideshow">
-      
+      <script src="/static/js/vendor/noframework.waypoints.min.js"></script>
+<script src="/static/js/vendor/Wallop.min.js"></script>
+
 
 <div id="js-slider" class="Wallop Wallop--slide">
     <div class="Wallop-list">
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/1.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/2.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/3.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/4.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/5.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/6.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/7.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/8.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/9.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/10.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/11.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/12.jpg);"></div>
-      <div class="Wallop-item" style="background-image: url(/static/img/slideshow/13.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/IA-first-day-picks-01.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/IA-first-day-picks-02.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/IA-first-day-picks-03.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/IA-first-day-picks-04.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/IA-first-day-picks-05.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/IA-first-day-picks-06.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/IA-first-day-picks-13.jpg);"></div>
 
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/2.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/3.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/4.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/5.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/6.jpg);"></div>
+      <div class="Wallop-item" data-style="background-image: url(/static/img/slideshow/7.jpg);"></div>
     </div>
   <span class="Wallop-buttonPrevious js_prev prev">
       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5"><g><path fill="#4a90e2" d="M302.67 90.877l55.77 55.508L254.575 250.75 358.44 355.116l-55.77 55.506L143.56 250.75z"/></g></svg>
@@ -524,22 +526,43 @@ google.maps.event.addDomListener(window, 'load', init_map);
   </span>
 </div>
 
-<script src="/static/js/vendor/Wallop.min.js"></script>
+
 <script>
   (function(){
-    var wallopEl = document.querySelector('.Wallop');
-    var slider = new Wallop(wallopEl);
-    var autoPlayMs = 3000;
-    var nextTimeout;
-    var loadNext = function() {
-      var nextIndex = (slider.currentItemIndex + 1) % slider.allItemsArray.length;
-      slider.goTo(nextIndex);
-    }
-    nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
-    slider.on('change', function() {
-      clearTimeout(nextTimeout);
+    var setupSlider = function() {
+      var wallopEl = document.querySelector('.Wallop');
+      var slider = new Wallop(wallopEl);
+      var autoPlayMs = 3000;
+      var nextTimeout;
+      var loadNext = function() {
+        var nextIndex = (slider.currentItemIndex + 1) % slider.allItemsArray.length;
+        slider.goTo(nextIndex);
+      }
       nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
+      slider.on('change', function() {
+        clearTimeout(nextTimeout);
+        nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
+      });
+    };
+
+    var sliderEl = document.getElementById('js-slider');
+    var isSliderInitted = false;
+
+    var waypoint = new Waypoint({
+      element: sliderEl,
+      offset: 'bottom-in-view',
+      handler: function() {
+        if (isSliderInitted === false) {
+          isSliderInitted = true;
+          var els = document.querySelectorAll('.Wallop-item');
+          for (var i = 0; i < els.length; i++) {
+            els[i].setAttribute('style', els[i].getAttribute('data-style'));
+          };
+          setupSlider();
+        }
+      }
     });
+
   })();
 
 </script>
@@ -559,7 +582,7 @@ google.maps.event.addDomListener(window, 'load', init_map);
   We chose NeoCities as the hosting provider, because they offer IPFS for all their websites.
   We use an IPNS hash to keep a single mutable hash that can point to the latest version of this website.
   -->
-  <li>IPFS &ndash; <a href="http://ciqpm6d5xbmls242nfxtpuohrievc5psjihbmdjbg5pacotim5k3poq.ipfs.neocitiesops.net">QmevmZngm8fWMGtefCWjcBjW73C2w6bXZFbUCnNBNFVATs</a></li>
+  <li>IPFS &ndash; <a href="http://ciqdek5mgvzne3dnkqgivpi6ot3jjn5mokkyq4udartnmzz7wi4iqly.ipfs.neocitiesops.net/">QmRiVieDEqeaqnxJvtfTdx4VQYaq6PDPdnYPdSgXNzWPuQ</a></li>
   <li>SAFE Network &ndash; <a href="https://maidsafe.readme.io/docs/install-launcher">http://decentralizedweb.ioptio.safenet</a></li>
   <li>ZeroNet &ndash; <a href="http://bit.no.com:43110/16Ryx9pbfzaPb1dbttA6DiFojHQGqrMokU">http://bit.no.com:43110/16Ryx9pbfzaPb1dbttA6DiFojHQGqrMokU</a></li>
 </ul>
@@ -637,7 +660,12 @@ google.maps.event.addDomListener(window, 'load', init_map);
         </div>
         <div class="unit one-fifth">
           <div class="sponsor-image-wrapper">
-            <a style="font-size:30px; font-weight:bold;" href="https://www.omise.co"><img style="width:100%" src="/static/img/Omise.png" alt="Omise" /></a>
+            <a style="font-size:30px; font-weight:bold;" href="https://www.omise.co"><img style="width:90%" src="/static/img/Omise.png" alt="Omise" /></a>
+          </div>
+        </div>
+        <div class="unit one-fifth">
+          <div class="sponsor-image-wrapper">
+            <a style="font-size:30px; font-weight:bold;" href="https://londontrustmedia.com"><img style="width:100%" src="/static/img/private-internet-access.jpg" alt="Private Internet Access" /></a>
           </div>
         </div>
       </div>
