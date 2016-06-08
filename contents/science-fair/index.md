@@ -292,6 +292,12 @@ submissions:
     link: http://slack.mediachain.io
   - name: ''
     link: http://blog.mediachain.io
+- name: Nodesphere
+  people:
+  - name: Harlan T Wood
+  short_description: ''
+  full_description: Nodesphere is an interoperability toolkit for creating and sharing<br/>semantic graphs from a variety of data sources. Both a protocol and open<br/>source codebase in early stage, it has three primary objectives:<br/><br/>1. Create interoperability among graph visualization interfaces<br/><br/>2. Provide adaptors to connect these interfaces to personal data<br/>ecosystems, including browsing history, social network data, cloud<br/>storage, and ultimately, any public or private data<br/><br/>3. Abstract data sources into semantically linked unified dashboards,<br/>facilitating the transition from traditional server & database systems<br/>toward secure, distributed public and private storage, as these systems<br/>become practical and performant
+  links: []
 - name: SAFE Network
   people:
   - name: Paige Peterson

@@ -1766,6 +1766,10 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 .twitter-row img {
   margin-right: 8px; }
 
+#livestream-iframe {
+  width: 100%;
+  height: 200px; }
+
 /* desktop styles */
 @media only screen and (min-width: 768px) {
   .grid.people.full-list {
@@ -1944,4 +1948,8 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     flex-basis: 8% !important; }
 
   .page-Learn-More .schedule-toc {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  #livestream-iframe {
+    width: 100%;
+    height: 650px; } }
