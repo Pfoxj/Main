@@ -22,7 +22,6 @@ summit:
   - time: "9:45-10:30"
     title: "Keynote Address: Tim Berners-Lee – \"Re-decentralizing the web - some strategic questions\""
     description:
-
     people:
     - name: Tim Berners-Lee
 
@@ -75,7 +74,8 @@ summit:
     - name: Cory Doctorow
 
   - time: "2:30-3:15"
-    title: "Panel: As we build a new Decentralized Web, how "
+    title: "Panel: As we build a Decentralized Web, what values do we want written in the code?"
+    description: "It's easy as engineers to concentrate on the code and not on those we are building for. What are the values we should be trying to embed in the code? We hear from engineers who serve scholars, scientists and journalists.  We consider how the W3C and experimental forms of governance might work in the Decentralized Web."
     people:
     - name: Amber Case, moderator
     - name: Primavera De Filippi
@@ -187,7 +187,7 @@ meetup:
 
           https://tahoe-lafs.org/
 
-      - name: Daniel Roberts
+      - name: Michael Grube
         description: |
           Freenet 101
           Learn how Freenet works from a high level. The basics of the p2p network and data storage.
@@ -202,11 +202,11 @@ meetup:
 
           http://dat-data.com
 
-      - name: Jeremy Rand
+      - name: Muneeb Ali
         description: |
-          Namecoin is the first naming system that is simultaneously global, decentralized, and human-meaningful. This talk will introduce Namecoin, including design decisions, existing and proposed use cases, and current developments.
+          Blockstack is an application stack for decentralized, server-less apps secured by the blockchain. Blockstack provides services for identity, authentication, and storage without relying on any trusted third parties. In this talk and workshop, I'll give a quick overview of how Blockstack works, share lessons from 2+ years of experience of running a production decentralized system, and give a demo of Blockstack's naming and storage.
 
-          www.namecoin.org
+          http://blockstack.org
 
     workshops:
 
@@ -240,6 +240,16 @@ meetup:
           - full mesh conncetivity: js-ipfs meets go-ipfs
 
           https://github.com/ipfs/js-ipfs and https://github.com/haadcode/orbit
+
+      - name: Joe Perla
+        description: |
+          Turntable2.FM is a community built clone of a popular music site re-built entirely in javascript, WebRTC, and WebTorrent with no servers. Learn about and help design the next generation of social music listening.  Turntable2.FM connects you, your friends and others in a real-time music listening experience. You will learn about the existing architecture, Bring Your Own Signaling Server (BYOSS) anchor serverless design, the Egalitarian Paxos distributed consensus algorithm, and discuss future designs collaboratively.
+
+          https://docs.google.com/presentation/d/18dhAhy-K6B2BKf9z2abTQxWPBdY0oalluKOouWk0taQ/edit#slide=id.g144cce8cd1_0_59
+
+      - name: Joachim Lochamp
+        description: |
+          Bringing gender equality and ethnic diversity to the decentralized technology community is an important method to fully realise the scope of the revolutionary ideas we're exploring. During the curation of the conference preparation we were already aware of the lack of gender and cultural diversity in the history of the Internet and technology as a whole. We took significant steps to facilitate viewpoints of underrepresented perspectives but it does not end with this conference. We have 25% female speakers during the Decentralised Web Summit but we strongly feel that we need to address this with more passion. In this workshop we like to claim the space for gender equality and ethnic diversity in building the future decentralised and open Internet. Our proposal is to start a working group on this topic during the conference but since we understand that this is the first event of a series of events we hope to establish a plan moving forward as well. There were similar discussions during Ouishare Fest in May with the consensus to create a task force that works on this. We would love to initiate an collaborative effort from actors across networks and communities, including get-d.net, blockchainworkshops.org, ouishare.net etc.
 
   - time: "10:30-11:00 a.m."
     title: "<span class=\"muted\">Break</span>"
@@ -358,11 +368,11 @@ meetup:
 
           - Jeromy Johnson, Juan Benet
 
-      - name: Jeremy Rand
+      - name: Muneeb Ali
         description: |
-          This workshop will cover how to use Namecoin, including use cases such as registering domain names and attaching an IP address to them, viewing Namecoin websites, registering Namecoin identities, attaching your public keys to your Namecoin identity, and using your Namecoin identity to send messages and log into websites.  If we have time, we might also cover buying and selling domain names and identities without counterparty fraud risk.
+          Blockstack is an application stack for decentralized, server-less apps secured by the blockchain. Blockstack provides services for identity, authentication, and storage without relying on any trusted third parties. In this talk and workshop, I'll give a quick overview of how Blockstack works, share lessons from 2+ years of experience of running a production decentralized system, and give a demo of Blockstack's naming and storage.
 
-          www.namecoin.org
+          http://blockstack.org
 
       - name: Daniel Roberts
         description: |
@@ -436,11 +446,11 @@ meetup:
 
           http://www.WebOfTrust.info
 
-      - name: Muneeb Ali
+      - name: Jeremy Rand
         description: |
-          Blockstack is an application stack for decentralized, server-less apps secured by the blockchain. Blockstack provides services for identity, authentication, and storage without relying on any trusted third parties. In this talk and workshop, I'll give a quick overview of how Blockstack works, share lessons from 2+ years of experience of running a production decentralized system, and give a demo of Blockstack's naming and storage.
+          This workshop will cover how to use Namecoin, including use cases such as registering domain names and attaching an IP address to them, viewing Namecoin websites, registering Namecoin identities, attaching your public keys to your Namecoin identity, and using your Namecoin identity to send messages and log into websites.  If we have time, we might also cover buying and selling domain names and identities without counterparty fraud risk.
 
-          http://blockstack.org
+          www.namecoin.org
 
     workshops:
       - name: Juan Benet
@@ -488,6 +498,12 @@ meetup:
           https://interledger.org
 
           Evan Schwartz, Stefan Thomas
+
+      - name: Tamas Kocsis
+        description: |
+          ZeroNet allows you to create decentralized, P2P and real-time updated websites using Bitcoin's cryptography and the BitTorrent network. The project currently offers a P2P synchronized SQL database, anonymity by the Tor network and you can also browse the visited websites without internet connection.
+
+          https://zeronet.io
 
   - time: "3:00-3:30 p.m."
     title: "<span class=\"muted\">Break</span>"
@@ -560,6 +576,22 @@ meetup:
 
           shareable.net
 
+      - name: Zooko Wilcox
+        description: |
+          Zcash
+
+          Zcash is a new decentralized currency (a "cryptocurrency") with privacy built in.
+
+          https://z.cash
+
+      - name: Mek Karpeles
+        description: |
+          Archive Labs: Experiments in Decentralization.
+
+          In four short minutes, we'll survey a variety of efforts and integrations the Internet Archive community has implemented in order to bootstrap the decentralized web movement.
+
+          https://archivelab.org
+
     workshops:
       - name: Jehan Tremback
         description: |
@@ -605,11 +637,11 @@ meetup:
 
           https://github.com/ipfs/specs/blob/master/libp2p/
 
-      - name: Muneeb Ali
+      - name: Jeremy Rand
         description: |
-          Blockstack is an application stack for decentralized, server-less apps secured by the blockchain. Blockstack provides services for identity, authentication, and storage without relying on any trusted third parties. In this talk and workshop, I'll give a quick overview of how Blockstack works, share lessons from 2+ years of experience of running a production decentralized system, and give a demo of Blockstack's naming and storage.
+          This workshop will cover how to use Namecoin, including use cases such as registering domain names and attaching an IP address to them, viewing Namecoin websites, registering Namecoin identities, attaching your public keys to your Namecoin identity, and using your Namecoin identity to send messages and log into websites.  If we have time, we might also cover buying and selling domain names and identities without counterparty fraud risk.
 
-          http://blockstack.org
+          www.namecoin.org
 
   - time: "5:00-8:00 p.m."
     title: "Reception in the Foyer"
