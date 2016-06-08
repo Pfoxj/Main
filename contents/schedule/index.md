@@ -379,7 +379,7 @@ meetup:
 
           http://blockstack.org
 
-      - name: Daniel Roberts, Michael Grube
+      - name: Daniel Roberts
         description: |
           Building Decentralized Applications on Freenet
 
