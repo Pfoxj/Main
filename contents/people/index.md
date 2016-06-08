@@ -315,7 +315,11 @@ presenters:
   - name: Christoph Witzany
     last: Witzany
     subtitle: CloudFleet
-    image: /static/img/people/blank.jpg
+    image: /static/img/people/christoph_witzany.jpg
+    bio: |
+      Decentralization Fanatic<br/>
+      Passionate Storyteller<br/>
+      Founder of CloudFleet
 
   - name: Maira Sutton
     last: Sutton
@@ -353,6 +357,12 @@ presenters:
     image: /static/img/people/max_ogden.jpg
     bio: |
       Max Ogden is a software developer and founder of The Dat Project (<a href="http://www.wired.com/2014/08/dat/">http://www.wired.com/2014/08/dat/</a>), a grant funded software development non-profit. Max has lead the Dat team to work with data scientists, journalists and civic technologists to develop better tools for sharing datasets online. Prior to starting the Dat Project, Max was a Code for America fellow.
+
+  - name: Joe Perla
+    last: Perla
+    subtitle: Turntable2.FM
+    image: /static/img/people/joe_perla.jpg
+    bio: Joseph Perla has a degree in computer science from Princeton University, and worked on mobile apps at Facebook and growth at Lyft.  He has shipped several Rust cargo libraries, and is currently building and promoting a WebRTC music website.
 
 
 committee:

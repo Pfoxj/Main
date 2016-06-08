@@ -16,12 +16,14 @@ summit:
     title: "Keynote Address: Vint Cerf – \"A Web that Archives Itself\""
     description: The Internet Archive has started the process of preserving the WWW but there is an opportunity to refine the design of WWW to create a self-archiving, distributed system. I hope to explore some of the desirable properties of such a self-archiving system from the technical perspective but feel compelled to consider business models that make the process sustainable and affordable. This is clearly more than just a technical problem.
 
+
     people:
     - name: Vint Cerf
 
   - time: "9:45-10:30"
     title: "Keynote Address: Tim Berners-Lee – \"Re-decentralizing the web - some strategic questions\""
     description:
+
     people:
     - name: Tim Berners-Lee
 
@@ -75,7 +77,10 @@ summit:
 
   - time: "2:30-3:15"
     title: "Panel: As we build a Decentralized Web, what values do we want written in the code?"
-    description: "It's easy as engineers to concentrate on the code and not on those we are building for. What are the values we should be trying to embed in the code? We hear from engineers who serve scholars, scientists and journalists.  We consider how the W3C and experimental forms of governance might work in the Decentralized Web."
+    description:  "It's easy as engineers to concentrate on the code and not on those we are building for. What are the values we
+ should be trying to embed in the code? What are the principles we can agree upon about the way this Web should be governed?  We
+hear from the perspectives of an archivist, an engineer, a researcher and an official of the W3C – to see if there is an alignment
+ around values and the ways to express them through technology."
     people:
     - name: Amber Case, moderator
     - name: Primavera De Filippi
@@ -84,7 +89,7 @@ summit:
     - name: Peter Van Garderen
 
 
-  - time: "3:15-4:00"
+  - time: "3:15-4"
     title: "Panel – Security in a World of Black Hats"
     description: |
       There are many "Black Hats" on the world stage today.  They have enormous resources, little government oversight, and taps into all the major fiber links.  Their goal: to break the security of your code.  How can the decentralized technologies represented here fend off their attacks?  How would you work around the "Great Firewall of China?"  How are you employing this "Black Hat" understanding into your design?  We'll pose some provocative security scenarios and discuss how decentralized technologies can combat the most powerful purveyors of censorship, surveillance, and piracy on the world stage.  How can builders of a new Web share scenario planning and knowledge to succeed?
@@ -98,7 +103,7 @@ summit:
 
 
 
-  - time: "4:00-4:25"
+  - time: "4-4:25"
     title: "<span class=\"muted\">Break</span>"
 
   - time: "4:25-4:30"
@@ -247,7 +252,7 @@ meetup:
 
           https://docs.google.com/presentation/d/18dhAhy-K6B2BKf9z2abTQxWPBdY0oalluKOouWk0taQ/edit#slide=id.g144cce8cd1_0_59
 
-      - name: Joachim Lochamp
+      - name: Joachim Lohkamp
         description: |
           Bringing gender equality and ethnic diversity to the decentralized technology community is an important method to fully realise the scope of the revolutionary ideas we're exploring. During the curation of the conference preparation we were already aware of the lack of gender and cultural diversity in the history of the Internet and technology as a whole. We took significant steps to facilitate viewpoints of underrepresented perspectives but it does not end with this conference. We have 25% female speakers during the Decentralised Web Summit but we strongly feel that we need to address this with more passion. In this workshop we like to claim the space for gender equality and ethnic diversity in building the future decentralised and open Internet. Our proposal is to start a working group on this topic during the conference but since we understand that this is the first event of a series of events we hope to establish a plan moving forward as well. There were similar discussions during Ouishare Fest in May with the consensus to create a task force that works on this. We would love to initiate an collaborative effort from actors across networks and communities, including get-d.net, blockchainworkshops.org, ouishare.net etc.
 
@@ -374,7 +379,7 @@ meetup:
 
           http://blockstack.org
 
-      - name: Daniel Roberts
+      - name: Daniel Roberts, Michael Grube
         description: |
           Building Decentralized Applications on Freenet
 
