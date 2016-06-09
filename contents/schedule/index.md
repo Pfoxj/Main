@@ -62,7 +62,8 @@ summit:
 
 
   - time: "12:45-1:45"
-    title: "Lunch in foyer"
+    title: "Lunch in foyer, Science Fair outside"
+    description: 30 tables, 30 decentralized technologies in Science Fair.
 
   - time: "1:45-1:50"
     title: "Video: Creativity on the Decentralized Web – Scott Draves' Electric Sheep"
@@ -200,12 +201,6 @@ meetup:
           Discover how it protects your privacy and freedom of expression.
 
           https://freenetproject.org/
-
-      - name: Max Ogden
-        description: |
-          This talk will show some demos of Dat, a decentralized open source dataset sharing tool designed with scientific and open data use cases in mind. Dat distributes data through a peer to peer network, and runs in a web browser. An application being built on Dat called Science Fair will be shown, which is a distributed scientific article reader that downloads and displays interactive articles in a custom web browser for offline use and search.
-
-          http://dat-data.com
 
       - name: Muneeb Ali
         description: |
@@ -494,7 +489,6 @@ meetup:
         description: |
           Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
 
-
       - name: Denis Nazarov
         description: |
           Mediachain is a universal media library.
@@ -504,7 +498,6 @@ meetup:
           Mediachain offers developers protocol stack for collaborating on information about creative works. It includes a decentralized datastore based on IPFS, a collaborative data structure inspired by git, and a content identification technology for canonical ID resolution and perceptual metadata retrieval.
 
           http://mediachain.io
-
 
       - name: Tamas Kocsis
         description: |
