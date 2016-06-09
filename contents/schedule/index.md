@@ -337,15 +337,15 @@ meetup:
 
           tendermint.com
 
-      - name: Denis Nazarov
+      - name: Evan Schwartz
         description: |
-          Mediachain is a universal media library.
+          Interledger is a protocol suite for connecting blockchains, payment networks and other digital asset ledgers. It enables transfers between parties on different ledgers, meaning it can be used to build payments or micropayments into other protocols and apps without being tied to a single payment provider or currency. We will be showing off demos of Interledger in action, walking through how to build it into your projects and how to Interledger-enable your ledger, and discussing how it works under the hood.
 
-          It connects users directly to creators through content, gives creators a permanent voice wherever their images, songs, videos, films, and writings are shared, and allows us to discover everything about what we're watching, reading, looking at, or listening to, no matter where we find it. Imagine being able to connect with the artist of a viral GIF in your feed or being able to automatically reward songwriters whenever you press play.
+          Interledger is heavily inspired by the designs of IP, TCP, etc so also come talk to us if you are interested in aspects of the Internet's design to emulate or avoid.
 
-          Mediachain offers developers protocol stack for collaborating on information about creative works. It includes a decentralized datastore based on IPFS, a collaborative data structure inspired by git, and a content identification technology for canonical ID resolution and perceptual metadata retrieval.
+          https://interledger.org
 
-          http://mediachain.io
+          Evan Schwartz, Stefan Thomas
 
       - name: Jeromy Johnson
         description: |
@@ -494,15 +494,17 @@ meetup:
         description: |
           Primavera de Filippi will introduce Backfeed, a decentralized protocol using blockchain technologies to facilitate group collaboration and cooperation, without the need for a centralized authority. At the protocol's core lies a unique peer-to-peer system that evaluates individual contributions made to a community and distributes rewards. Backfeed aims to make launching decentralized applications (DApps) or decentralized collaborative organizations (DCOs) as easy as launching a website is today.
 
-      - name: Evan Schwartz
+
+      - name: Denis Nazarov
         description: |
-          Interledger is a protocol suite for connecting blockchains, payment networks and other digital asset ledgers. It enables transfers between parties on different ledgers, meaning it can be used to build payments or micropayments into other protocols and apps without being tied to a single payment provider or currency. We will be showing off demos of Interledger in action, walking through how to build it into your projects and how to Interledger-enable your ledger, and discussing how it works under the hood.
+          Mediachain is a universal media library.
 
-          Interledger is heavily inspired by the designs of IP, TCP, etc so also come talk to us if you are interested in aspects of the Internet's design to emulate or avoid.
+          It connects users directly to creators through content, gives creators a permanent voice wherever their images, songs, videos, films, and writings are shared, and allows us to discover everything about what we're watching, reading, looking at, or listening to, no matter where we find it. Imagine being able to connect with the artist of a viral GIF in your feed or being able to automatically reward songwriters whenever you press play.
 
-          https://interledger.org
+          Mediachain offers developers protocol stack for collaborating on information about creative works. It includes a decentralized datastore based on IPFS, a collaborative data structure inspired by git, and a content identification technology for canonical ID resolution and perceptual metadata retrieval.
 
-          Evan Schwartz, Stefan Thomas
+          http://mediachain.io
+
 
       - name: Tamas Kocsis
         description: |
