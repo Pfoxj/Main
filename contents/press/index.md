@@ -3,7 +3,7 @@ title: Press
 template: basic_page.html
 ---
 
-For the Decentralized Web Summit/Internet Archive:  Please contact Wendy Hanamura, Director of Partnerships (<a href="mailto:wendy@archive.org">wendy@archive.org</a>) or Mark Graham, Director, Wayback Machine <a href="mailto:mark@archive.org">mark@archive.org</a> (917) 697-0110 or (415) 561-6767
+<span style="position:relative; top:3px"><i class="material-icons">email</i></span>&nbsp;&nbsp;For the Decentralized Web Summit/Internet Archive:  Please contact Wendy Hanamura, Director of Partnerships (<a href="mailto:wendy@archive.org">wendy@archive.org</a>) or Mark Graham, Director, Wayback Machine <a href="mailto:mark@archive.org">mark@archive.org</a> (917) 697-0110 or (415) 561-6767
 
 <div style="font-size:24px;">
   <span style="position:relative; top:3px"><i class="material-icons">photo_camera</i></span>
@@ -36,5 +36,14 @@ http://www.ibtimes.co.in/tim-berners-lee-wants-reinvent-web-681857
 http://gizmodo.com/the-web-s-creator-now-wants-to-unfuck-it-1781260559
 
 
-- The Inquirer "Sir Tim Berners-Lee: Internet has become 'world’s largest surveillance network'"  
+- The Inquirer – "Sir Tim Berners-Lee: Internet has become 'world’s largest surveillance network'"  
 http://www.theinquirer.net/inquirer/news/2460894/sir-tim-berners-lee-internet-has-become-world-s-largest-surveillance-network
+
+- Breitbart – "The Inventor Of The Web Wants To Give Power Back To The Users"  
+http://www.breitbart.com/tech/2016/06/09/inventor-web-power-users/
+
+- Fortune – "Here's How Two Visionaries Want to Fix a Broken Internet"  
+http://fortune.com/2016/06/08/fixing-a-corrupted-internet/
+
+- Boing Boing –  "How we will keep the Decentralized Web decentralized: my talk from the Decentralized Web Summit"  
+https://boingboing.net/2016/06/09/how-will-we-keep-the-decentral.html
