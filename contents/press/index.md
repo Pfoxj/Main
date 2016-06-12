@@ -19,22 +19,17 @@ Photo Credit: CC-BY 4.0 Brad Shirakawa, <a href="mailto:bshirakawa@hotmail.com">
 - New York Times – "The Web’s Creator Looks to Reinvent It  
 http://www.nytimes.com/2016/06/08/technology/the-webs-creator-looks-to-reinvent-it.html
 
-
 - EFF.org – "Locking the Web Open: Dispatches from Morning One of the Decentralized Web Summit"  
 https://www.eff.org/deeplinks/2016/06/locking-web-open-report-morning-one-decentralized-web-summit
-
 
 - The Next Web – "The Inventor of the Web thinks we need a new one that governments can't control"  
 http://thenextweb.com/insider/2016/06/08/inventor-web-thinks-need-new-one-governments-cant-control/#gref
 
-
 - International Business Times – "Tim Berners-Lee wants to reinvent the web"  
 http://www.ibtimes.co.in/tim-berners-lee-wants-reinvent-web-681857
 
-
 - Gizmodo – "The Web’s Creator Now Wants to Unfuck It"  
 http://gizmodo.com/the-web-s-creator-now-wants-to-unfuck-it-1781260559
-
 
 - The Inquirer – "Sir Tim Berners-Lee: Internet has become 'world’s largest surveillance network'"  
 http://www.theinquirer.net/inquirer/news/2460894/sir-tim-berners-lee-internet-has-become-world-s-largest-surveillance-network
@@ -47,3 +42,15 @@ http://fortune.com/2016/06/08/fixing-a-corrupted-internet/
 
 - Boing Boing –  "How we will keep the Decentralized Web decentralized: my talk from the Decentralized Web Summit"  
 https://boingboing.net/2016/06/09/how-will-we-keep-the-decentral.html
+
+- Newsweek – "Building the First Amendment Into the web and Other Hopes for the Internet’s Future"  
+http://www.newsweek.com/building-first-amendment-web-and-other-hopes-internets-future-468597
+
+- Newsweek – "Father of the Internet Worries our Digital History is Disappearing"  
+http://www.newsweek.com/father-internet-worries-our-digital-history-disappearing-468642
+
+- Bitcoin Magazine – "Decentralized Web Initiative Aims to Reinvent Web With Peer-To-Peer And Blockchain Technology"  
+https://bitcoinmagazine.com/articles/decentralized-web-initiative-aims-to-reinvent-web-with-peer-to-peer-and-blockchain-technology-1465574954
+
+- Live Bitcoin News – "Inventor of the Web Creates Identity on Bitcoin Blockchain"  
+http://www.livebitcoinnews.com/inventor-of-the-web-creates-identity-on-bitcoin-blockchain/

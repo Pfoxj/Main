@@ -16,7 +16,6 @@ summit:
     title: "Keynote Address: Vint Cerf – \"A Web that Archives Itself\""
     description: The Internet Archive has started the process of preserving the WWW but there is an opportunity to refine the design of WWW to create a self-archiving, distributed system. I hope to explore some of the desirable properties of such a self-archiving system from the technical perspective but feel compelled to consider business models that make the process sustainable and affordable. This is clearly more than just a technical problem.
 
-
     people:
     - name: Vint Cerf
 
