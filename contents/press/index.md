@@ -60,3 +60,9 @@ http://spectrum.ieee.org/view-from-the-valley/telecom/internet/the-fathers-of-th
 
 - Economist – "Reweaving the web - A slew of startups is trying to decentralise the online world"  
 http://www.economist.com/news/business/21700642-slew-startups-trying-decentralise-online-world-reweaving-web
+
+- Wired – "The Inventors of the Internet Are Trying to Build a Truly Permanent Web"  
+http://www.wired.com/2016/06/inventors-internet-trying-build-truly-permanent-web/
+
+- L'Informaticien – "Tim Berners-Lee, l’inventeur du Web veut recréer internet"  
+http://www.linformaticien.com/actualites/id/40773/tim-berners-lee-l-inventeur-du-web-veut-recreer-internet.aspx
