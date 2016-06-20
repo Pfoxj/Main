@@ -168,75 +168,140 @@ attendees:
   - "Christopher Allen — Principal Architect: Blockchain Standards & Decent at Blockstream"
   - Johannes Ernst — unCEO at Indie Computing Corp.
   - Carl Malamud — Rogue Archivist at Public.Resource.Org, Inc.
-  - Dwalu Khasu— Sr. Cluster/DevOps Engineer at The Internet Archive  
-  - william austin—intern at the internet archive  
-  - Aaron Ximm— Engineer at Archive.org  
-  - Dave Cohen— Integration Engineer at Ripple  
-  - Jon Godston— Mechanical Engineer at google  
-  - Micheal Folkson— Founder at RiskBazaar  
-  - David Chiles— Developer at ChatSecure  
-  - Chris Ballinger—Founder at ChatSecure  
-  - David Brodsky—Developer at ChatSecure  
-  - Kenji Nagahashi— Senior Engineer-wayback at The Internet Archive  
-  - Richard Gibson—Architect at Dyn  
-  - Yaron Greenwald—Student at Brandeis University  
-  - Nuala Creed—Artist  
-  - James Prestwich—COO/CFO Storj Labs inc.  
-  - Will Fitzpatrick—Counsel at The Omidyar Group  
-  - Murat Gabriel—Employee at Blue System  
-  - Clemens Toennies—CEO at Blue System  
-  - Aashish Sheshadri— Sofware Engineer at PayPal  
-  - Rohit Harchandani—Sofware Engineer at PayPal  
-  - Vax Cymaticka-Hckr at Invisible System  
-  - Douglas Crockford—The Bosses of you at PayPal  
+  - Dwalu Khasu — Sr. Cluster/DevOps Engineer at The Internet Archive  
+  - william austin — intern at the internet archive  
+  - Aaron Ximm — Engineer at Archive.org  
+  - Dave Cohen — Integration Engineer at Ripple  
+  - Jon Godston — Mechanical Engineer at google  
+  - Micheal Folkson — Founder at RiskBazaar  
+  - David Chiles — Developer at ChatSecure  
+  - Chris Ballinger — Founder at ChatSecure  
+  - David Brodsky — Developer at ChatSecure  
+  - Kenji Nagahashi — Senior Engineer-wayback at The Internet Archive  
+  - Richard Gibson — Architect at Dyn  
+  - Yaron Greenwald — Student at Brandeis University  
+  - Nuala Creed — Artist  
+  - James Prestwich — COO/CFO Storj Labs inc.  
+  - Will Fitzpatrick — Counsel at The Omidyar Group  
+  - Murat Gabriel — Employee at Blue System  
+  - Clemens Toennies —CEO at Blue System  
+  - Aashish Sheshadri — Sofware Engineer at PayPal  
+  - Rohit Harchandani — Sofware Engineer at PayPal  
+  - Vax Cymaticka - Hckr at Invisible System  
+  - Douglas Crockford —The Bosses of you at PayPal  
   - Akala Lemus—Cofounder at Metazen
-  - Greyson Nevins-Archer— Engineering Intern at Google inc.
-  - Danese Cooper—Distinguished Member Technical staff at PayPal  
+  - Greyson Nevins-Archer — Engineering Intern at Google inc.
+  - Danese Cooper — Distinguished Member Technical staff at PayPal  
   - John Ryan—CEO at WireTheWorld  
-  - Cinmarron Taylor—Principal engineer at Piston Cloud Computing  
-  - Gavin McDermott—Engineer at IDEO  
-  - Dave Taht— Nagger-In-Chief at BlufferBoat.net  
-  - Jennifer Granick— Director of Civil  Liberties at Stanford Center for Internet and Society  
-  - Tantek Çelik— Web Standards Lead at Tanktek.com/Mozilla  
-  - Amandine Le Pape— Product Manager at Vector  
-  - Gerard Cerchio— Consultant at Circlesoft Llc.  
-  - Nathan Wilcox— Chief Engineer at Zcash  
-  - Reid Williams—Designer at IDEO
-  - Marek Kotewicz—Core Developer at ETH Core Limited  
-  - Daneil Cawrey—Communications at Velocity  
-  - Norman Bookstein—Mahdi at Skipatrol.org  
-  - Katie Lucas— Public Policy Specialist at TBC  
-  - Kim Zetter—Senior Staff Writer at Wired  
-  - Ronny Kerr—Writer  
-  - Stephen Whitemore—p2p Hacker at Protocol Labs  
-  - Mark Sullivan—Improvisational  Engineer at Maybe
-  - Alexis Rossi—Director of Media & Access at Internet Archive
-  - William Bruns—Software Engineer
-  - Robert Stephenson—Founder and PI at opencourse.org
-  - Gavin Morgan—CTO at FirstClass CI
-  - Bob Way—Integration Architect at Ripple
-  - Andi Wong—Teaching Artist at ArtsEd4All @ Rooftop Alternative PreK-8 School
-  - Marat Nepomnyashy—Software Developer at MBNI LLC
-  - Mary Austin—Founder at San Francisco Center For The Book
-  - Daniel Brooks—Consulting Software Engineer at The Web
-  - Faustin Bray—Producer at Sound Photosynthesis
-  - Ken Goldberg—Professor at UC Berkeley
-  - Daniel Windham—Student at Harvard
+  - Cinmarron Taylor — Principal engineer at Piston Cloud Computing  
+  - Gavin McDermott — Engineer at IDEO  
+  - Dave Taht — Nagger-In-Chief at BlufferBoat.net  
+  - Jennifer Granick — Director of Civil  Liberties at Stanford Center for Internet and Society  
+  - Tantek Çelik — Web Standards Lead at Tanktek.com/Mozilla  
+  - Amandine Le Pape — Product Manager at Vector  
+  - Gerard Cerchio — Consultant at Circlesoft Llc.  
+  - Nathan Wilcox — Chief Engineer at Zcash  
+  - Reid Williams — Designer at IDEO
+  - Marek Kotewicz — Core Developer at ETH Core Limited  
+  - Daneil Cawrey — Communications at Velocity  
+  - Norman Bookstein — Mahdi at Skipatrol.org  
+  - Katie Lucas — Public Policy Specialist at TBC  
+  - Kim Zetter — Senior Staff Writer at Wired  
+  - Ronny Kerr — Writer  
+  - Stephen Whitemore — p2p Hacker at Protocol Labs  
+  - Mark Sullivan — Improvisational  Engineer at Maybe
+  - Alexis Rossi — Director of Media & Access at Internet Archive
+  - William Bruns — Software Engineer
+  - Robert Stephenson — Founder and PI at opencourse.org
+  - Gavin Morgan — CTO at FirstClass CI
+  - Bob Way — Integration Architect at Ripple
+  - Andi Wong — Teaching Artist at ArtsEd4All @ Rooftop Alternative PreK-8 School
+  - Marat Nepomnyashy — Software Developer at MBNI LLC
+  - Mary Austin — Founder at San Francisco Center For The Book
+  - Daniel Brooks — Consulting Software Engineer at The Web
+  - Faustin Bray — Producer at Sound Photosynthesis
+  - Ken Goldberg — Professor at UC Berkeley
+  - Daniel Windham — Student at Harvard
   - Ix Rudis—Studio Manger at 4K Studios
-  - Anton Podviaznikov—Engineer at Runnable
-  - Tracey Rosenberg—ED at Media Alliance
-  - James Baicoianu—Principal Engineer and Founder at Supercritical Industries
+  - Anton Podviaznikov — Engineer at Runnable
+  - Tracey Rosenberg — ED at Media Alliance
+  - James Baicoianu — Principal Engineer and Founder at Supercritical Industries
   - Robert Krahn—Senior Researcher at HARC / YC Research
-  - Kevin O'Malley—President at TechTalk Studio
+  - Kevin O'Malley — President at TechTalk Studio
   - Christie Dames—CEO at TechTalk Studio
-  - Caslon Kahle—Student at Oberlin College
+  - Caslon Kahle — Student at Oberlin College
   - Caleb Chen—Marketing Associate at London Trust Media
-  - Yuvi Panada—Operation Engineer at Wikimedia Foundation
+  - Yuvi Panada — Operation Engineer at Wikimedia Foundation
   - Wendell Davis— Developer at ETH CORE LIMITED
   - Thomas Greco—Special Advisor at Omise
-  - Richardo Cabello—Open Source Developer at Mr.doob
-  - Candida Haynes—Technology Consultant
-  - Tom Lagenstein—Program Manager at Stanford University
-  - Darius Dunlap—CEO at Syncopat
-  - Joesuel Musambaghani—Software Engineer at Slack
+  - Richardo Cabello — Open Source Developer at Mr.doob
+  - Candida Haynes — Technology Consultant
+  - Tom Lagenstein — Program Manager at Stanford University
+  - Darius Dunlap — CEO at Syncopat
+  - Joesuel Musambaghani — Software Engineer at Slack
+  - Caleb Chen — Marketing associate at Private Internet Access
+  - Matthew Braithwaite
+  - Ainsley Sutherland — Open Lab Fellow at BuzzFeed
+  - Peter Brantley — Director Of Online Strategy at UC Davis Library
+  - Amanda Hickman — Senior Fellow at BuzzFeed Open Lab
+  - Lucas Gonze — VP Content Operations at Gracenote
+  - Gene Becker — Instigator at Samsung
+  - Evan Paschke — CoFounder at Factbox
+  - Martin Zizi — CEO at Arendir Mobile
+  - Brian Ebert — Head Deep Learning and Data at Aerendir Mobile inc.
+  - Tiffany Shlain — Filmmaker/Founder of the Webby Awards at Let It Ripple Mobile Films for Global Change
+  - Tim Lewkow — Integration Engineer at Ripple
+  - Jae Yang — Software Engineer at Keyboard Masher
+  - Promit Ghosh — Data Science Intern at Lineage Logistics
+  - Jonathan Weber — Global Technology Editor at Reuters
+  - Danny O'Brien — International Director at Electronic Frontiers Foundation
+  - Ben Sharafian — Engineering Intern at Ripple
+  - Greg Slepak — President at okTurtle Foundation
+  - Bryan Kaplan — Self Employed
+  - Hunter Lee — Data Scientist at Lineage Logistics
+  - Mikola Lysenko — Free Lance
+  - Nathan Ginnever — Engineer
+  - Eamonn O'Brien-Strain — Engineer at Google
+  - Ian McKeller — Senior Software Engineer at Google
+  - Don Means — Director at Gigabit Libraries Network
+  - Caterina Rindi — Consultant and Educator at Rindi Counseling
+  - Steve Waterhouse — Partner at Pantera Capital
+  - Zach Alexander — Designer and Developer
+  - Adam Hyde — CoFounder at Coko Foundation
+  - Andrew Atkin — IT Manager at Santa Clara County
+  - Bernhard Seefeld — Director, Product Management at Google
+  - John Eisenmen — Software Architect at Orange SV
+  - Eric Myhre — Hopeful Hacker at Polydawn
+  - Squiggy Rubio — Web Developer at Electronic Frontier Foundation
+  - Marc Juul — Hacker at BioBricks Foundation
+  - Trav Fryer — Internet Gardener at Singularity University
+  - Joseph Chow — Consulting Engineer (Ethereum) at consensys
+  - G Chiacchieri — Designer of Powerful Interfaces at Human Advancement Research Community (HARC)
+  - Dan Kurtz — Software Engineer at No Where In Particular
+  - Abhishek Gutgutia — Open Innovation at Accenture
+  - Greg Hazel — CoFounder at OpenGarden
+  - Joseph Poon — CoFounder at Lightning
+  - Thaddeus Dryja — CTO at Lightning Labs
+  - Brian Webster — General Manager at Better World Associates
+  - Kenny Okagaki — FilmMaker at Harvard University
+  - Alessandro Voto — Research Manager at IFTF
+  - Antoine McGrath — Founder & Project Manager at CRSReports.com
+  - Robert Terrin — Student at Colombia University
+  - Gavin Knight — COO at Credible Friends
+  - Brian Santos — CEO at eSpend
+  - Karriem Khan — Advisor at eSpend
+  - Sean Phillips — Advisor at eSpend
+  - Matthew Nakatani — Digital Marketing Consultant at Anonymous Ads
+  - Wayne Vaughan — CEO at Tierion
+  - Tom Kyser — Director of Growth at Tierion
+  - Alexander MacGillivray
+  - Steve Douty — CEO at Nexo Inc.
+  - Alex Leverington — Core Developer at Ethereum Project
+  - Ameen Soleimani — Engineer at Consensys
+  - Elizabeth Biddlecome — Engineer at Null
+  - Linnsey Miller — Senior Data Scientist at ShadowFax Security
+  - Dan Morehead — CEO Pantera at Capital
+  - Hilliery Shay — Student at Mills College
+  - Jake Hartnell — Founder Common at Garden
+  - Richard Stallman — Founder of GNU Project and Free Software Foundation
 ---
