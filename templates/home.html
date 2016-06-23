@@ -21,118 +21,74 @@
   </div>
 
   <section id="invitation">
-    <div style="padding:50px 0; text-align:center;">
-      June 8:<br>
-      <iframe id="livestream-iframe" src="https://www.youtube.com/embed/Yth7O6yeZRE" frameborder="0" allowfullscreen></iframe>
-      <div><a href="https://www.youtube.com/watch?v=Yth7O6yeZRE">Direct link to video.</a></div>
-      <br>
-      <br>
-      June 9:<br>
-      <iframe id="livestream-iframe" src="https://www.youtube.com/embed/PfWgin3JlAU" frameborder="0" allowfullscreen></iframe>
-      <div><a href="https://www.youtube.com/watch?v=PfWgin3JlAU">Direct link to video.</a></div>
-      <br>
-      <span style="font-size:2.8rem"><a href="https://archive.org/details/DecentralizedWeb20160607Images">Photos from the event.</a></span>
+    <div class="page-intro">
+      The Decentralized Web Summit took place at the Internet Archive on June 7th - June 9th, 2016.<br>
+      You can read more about the event on the <a href="/press">press page</a>.<br>
+      Videos and photos from the event are posted below. More coming soon.<br>
+      <br><br>
     </div>
 
-
-
-    <h2>We invite you to join us at the first Decentralized Web Summit!</h2>
-    <div class="grid">
-      <div class="unit one-third">
-        <div class="icon-col">
-          <i class="green material-icons">share</i>
-        </div>
-        <div class="subheader">New Connections</div>
-        <p>We are bringing together a diverse group of Web architects, activists, engineers, archivists, scholars, journalists, and other stakeholders to explore the technology required to build a Decentralized Web and its impact.</p>
-      </div>
-      <div class="unit one-third">
-        <div class="icon-col">
-          <i class="orange material-icons">account_balance</i>
-        </div>
-        <div class="subheader">Call to action</div>
-        <p>The current Web is not private or censorship-free. It lacks a memory, a way to preserve our culture’s digital record through time. The Decentralized Web aims to make the Web open, secure and free of censorship by distributing data, processing, and hosting across millions of computers around the world, with no centralized control.</p>
-      </div>
-      <div class="unit one-third">
-        <div class="icon-col">
-          <i class="blue material-icons">language</i>
-        </div>
-        <div class="subheader">Sharing vision &amp; Tech know-how</div>
-        <p>The Summit &amp; meetup is a two-day event for high level discussions among leaders from around the globe working on decentralized technologies. What decentralized applications are being built today, and what is just around the corner? Together, can we prototype the Decentralized Web and start to lock the Web open for good?</p>
-      </div>
-    </div>
-  </section>
-  <div class="grey-row">
-    <section id="keynote-speakers">
-
-      <h2>Speakers</h2>
-      <div class="grid people">
-      {% for attendee in contents['people']['index.md'].metadata.keynote_speakers %}
-        <div class="unit one-fifth js-bio-unit">
-          <img src="{{attendee.image}}" />
-          <div class="name">{{attendee.name}}</div>
-          <div class="short_bio">{{attendee.short_bio}}</div>
-          <div class="hidden-bio">
-            <div>
-              <div class="modal-image" ><img src="{{attendee.image}}" /></div>
-              <div class="modal-name">{{attendee.name}}</div>
-              <div class="modal-subtitle">{{attendee.subtitle}}</div>
-              <div>{{attendee.bio}}</div>
+    <div style="">
+      <div>
+      {% for video in page.metadata.day1videos %}
+        {% if loop.index0 % 3 == 0 %}
+          <div class="grid">
+        {% endif %}
+            <div class="unit one-third video-unit">
+              <div class="video-container">
+                <iframe src="https://archive.org/embed/{{video.id}}" width="100%" height="200" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+              </div>
+              <div class="video-title">{{video.title}}</div>
             </div>
+        {% if loop.index0 % 3 == 2 %}
           </div>
-        </div>
+        {% endif %}
       {% endfor %}
       </div>
+    </div>
 
-
-      <h3>Organizers</h3>
-        <div class="grid people full-list">
-        {% for attendee in contents['people']['index.md'].metadata.committee|sort(false,false,'last') %}
-          <div class="small-col js-bio-unit">
-            <img src="{{attendee.image}}" />
-            <div class="name">{{attendee.name}}</div>
-            <div class="subtitle">{{attendee.subtitle}}</div>
-            <div class="hidden-bio">
-              <div>
-                <div class="modal-image" ><img src="{{attendee.image}}" /></div>
-                <div class="modal-name">{{attendee.name}}</div>
-                <div class="modal-subtitle">{{attendee.subtitle}}</div>
-                <div>{{attendee.bio}}</div>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-
-
-
-    </section>
-  </div>
-
-  <div id="location-row" class="grey-row bottom-pad">
-    <section>
-      <div class="grid">
-        <div class="unit one-third">
-          <span>
-            <h2>Location</h2>
-            INTERNET ARCHIVE<br>
-            300 Funston Avenue<br>
-            San Francisco, CA<br>
-            <br>
-            <i class="material-icons">email</i> <a href="mailto:dwebsummit@archive.org">dwebsummit@archive.org</a><br>
-            <br>
-          </span>
-        </div>
-        <div class="unit two-thirds" id="map-wrapper">
-          {% include "_map_embed.html" %}
-        </div>
-      </div>
-    </section>
-  </div>
+  </section>
 
   <div class="grey-row" style="background-color:white">
     <section id="slideshow">
+      <h2>Photos</h2>
+
       {% include "_slideshow.html" %}
+
+      <br>
+      <span style="font-size:2rem">More photos from the event are available <a href="https://archive.org/details/DecentralizedWeb20160607Images">here</a>.</span>
+
+      <br><br>
+
+      <h2>The Decentralized Web Summit</h2>
+      <div class="grid">
+        <div class="unit one-third">
+          <div class="icon-col">
+            <i class="green material-icons">share</i>
+          </div>
+          <div class="subheader">New Connections</div>
+          <p>We are bringing together a diverse group of Web architects, activists, engineers, archivists, scholars, journalists, and other stakeholders to explore the technology required to build a Decentralized Web and its impact.</p>
+        </div>
+        <div class="unit one-third">
+          <div class="icon-col">
+            <i class="orange material-icons">account_balance</i>
+          </div>
+          <div class="subheader">Call to action</div>
+          <p>The current Web is not private or censorship-free. It lacks a memory, a way to preserve our culture’s digital record through time. The Decentralized Web aims to make the Web open, secure and free of censorship by distributing data, processing, and hosting across millions of computers around the world, with no centralized control.</p>
+        </div>
+        <div class="unit one-third">
+          <div class="icon-col">
+            <i class="blue material-icons">language</i>
+          </div>
+          <div class="subheader">Sharing vision &amp; Tech know-how</div>
+          <p>The Summit &amp; meetup is a two-day event for high level discussions among leaders from around the globe working on decentralized technologies. What decentralized applications are being built today, and what is just around the corner? Together, can we prototype the Decentralized Web and start to lock the Web open for good?</p>
+        </div>
+      </div>
+
+
     </section>
+
+
   </div>
 
   <div class="grey-row">
@@ -154,6 +110,10 @@
         <img width="20" height="20" src="/static/img/twitter.svg" alt="Twitter"/><a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
       </div>
     </section>
+
+
+
+
   </div>
   <div class="">
     <section id="sponsors-section">
@@ -213,6 +173,7 @@
         </div>
       </div>
     </section>
+
   </div>
 
   <script src="/static/js/vendor/cash.min.js"></script>

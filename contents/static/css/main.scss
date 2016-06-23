@@ -146,7 +146,7 @@ section ul {
   padding:0 0 0 2rem;
 }
 section li {
-  margin-bottom:2rem;
+  // margin-bottom:2rem;
 }
 #extra-info-section .unit {
   margin-bottom:0;
@@ -194,18 +194,24 @@ section li {
 }
 
 footer {
-  text-align: center;
+  font-size:1.3rem;
+  line-height: 2rem;
+  padding: 10px;
+  // text-align: center;
   /*margin-top:5rem;*/
   // padding:2rem 1rem 2rem 1rem;
   background-color:#eee;
   color:#999;
-  height: $header_size;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  min-height: $header_size;
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
   cursor: default;
 }
-
+footer a {
+  color: #aaa;
+  text-decoration: underline;
+}
 code, pre {
   background-color: #eee;
   padding: 2px 3px;
@@ -643,5 +649,35 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 #livestream-iframe {
   width: 100%;
   height: 200px;
+}
+
+.video-unit {
+  margin-bottom: 20px;
+}
+.video-title {
+  text-align: center;
+  font-size: 1.45rem;
+  line-height: 2.4rem;
+  font-weight:400;
+  margin-top: 10px;
+  margin-bottom:20px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.page-intro {
+  margin-top: 30px;
+  text-align:center;
 }
 @import "desktop";
