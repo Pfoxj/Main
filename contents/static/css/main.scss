@@ -201,7 +201,7 @@ footer {
   /*margin-top:5rem;*/
   // padding:2rem 1rem 2rem 1rem;
   background-color:#eee;
-  color:#999;
+  color:#555;
   min-height: $header_size;
   // display: flex;
   // justify-content: space-around;
@@ -209,7 +209,7 @@ footer {
   cursor: default;
 }
 footer a {
-  color: #aaa;
+  color: #555;
   text-decoration: underline;
 }
 code, pre {
@@ -657,10 +657,20 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 .video-title {
   text-align: center;
   font-size: 1.45rem;
-  line-height: 2.4rem;
+  line-height: 2rem;
   font-weight:400;
+  // font-style: italic;
   margin-top: 10px;
+  color: #4a90e2;
+}
+.video-subtitle {
+  text-align: center;
+  font-size: 1.45rem;
+  line-height: 2.25rem;
+  font-weight:400;
+  margin-top: 3px;
   margin-bottom:20px;
+  color: #000;
 }
 .video-container {
   position: relative;
@@ -679,5 +689,12 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 .page-intro {
   margin-top: 30px;
   text-align:center;
+}
+
+.slideshow-footer {
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  padding: 10px 0;
+  display:block;
 }
 @import "desktop";

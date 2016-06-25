@@ -3,8 +3,8 @@
 // Configs
 var PARTICLE_NUM, PARTICLE_MAX_NUM;
 if (window.innerWidth > 600) {
-  PARTICLE_NUM = 50;　// numero inicial de particulas
-  PARTICLE_MAX_NUM = 58;　// numero maximo de particulas
+  PARTICLE_NUM = 40;　// numero inicial de particulas
+  PARTICLE_MAX_NUM = 48;　// numero maximo de particulas
 } else {
   PARTICLE_NUM = 10;　// numero inicial de particulas
   PARTICLE_MAX_NUM = 15;　// numero maximo de particulas

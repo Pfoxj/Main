@@ -22,14 +22,14 @@
 
   <section id="invitation">
     <div class="page-intro">
-      The Decentralized Web Summit took place at the Internet Archive on June 7th - June 9th, 2016.<br>
-      You can read more about the event on the <a href="/press">press page</a>.<br>
-      Videos and photos from the event are posted below. More coming soon.<br>
-      <br><br>
+      <span>The Decentralized Web Summit took place at the Internet Archive from June 7th - June 9th, 2016.<span>
+      <span>You can read more about the event on the <a href="/press">press page</a>.</span>
+      <span>Videos and photos from the event are posted below. More coming soon.</span>
     </div>
 
     <div style="">
       <div>
+        <h3>June 8th, Summit</h3>
       {% for video in page.metadata.day1videos %}
         {% if loop.index0 % 3 == 0 %}
           <div class="grid">
@@ -39,26 +39,52 @@
                 <iframe src="https://archive.org/embed/{{video.id}}" width="100%" height="200" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
               </div>
               <div class="video-title">{{video.title}}</div>
+              <div class="video-subtitle">{{video.subtitle}}</div>
+
             </div>
         {% if loop.index0 % 3 == 2 %}
           </div>
         {% endif %}
       {% endfor %}
+      <br>
+      <br>
+    </div>
+    <div>
+
+      <h3>June 9th, Meetup</h3>
+    {% for video in page.metadata.day2videos %}
+      {% if loop.index0 % 3 == 0 %}
+        <div class="grid">
+      {% endif %}
+          <div class="unit one-third video-unit">
+            <div class="video-container">
+              <iframe src="https://archive.org/embed/{{video.id}}" width="100%" height="200" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+            </div>
+            <div class="video-title">{{video.title}}</div>
+            <div class="video-subtitle">{{video.subtitle}}</div>
+
+          </div>
+      {% if loop.index0 % 3 == 2 %}
+        </div>
+      {% endif %}
+    {% endfor %}
+
       </div>
     </div>
 
   </section>
 
-  <div class="grey-row" style="background-color:white">
+  <div class="grey-row" style="">
     <section id="slideshow">
       <h2>Photos</h2>
 
       {% include "_slideshow.html" %}
 
-      <br>
-      <span style="font-size:2rem">More photos from the event are available <a href="https://archive.org/details/DecentralizedWeb20160607Images">here</a>.</span>
-
-      <br><br>
+      <span class="slideshow-footer">More photos from the event are available <a href="https://archive.org/details/DecentralizedWeb20160607Images">here</a>.</span>
+    </section>
+  </div>
+  <div>
+    <section>
 
       <h2>The Decentralized Web Summit</h2>
       <div class="grid">
@@ -100,15 +126,20 @@
       {% include "_decentralized_links.html" %}
 
       <h3>Join the conversation </h3>
-      <div>
+      <ul>
+      <li>
         {% include "_slackin.html" %}
-      </div>
-      <div>
+      </li>
+      <li>
         {% include "_matrix_join.html" %}
-      </div>
-      <div class="twitter-row">
-        <img width="20" height="20" src="/static/img/twitter.svg" alt="Twitter"/><a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
-      </div>
+      </li>
+      <li>
+        <div class="twitter-row">
+          <img width="20" height="20" src="/static/img/twitter.svg" alt="Twitter"/><a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
+        </div>
+      </li>
+    </ul>
+
     </section>
 
 
