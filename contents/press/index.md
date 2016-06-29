@@ -66,3 +66,6 @@ http://www.wired.com/2016/06/inventors-internet-trying-build-truly-permanent-web
 
 - L'Informaticien – "Tim Berners-Lee, l’inventeur du Web veut recréer internet"  
 http://www.linformaticien.com/actualites/id/40773/tim-berners-lee-l-inventeur-du-web-veut-recreer-internet.aspx
+
+- Fast Company - "How To Break Open The Web"  
+http://www.fastcompany.com/3061357/the-web-decentralized-distributed-open
