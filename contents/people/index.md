@@ -364,6 +364,12 @@ presenters:
     image: /static/img/people/joe_perla.jpg
     bio: Joseph Perla has a degree in computer science from Princeton University, and worked on mobile apps at Facebook and growth at Lyft.  He has shipped several Rust cargo libraries, and is currently building and promoting a WebRTC music website.
 
+  - name: Harlan T Wood
+    last: Wood
+    subtitle: Co-Makery
+    image: /static/img/people/harlant_wood.jpg
+    bio: Harlan is CTO of comakery.com, cofounder of core.network, and architect of the nodesphere.org project. Nodesphere is a global-scale distributed content addressable semantic graph protocol and open source codebase.  Its design goals are to create interoperability of heterogeneous data sources, maximize individual ownership and control of data, and enable a new generation of graph visualization browsers. Harlan brings a career of practical software development together with a diverse background including years of deep work with modern mystery schools.
+
 
 committee:
   - name: Juan Benet
