@@ -197,7 +197,7 @@ attendees:
   - Gavin McDermott — Engineer at IDEO  
   - Dave Taht — Nagger-In-Chief at BlufferBoat.net  
   - Jennifer Granick — Director of Civil  Liberties at Stanford Center for Internet and Society  
-  - Tantek Çelik — Web Standards Lead at Tanktek.com/Mozilla  
+  - Tantek Çelik — Web Standards Lead at Tantek.com/Mozilla  
   - Amandine Le Pape — Product Manager at Vector  
   - Gerard Cerchio — Consultant at Circlesoft Llc.  
   - Nathan Wilcox — Chief Engineer at Zcash  
