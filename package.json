@@ -3,11 +3,16 @@
     "browsernizr": "2.1.0",
     "nunjucks-capture": "github:rchrd2/nunjucks-capture",
     "nunjucks-eval": "1.0.0",
-    "wintersmith-autoprefixer-sass": "0.1.0",
-    "wintersmith-livereload": "0.2.2",
+    "wintersmith": "^2.x.x",
+    "wintersmith-autoprefixer-sass": "0.1.x",
+    "wintersmith-livereload": "0.2.x",
     "wintersmith-makerelative": "1.0.0",
     "wintersmith-nunjucks": "1.1.0",
-    "wintersmith-sass": "0.3.0"
+    "wintersmith-sass": "0.2.x"
+  },
+  "scripts": {
+    "serve": "wintersmith preview",
+    "build": "wintersmith build"
   },
   "private": true
 }

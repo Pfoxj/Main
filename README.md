@@ -35,12 +35,12 @@ npm install
 
 ### Build the site
 ```
-make build
+npm run build
 ```
 
 ### Open preview in browser
 
 ```
-make serve
+npm run serve
 # open your browser to http://localhost:8080
 ```
