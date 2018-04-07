@@ -4,207 +4,95 @@
   <div id="banner">
     <img id="banner-top-left" src="/static/img/colorful-triangles.svg" />
     <img id="banner-bottom-right" src="/static/img/wireframe-triangles.svg" />
-    <canvas id="c" style="opacity:0;"></canvas>
-    <div class="section" style="opacity:0;">
+    <canvas id="c"></canvas>
+    <div id="top-section" class="section">
       <div class="grid">
         <div class="unit whole">
-          <h1>Decentralized Web Summit</h1>
-          <h2>Locking the Web Open</h2>
-          <div id="date-line">
-            June 8&dash;9, 2016 <span class="green">|</span> <a href="https://archive.org">Internet Archive</a> <span class="green">|</span> San Francisco, CA
-            <br/>
+          <div class="save-the-date">Save the Date</div>
+          <h1>Decentralized Web Summit 2018</h1>
+          <div class="date-line">
+            <span class="db-mobile">August 1&dash;2, 2018</span> <span class="green hide-mobile">|</span> <span class="db-mobile"><a href="https://archive.org">Internet Archive</a></span> <span class="green hide-mobile">|</span> <span class="db-mobile">San Francisco, CA<span>
+          </div>
+          <div class="date-line hide-mobile">
             <a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      document.getElementById('c').style.opacity = 0;
+      document.getElementById('top-section').style.opacity = 0;
+    </script>
   </div>
 
-  <section id="invitation">
-    <div class="page-intro">
-      <span>The Decentralized Web Summit took place at the Internet Archive from June 7th - June 9th, 2016.<span>
-      <span>You can read more about the event on the <a href="/press">press page</a>.</span>
-      <span>Videos and photos from the event are posted below. More coming soon.</span>
-    </div>
 
-    <div style="">
-      <div>
-        <h3>June 8th, Summit</h3>
-      {% for video in page.metadata.day1videos %}
-        {% if loop.index0 % 3 == 0 %}
-          <div class="grid">
-        {% endif %}
-            <div class="unit one-third video-unit">
-              <div class="video-container">
-                <iframe src="https://archive.org/embed/{{video.id}}" width="100%" height="200" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-              </div>
-              <div class="video-title">{{video.title}}</div>
-              <div class="video-subtitle">{{video.subtitle}}</div>
-
-            </div>
-        {% if loop.index0 % 3 == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      <br>
-      <br>
-    </div>
-    <div>
-
-      <h3>June 9th, Meetup</h3>
-    {% for video in page.metadata.day2videos %}
-      {% if loop.index0 % 3 == 0 %}
-        <div class="grid">
-      {% endif %}
-          <div class="unit one-third video-unit">
-            <div class="video-container">
-              <iframe src="https://archive.org/embed/{{video.id}}" width="100%" height="200" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-            </div>
-            <div class="video-title">{{video.title}}</div>
-            <div class="video-subtitle">{{video.subtitle}}</div>
-
-          </div>
-      {% if loop.index0 % 3 == 2 %}
-        </div>
-      {% endif %}
-    {% endfor %}
-
+  <!-- <section id="invitation">
+    <div class="grid">
+      <div class="unit whole">
+        <p class="save-info"></p>
       </div>
     </div>
+  </section> -->
+  <br>
 
+  <section id="signup">
+    <div class="grid">
+      <div class="unit one-fifth">
+        <div class="icon-col">
+          <i class="green material-icons">mail</i>
+        </div>
+      </div>
+      <div class="unit four-fifths">
+        <div class="subheader pad-bottom">Sign up for updates</div>
+        <div>
+          {% include "_save_date_google_form.html" %}
+        </div>
+      </div>
+    </div>
   </section>
 
-  <div class="grey-row" style="">
+  <section id="decentralized-section">
+    <div class="grid">
+      <div class="unit one-fifth">
+        <div class="icon-col">
+          <i class="blue material-icons">chat</i>
+        </div>
+      </div>
+      <div class="unit four-fifths">
+        <div class="subheader pad-bottom">Join the Converstation</div>
+        <div>
+          {% include "_slackin.html" %}
+        </div>
+        <div>
+          {% include "_matrix_join.html" %}
+        </div>
+        <div>
+          <div class="twitter-row">
+            <img width="20" height="20" src="/static/img/twitter.svg" alt="Twitter"><a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
+          </div>
+        </div>
+        <div>
+          Email: <a href="mailto:contact@archive.org">contact@archive.org</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="grey-row">
     <section id="slideshow">
-      <h2>Photos</h2>
+      <div><br>Photos from the 2016 Decentralized Web Summit<br></div>
 
       {% include "_slideshow.html" %}
 
-      <span class="slideshow-footer">More photos from the event are available <a href="https://archive.org/details/DecentralizedWeb20160607Images">here</a>.</span>
+      <p>
+        More photos from the event are available
+        <a href="https://archive.org/details/DecentralizedWeb20160607Images">here</a>.
+        <br>
+        Also see the full <a href="https://2016.decentralizedweb.net">2016 Summit Website</a>.
+        <br>
+        <br>
+      </p>
     </section>
-  </div>
-  <div>
-    <section>
-
-      <h2>The Decentralized Web Summit</h2>
-      <div class="grid">
-        <div class="unit one-third">
-          <div class="icon-col">
-            <i class="green material-icons">share</i>
-          </div>
-          <div class="subheader">New Connections</div>
-          <p>We are bringing together a diverse group of Web architects, activists, engineers, archivists, scholars, journalists, and other stakeholders to explore the technology required to build a Decentralized Web and its impact.</p>
-        </div>
-        <div class="unit one-third">
-          <div class="icon-col">
-            <i class="orange material-icons">account_balance</i>
-          </div>
-          <div class="subheader">Call to action</div>
-          <p>The current Web is not private or censorship-free. It lacks a memory, a way to preserve our culture’s digital record through time. The Decentralized Web aims to make the Web open, secure and free of censorship by distributing data, processing, and hosting across millions of computers around the world, with no centralized control.</p>
-        </div>
-        <div class="unit one-third">
-          <div class="icon-col">
-            <i class="blue material-icons">language</i>
-          </div>
-          <div class="subheader">Sharing vision &amp; Tech know-how</div>
-          <p>The Summit &amp; meetup is a two-day event for high level discussions among leaders from around the globe working on decentralized technologies. What decentralized applications are being built today, and what is just around the corner? Together, can we prototype the Decentralized Web and start to lock the Web open for good?</p>
-        </div>
-      </div>
-
-
-    </section>
-
-
-  </div>
-
-  <div class="grey-row">
-    <section id="decentralized-section">
-      <h3>
-        <i class="material-icons">rss_feed</i>
-        Find us on the Decentralized Web!
-      </h3>
-      {% include "_decentralized_links.html" %}
-
-      <h3>Join the conversation </h3>
-      <ul>
-      <li>
-        {% include "_slackin.html" %}
-      </li>
-      <li>
-        {% include "_matrix_join.html" %}
-      </li>
-      <li>
-        <div class="twitter-row">
-          <img width="20" height="20" src="/static/img/twitter.svg" alt="Twitter"/><a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
-        </div>
-      </li>
-    </ul>
-
-    </section>
-
-
-
-
-  </div>
-  <div class="">
-    <section id="sponsors-section">
-      <h2>Sponsors</h2>
-      <div class="grid">
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a href="https://archive.org"><img width="300" height="300" src="/static/img/ia.svg" alt="Internet Archive" /></a>
-          </div>
-        </div>
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <center><a href="https://eff.org"><img style="width:100%" src="/static/img/eff.png" alt="EFF" /></a></center>
-          </div>
-        </div>
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a href="https://www.fordfoundation.org/"><img style="width:100%" src="/static/img/ford-foundation.jpg" alt="EFF" /></a>
-          </div>
-        </div>
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a style="font-size:50px; font-weight:bold;" href="https://www.google.com">Google</a>
-          </div>
-        </div>
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a style="font-size:50px; font-weight:bold;" href="https://www.mozilla.org"><img style="width:100%" src="/static/img/mozilla_wordmark.png" alt="Mozilla" /></a>
-          </div>
-        </div>
-      </div>
-      <div class="grid">
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a href="https://www.matrix.org"><img style="width:100%" src="/static/img/matrix-logo.png" alt="Matrix" /></a>
-          </div>
-        </div>
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a href="http://www.blue-systems.com"><img style="width:100%" src="/static/img/blue-systems.jpg" alt="Blue Systems" /></a>
-          </div>
-        </div>
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a style="font-size:30px; font-weight:bold;" href="http://ipn.io/"><img style="width:100%;" src="/static/img/ipfs.png" alt="IPFS" /></a>
-          </div>
-        </div>
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a style="font-size:30px; font-weight:bold;" href="https://www.omise.co"><img style="width:90%" src="/static/img/Omise.png" alt="Omise" /></a>
-          </div>
-        </div>
-        <div class="unit one-fifth">
-          <div class="sponsor-image-wrapper">
-            <a style="font-size:30px; font-weight:bold;" href="https://londontrustmedia.com"><img style="width:100%" src="/static/img/private-internet-access.jpg" alt="Private Internet Access" /></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
   </div>
 
   <script src="/static/js/vendor/cash.min.js"></script>

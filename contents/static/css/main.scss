@@ -2,13 +2,15 @@ $header_size: 60px;
 $responsive_width: 768px;
 
 
-@import "normalize";
+@import "reboot";
 @import "base";
 @import "gridism";
 @import "material_icons";
 @import "header";
 @import "slider";
 @import "wallop";
+
+$green: #3fc380;
 
 
 html {
@@ -20,9 +22,6 @@ html { font-size: 62.5%; }
 body {
   font-size: 1.8rem;
   line-height: 1.8rem * 2;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -80,7 +79,6 @@ td img { box-sizing: border-box; }
   top:-80px;
   left:-100px;
   z-index:1;
-  /*display:none;*/
 }
 #banner-bottom-right {
   position:absolute;
@@ -89,7 +87,6 @@ td img { box-sizing: border-box; }
   z-index:1;
   display:none;
 }
-
 section, .section {
   max-width: 120rem;
   margin: 0 auto;
@@ -98,28 +95,60 @@ section, .section {
 section {
   padding-top:2rem;
   padding-bottom:3rem;
-  /*margin-bottom:3rem;*/
 }
 section a {
   word-wrap: break-word;
 }
-
 .subheader {
   font-weight:bold;
 }
-#date-line {
+.save-info {
+  margin-top: 2rem;
+}
+.save-the-date {
+  margin-bottom: 1.3rem;
+  font-size: 1em;
+  background: white;
+  display:inline-block;
+  padding: 0 .6rem;
+  color: white;
+  background: $green;
+  line-height: 1.6em;
+}
+.email-group {
+  display: flex;
+  flex-direction: column;
+}
+.email-label {
+  margin-right: 1rem;
+  flex: none;
+}
+.email-input {
+  margin-right: .25rem;
+  flex: 1;
+}
+.email-submit {
+  display: block;
+  width: 100%;
+  margin-top: .8rem;
+  background-color: #3fc380;
+  border: #3fc380;
+  border-radius: 5px;
+  color: white;
+
+  font-size: .8em;
+  padding: 0 1.25rem;
+}
+.date-line {
   font-size:2.2rem;
 }
-#date-line a {
+.date-line a {
   color: white;
   text-decoration:none;
 }
-#date-line a:hover {
+.date-line a:hover {
   color: #ccc;
   text-decoration:none;
-}
-#invitation {
-  /*margin-top:4rem;*/
 }
 #location-row {
   background-image:url(../img/300funston.jpg);
@@ -134,19 +163,27 @@ section a {
   font-weight:bold;
 }
 #location-row section {
-  /*background-color:rgba(255,255,255,1.0);*/
   padding:2rem;
 }
-#decentralized-section {
+#signup {
+  padding-left:2rem;
   padding-right:2rem;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+  margin-bottom:4rem;
+  text-align: left;
 }
-
+#decentralized-section {
+  padding-left:2rem;
+  padding-right:2rem;
+  margin-bottom: 4rem;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+  text-align: left;
+}
 section ul {
   margin:0;
   padding:0 0 0 2rem;
-}
-section li {
-  // margin-bottom:2rem;
 }
 #extra-info-section .unit {
   margin-bottom:0;
@@ -193,19 +230,16 @@ section li {
   text-align:center;
 }
 
+#footer-wrapper {
+  margin-top: 3rem;
+}
 footer {
   font-size:1.3rem;
   line-height: 2rem;
   padding: 10px;
-  // text-align: center;
-  /*margin-top:5rem;*/
-  // padding:2rem 1rem 2rem 1rem;
   background-color:#eee;
   color:#555;
   min-height: $header_size;
-  // display: flex;
-  // justify-content: space-around;
-  // align-items: center;
   cursor: default;
 }
 footer a {
@@ -237,7 +271,8 @@ a {
 .one-line-top-margin { margin-top: 2rem; }
 .orange {color:#f39c12;}
 .red {color:#c0392b;}
-.green {color:#3fc380;}
+
+.green {color:$green;}
 .blue {color:#4a90e2}
 .grey {color:#ccc;}
 .grey-row { background-color: #efefef; }
@@ -246,10 +281,12 @@ a {
   margin-bottom:6rem;
 }
 .icon-col {
-  text-align:center;
   font-size:400%;
-  padding:4rem 0 4rem 0;
-  /*border:1px solid #ccc;*/
+  padding:2rem 0 3rem 0;
+  height: 100%;
+  text-align: left;
+}
+.icon-col i {
 }
 h1 {
   font-size: 4.0rem;
@@ -267,9 +304,6 @@ h2 {
 
 /* page */
 section.page-section {
-  // min-height:100%;
-  // flex:1;
-  // margin-top:3rem;
   padding-bottom: 5rem;
 }
 
@@ -293,7 +327,6 @@ section.page-section.learn-more li {
 
 .bio-image {
   margin-bottom:2rem;
-  // width:100%;
   border-radius: 50%;
 }
 .bio-name {
@@ -308,6 +341,9 @@ section.page-section.learn-more li {
 .hide-mobile {
   display:none !important;
 }
+.db-mobile {
+  display: block;
+}
 
 
 /* people */
@@ -317,7 +353,6 @@ section.page-section.learn-more li {
   box-sizing: border-box;
   border-radius: 50%;
   width:100%;
-  // transition: border 0.125s ease-out;
 }
 .grid.people img:hover {
   border:0.5rem solid #3fc380;
@@ -330,7 +365,6 @@ section.page-section.learn-more li {
   text-align: center;
   font-size: 1em;
   line-height: 1.25em;
-  // line-height:1em;
   margin-top:0.75rem;
 }
 .grid.people .subtitle, .modal .modal-subtitle {
@@ -539,6 +573,7 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   top: 4px;
   position: relative;
   padding-left: 5px;
+  color: grey;
 }
 .lightning-talks {
   padding: 10px;
@@ -585,10 +620,8 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   max-width: 400px;
   height: 200px;
   border: 1px solid #ccc;
-  // background-color:#efefef;
 }
 .google-form-raw input {
-  // background-color:#efefef;
   border: 1px solid #ccc;
 }
 .google-form-raw .required-message {
@@ -689,6 +722,16 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 .page-intro {
   margin-top: 30px;
   text-align:center;
+}
+
+#slideshow {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#slideshow .Wallop {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .slideshow-footer {
