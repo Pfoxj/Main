@@ -167,15 +167,12 @@
     height: 650px;
   }
   .save-the-date {
-    margin-bottom: 1.3rem;
-    // font-size: 1.4em;
-    // background: transparent;
-    // padding: 0 4px;
-    // color: $green;
+    margin-bottom: 2.2rem;
     line-height: 1.6em;
   }
   .icon-col {
     text-align: center;
+    padding:2rem 0 3rem 0;
   }
   .email-group {
     display: inline;
@@ -184,5 +181,9 @@
     display: inline-block;
     width: auto;
     margin-top: initial;
+  }
+
+  .conversation-type {
+    margin-bottom: 0;
   }
 }

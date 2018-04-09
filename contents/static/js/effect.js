@@ -3,21 +3,21 @@
 // Configs
 var PARTICLE_NUM, PARTICLE_MAX_NUM;
 if (window.innerWidth > 600) {
-  PARTICLE_NUM = 40;　// numero inicial de particulas
-  PARTICLE_MAX_NUM = 48;　// numero maximo de particulas
+  PARTICLE_NUM = 32;　// numero inicial de particulas
+  PARTICLE_MAX_NUM = 43;　// numero maximo de particulas
 } else {
   PARTICLE_NUM = 10;　// numero inicial de particulas
   PARTICLE_MAX_NUM = 15;　// numero maximo de particulas
 }
-var PARTICLE_DEF_SPEED_MAX = 0.5; // veloc. maxima inicial da particula
-var PARTICLE_DEF_SPEED_MIN = 0.001; // Velocidade mínima inicial da partícula
+var PARTICLE_DEF_SPEED_MAX = 0.1; // veloc. maxima inicial da particula
+var PARTICLE_DEF_SPEED_MIN = 0.1; // Velocidade mínima inicial da partícula
 var PARTICLE_RADIUS = 0; // Raio da partícula Básico
-var PARTICLE_OUTER_WIDTH = 3; // A espessura da estrutura externa da partícula
+var PARTICLE_OUTER_WIDTH = 2; // A espessura da estrutura externa da partícula
 var PARTICLE_RANGE = 20; // Distância partículas interferem uns com os outros
-var STROKE_RANGE = 250; // Distância traçada entre as partículas
-var PARTICLE_CLICK_ADD_NUM = 3; // Número de partículas a serem adicionados ao clicar
+var STROKE_RANGE = 150; // Distância traçada entre as partículas
+var PARTICLE_CLICK_ADD_NUM = 0; // Número de partículas a serem adicionados ao clicar
 var BACKGROUND_COLOR = '#22313f'; // cor de fundo
-var PARTICLE_COLOR = '#777'; // Cor e linha de partículas
+var PARTICLE_COLOR = '#999'; // Cor e linha de partículas
 
 // Constants
 var PARTICLE_RANGE_SQ = PARTICLE_RANGE * PARTICLE_RANGE;
@@ -47,9 +47,6 @@ var requestAnimationFrame = (function(){
  * Init
  */
 function init() {
-    // document.body.style.backgroundColor = BACKGROUND_COLOR;
-
-
     canvas = document.getElementById('c');
 
     window.addEventListener('resize', resize, false);
@@ -65,8 +62,6 @@ function init() {
 
     document.addEventListener('click', click, false);
     requestAnimationFrame(loop);
-    // $(canvas).fadeIn(2500);
-    // $(canvas).css("display", "initial");
     $(canvas).css("opacity", 1);
 }
 

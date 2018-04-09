@@ -138,6 +138,7 @@ section a {
 
   font-size: .8em;
   padding: 0 1.25rem;
+  cursor: pointer;
 }
 .date-line {
   font-size:2.2rem;
@@ -176,7 +177,7 @@ section a {
 #decentralized-section {
   padding-left:2rem;
   padding-right:2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   padding-top:2rem;
   padding-bottom: 2rem;
   text-align: left;
@@ -282,7 +283,7 @@ a {
 }
 .icon-col {
   font-size:400%;
-  padding:2rem 0 3rem 0;
+  padding:2rem 0 2rem 0;
   height: 100%;
   text-align: left;
 }
@@ -561,7 +562,9 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   width: 100px;
 }
 
-
+.conversation-type {
+  margin-bottom: 2rem;
+}
 .matrix-join {
   margin-top: 10px;
 }
