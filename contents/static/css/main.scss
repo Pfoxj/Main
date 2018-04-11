@@ -11,10 +11,11 @@ $responsive_width: 768px;
 @import "wallop";
 
 $green: #3fc380;
-
+$blue: #4a90e2;
+$mainfont: Roboto, sans-serif;
 
 html {
-  font-family: Roboto, sans-serif;
+  font-family: $mainfont;
 }
 
 html, body { height: 100%; }
@@ -88,7 +89,7 @@ td img { box-sizing: border-box; }
   display:none;
 }
 section, .section {
-  max-width: 120rem;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -102,9 +103,6 @@ section a {
 .subheader {
   font-weight:bold;
 }
-.save-info {
-  margin-top: 2rem;
-}
 .save-the-date {
   margin-bottom: 1.3rem;
   font-size: 1em;
@@ -116,26 +114,22 @@ section a {
   line-height: 1.6em;
 }
 .email-group {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 .email-label {
   margin-right: 1rem;
-  flex: none;
 }
 .email-input {
   margin-right: .25rem;
-  flex: 1;
 }
 .email-submit {
   display: block;
   width: 100%;
-  margin-top: .8rem;
+  margin-top: 1.5rem;
   background-color: #3fc380;
   border: #3fc380;
   border-radius: 5px;
   color: white;
-
   font-size: .8em;
   padding: 0 1.25rem;
   cursor: pointer;
@@ -150,6 +144,24 @@ section a {
 .date-line a:hover {
   color: #ccc;
   text-decoration:none;
+}
+#top-section h1 {
+  margin-bottom: 1.75rem;
+  line-height: 1.2em;
+}
+.top-subtitle {
+  font-family: $mainfont;
+  color: $blue;
+  margin-bottom: 2rem;
+  font-size: 1.25em;
+  display:block;
+}
+.mobile-subtitle {
+  font-family: $mainfont;
+  color: $blue;
+  margin-bottom: 1.5rem;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 #location-row {
   background-image:url(../img/300funston.jpg);
@@ -174,13 +186,30 @@ section a {
   margin-bottom:4rem;
   text-align: left;
 }
+#signup a {
+  font-size: 1.25em;
+}
 #decentralized-section {
   padding-left:2rem;
   padding-right:2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   padding-top:2rem;
   padding-bottom: 2rem;
   text-align: left;
+}
+#invitation {
+  padding-bottom: 3rem;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  font-family: Georgia;
+}
+#invitation p {
+  margin-bottom: 1.25em;
+}
+.save-info {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-family: $mainfont;
 }
 section ul {
   margin:0;
@@ -274,7 +303,7 @@ a {
 .red {color:#c0392b;}
 
 .green {color:$green;}
-.blue {color:#4a90e2}
+.blue {color:$blue;}
 .grey {color:#ccc;}
 .grey-row { background-color: #efefef; }
 .grey-row.bottom-pad {
@@ -728,8 +757,9 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 }
 
 #slideshow {
-  text-align: center;
+  text-align: left;
   line-height: 1.5em;
+  max-width: 110rem;
 }
 
 #slideshow .Wallop {
