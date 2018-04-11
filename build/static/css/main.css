@@ -1346,7 +1346,7 @@ td img {
 }
 
 section, .section {
-  max-width: 120rem;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -1364,10 +1364,6 @@ section a {
   font-weight: bold;
 }
 
-.save-info {
-  margin-top: 2rem;
-}
-
 .save-the-date {
   margin-bottom: 1.3rem;
   font-size: 1em;
@@ -1380,43 +1376,28 @@ section a {
 }
 
 .email-group {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  display: block;
 }
 
 .email-label {
   margin-right: 1rem;
-  -webkit-box-flex: 0;
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
 }
 
 .email-input {
   margin-right: 0.25rem;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
 .email-submit {
   display: block;
   width: 100%;
-  margin-top: 0.8rem;
+  margin-top: 1.5rem;
   background-color: #3fc380;
   border: #3fc380;
   border-radius: 5px;
   color: white;
   font-size: 0.8em;
   padding: 0 1.25rem;
+  cursor: pointer;
 }
 
 .date-line {
@@ -1431,6 +1412,27 @@ section a {
 .date-line a:hover {
   color: #ccc;
   text-decoration: none;
+}
+
+#top-section h1 {
+  margin-bottom: 1.75rem;
+  line-height: 1.2em;
+}
+
+.top-subtitle {
+  font-family: Roboto, sans-serif;
+  color: #4a90e2;
+  margin-bottom: 2rem;
+  font-size: 1.25em;
+  display: block;
+}
+
+.mobile-subtitle {
+  font-family: Roboto, sans-serif;
+  color: #4a90e2;
+  margin-bottom: 1.5rem;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #location-row {
@@ -1461,6 +1463,10 @@ section a {
   text-align: left;
 }
 
+#signup a {
+  font-size: 1.25em;
+}
+
 #decentralized-section {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1468,6 +1474,23 @@ section a {
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: left;
+}
+
+#invitation {
+  padding-bottom: 3rem;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  font-family: Georgia;
+}
+
+#invitation p {
+  margin-bottom: 1.25em;
+}
+
+.save-info {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
 }
 
 section ul {
@@ -1616,7 +1639,7 @@ a {
 
 .icon-col {
   font-size: 400%;
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0 2rem 0;
   height: 100%;
   text-align: left;
 }
@@ -1944,6 +1967,10 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   width: 100px;
 }
 
+.conversation-type {
+  margin-bottom: 2rem;
+}
+
 .matrix-join {
   margin-top: 10px;
 }
@@ -2128,8 +2155,9 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
 }
 
 #slideshow {
-  text-align: center;
+  text-align: left;
   line-height: 1.5em;
+  max-width: 110rem;
 }
 
 #slideshow .Wallop {
@@ -2305,6 +2333,18 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     text-align: left;
   }
 
+  #invitation {
+    padding-right: 0rem;
+  }
+
+  #slideshow {
+    text-align: center;
+  }
+
+  #top-section h1 {
+    margin-bottom: 0.75rem;
+  }
+
   footer {
     margin-top: 0;
   }
@@ -2313,8 +2353,12 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
     display: none !important;
   }
 
-  .hide-mobile {
-    display: initial !important;
+  div.hide-mobile {
+    display: block !important;
+  }
+
+  span.hide-mobile {
+    display: inline !important;
   }
 
   .top-text {
@@ -2381,25 +2425,31 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   }
 
   .save-the-date {
-    margin-bottom: 1.3rem;
-    font-size: 1.4em;
-    background: transparent;
-    padding: 0 4px;
-    color: #3fc380;
+    margin-bottom: 2.2rem;
     line-height: 1.6em;
   }
 
   .icon-col {
     text-align: center;
+    padding: 2rem 0 3rem 0;
   }
 
   .email-group {
-    display: inline;
+    display: block;
   }
 
   .email-submit {
     display: inline-block;
     width: auto;
-    margin-top: initial;
+    margin-top: 1rem;
+  }
+
+  .conversation-type {
+    margin-bottom: 0;
+  }
+
+  .save-info {
+    font-size: 1.2em;
+    text-align: center;
   }
 }
