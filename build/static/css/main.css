@@ -1553,23 +1553,40 @@ section ul {
   text-align: center;
 }
 
-#footer-wrapper {
-  margin-top: 3rem;
-}
-
 footer {
-  font-size: 1.3rem;
+  font-family: monospace;
+  font-size: 0.85em;
   line-height: 2rem;
-  padding: 10px;
-  background-color: #eee;
-  color: #555;
+  background-color: #111;
+  color: #666;
   min-height: 60px;
   cursor: default;
+  text-align: left;
 }
 
 footer a {
-  color: #555;
-  text-decoration: underline;
+  color: #666;
+  text-decoration: none;
+  font-weight: lighter;
+  word-break: break-all;
+}
+footer a:hover {
+  color: #cecece;
+}
+
+footer section {
+  padding: 2rem;
+}
+
+.p2p-access-label {
+  color: #999;
+  font-family: sans-serif;
+  margin-bottom: 0.5rem;
+  font-size: 0.9em;
+}
+
+.p2p-row {
+  margin-top: 0.5rem;
 }
 
 code, pre {
@@ -2346,6 +2363,11 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header {
   }
 
   footer {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .p2p-row {
     margin-top: 0;
   }
 

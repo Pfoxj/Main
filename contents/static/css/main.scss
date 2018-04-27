@@ -260,21 +260,37 @@ section ul {
   text-align:center;
 }
 
-#footer-wrapper {
-  margin-top: 3rem;
-}
 footer {
-  font-size:1.3rem;
+  font-family: monospace;
+  font-size:.85em;
   line-height: 2rem;
-  padding: 10px;
-  background-color:#eee;
-  color:#555;
+  background-color:#111;
+  color:#666;
   min-height: $header_size;
   cursor: default;
+  text-align: left;
 }
 footer a {
-  color: #555;
-  text-decoration: underline;
+  color: #666;
+  text-decoration: none;
+  font-weight: lighter;
+  &:hover {
+    color: #cecece;
+  }
+  word-break: break-all;
+}
+footer section {
+  padding: 2rem;
+}
+.p2p-access-label {
+  color: #999;
+  font-family: sans-serif;
+  margin-bottom: .5rem;
+  font-size: .9em;
+  // font-weight: bold;
+}
+.p2p-row {
+  margin-top: .5rem;
 }
 code, pre {
   background-color: #eee;
