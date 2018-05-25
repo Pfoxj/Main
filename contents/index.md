@@ -2,97 +2,113 @@
 title: Home
 template: home.html
 
-day1videos:
-- id: DWebSummit2016_Welcome
-  title: Welcome
-  subtitle: Wendy Hanamura<br>Mitchell Baker
-- id: DWebSummit2016_Keynote_Vint_Cerf
-  title: 'Keynote Address: Vint Cerf – "A Web that Archives Itself"'
-  subtitle: Vint Cerf
-- id: DWebSummit2016_Keynote_Tim_Berners_Lee
-  title: 'Keynote Address: Tim Berners-Lee – "Re-decentralizing the web - some strategic questions"'
-  subtitle: Tim Berners-Lee
-- id: DWebSummit2016_Introduction_Brewster_Kahle
-  title: 'Introduction: Brewster Kahle – "Locking the Web Open – a Call for a New, Decentralized Web"'
-  subtitle: Brewster Kahle
-- id: DWebSummit2016_Panel_Peer_to_Peer_Networks
-  title: 'Panel: Peer to Peer Networks'
-  subtitle: Kevin Marks, Moderator<br>Feross Aboukhadijeh<br>David Dias<br>Zooko Wilcox<br>Dr. Gavin Wood
-- id: DWebSummit2016_Panel_Naming_and_User_Identities
-  title: 'Panel: Naming & User Identities in Decentralized Networks'
-  subtitle: Chelsea Barabas, Moderator<br>Christopher Allen<br>Muneeb Ali<br>Joachim Lohkamp<br>Jeremy Rand
-- id: DWebSummit2016_Video_Creativity_on_the_Decentralized_Web
-  title: "Video: Creativity on the Decentralized Web – Scott Draves' Electric Sheep"
-- id: DWebSummit2016_Keynote_Cory_Doctorow
-  title: 'Keynote: Cory Doctorow: "How Stupid Laws and Benevolent Dictators can Ruin the Decentralized Web, too"'
-  subtitle: Cory Doctorow
-- id: DWebSummit2016_Panel_Values
-  title: 'Panel: As we build a Decentralized Web, what values do we want written in the code?'
-  subtitle: Amber Case, Moderator<br>Primavera De Filippi<br>Max Ogden<br>Wendy Seltzer<br>Peter Van Garderen
-- id: DWebSummit2016_Panel_Security
-  title: 'Panel: Security in a World of Black Hats'
-  subtitle: Ross Schulman, Moderator<br>Van Jacobson<br>Mike Perry<br>Paige Peterson<br>Brian Warner
-- id: DWebSummit2016_Video_Enterprise_on_the_Decentralized_Web
-  title: 'Video: Enterprise on the Decentralized Web'
-- id: DWebSummit2016_Panel_Moonshot_Challenge
-  title: 'Panel: Moonshot Challenge – What could you do to Decentralize Scientific Journal Articles?'
-  subtitle: Wendy Hanamura, Moderator<br>Juan Benet<br>Trent McConaghy<br>Karissa McKelvey<br>Denis Nazarov<br>Evan Schwartz
-- id: DWebSummit2016_Closing_Remarks_Brewster_Kahle
-  title: 'Closing Remarks: What happens next?'
-  subtitle: Brewster Kahle
+lead_sponsors:
+- id: sponsor_internet_archive
+  title: Internet Archive
+  src: "img/ia.svg"
+  url: "https://archive.org"
 
-day2videos:
-- id: DWebSummit2016_Lightning_Talks_Session_A
-  title: "SESSION A: Lightning Talks and Workshops"
-  subtitle: |
-    Juan Benet - IPFS<br>
-    Arkadiy Kukarkin - Mediachain.io<br>
-    Stefan Thomas - Interledger<br>
-    Natalie Meyers - Center for Open Science<br>
-    Jae Kwon - Tendermint<br>
-    Brian Warner - Tahoe-LAFS<br>
-    Michael Grube - Freenet<br>
-    Muneeb Ali - Blockstack
+- id: sponsor_ford
+  title: Ford Foundation
+  src: "img/ford-foundation.jpg"
+  url: "https://www.fordfoundation.org"
 
-- id: DWebSummit2016_Lightning_Talks_Session_B
-  title: "SESSION B: Lightning Talks and Workshops"
-  subtitle: |
-    Matthew Hodgson - Matrix<br>
-    Lauren Garcia - LevelNews.org<br>
-    Ryan Barrett - IndieWeb<br>
-    Primavera De Filippi - Backfeed/COALA<br>
-    Joel Dietz - Decentralized Autonomous Society<br>
-    Galen Wolfe-Pauly - Urbit<br>
-    Tamas Kocsis - ZeroNet<br>
-    David Dias - Protocol Labs/IPFS<br>
-    Dr. Gavin Wood - Ethereum
+- id: sponsor_omise
+  title: OmiseGo
+  src: "img/omisego.png"
+  url: "https://omisego.network"
 
-- id: DWebSummit2016_Lightning_Talks_Session_C
-  title: "SESSION C: Lightning Talks and Workshops"
-  subtitle: |
-    Jehan Tremback - Althea<br>
-    John Light - Bitseed<br>
-    Victor Morrow - Prometheus<br>
-    Feross Aboukhadijeh - WebTorrent<br>
-    Samer Hassan - Berkman Center / P2Pvalue<br>
-    Dan Gillmor - Author, Tech Journalist<br>
-    Paul Frazee - Patchwork<br>
-    Christopher Allen - Blockstream<br>
-    Jeremy Rand - Namecoin
+- id: sponsor_ethereum
+  title: Ethereum Foundation
+  src: "img/ethereum_foundation.png"
+  url: "https://www.ethereum.org/foundation"
 
-- id: DWebSummit2016_Lightning_Talks_Session_D
-  title: "SESSION D: Lightning Talks and Workshops"
-  subtitle: |
-    Greg Lindahl - Internet Archive<br>
-    Dan Whaley - Hypothes.is<br>
-    Alberto Granzotto - IPDB/BigchainDB<br>
-    Ben Trask - StrongLink<br>
-    Harlan T Wood - Co-Makery<br>
-    Joachim Lohkamp - Jolocom/Ouishare<br>
-    Maira Sutton - Shareable<br>
-    Zooko Wilcox - Zcash/ Tahoe-LAFS<br>
-    Mek Karpeles - Internet Archive
+- id: sponsor_sloan
+  title: Sloan Foundation
+  src: "img/sloan_foundation.png"
+  url: "https://sloan.org"
 
+- id: sponsor_maidsafe
+  title: Maidsafe
+  src: "img/maidsafe.png"
+  url: "https://www.maidsafe.net"
 
+people:
+- name: Mitchell Baker
+  subtitle: Mozilla Foundation & Corp, Executive Chairperson
+  image: mitchell_baker.jpg
+- name: Brewster Kahle
+  image: brewster_kahle.jpg
+  subtitle: Founder, Internet Archive
+- name: Vint Cerf
+  subtitle: Google
+  image: vint_cerf.jpg
+- name: Tim Berners-Lee
+  subtitle: W3C
+  image: tim_berners-lee.jpg
+- name: Cory Doctorow
+  subtitle: EFF
+  image: cory_doctorow.jpg
+- name: Juan Benet
+  image: juan_benet.jpg
+  subtitle: IPFS
+- name: Richard Caceres
+  image: richard_caceres.jpg
+  subtitle: Internet Archive
+- name: David Dias
+  subtitle: IPFS
+  image: david_dias.jpg
+- name: Primavera De Filippi
+  subtitle: Backfeed/COALA
+  image: primavera_defilippi.jpg
+- name: Wendy Hanamura
+  image: wendy_hanamura.jpg
+  subtitle: Director of Partnerships, Internet Archive
+- name: Joachim Lohkamp
+  subtitle: Jolocom/Ouishare
+  image: joachim_lohkamp.jpg
+- name: Karissa McKelvey
+  subtitle: Code for Science and Society, Board Member
+  image: karissa_mckelvey.jpg
+- name: Allen Gunner Gunn
+  subtitle: Aspiration
+  image: allengunner_gunn.jpg
+- name: Brian Warner
+  subtitle: Tahoe-LAFS
+  image: brian_warner.jpg
+- name: Feross Aboukhadijeh
+  image: feross_aboukhadijeh.jpg
+  subtitle: Web Torrent
+- name: Vlad Zamfir
+  subtitle: Ethereum
+  image: vlad_zamfir.jpg
+- name: Katie Barrett
+  subtitle: Internet Archive
+  image: katie_barrett.jpg
+- name: Tracey Jaquith
+  image: tracey_jaquith.jpg
+  subtitle: Internet Archive
+- name: Lila Bailey
+  image: lila_bailey.jpg
+  subtitle: Internet Archive
+- name: Nicholas Lambert
+  image: nick_lambert.jpg
+  subtitle: MaidSafe, Chief Operating Officer
+- name: Tara Vancil
+  image: tara_vancil.jpg
+  subtitle: Beaker Browser, Co-Creator
+- name: Paul Frazee
+  image: paul_frazee.jpg
+  subtitle: Beaker Browser, Co-Creator
+- name: Christina Bowen
+  image: christina_bowen.jpg
+- name: Mary Kay Magistad
+  image: mary_kay_magistad.jpg
+- name: Omayeli Arenyeka
+  subtitle: Artist & Technologist
+  image: omayeli_arenyeka.jpg
+- name: Danielle Robinson
+  subtitle: Code for Science and Society, Co-Executive Director
+  image: danielle_robinson.jpg
 
 ---

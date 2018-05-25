@@ -8,13 +8,15 @@
     <div id="top-section" class="section">
       <div class="grid">
         <div class="unit whole">
-          <div class="save-the-date">Save the Date</div>
+          <div class="save-the-date"><a href="https://www.eventbrite.com/e/decentralized-web-summit-2018-tickets-46312003449">Register Now</a></div>
           <h1>Decentralized Web Summit 2018</h1>
           <div class="hide-mobile top-subtitle">
             Global Visions / Working Code
           </div>
           <div class="date-line">
-            <span class="db-mobile">July 31 &ndash; August 2, 2018</span> <span class="green hide-mobile">|</span> <span class="db-mobile"><a href="https://archive.org">Internet Archive</a></span> <span class="green hide-mobile">|</span> <span class="db-mobile">San Francisco, CA<span>
+            <div>July 31 &ndash; August 2, 2018</div>
+            <div>At <a href="https://archive.org">the Internet Archive</a> + <a href="https://thesanfranciscomint.com">the San Francisco Mint</a></div>
+            <div>#DWebSummit</div>
           </div>
         </div>
       </div>
@@ -25,86 +27,225 @@
     </script>
   </div>
 
-  <section id="invitation">
+<!-- Section C: Three icons with short descriptions -->
+<div class="row">
+  <section>
+
+    <div class="grid">
+      <div class="home-col unit one-third">
+        <div class="icon-col">
+          <i class="blue material-icons">language</i>
+        </div>
+        <div class="subheader pad-bottom">Global Vision</div>
+        <p>Today, the Web we use is not private, secure, reliable or free from censorship. It lacks a memory, a way to preserve our digital record through time. By distributing data, processing and hosting across millions of computers worldwide with no centralized control, a new Decentralized Web has the potential to be open, empowering users around the globe to better control and protect their own personal data.</p>
+      </div>
+      <div class="home-col unit one-third">
+        <div class="icon-col">
+          <i class="green material-icons">share</i>
+        </div>
+        <div class="subheader pad-bottom">New Connections</div>
+        <p>Building a Decentralized Web will take Web architects, activists, artists, archivists and stakeholders from around the world. Together, how can we create infrastructure and tools we can trust?  In 2018, we’re convening diverse communities to learn from each other, identify use cases, and build a common understanding of what we mean by the &ldquo;Decentralized Web.&rdquo;</p>
+      </div>
+      <div class="home-col unit one-third">
+        <div class="icon-col">
+          <i class="orange material-icons">account_balance</i>
+        </div>
+        <div class="subheader pad-bottom">Strategies for Scale</div>
+        <p>Today the Decentralized Web is expanding every day. How can we harness that momentum to scale? What code is working and what’s still missing? Can we work together to identify and tackle the roadblock issues? Organized by the <a href="https://archive.org">Internet Archive</a> and <a href="https://aspirationtech.org">Aspiration</a>, this two-day Summit seeks to align the values of the Open Web with principles of decentralization. To write code that supports privacy, security, self-sovereign data and digital memory.</p>
+      </div>
+
+    </div>
+  </section>
+</div>
+<!-- End Section C -->
+
+<!-- Section D: Origins -->
+<div class="row grey-row">
+
+  <section id="origins">
     <div class="grid">
       <div class="unit whole">
-        <p class="save-info">
-          <div class="mobile-subtitle hide-desktop">
-            Global Visions / Working Code
-          </div>
+        <p class="img-2016-wrapper">
+          <img class="img-2016 responsive" src="/static/img/dwebsummit-2016-stairs.jpg" alt="Decentralized Web Summit 2016 attendee portrait">
         </p>
         <p>
-In 2016, an early group of builders, policymakers, journalists and archivists gathered at the Internet Archive for the first <b>Decentralized Web Summit</b> to “Lock the Web Open” for good. Today, the Web we use is not private, secure, reliable or free from censorship.  By distributing data, processing and hosting across millions of computers worldwide with no centralized control, a new decentralized web can remain open, allowing users to better control and protect their own personal data.
+In June 2016, an early group of builders, archivists, policymakers, and journalists gathered for the first <b>Decentralized Web Summit</b> within the columns of the Internet Archive headquarters in San Francisco, home to one of the world’s largest digital libraries. Its founder, Brewster Kahle, issued a challenge to these early developers: let&#39;s use decentralized technologies to &ldquo;Lock the Web Open,&rdquo; this time for good.
         </p>
         <p>
-Today the decentralized web is expanding every day. What could it look like at scale? How can people around the world use and benefit from these technologies?  What code is working and what is still missing? What do we need to collaborate on in the future?
+2016&#39;s gathering was a call to the Dreamers to build a better Web.
         </p>
         <p>
-The <i>Decentralized Web Summit 2018: Global Visions / Working Code</i> is about building decentralized technologies that work at scale, with and for real people around the world. Organized by the <a href="https://archive.org">Internet Archive</a> and <a href="https://aspirationtech.org">Aspiration</a>, our goal is to align the values of the Open Web with principles of decentralization. To bring together global communities to co-create infrastructure and tools we can trust. To write code that supports privacy, security, self-sovereign data and digital memory. Intrigued?  Sign up for more information below.
+2018&#39;s <b>Decentralized Web Summit – Global Visions / Working Code</b> is a demonstration of how far we have come. With scores of prototypes and apps now built with decentralized protocols, it&#39;s time to collaborate, communicate and engage the communities who need these tools the most.
         </p>
       </div>
     </div>
   </section>
+</div>
 
-  <section id="signup">
+<!-- End Section D -->
+
+<!-- Section E: EventBrite -->
+<div class="row grey-row">
+  <section>
+    {% include "_eventbrite_embed.html" %}
+  </section>
+</div>
+<!-- End Section E -->
+
+<!-- Section F: People -->
+<div class="row grey-row">
+  <section class="">
+    <h2>Coming to Dweb 2018</h2>
+
+    <div class="grid people full-list">
+    {% for attendee in page.metadata.people|sort(false,false,'name') %}
+      <div class="small-col js-bio-unit">
+        <img src="/static/img/people/{{attendee.image}}" />
+        <div class="name">{{attendee.name}}</div>
+        <div class="subtitle">{{attendee.subtitle}}</div>
+        <div class="hidden-bio">
+          <div>
+            <div class="modal-image" ><img src="/static/img/people/{{attendee.image}}" /></div>
+            <div class="modal-name">{{attendee.name}}</div>
+            <div class="modal-subtitle">{{attendee.subtitle}}</div>
+            <div>{{attendee.bio}}</div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+</div>
+<!-- End Section F -->
+
+<!-- Section G: Locations -->
+<div id="location-row" class="row grey-row">
+  <section>
+    <h2>Locations</h2>
     <div class="grid">
-      <div class="unit one-fifth">
-        <div class="icon-col">
+      <div class="location-block unit one-third">
+        <div class="white">Opening Night Party</div>
+        <div class="location-address">
+          <a href="https://maps.google.com/maps?q=Internet+Archive%2C+300+Funston+Avenue%2C+San+Francisco%2C+CA">
+            <span class="db-desktop"><i class="material-icons hide-desktop">place</i> Internet Archive</span><span class="hide-desktop">, </span>
+            <span class="db-desktop">300 Funston Avenue</span><span class="hide-desktop">, </span>
+            <span class="db-desktop">San Francisco, CA</span>
+          </a>
+        </div>
+
+        <div class="white">Summit</div>
+        <div class="location-address">
+          <a href="http://maps.google.com/maps?q=The+San+Francisco+Mint%2C+88+5TH+Street%2C+San+Francisco%2C+CA">
+            <span class="db-desktop"><i class="material-icons hide-desktop">place</i>The San Francisco Mint</span><span class="hide-desktop">, </span>
+            <span class="db-desktop">88 5TH Street</span><span class="hide-desktop">, </span>
+            <span class="db-desktop">San Francisco, CA</span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="unit two-thirds">
+        <div class="static-map hide-mobile">
+          <img class="responsive" src="/static/img/static-map.jpg" alt="Map image" />
+        </div>
+      </div>
+    </div>
+
+    <div class="location-email">
+      <i class="material-icons">email</i> <a href="mailto:dwebsummit@archive.org">dwebsummit@archive.org</a><br>
+    </div>
+  </section>
+</div>
+<!-- End Section G -->
+
+<!-- Section H: Email/Slack -->
+<div class="row">
+  <section class="" id="join-the-conversation">
+    <h2>Join the Converstation</h2>
+    <table>
+      <tr>
+        <td>
           <i class="green material-icons">mail</i>
-        </div>
-      </div>
-      <div class="unit four-fifths">
-        <div class="subheader pad-bottom">Sign up for updates</div>
-        <div>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBdBINcaklgHeVTwEEo4J8ybwlSK98_l2zwnSpruN-8UASVw/viewform?usp=sf_link">Click here to sign up</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="decentralized-section">
-    <div class="grid">
-      <div class="unit one-fifth">
-        <div class="icon-col">
+        </td>
+        <td>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBdBINcaklgHeVTwEEo4J8ybwlSK98_l2zwnSpruN-8UASVw/viewform?usp=sf_link">Sign up for updates</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <i class="blue material-icons">chat</i>
-        </div>
-      </div>
-      <div class="unit four-fifths">
-        <div class="subheader pad-bottom">Join the Converstation</div>
-        <div class="conversation-type">
+        </td>
+        <td>
           {% include "_slackin.html" %}
-        </div>
-        <div class="conversation-type">
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <img class="matrix-logo" src="/static/img/matrix-logo.png" alt="matrix" />
+        </td>
+        <td>
           {% include "_matrix_join.html" %}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="twitter-icon" width="40" height="40" src="/static/img/twitter.svg" alt="Twitter">
+        </td>
+        <td>
+          <a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <i class="material-icons">email</i>
+        </td>
+        <td>
+          <a href="mailto:dwebsummit@archive.org">dwebsummit@archive.org</a>
+        </td>
+      </tr>
+    </table>
+
+  </section>
+</div>
+<!-- End Section H -->
+
+<!-- Section I: Sponsors -->
+<div class="row grey-row">
+  <section id="sponsors">
+    <h2>Sponsors</h2>
+    <div class="lead-sponsors-grid">
+      {% for sponsor in page.metadata.lead_sponsors %}
+        <div id="{{sponsor.id}}" class="sponsor lead box">
+          <a href="{{sponsor.url}}">
+            <img class="sponsor-img" src="/static/{{sponsor.src}}" alt="{{sponsor.title}}" />
+          </a>
         </div>
-        <div class="conversation-type">
-          <div class="twitter-row">
-            <img width="20" height="20" src="/static/img/twitter.svg" alt="Twitter"><a href="https://twitter.com/search?q=%23DWebSummit">#DWebSummit</a>
-          </div>
-        </div>
-        <div class="conversation-type">
-          Email: <a href="mailto:info@archive.org">info@archive.org</a>
-        </div>
-      </div>
+      {% endfor %}
+    </div>
+    <div class="footer">
+      Want to become a DWeb Summit Sponsor?  Contact <a href="mailto:DWebSummit@archive.org">DWebSummit@archive.org</a>
     </div>
   </section>
+</div>
+<!-- End Section I -->
 
-  <div class="grey-row">
-    <section id="slideshow">
-      <div><br>Photos from the 2016 Decentralized Web Summit<br></div>
+{# No slideshow on homepage anymore #}
+{#
+<div class="row grey-row">
+  <section class="full pt-light" id="slideshow">
+    <div class="subheader">Photos from the 2016 Decentralized Web Summit</div>
 
-      {% include "_slideshow.html" %}
+    {% include "_slideshow.html" %}
 
-      <p>
-        More photos from the event are available
-        <a href="https://archive.org/details/DecentralizedWeb20160607Images">here</a>.
-        <br>
-        Also see the full <a href="https://2016.decentralizedweb.net">2016 Summit Website</a>.
-        <br>
-        <br>
-      </p>
-    </section>
-  </div>
+    <p>
+      More photos from the event are available
+      <a href="https://archive.org/details/DecentralizedWeb20160607Images">here</a>.
+      <br>
+      Also see the full <a href="https://2016.decentralizedweb.net">2016 Summit Website</a>.
+    </p>
+  </section>
+</div>
+#}
+
 
   {% include "_footer.html" %}
 
