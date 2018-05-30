@@ -9,7 +9,7 @@
     margin: 0 8px 25px 8px;
   }
   .page-Home .small-col {
-    flex-basis:9%;;
+    flex-basis:9%;
   }
   .small-col .name, .small-col .subtitle {
     font-size: 13px !important;
@@ -24,7 +24,6 @@
   .schedule .small-col .name, .schedule .small-col .subtitle {
     font-size: 12px !important;
   }
-  .db-mobile { display: initial; }
   .db-desktop { display: block; }
   .hide-desktop { display: none; }
   .w90-desktop { width: 90%; }
@@ -67,9 +66,6 @@
   section {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    &.pt-light {
-      padding-top: 3rem;
-    }
   }
 
   #banner {
@@ -92,23 +88,20 @@
     // padding-bottom:8rem;
     // margin-bottom:0;
   }
-  #sponsors-section img {
-    width: 75%;
-    height: auto;
+  section#sponsors {
+    img {
+      max-width: 200rem;
+      height: auto;
+    }
+    .box { padding: 2rem; }
+    .grid { padding-left:5px; }
   }
-  #sponsors-section .grid {
-    padding-left:5px;
-  }
-  .sponsor-image-wrapper {
-    text-align:left;
-  }
+  .sponsor-image-wrapper { text-align:left; }
   #signup {
-    // border: 2px solid #cecece;
     border-radius: 10px;
     text-align: left;
   }
   #decentralized-section {
-    // border: 2px solid #cecece;
     border-radius: 10px;
     text-align: left;
   }
@@ -207,7 +200,7 @@
     text-align: center;
   }
   img.img-2016 {
-    max-width: 60rem;;
+    max-width: 60rem;
     margin:0 auto;
     margin-top: 0rem;
     margin-bottom: 2rem;

@@ -55,10 +55,11 @@ code, pre {
   display:inline-block;
   font-size: 1.3rem;
   word-break: break-all;
+  a {
+    color: #999;
+  }
 }
-code a, pre a {
-  color:#999;
-}
+
 a {
   color: rgb(0, 153, 255);
   text-decoration: none;
@@ -76,9 +77,10 @@ p {
 .no-bottom-margin { margin-bottom: 0; }
 .no-top-margin { margin-top: 0; }
 .one-line-top-margin { margin-top: 2rem; }
+.pt-light { padding-top: 3rem; }
+
 .orange {color:#f39c12;}
 .red {color:#c0392b;}
-
 .green {color:$green;}
 .blue {color:$blue;}
 .grey {color:#ccc;}
@@ -99,7 +101,7 @@ img.responsive {
 #banner {
   width: 100%;
   background-color: #22313f;
-  height:374px;
+  height: 374px; /* magic number */
   position: relative;
   /*margin-bottom:100px;*/
   display:block;
@@ -159,17 +161,13 @@ section, .section {
   }
 }
 section {
-  & a {
+  a {
     word-wrap: break-word;
   }
-  & ul {
+  ul {
     margin:0;
     padding:0 0 0 2rem;
   }
-}
-
-.row {
-  // & + .row { margin-top: 2rem; }
 }
 
 .grey-row {
@@ -191,18 +189,24 @@ section {
     margin-bottom:2rem;
   }
 }
-.save-the-date {
-  margin-bottom: 1.3rem;
-  font-size: 1em;
+.register-now a {
+  margin-top: 2rem;
+  font-size: .9em;
   background: white;
   display:inline-block;
-  padding: 0 .6rem;
-  color: white;
-  background: $green;
+  padding: .6rem 1.4rem;
+  border-radius: 5px;
+  background-color: transparent;
   line-height: 1.6em;
-  & a {
-    color: white;
+  border: 2px solid $green;
+  transition: all .5s linear;
+  &:hover {
+    cursor: pointer;
+    border: 2px solid lighten($green, 15%);
+    color: lighten($green, 15%);
+    text-decoration: none;
   }
+  color: $green;
 }
 .email-group {
   display: block;
@@ -235,6 +239,9 @@ section {
 .date-line a:hover {
   color: #ccc;
   text-decoration:none;
+}
+#top-section {
+  padding:0;
 }
 #top-section h1 {
   margin-bottom: 1.75rem;
@@ -273,7 +280,7 @@ section {
       position: relative;
       top: 2px;
     }
-    & a {
+    a {
       color: white;
       font-weight:bold;
       font-size: 3rem;
@@ -282,9 +289,8 @@ section {
   }
   .location-email {
     margin-top: 3rem;
-    & a {
+    a {
       text-decoration: underline;
-      // font-weight:bold;
       color: white;
     }
     & i {
@@ -306,7 +312,7 @@ section {
   padding-bottom: 2rem;
   margin-bottom:4rem;
   text-align: left;
-  & a {
+  a {
     font-size: 1.25em;
   }
 }
@@ -338,8 +344,9 @@ section {
   padding-bottom:0;
 }
 
-section#origins {
+section#origins .grid {
   max-width:100rem;
+  margin: 0 auto;
 }
 
 section#join-the-conversation {
@@ -362,7 +369,7 @@ footer {
   min-height: $header_size;
   cursor: default;
   text-align: left;
-  & a {
+  a {
     color: #666;
     text-decoration: none;
     font-weight: lighter;
@@ -371,7 +378,7 @@ footer {
     }
     word-break: break-all;
   }
-  & section {
+  section {
     padding: 2rem;
   }
 }
@@ -381,7 +388,7 @@ footer {
   font-family: sans-serif;
   margin-bottom: .5rem;
   font-size: .9em;
-  & a {
+  a {
     color: #999;
   }
 }
@@ -395,7 +402,6 @@ footer {
   height: 300px;
 }
 
-// .grey-row { background-color: #efefef; }
 
 .icon-col {
   font-size:400%;
@@ -443,9 +449,6 @@ section.page-section.learn-more li {
 }
 .hide-mobile {
   display:none !important;
-}
-.db-mobile {
-  display: block;
 }
 
 
@@ -507,7 +510,6 @@ section.page-section.learn-more li {
 }
 
 .schedule {
-  // font-size: .9em;
   line-height: 1.25em;
   font-weight:400;
   margin-bottom: 60px;
@@ -518,8 +520,6 @@ section.page-section.learn-more li {
   border-bottom:1px solid #ccc;
 }
 .schedule .time {
-  // font-style: italic;
-  // font-weight: bold;
   margin-bottom: 10px;
   display:block;
   color: #3fc380;
@@ -533,11 +533,6 @@ section.page-section.learn-more li {
   margin-top:-6px;
   margin-bottom: 14px;
 }
-.schedule a {
-  // color: blue;
-  // text-decoration: underline;
-}
-.schedule-toc a {}
 
 .schedule-side-table td {
   vertical-align: top;
@@ -600,7 +595,6 @@ section.page-section.learn-more li {
   flex: 1;
 }
 .modal .close-wrapper {
-  // margin-top:2rem;
   position:absolute;
   top:10px;
   right:10px;
@@ -638,7 +632,6 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 
 .grid.people.full-list {
   display: flex;
-  // flex-direction: column;
   flex-wrap: wrap;
   text-align:left;
   justify-content: flex-start;
@@ -688,7 +681,6 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 .lightning-talks .unit {
   font-size: 1.5rem;
   line-height: 1.5em;
-  // margin-bottom: 10px;
 }
 .lightning-talks img {
   height: 80px;
@@ -710,7 +702,6 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   font-size:1.4rem;
   line-height: 2.8rem;
   margin-right: 20px;
-  // background-color:#eee;
 }
 .google-form-raw .form-title {
   font-weight:bold;
@@ -793,7 +784,6 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
   font-size: 1.45rem;
   line-height: 2rem;
   font-weight:400;
-  // font-style: italic;
   margin-top: 10px;
   color: #4a90e2;
 }
@@ -846,18 +836,14 @@ body.open-modal .main-body, body.open-modal footer, body.open-modal header  {
 section#sponsors {
   .lead-sponsors-grid {
     .box {
-      padding: 2rem;
+      // padding: 1rem;
+      margin-bottom: 2rem;
       display: block;
       text-align: center;
     }
     .sponsor-img {
-      height: 10rem;
+      height: 13rem;
       width: auto;
-      max-width: 200rem;
-    }
-    #sponsor_ethereum img {
-      padding: 3rem 1rem;
-      background-color: #333;
     }
   }
   .footer {
@@ -878,15 +864,10 @@ img.img-2016 {
 
 /* Mobile-only styles */
 @media only screen and (max-width: $responsive_width) {
-  .mb2-mobile {
-    margin-bottom: 2rem;
-  }
-  .hide-mobile {
-    display: none;
-  }
-  .home-col + .home-col {
-    margin-top: 3rem;
-  }
+  .mb2-mobile { margin-bottom: 2rem; }
+  .db-mobile { display: block; }
+  .hide-mobile { display: none; }
+  .home-col + .home-col { margin-top: 3rem; }
   .home-col {
     & .icon-col, & .subheader {
       text-align: center;

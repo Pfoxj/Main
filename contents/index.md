@@ -102,8 +102,10 @@ people:
   subtitle: Beaker Browser, Co-Creator
 - name: Christina Bowen
   image: christina_bowen.jpg
+  subtitle: Digital Life Collective
 - name: Mary Kay Magistad
   image: mary_kay_magistad.jpg
+  subtitle: Journalist
 - name: Omayeli Arenyeka
   subtitle: Artist & Technologist
   image: omayeli_arenyeka.jpg
