@@ -39,7 +39,7 @@ h1 {
 }
 h2 {
   font-size: 2.5rem;
-  line-height: 1.5em;
+  line-height: 1.2;
   font-weight: 300;
   color: #3fc380;
   margin-bottom:3.0rem;
@@ -93,6 +93,7 @@ p {
 
 .w80 { width: 80%; }
 .w90 { width: 90%; }
+.narrower { max-width:100rem; margin: 0 auto; }
 
 img.responsive {
   max-width: 100%;
@@ -352,10 +353,6 @@ section {
   padding-bottom:0;
 }
 
-section#origins .grid {
-  max-width:100rem;
-  margin: 0 auto;
-}
 
 section#join-the-conversation {
   & td {

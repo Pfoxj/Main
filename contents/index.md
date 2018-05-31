@@ -79,9 +79,6 @@ people:
 - name: Feross Aboukhadijeh
   image: feross_aboukhadijeh.jpg
   subtitle: Web Torrent
-- name: Vlad Zamfir
-  subtitle: Ethereum
-  image: vlad_zamfir.jpg
 - name: Katie Barrett
   subtitle: Internet Archive
   image: katie_barrett.jpg
