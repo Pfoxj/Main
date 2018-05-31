@@ -78,6 +78,9 @@ p {
 .no-top-margin { margin-top: 0; }
 .one-line-top-margin { margin-top: 2rem; }
 .pt-light { padding-top: 3rem; }
+.pb-light { padding-bottom: 3rem; }
+.pb-heavy { padding-bottom: 8rem; }
+.pt-heavy { padding-top: 8rem; }
 
 .orange {color:#f39c12;}
 .red {color:#c0392b;}
@@ -239,6 +242,11 @@ section {
 .date-line a:hover {
   color: #ccc;
   text-decoration:none;
+}
+.top-text {
+  font-size: 2rem;
+  line-height: 1.4;
+  padding: 1rem 0;
 }
 #top-section {
   padding:0;
@@ -872,6 +880,10 @@ img.img-2016 {
     & .icon-col, & .subheader {
       text-align: center;
     }
+  }
+  /* for when grid collapses */
+  .unit + .unit {
+    margin-top: 2rem;
   }
 }
 

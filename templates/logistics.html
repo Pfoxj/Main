@@ -1,62 +1,123 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<section class="page-section">
-  <!-- <h2>Logistics</h2> -->
+<section>
+  <h2>Logistics</h2>
   <div class="top-text">
     The Internet Archive is located at 300 Funston Avenue in the Richmond District of San Francisco, four miles west of downtown. Our neighborhood, bordered by the Presidio to the north and Golden Gate Park to the south,  is a melting pot of cultures with a plethora of eateries, shops, and bookstores. The building itself, formerly a Christian Science church, now houses petabytes of data — including images, texts, music, software and more.
   </div>
 
-  <h2 class="no-bottom-margin" style="font-size:1.75em; line-height: 1em;">Recommended Accommodations</h2>
+</section>
+
+<div id="location-row" class="grey-row">
+  <section>
+    {% include "_locations_row.html" %}
+  </section>
+</div>
+
+
+<section>
+
+  <h2 class="">Recommended Accommodations – near Internet Archive</h2>
+
+  <div class="grid">
+
+    <div class="unit one-third">
+      <a href="https://gc.synxis.com/rez.aspx?Hotel=59681&Chain=15564&arrive=7/30/2018&adult=1&child=0&group=073018IAD&BRAND=JV&template=JV_RBE&shell=JV_RBE">
+        <img src="/static/img/hotels/kabuki2-c.jpg" alt="Hotel Kabuki" />
+        <h3 class="one-line-top-margin">Hotel Kabuki</h3>
+      </a>
+      The Hotel Kabuki is a recently renovated, hip and chic boutique hotel located in the heart of Japantown in San Francisco. The Kabuki is located a quick bus ride and an even quicker rideshare/cab away from the Internet Archive. Address: 1625 Post Street, San Francisco. <br>
+      <br>
+      <a href="https://gc.synxis.com/rez.aspx?Hotel=59681&Chain=15564&arrive=7/30/2018&adult=1&child=0&group=073018IAD&BRAND=JV&template=JV_RBE&shell=JV_RBE">The Hotel Kabuki is happy to provide Decentralized Summit attendees discounted rates, starting at $249</a>.<br>
+      <br>
+      1625 Post Street, San Francisco CA<br>
+      Contact: (415) 360-3200<br>
+      <a href="https://goo.gl/maps/6PtnNYfZmM52">See Map</a>
+    </div>
+
+
+    <div class="unit one-third">
+      <a href="https://hoteldrisco.com/">
+        <img src="/static/img/hotels/hoteldrisco-c.jpg" alt="Hotel Drisco" />
+        <h3 class="one-line-top-margin">Hotel Drisco</h3>
+      </a>
+      Located atop San Francisco's chic Pacific Heights neighborhood, Hotel Drisco is known for their elegant rooms and European-style breakfast buffet.<br>
+      <br>
+      2901 Pacific Avenue, San Francisco CA<br>
+      Contact: (800) 634-7277<br>
+      <a href="https://goo.gl/maps/GABwW8Moxnx">See Map</a>
+    </div>
+
+    <div class="unit one-third">
+      <a href="https://lalunainn.com/">
+        <img src="/static/img/hotels/laluna.jpg" alt="La Luna Inn" />
+        <h3 class="one-line-top-margin">La Luna Inn</h3>
+      </a>
+      This quaint hotel in the Marina District is close to exquisite restaurants, shopping and the beaches at Crissy Field<br>
+      <br>
+      2599 Lombard Street, San Francisco CA<br>
+      Contact: (415) 346-4664<br>
+      <a href="https://goo.gl/maps/6ExsV8zeKAo">See Map</a>
+    </div>
+  </div>
+
+</section>
+<section>
+
+  <!-- begin mint section -->
+  <h2 class="">Recommended Accommodations – Near The Mint</h2>
 
   <div class="grid">
     <div class="unit one-third">
-      <br/>
-      <img src="/static/img/hotels/hoteldrisco-c.jpg" alt="Hotel Drisco" />
-      <h3 class="one-line-top-margin">Hotel Drisco</h3>
-
-      Located atop San Francisco's chic Pacific Heights neighborhood, Hotel Drisco is known for their elegant rooms and European-style breakfast buffet.
-
-      Three Star
-      Address: 2901 Pacific Avenue, San Francisco CA
-      Contact: (800) 634-7277
-      <a href="https://www.google.com/maps/place/Hotel+Drisco/@37.792135,-122.4431382,15z/data=!4m5!3m4!1s0x0:0xac908a93a5f79226!8m2!3d37.792135!4d-122.4431382">See Map</a>
+      <a href="http://www.intercontinentalsanfrancisco.com/">
+        <img src="/static/img/hotels/intercontinental.jpg" alt="InterContinental" />
+        <h3 class="one-line-top-margin">InterContinental</h3>
+      </a>
+      The InterContinental San Francisco is a luxury hotel, located within easy walking distance of The Mint, Union Square, premium shopping areas, a diverse collection of trendy and upscale restaurants and bars, and a number of major San Francisco tourist attractions.<br>
+      <br>
+      888 Howard Street, San Francisco<br>
+      <a href="https://goo.gl/maps/GYRvzcA4wwn">See Map</a>
     </div>
 
     <div class="unit one-third">
-      <br/>
-      <img src="/static/img/hotels/kabuki2-c.jpg" alt="Hotel Kabuki" />
-      <h3 class="one-line-top-margin">Hotel Kabuki</h3>
-      Hotel Kabuki's tranquil Japanese gardens, koi pond, and Japanese-style tubs provide a serene environment in the heart of San Francisco’s vibrant Japantown.
-
-      Three Star
-      Address: 1625 Post Street, San Francisco CA
-      Contact: (415) 360-3200
-      <a href="https://www.google.com/maps/place/Hotel+Kabuki/@37.785572,-122.428486,15z/data=!4m2!3m1!1s0x0:0xf94d52700baf31ae?sa=X&amp;sqi=2&amp;pjf=1&amp;ved=0CJQBEPwSMApqFQoTCPeblIjd78YCFUVZiAodo10M6Q">See Map</a>
-
+      <a href="https://thepickwickhotel.com/">
+        <img src="/static/img/hotels/thepickwick.jpg" alt="Pickwick Hotel" />
+        <h3 class="one-line-top-margin">Pickwick Hotel</h3>
+      </a>
+      The historical landmark Pickwick Hotel, located directly across the street from The Mint, offers affordable stylish and sophisticated accommodations. Enjoy a drink at their intimate SOMA Restaurant & Bar, treat yourself in one of their three restaurants, or choose from dozens of restaurants, or activities that surround the hotel.<br>
+      <br>
+      85 5th Street, San Francisco<br>
+      <a href="https://goo.gl/maps/V7jSQeP3Qdy">See Map</a>
     </div>
 
     <div class="unit one-third">
-      <br/>
-      <img src="/static/img/hotels/laluna.jpg" alt="La Luna Inn<" />
-      <h3 class="one-line-top-margin">La Luna Inn</h3>
-      This quaint hotel in the Marina District is close to exquisite restaurants, shopping and the beaches at Crissy Field.
-
-      Two Star
-      Address: 2599 Lombard Street, San Francisco CA
-      Contact: (415) 346-4664
-      <a href="https://www.google.com/maps/place/La+Luna+Inn/@37.798547,-122.4438666,15z/data=!4m2!3m1!1s0x0:0x13858c3f907a7334">See Map</a>
+      <a href="https://www.haiyi-hotels.com/thegoodhotel/">
+        <img src="/static/img/hotels/good_hotel.jpg" alt="Good Hotel" />
+        <h3 class="one-line-top-margin">Good Hotel</h3>
+      </a>
+      Dedicated to a more eco-friendly experience, the Good Hotel is proof that living green and living well can go hand in hand. This slightly more budget-conscious hotel is located a few short blocks away from The Mint. Free wifi is provided in all rooms and social areas, coffee & tea served fresh each morning, you will have access to a heated outdoor pool and fitness room at their sister hotel across the street, and complimentary bicycles for exploring San Francisco are provided.<br>
+      <br>
+      112 7th Street, San Francisco<br>
+      <a href="https://goo.gl/maps/VCFeX4eNMmx">See Map</a>
     </div>
   </div>
 
+
+  <!-- end mint section -->
+</section>
+
+<section>
   <div>
-    <br/>
+    <br>
+    <i style="position: relative; top: 2px; padding-right: 10px;" class="material-icons">info</i>
     We also recommend <a href="https://www.airbnb.com/">AirBnB</a>, <a href="https://www.vrbo.com">VRBO</a>, and <a href="https://embassynetwork.com/locations/redvic/stay/">The Red Victorian</a> (mention the Internet Archive when you book for a 15% non-profit discount) as some cost-cutting alternatives, especially if you’re interested in sharing accommodations with other conference attendees.
   </div>
+</section>
 
-  <h2 class="no-bottom-margin">Transit</h2>
 
-
+<section class="pb-heavy">
+  <h2 class="">Transit</h2>
   <div class="grid">
     <div class="unit one-third">
       <h3>Public Transportation</h3>
@@ -74,11 +135,5 @@
 
 
 </section>
-
-<div id="location-row" class="grey-row bottom-pad">
-  <section>
-    {% include "_locations_row.html" %}
-  </section>
-</div>
 
 {% endblock %}
