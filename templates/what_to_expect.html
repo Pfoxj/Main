@@ -14,7 +14,38 @@
   <section>
     <div>
       <h2>Event Outline</h2>
-      {{page.metadata.body_text}}
+      <!-- Desktop table -->
+      <table class="event-outline-table hide-mobile">
+      {% for row in page.metadata.event_outline %}
+        <tr>
+          {% for cell in row.cells %}
+            <td>{{cell}}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+      </table>
+      <!-- End Desktop table -->
+      <!-- Mobile -->
+      {% macro render_mobile_day(column_index) %}
+        <div class="event-outline-day-mobile">
+        {% for row in page.metadata.event_outline %}
+          {% for cell in row.cells %}
+            {% if loop.index0 == column_index %}
+              {% if cell %}
+                <div>{{cell}}</div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        </div>
+      {% endmacro %}
+      <div class="hide-desktop">
+        {{render_mobile_day(0)}}
+        {{render_mobile_day(1)}}
+        {{render_mobile_day(2)}}
+        {{render_mobile_day(3)}}
+      </div>
+      <!-- End Mobile -->
     </div>
   </section>
 </div>

@@ -452,10 +452,6 @@ section.page-section.learn-more li {
 .hide-desktop {
   display:initial;
 }
-.hide-mobile {
-  display:none !important;
-}
-
 
 /* people */
 
@@ -867,11 +863,58 @@ img.img-2016 {
   margin-bottom: 2rem;
 }
 
+/* what to expect page */
+.event-outline-table {
+  width: 100%;
+  td {
+    padding: 1.5rem;
+    background-color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  tr + tr + tr {
+    border-top: 1px solid #999;
+  }
+  td:nth-child(2n) {
+    background-color: lighten($blue, 35%);
+  }
+  tr:first-child td {
+    color: white;
+    font-weight: bold;
+    background-color: $blue;
+  }
+}
+.event-outline-day-mobile {
+  & + .event-outline-day-mobile {
+    margin-top: 4rem;
+  }
+  > div {
+    padding: .5rem 1rem .75rem 1rem;
+    background-color: #eee;
+    font-size: 1.4rem;
+    line-height: 1.75;
+    & + div {
+      margin-top: .75rem;
+    }
+    &:first-child {
+      color: white;
+      font-weight: bold;
+      background-color: $blue;
+      position: -webkit-sticky;
+      position: sticky;
+      top: -1px;
+    }
+    &:nth-child(2n) {
+      background-color: #fff;
+    }
+  }
+}
+
 /* Mobile-only styles */
 @media only screen and (max-width: $responsive_width) {
   .mb2-mobile { margin-bottom: 2rem; }
   .db-mobile { display: block; }
-  .hide-mobile { display: none; }
+  .hide-mobile { display: none !important;}
   .home-col + .home-col { margin-top: 3rem; }
   .home-col {
     & .icon-col, & .subheader {
