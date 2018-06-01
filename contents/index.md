@@ -51,52 +51,52 @@ people:
   image: cory_doctorow.jpg
 - name: Juan Benet
   image: juan_benet.jpg
-  subtitle: IPFS
+  subtitle: Founder, IPFS
 - name: Richard Caceres
   image: richard_caceres.jpg
-  subtitle: Internet Archive
+  subtitle: Designer / Engineer, Internet Archive
 - name: David Dias
-  subtitle: IPFS
+  subtitle: Engineer, IPFS
   image: david_dias.jpg
 - name: Primavera De Filippi
-  subtitle: Backfeed/COALA
+  subtitle: CERSA/CNRS, Berkman-Klein Center
   image: primavera_defilippi.jpg
 - name: Wendy Hanamura
   image: wendy_hanamura.jpg
   subtitle: Director of Partnerships, Internet Archive
 - name: Joachim Lohkamp
-  subtitle: Jolocom/Ouishare
+  subtitle: Jolocom/Ouishare, Founder
   image: joachim_lohkamp.jpg
 - name: Karissa McKelvey
   subtitle: Code for Science and Society, Board Member
   image: karissa_mckelvey.jpg
-- name: Allen Gunner Gunn
-  subtitle: Aspiration
-  image: allengunner_gunn.jpg
+#- name: Allen Gunner Gunn
+#  subtitle: Aspiration
+#  image: allengunner_gunn.jpg
 - name: Brian Warner
-  subtitle: Tahoe-LAFS
+  subtitle: Founder, Tahoe-LAFS
   image: brian_warner.jpg
 - name: Feross Aboukhadijeh
   image: feross_aboukhadijeh.jpg
-  subtitle: Web Torrent
+  subtitle: Founder, WebTorrent
 - name: Katie Barrett
-  subtitle: Internet Archive
+  subtitle: Partnerships, Internet Archive
   image: katie_barrett.jpg
 - name: Tracey Jaquith
   image: tracey_jaquith.jpg
-  subtitle: Internet Archive
+  subtitle: TV Architect, Internet Archive
 - name: Lila Bailey
   image: lila_bailey.jpg
-  subtitle: Internet Archive
+  subtitle: Policy, Internet Archive
 - name: Nicholas Lambert
   image: nick_lambert.jpg
   subtitle: MaidSafe, Chief Operating Officer
 - name: Tara Vancil
   image: tara_vancil.jpg
-  subtitle: Beaker Browser, Co-Creator
+  subtitle: Co-Creator, Beaker Browser
 - name: Paul Frazee
   image: paul_frazee.jpg
-  subtitle: Beaker Browser, Co-Creator
+  subtitle: Co-Creator, Beaker Browser
 - name: Christina Bowen
   image: christina_bowen.jpg
   subtitle: Digital Life Collective
@@ -109,5 +109,34 @@ people:
 - name: Danielle Robinson
   subtitle: Code for Science and Society, Co-Executive Director
   image: danielle_robinson.jpg
-
+- name: David Irvine
+  subtitle: Founder & Ceo, MaidSafe
+  image: david_irvine.jpg
+- name: Vivekanand Rajkumar
+  subtitle: CTO, MaidSafe
+  image: vivekanand_rajkumar.jpg
+- name: Mathias Buus
+  subtitle: Technical Advisor, Code for Science & Society
+  image: mathias_buus.jpg
+- name: Kerry Maeve Sheehan
+  subtitle: Coordinator – Law/Policy/Governance, Internet Archive
+  image: kerry_maeve_sheehan.jpg
+- name: Muneeb Ali
+  subtitle: Co-Founder, Blockstack
+  image: muneeb_ali.jpg
+- name: Wendy Seltzer
+  subtitle: Policy Counsel, W3C
+  image: wendy_seltzer.jpg
+- name: Paige Peterson
+  subtitle: User Education & Community Team Lead, Zcash
+  image: paige_peterson.jpg
+- name: Zooko Wilcox
+  subtitle: Founder, Zcash
+  image: zooko_wilcox.jpg
+- name: Antonio Tenorio-Fornés
+  subtitle: Researcher, Universidad Complutense de Madrid
+  image: antonio_tenorio_fornes.jpg
+- name: Dimitri De Jonghe
+  subtitle: Co-Founder, BigchainDB and Ocean Protocol
+  image: dimitri_de_jonghe.jpg
 ---
