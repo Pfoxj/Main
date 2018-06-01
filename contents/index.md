@@ -44,20 +44,20 @@ people:
   subtitle: Google
   image: vint_cerf.jpg
 - name: Tim Berners-Lee
-  subtitle: W3C
+  subtitle: W3C and Solid
   image: tim_berners-lee.jpg
 - name: Cory Doctorow
   subtitle: EFF
   image: cory_doctorow.jpg
 - name: Juan Benet
   image: juan_benet.jpg
-  subtitle: Founder, IPFS
+  subtitle: Founder, Protocol Labs
 - name: Richard Caceres
   image: richard_caceres.jpg
   subtitle: Designer / Engineer, Internet Archive
-- name: David Dias
-  subtitle: Engineer, IPFS
-  image: david_dias.jpg
+#- name: David Dias
+#  subtitle: Engineer, IPFS
+#  image: david_dias.jpg
 - name: Primavera De Filippi
   subtitle: CERSA/CNRS, Berkman-Klein Center
   image: primavera_defilippi.jpg
@@ -70,9 +70,9 @@ people:
 - name: Karissa McKelvey
   subtitle: Code for Science and Society, Board Member
   image: karissa_mckelvey.jpg
-#- name: Allen Gunner Gunn
-#  subtitle: Aspiration
-#  image: allengunner_gunn.jpg
+- name: Allen Gunner Gunn
+  subtitle: Aspiration
+  image: allengunner_gunn.jpg
 - name: Brian Warner
   subtitle: Founder, Tahoe-LAFS
   image: brian_warner.jpg
@@ -115,9 +115,9 @@ people:
 - name: Vivekanand Rajkumar
   subtitle: CTO, MaidSafe
   image: vivekanand_rajkumar.jpg
-- name: Mathias Buus
-  subtitle: Technical Advisor, Code for Science & Society
-  image: mathias_buus.jpg
+#- name: Mathias Buus
+#  subtitle: Technical Advisor, Code for Science & Society
+#  image: mathias_buus.jpg
 - name: Kerry Maeve Sheehan
   subtitle: Coordinator – Law/Policy/Governance, Internet Archive
   image: kerry_maeve_sheehan.jpg
@@ -139,4 +139,10 @@ people:
 - name: Dimitri De Jonghe
   subtitle: Co-Founder, BigchainDB and Ocean Protocol
   image: dimitri_de_jonghe.jpg
+- name: Mouse Reeve
+  subtitle: Archive-It Engineer, Internet Archive
+  image: mouse_reeve.jpg
+- name: Mindy Seu
+  subtitle: Fellow, Internet Archive
+  image: mindy_seu.jpg
 ---

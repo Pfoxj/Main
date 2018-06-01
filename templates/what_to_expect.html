@@ -16,27 +16,41 @@
       <h2>Event Outline</h2>
       <!-- Desktop table -->
       <table class="event-outline-table hide-mobile">
-      {% for row in page.metadata.event_outline %}
-        <tr>
-          {% for cell in row.cells %}
-            <td>{{cell}}</td>
+        <thead>
+          <tr>
+            {% for cell in page.metadata.event_outline[0].cells %}
+              <th scope="col">{{cell}}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in page.metadata.event_outline %}
+            {% if not loop.first %}
+              <tr>
+                {% for cell in row.cells %}
+                  <td>{{cell}}</td>
+                {% endfor %}
+              </tr>
+            {% endif %}
           {% endfor %}
-        </tr>
-      {% endfor %}
+        </tbody>
       </table>
       <!-- End Desktop table -->
       <!-- Mobile -->
       {% macro render_mobile_day(column_index) %}
         <div class="event-outline-day-mobile">
-        {% for row in page.metadata.event_outline %}
-          {% for cell in row.cells %}
-            {% if loop.index0 == column_index %}
-              {% if cell %}
-                <div>{{cell}}</div>
-              {% endif %}
+          <h3>{{page.metadata.event_outline[0].cells[column_index]}}</h3>
+          <ul>
+          {% for row in page.metadata.event_outline %}
+            {% if not loop.first %}
+              {% for cell in row.cells %}
+                {% if loop.index0 == column_index and cell %}
+                  <li>{{cell}}</li>
+                {% endif %}
+              {% endfor %}
             {% endif %}
           {% endfor %}
-        {% endfor %}
+          </ul>
         </div>
       {% endmacro %}
       <div class="hide-desktop">
